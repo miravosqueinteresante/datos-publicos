@@ -1,0 +1,27 @@
+# Plan maestro — SOLO LOCAL, nunca versionar
+DATOS PÚBLICOS*.pdf
+*DOCUMENTO MAESTRO*.pdf
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Editores / IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jekyll / GitHub Pages (build)
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Otros temporales
+*.tmp
+*.log
