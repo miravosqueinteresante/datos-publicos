@@ -8,6 +8,13 @@ RUTA_DESTINO = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__fi
                             "www", "datos", "contrataciones-2026.json")
 
 
+CATEGORIAS_ES = {"goods": "Bienes", "services": "Servicios", "works": "Obras"}
+
+
+def categoria_es(crudo):
+    return CATEGORIAS_ES.get(crudo or "", crudo or "")
+
+
 def fila_a_json(fila):
     monto = fila.get("monto") or ""
     es_nulo = not monto
@@ -20,7 +27,8 @@ def fila_a_json(fila):
         "id": fila.get("id", ""),
         "objeto": fila.get("objeto", ""),
         "estado": fila.get("estado", ""),
-        "categoria": fila.get("categoria", ""),
+        "categoria": categoria_es(fila.get("categoria", "")),
+        "categoria_raw": fila.get("categoria", ""),
         "tipo_procedimiento": fila.get("tipo_procedimiento", ""),
         "comprador": fila.get("comprador", ""),
         "proveedor": fila.get("proveedor", ""),

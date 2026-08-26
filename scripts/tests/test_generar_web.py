@@ -1,7 +1,7 @@
 import unittest, json, os
 import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-from generar_datos_web import fila_a_json, generar
+from generar_datos_web import fila_a_json, generar, categoria_es
 
 CSV_EJEMPLO = """id,objeto,estado,categoria,tipo_procedimiento,comprador,proveedor,monto,moneda,fecha_publicacion,fecha_adjudicacion,fecha_contrato,url_muni
 ocds-a-1,Compra de insumos,complete,goods,open,Municipalidad de Asunción,PEPE S.A.,150000000,PYG,2026-01-01T00:00:00,2026-01-10T00:00:00,2026-01-20T00:00:00,https://x/1
@@ -9,6 +9,10 @@ ocds-a-2,Construcción,active,works,open,Municipalidad de Asunción,,0,PYG,2026-
 """
 
 class TestGenerarWeb(unittest.TestCase):
+    def test_categoria_mapeada_a_espanol(self):
+        for crudo, esperado in [("goods", "Bienes"), ("services", "Servicios"), ("works", "Obras"), ("", ""), ("otra", "otra")]:
+            self.assertEqual(categoria_es(crudo), esperado)
+
     def test_fila_a_json_montos_numericos(self):
         fila = {"id": "ocds-1", "objeto": "X", "monto": "150000000", "fecha_publicacion": "2026-01-01T00:00:00"}
         out = fila_a_json(fila)
