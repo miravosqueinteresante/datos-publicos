@@ -3,22 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Datos Públicos — Contrataciones de la Municipalidad de Asunción</title>
+  <title>Datos Públicos — Explorar contrataciones de la Municipalidad de Asunción</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="cabecera">
-    <h1>Datos Públicos</h1>
-    <p class="subtitulo">¿Qué está haciendo la Municipalidad de Asunción, cuánto y con quién?</p>
+  <nav class="nav"><div class="nav-inner">
+    <span class="marca">Datos Públicos</span>
+    <ul>
+      <li><a href="index.html" class="activo">Explorar</a></li>
+      <li><a href="datos.html">Datos</a></li>
+      <li><a href="metodologia.html">Metodología</a></li>
+    </ul>
+    <span class="vision">Próximamente: Mapas · Obras · Presupuesto · Indicadores</span>
+  </div></nav>
+
+  <header class="portada">
+    <h1>Contrataciones de la Municipalidad de Asunción</h1>
+    <p class="subtitulo">¿Qué está haciendo la Municipalidad, cuánto y con quién?</p>
     <p class="meta">Datos de contratación pública — año 2026 · Fuente: DNCP (CC BY 4.0)</p>
   </header>
 
   <main>
     <section id="metricas" class="seccion"></section>
-    <section id="top-proveedores" class="seccion">
+
+    <section class="seccion">
       <h2>Principales proveedores</h2>
       <ol id="lista-proveedores"></ol>
     </section>
+
     <section class="seccion">
       <h2>Procesos</h2>
       <div class="filtros">
@@ -42,19 +54,9 @@
         </table>
       </div>
     </section>
-    <section class="seccion nota">
-      <h2>Metodología</h2>
-      <p>Dataset: 36 procesos de la Municipalidad de Asunción, año 2026, obtenidos del portal de datos
-      abiertos de la DNCP (CC BY 4.0) el 26-ago-2026. Pipeline: <code>scripts/dncp_contrataciones.py</code>.
-      Los procesos sin proveedor son llamados sin adjudicación registrada en el conjunto del año.</p>
-      <p><strong>Verificación oficial:</strong> el mismo conjunto se publica en el perfil institucional de
-      la Municipalidad de Asunción en la DNCP:
-      <a href="https://www.contrataciones.gov.py/convocantes/municipalidad-asuncion/licitaciones/2026.html"
-         target="_blank" rel="noopener">contrataciones.gov.py › Municipalidad de Asunción › Licitaciones 2026</a>.</p>
-      <p>Repo: <a href="https://github.com/miravosqueinteresante/datos-publicos">github.com/miravosqueinteresante/datos-publicos</a>.
-      Sujeto a la Licencia de uso de la información pública de la DNCP (CC BY 4.0).</p>
-    </section>
   </main>
+
+  <footer>Datos Públicos — plataforma de infraestructura cívica · Repo en GitHub</footer>
   <script src="js/app.js"></script>
 </body>
 </html>
