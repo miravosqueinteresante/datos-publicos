@@ -75,9 +75,13 @@ function filaTabla(d) {
   const adjudicacion = d.fecha_adjudicacion ? d.fecha_adjudicacion.slice(0, 10) : "—";
   const contrato = d.fecha_contrato ? d.fecha_contrato.slice(0, 10) : "—";
   const proveedor = d.proveedor || "<span class='vacio'>Sin adjudicación</span>";
+  const catClass = d.categoria ? "cat-" + d.categoria.replace(/\s+/g, "") : "";
+  const categoria = d.categoria
+    ? `<span class="cat-etiqueta ${catClass}">${d.categoria}</span>`
+    : "—";
   return `<tr>
     <td>${d.objeto}</td>
-    <td>${d.categoria || "—"}</td>
+    <td>${categoria}</td>
     <td>${proveedor}</td>
     ${monto}
     <td>${adjudicacion}</td>
