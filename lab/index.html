@@ -3,12 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Datos Públicos — Lab</title>
+  <title>Datos Públicos — Lab · Resumen</title>
   <link rel="stylesheet" href="../www/css/style.css">
 </head>
 <body>
-  <header class="cabecera">
-    <h1>Datos Públicos — Lab</h1>
+  <nav class="nav"><div class="nav-inner">
+    <span class="marca">Datos Públicos · Lab</span>
+    <ul>
+      <li><a href="index.html" class="activo">Resumen</a></li>
+      <li><a href="pipelines.html">Pipelines</a></li>
+      <li><a href="datos.html">Datos</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="portada">
+    <h1>Laboratorio</h1>
     <p class="subtitulo">Cómo funciona el sistema</p>
     <p class="meta">Estado del pipeline de contrataciones de la Municipalidad de Asunción</p>
   </header>
@@ -20,44 +29,37 @@
       <h2>Estado del pipeline</h2>
       <ul class="sin-estilo">
         <li><strong>Fuente:</strong>
-          <a href="https://www.contrataciones.gov.py/datos/open-contracting-info" target="_blank" rel="noopener">
-            DNCP — Portal de Datos Abiertos</a> (CC BY 4.0)</li>
+          <a href="https://www.contrataciones.gov.py/datos/open-contracting-info" target="_blank" rel="noopener">DNCP — Portal de Datos Abiertos</a> (CC BY 4.0)</li>
         <li><strong>Pipeline:</strong> <code>scripts/dncp_contrataciones.py</code> → CSV → JSON web</li>
-        <li><strong>Última actualización del dataset:</strong> 2026-08-26 (commit del CSV en main)</li>
+        <li><strong>Última actualización del dataset:</strong> 26-ago-2026</li>
         <li><strong>Última ejecución del workflow (GitHub Actions):</strong> success (26-ago-2026)</li>
-        <li><strong>Procesos:</strong> año 2026, 36 procesos de la Municipalidad de Asunción</li>
       </ul>
       <p><a href="../www/index.html">Ver plataforma pública →</a></p>
     </section>
   </main>
 
+  <footer>Datos Públicos · Lab — cómo funciona el sistema</footer>
   <script>
     const FORMATO = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 0 });
-
     function cabecera(etiqueta, valor) {
       const v = typeof valor === "number" ? FORMATO.format(valor) : valor;
       return `<div class="metrica"><div class="valor">${v}</div><div class="etiqueta">${etiqueta}</div></div>`;
     }
-
     fetch("../www/datos/contrataciones-2026.json")
       .then(r => r.json())
-      .then(datos => {
-        const conMonto = datos.filter(d => !d.monto_nulo);
-        const total = conMonto.reduce((s, d) => s + d.monto, 0);
-        const proveedores = new Set(datos.filter(d => d.proveedor).map(d => d.proveedor));
-        const categorias = new Set(datos.map(d => d.categoria));
-        const el = document.getElementById("metricas");
-        el.innerHTML = [
-          cabecera("Procesos 2026", datos.length),
+      .then(d => {
+        const conMonto = d.filter(x => !x.monto_nulo);
+        const total = conMonto.reduce((s, x) => s + x.monto, 0);
+        const prov = new Set(d.filter(x => x.proveedor).map(x => x.proveedor));
+        const cat = new Set(d.map(x => x.categoria));
+        document.getElementById("metricas").innerHTML = [
+          cabecera("Procesos 2026", d.length),
           cabecera("Monto adjudicado total", total),
-          cabecera("Proveedores distintos", proveedores.size),
-          cabecera("Categorías", categorias.size),
+          cabecera("Proveedores distintos", prov.size),
+          cabecera("Categorías", cat.size),
         ].join("");
       })
-      .catch(err => {
-        document.getElementById("metricas").innerHTML =
-          `<div class="vacio">No se pudo cargar el dataset: ${err.message}</div>`;
-      });
+      .catch(e => { document.getElementById("metricas").innerHTML = `<div class="vacio">Error: ${e.message}</div>`; });
   </script>
 </body>
 </html>
