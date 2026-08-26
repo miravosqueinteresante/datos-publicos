@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos Públicos — Datos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav"><div class="nav-inner">
+    <span class="marca">Datos Públicos</span>
+    <ul>
+      <li><a href="index.html">Explorar</a></li>
+      <li><a href="datos.html" class="activo">Datos</a></li>
+      <li><a href="metodologia.html">Metodología</a></li>
+    </ul>
+    <span class="vision">Próximamente: Mapas · Obras · Presupuesto · Indicadores</span>
+  </div></nav>
+
+  <header class="portada">
+    <h1>Datos</h1>
+    <p class="subtitulo">Conjuntos de datos estructurados del proyecto</p>
+  </header>
+
+  <main>
+    <section class="seccion">
+      <h2>Contrataciones de la Municipalidad de Asunción — 2026</h2>
+      <p>Procesos de contratación pública de la Municipalidad de Asunción, obtenidos de la DNCP.
+      <span class="badge-exito">disponible</span></p>
+      <p><strong>Formato:</strong> CSV · <strong>Licencia:</strong> CC BY 4.0</p>
+      <p><strong>Descargar:</strong>
+        <a href="https://github.com/miravosqueinteresante/datos-publicos/raw/main/data/contrataciones_muni_2026.csv">contrataciones_muni_2026.csv</a> ·
+        <a href="datos/contrataciones-2026.json">contrataciones-2026.json</a></p>
+      <p class="nota">Pipeline: <code>scripts/dncp_contrataciones.py</code> → <code>scripts/generar_datos_web.py</code>.
+      Se actualiza mensualmente (GitHub Actions).</p>
+    </section>
+
+    <section class="seccion">
+      <h2>Próximos datasets</h2>
+      <ul class="sin-estilo">
+        <li>Mapas (servicios ArcGIS de la Muni) — pendiente de pipeline</li>
+        <li>Obras públicas — pendiente de pipeline</li>
+        <li>Presupuesto / finanzas — pendiente de pipeline</li>
+        <li>Indicadores derivados — a definir</li>
+      </ul>
+      <p class="nota">Catálogo completo de fuentes: <code>DATA_INVENTORY.md</code> en el repo.</p>
+    </section>
+  </main>
+  <footer>Datos Públicos — plataforma de infraestructura cívica</footer>
+</body>
+</html>
