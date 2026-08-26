@@ -37,7 +37,7 @@ def mapear_fila(fila, awards, suppliers, contracts):
                                      "compiledRelease/date"),
         "fecha_adjudicacion": aw.get("fecha", ""),
         "fecha_contrato": co.get("fecha", ""),
-        "url_muni": f"https://www.contrataciones.gov.py/datos/adquisiciones/{ocid}",
+        "url_muni": f"https://www.contrataciones.gov.py/licitaciones/convocatoria/{fila.get('compiledRelease/tender/id', '')}.html",
     }
 
 

@@ -33,6 +33,18 @@ class TestMapear(unittest.TestCase):
         salida = mapear_fila({"compiledRelease/id": "x"}, {}, {}, {})
         self.assertEqual(salida["objeto"], "")
 
+    def test_url_usa_tender_id_uuid(self):
+        fila = {
+            "compiledRelease/id": "uuid-1-1769",
+            "compiledRelease/tender/id": "uuid-1",
+            "compiledRelease/tender/title": "Obra vial",
+        }
+        salida = mapear_fila(fila, {}, {}, {})
+        self.assertEqual(
+            salida["url_muni"],
+            "https://www.contrataciones.gov.py/licitaciones/convocatoria/uuid-1.html",
+        )
+
 class TestValidar(unittest.TestCase):
     def test_filas_validas(self):
         filas = [
