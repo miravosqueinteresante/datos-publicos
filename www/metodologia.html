@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos Públicos — Metodología</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav"><div class="nav-inner">
+    <span class="marca">Datos Públicos</span>
+    <ul>
+      <li><a href="index.html">Explorar</a></li>
+      <li><a href="datos.html">Datos</a></li>
+      <li><a href="metodologia.html" class="activo">Metodología</a></li>
+    </ul>
+    <span class="vision">Próximamente: Mapas · Obras · Presupuesto · Indicadores</span>
+  </div></nav>
+
+  <header class="portada">
+    <h1>Metodología</h1>
+    <p class="subtitulo">De dónde salen los datos, cómo se procesan y qué limitaciones tienen</p>
+  </header>
+
+  <main>
+    <section class="seccion">
+      <h2>Fuente</h2>
+      <p>Datos de la <strong>Dirección Nacional de Contrataciones Públicas (DNCP)</strong> de Paraguay,
+      obtenidos desde su Portal de Datos Abiertos
+      (<a href="https://www.contrataciones.gov.py/datos/" target="_blank" rel="noopener">contrataciones.gov.py/datos</a>),
+      licencia <strong>CC BY 4.0</strong>.</p>
+      <p>La Municipalidad de Asunción es la convocante SICP <code>108</code>.
+      Verificación oficial:
+      <a href="https://www.contrataciones.gov.py/convocantes/municipalidad-asuncion/licitaciones/2026.html" target="_blank" rel="noopener">
+      perfil de licitaciones de la Muni en la DNCP</a>.</p>
+    </section>
+
+    <section class="seccion">
+      <h2>Proceso</h2>
+      <ol>
+        <li><code>scripts/dncp_contrataciones.py</code> — descarga el ZIP anual de la DNCP, une tablas OCDS por OCID, filtra por la Muni, valida y produce el CSV.</li>
+        <li><code>scripts/generar_datos_web.py</code> — convierte el CSV a JSON para la web.</li>
+        <li>GitHub Actions ejecuta el flujo mensualmente y commitea cambios.</li>
+      </ol>
+      <p class="nota">Los procesos sin proveedor son llamados sin adjudicación registrada en el conjunto del año.</p>
+    </section>
+
+    <section class="seccion">
+      <h2>Trazabilidad y limitaciones</h2>
+      <ul class="sin-estilo">
+        <li><strong>Fecha de obtención:</strong> 26-ago-2026 (actualizable mensualmente).</li>
+        <li><strong>Alcance:</strong> solo la Municipalidad de Asunción como comprador (SICP 108); procesos donde es cofinanciante quedan fuera.</li>
+        <li><strong>Formato original:</strong> OCDS aplanado (estándar Open Contracting).</li>
+        <li><strong>Limitación:</strong> el campo de comprador puede venir vacío en algunas adjudicaciones; se usa <code>records</code> (1 fila por proceso) como base.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>Datos Públicos — plataforma de infraestructura cívica</footer>
+</body>
+</html>
