@@ -18,8 +18,9 @@ def _buscar(fila, *rutas):
     return ""
 
 def mapear_fila(fila, awards, suppliers, contracts):
-    ocid = fila.get("compiledRelease/id", "")
-    aw, sp, co = awards.get(ocid, {}), suppliers.get(ocid, {}), contracts.get(ocid, {})
+    uuid = fila.get("compiledRelease/id", "")
+    ocid = fila.get("compiledRelease/ocid", "") or uuid
+    aw, sp, co = awards.get(uuid, {}), suppliers.get(uuid, {}), contracts.get(uuid, {})
     return {
         "id": ocid,
         "objeto": _buscar(fila, "compiledRelease/tender/title",
