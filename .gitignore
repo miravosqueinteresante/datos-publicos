@@ -25,3 +25,6 @@ _site/
 # Otros temporales
 *.tmp
 *.log
+
+# Datos sin versionar (ZIP/descargas)
+data/_sin_versionar/
