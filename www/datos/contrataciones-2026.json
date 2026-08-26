@@ -425,23 +425,6 @@
     "url_muni": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1f19a358-c653-6c82-8ab2-c9f8b1b6574b.html"
   },
   {
-    "id": "ocds-03ad3f-451137-1",
-    "objeto": "PROYECTO DE REVITALIZACION Y MEJORAMIENTO DE LA PLAZA HEROES DEL CHACO - ZEBALLOS CUE - PLURIANUAL",
-    "estado": "complete",
-    "categoria": "Obras",
-    "categoria_raw": "works",
-    "tipo_procedimiento": "open",
-    "comprador": "Municipalidad de Asunción",
-    "proveedor": "CARLOS VICENTE GUEYRAUD CABALLERO",
-    "monto": 1757833177.0,
-    "monto_nulo": false,
-    "moneda": "PYG",
-    "fecha_publicacion": "2024-10-07T13:03:42-04:00",
-    "fecha_adjudicacion": "2025-07-04T00:00:00-04:00",
-    "fecha_contrato": "",
-    "url_muni": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1ef2e47c-03b6-6f42-bc71-593cceab2e09.html"
-  },
-  {
     "id": "ocds-03ad3f-483686-1",
     "objeto": "ADQUISICION DE ABONOS Y FERTILIZANTES PARA EL JBZA",
     "estado": "active",
@@ -610,5 +593,39 @@
     "fecha_adjudicacion": "2026-07-22T00:00:00-04:00",
     "fecha_contrato": "2026-12-31T00:00:00-04:00",
     "url_muni": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1f13d7e8-4517-6b14-9e50-cbf215970c86.html"
+  },
+  {
+    "id": "ocds-03ad3f-489049-1",
+    "objeto": "ADQUISICION DE UTILES PARA EL TEDIM",
+    "estado": "active",
+    "categoria": "Servicios",
+    "categoria_raw": "services",
+    "tipo_procedimiento": "open",
+    "comprador": "Municipalidad de Asunción",
+    "proveedor": "",
+    "monto": 70295374.0,
+    "monto_nulo": false,
+    "moneda": "PYG",
+    "fecha_publicacion": "2026-08-12T09:56:27-04:00",
+    "fecha_adjudicacion": "",
+    "fecha_contrato": "",
+    "url_muni": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1f13814e-c253-60ce-a398-d12646620dc8.html"
+  },
+  {
+    "id": "ocds-03ad3f-451137-1",
+    "objeto": "PROYECTO DE REVITALIZACION Y MEJORAMIENTO DE LA PLAZA HEROES DEL CHACO - ZEBALLOS CUE - PLURIANUAL",
+    "estado": "complete",
+    "categoria": "Obras",
+    "categoria_raw": "works",
+    "tipo_procedimiento": "open",
+    "comprador": "Municipalidad de Asunción",
+    "proveedor": "CARLOS VICENTE GUEYRAUD CABALLERO",
+    "monto": 1757833177.0,
+    "monto_nulo": false,
+    "moneda": "PYG",
+    "fecha_publicacion": "2024-10-07T13:03:42-04:00",
+    "fecha_adjudicacion": "2025-07-04T00:00:00-04:00",
+    "fecha_contrato": "",
+    "url_muni": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1ef2e47c-03b6-6f42-bc71-593cceab2e09.html"
   }
 ]
