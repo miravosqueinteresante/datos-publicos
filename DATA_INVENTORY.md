@@ -85,8 +85,16 @@
 | D4 | Muni — blog Obras | asuncion.gov.py/category/obras | Noticias | HTML | Irregular | año vigente | Media (scrape WP) | Sin dataset estructurado |
 | D5 | MOPC (obras en Asunción) | mopc.gov.py (transparencia, obras) | Portal web + noticias | HTML/PDF | Irregular | — | Media | Sin API |
 | D6 | Mapa de Inversiones "RindiendoCuentas" | rindiendocuentas.gov.py | Dashboard nacional | Web | Periódica | — | n/d (profundidad municipal a verificar) | **[no verificado]** |
+| D7 | **DNCP — perfil institucional por convocante** | contrataciones.gov.py/convocantes/municipalidad-asuncion/licitaciones/{año}.html | Perfil web paginado | HTML | Diaria | 2010→presente | Media (listado página) | ⭐ Verificado — verificación oficial del conjunto |
+| D8 | **DNCP — catálogo de convocantes (CSV)** | contrataciones.gov.py/convocantes.csv | Dataset descargable | CSV | Periódica | actual | **Alta** | ⭐ Verificado — `slug=municipalidad-asuncion`, `codigo=108`, niv. Entidad |
 
 **Importante:** `api.dncp.gov.py` y `datos.contrataciones.gov.py` **NO existen (no resuelven DNS)**. La API y el portal de datos viven bajo `www.contrataciones.gov.py/datos/...`.
+
+**Perfil institucional por convocante (verificado 26-ago-2026):** la DNCP publica, para cada organismo, un perfil con sus licitaciones por año y sus responsables:
+- Licitaciones de la Muni: `https://www.contrataciones.gov.py/convocantes/municipalidad-asuncion/licitaciones/{año}.html` (2010→2026, paginado).
+- Responsables: `.../convocantes/municipalidad-asuncion/responsables.html`.
+- Catálogo de convocantes descargable: `https://www.contrataciones.gov.py/convocantes.csv` (incluye `slug`, `codigo` SICP, nombre, tipo, nivel). La Municipalidad de Asunción: `slug=municipalidad-asuncion`, `codigo=108`, tipo Entidad.
+- **Utilidad:** verificación cruzada del pipeline (mismo conjunto publicado oficialmente por la institución) y fuente de códigos SICP para escalar a otros municipios (FASE 6).
 
 ### Dominio E — Datos territoriales y técnicos
 

@@ -2,6 +2,7 @@ import unittest
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 from dncp_contrataciones import es_de_asuncion
+from dncp_contrataciones import verificar_consistencia
 from dncp_contrataciones import mapear_fila
 from dncp_contrataciones import validar
 
@@ -65,6 +66,25 @@ class TestValidar(unittest.TestCase):
         filas = [{"id": "a", "objeto": "ob", "monto": "ABC"}]
         errores = validar(filas)
         self.assertEqual(len(errores), 1)
+
+class TestConsistencia(unittest.TestCase):
+    def test_por_nombre_igual_que_por_id(self):
+        filas = [
+            {"compiledRelease/buyer/name": "Municipalidad de Asunción", "compiledRelease/buyer/id": "DNCP-SICP-CODE-108"},
+            {"compiledRelease/buyer/name": "Municipalidad de Asunción", "compiledRelease/buyer/id": "DNCP-SICP-CODE-108"},
+            {"compiledRelease/buyer/name": "Ministerio de Salud", "compiledRelease/buyer/id": "DNCP-SICP-CODE-80"},
+        ]
+        ok, msg = verificar_consistencia(filas)
+        self.assertTrue(ok)
+        self.assertIn("2", msg)
+    def test_por_nombre_y_id_difieren(self):
+        filas = [
+            {"compiledRelease/buyer/name": "Municipalidad de Asunción", "compiledRelease/buyer/id": "DNCP-SICP-CODE-108"},
+            {"compiledRelease/buyer/name": "Municipalidad de Asunción", "compiledRelease/buyer/id": "DNCP-SICP-CODE-108"},
+            {"compiledRelease/buyer/name": "Municipalidad de Asunción", "compiledRelease/buyer/id": "DNCP-SICP-CODE-999"},
+        ]
+        ok, msg = verificar_consistencia(filas)
+        self.assertFalse(ok)
 
 if __name__ == "__main__":
     unittest.main()

@@ -55,6 +55,19 @@ def validar(filas):
     return errores
 
 
+def verificar_consistencia(filas_records):
+    """Verifica que filtrar por nombre de comprador y por ID SICP de la Muni
+    produce el mismo conjunto de procesos (control de calidad interno)."""
+    por_nombre = [r for r in filas_records if es_de_asuncion(r.get("compiledRelease/buyer/name"))]
+    por_id = [r for r in filas_records
+              if (r.get("compiledRelease/buyer/id") or "").strip() == "DNCP-SICP-CODE-108"]
+    iguales = len(por_nombre) == len(por_id) and not (
+        {r.get("compiledRelease/id") for r in por_nombre} ^
+        {r.get("compiledRelease/id") for r in por_id})
+    msg = f"por nombre: {len(por_nombre)} · por SICP 108: {len(por_id)}"
+    return iguales, msg
+
+
 import csv
 import os
 import urllib.request
@@ -120,6 +133,8 @@ def main(anio="2026"):
     suppliers = indexar_suppliers(leer_tabla(zip_path, "awa_suppliers.csv"))
     contracts = indexar_contracts(leer_tabla(zip_path, "contracts.csv"))
     print(f"Total procesos {anio}: {len(records)}")
+    ok, msg = verificar_consistencia(records)
+    print(f"Verificación de consistencia: {msg} (estado: {'OK' if ok else 'ADVERTENCIA'})")
     muni = [mapear_fila(f, awards, suppliers, contracts)
             for f in records if es_de_asuncion(f.get("compiledRelease/buyer/name", ""))]
     errores = validar(muni)
