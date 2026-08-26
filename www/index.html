@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos Públicos — Contrataciones de la Municipalidad de Asunción</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="cabecera">
+    <h1>Datos Públicos</h1>
+    <p class="subtitulo">¿Qué está haciendo la Municipalidad de Asunción, cuánto y con quién?</p>
+    <p class="meta">Datos de contratación pública — año 2026 · Fuente: DNCP (CC BY 4.0)</p>
+  </header>
+
+  <main>
+    <section id="metricas" class="seccion"></section>
+    <section id="top-proveedores" class="seccion">
+      <h2>Principales proveedores</h2>
+      <ol id="lista-proveedores"></ol>
+    </section>
+    <section class="seccion">
+      <h2>Procesos</h2>
+      <div class="filtros">
+        <input type="search" id="busqueda" placeholder="Buscar por objeto o proveedor...">
+        <select id="filtro-categoria">
+          <option value="">Todas las categorías</option>
+          <option value="goods">Bienes (goods)</option>
+          <option value="services">Servicios (services)</option>
+          <option value="works">Obras (works)</option>
+        </select>
+      </div>
+      <div class="tabla-envolvente">
+        <table id="tabla">
+          <thead>
+            <tr>
+              <th>Objeto</th><th>Categoría</th><th>Proveedor</th>
+              <th>Monto (PYG)</th><th>Adjudicación</th><th>Contrato</th><th>Enlace</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="seccion nota">
+      <h2>Metodología</h2>
+      <p>Dataset: 36 procesos de la Municipalidad de Asunción, año 2026, obtenidos del portal de datos
+      abiertos de la DNCP (CC BY 4.0) el 26-ago-2026. Pipeline: <code>scripts/dncp_contrataciones.py</code>.
+      Los procesos sin proveedor son llamados sin adjudicación registrada en el conjunto del año.</p>
+      <p>Repo: <a href="https://github.com/miravosqueinteresante/datos-publicos">github.com/miravosqueinteresante/datos-publicos</a></p>
+    </section>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
