@@ -2,6 +2,13 @@ const FORMATO_GUARANI = new Intl.NumberFormat("es-PY", {
   maximumFractionDigits: 0,
 });
 
+function normalizar(texto) {
+  return (texto || "").toLowerCase()
+    .replace(/[áàäâ]/g, "a").replace(/[éèëê]/g, "e")
+    .replace(/[íìïî]/g, "i").replace(/[óòöô]/g, "o")
+    .replace(/[úùüû]/g, "u").replace(/ñ/g, "n");
+}
+
 let DATOS = [];
 
 async function cargarDatos() {
@@ -49,11 +56,11 @@ function renderProveedores() {
 }
 
 function renderTabla() {
-  const q = (document.getElementById("busqueda").value || "").toLowerCase();
+  const q = normalizar(document.getElementById("busqueda").value);
   const cat = document.getElementById("filtro-categoria").value;
   const filas = DATOS.filter(d =>
     (!cat || d.categoria === cat) &&
-    (!q || (d.objeto + " " + (d.proveedor || "")).toLowerCase().includes(q))
+    (!q || normalizar(d.objeto + " " + (d.proveedor || "")).includes(q))
   );
   const tbody = document.querySelector("#tabla tbody");
   tbody.innerHTML = filas.length === 0
