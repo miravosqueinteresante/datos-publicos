@@ -38,3 +38,17 @@ def mapear_fila(fila, awards, suppliers, contracts):
         "fecha_contrato": co.get("fecha", ""),
         "url_muni": f"https://www.contrataciones.gov.py/datos/adquisiciones/{ocid}",
     }
+
+
+def validar(filas):
+    errores = []
+    for f in filas:
+        if not f.get("id"):
+            errores.append("fila sin id")
+            continue
+        if not f.get("objeto"):
+            errores.append(f"proceso {f['id']} sin objeto")
+        monto = f.get("monto", "")
+        if monto and not str(monto).replace(".", "", 1).isdigit():
+            errores.append(f"proceso {f['id']} monto no numérico: {monto}")
+    return errores
