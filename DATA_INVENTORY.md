@@ -80,8 +80,8 @@
 | # | Fuente | URL | Tipo | Formato | Actualización | Cobertura | Automatización | Estado |
 |---|--------|-----|------|---------|---------------|-----------|----------------|--------|
 | D1 | DNCP — buscador Muni | contrataciones.gov.py/buscador/general.html?filtro=municipalidad+de+asuncion | Portal web (JS) | HTML | Diaria | desde 2010 | Media (headless) | Verificada |
-| D2 | **DNCP — API V3** (OCDS) | contrataciones.gov.py/datos/api/v3/doc/ | **API REST** | JSON (OCDS) | Diaria | desde 2010 | **Alta** (OAuth, token 15 min) | ⭐ Verificada |
-| D3 | **DNCP — datasets CSV** | contrataciones.gov.py/datos/data | Catálogo de datasets | **CSV (CC BY 4.0)** | snapshots | desde 2010 | **Alta** (descarga directa) | ⭐ Verificada |
+| D2 | **DNCP — API V3** (OCDS) ⭐ **SELECCIONADA** | contrataciones.gov.py/datos/api/v3/doc/ | **API REST** | JSON (OCDS) | Diaria | desde 2010 | **Alta** (OAuth, token 15 min) | ⭐ Verificada — ver `docs/fuentes/dncp-evaluacion.md` |
+| D3 | **DNCP — datasets CSV** ⭐ **SELECCIONADA** | contrataciones.gov.py/datos/data | Catálogo de datasets | **CSV (CC BY 4.0)** | snapshots | desde 2010 | **Alta** (descarga directa) | ⭐ Verificada — ver `docs/fuentes/dncp-evaluacion.md` |
 | D4 | Muni — blog Obras | asuncion.gov.py/category/obras | Noticias | HTML | Irregular | año vigente | Media (scrape WP) | Sin dataset estructurado |
 | D5 | MOPC (obras en Asunción) | mopc.gov.py (transparencia, obras) | Portal web + noticias | HTML/PDF | Irregular | — | Media | Sin API |
 | D6 | Mapa de Inversiones "RindiendoCuentas" | rindiendocuentas.gov.py | Dashboard nacional | Web | Periódica | — | n/d (profundidad municipal a verificar) | **[no verificado]** |
@@ -161,4 +161,6 @@
 
 ## Siguiente fase
 
-Con este inventario, la **FASE 2 (Evaluación de fuentes)** debe evaluar Disponibilidad, Estructura, Actualización, Calidad, Automatización, Utilidad y Reutilización (criterios del plan maestro, sección 18) sobre las fuentes ⭐ para seleccionar **una primera fuente** para el primer pipeline.
+**FASE 2 completada (26-ago-2026):** fuente seleccionada → **DNCP** (contrataciones de la Muni). Evaluación formal en `docs/fuentes/dncp-evaluacion.md`. Datos clave: Muni = convocante SICP `108`; ~5.989 procesos, 2.759 contratos; 70 procesos en 2026; CSV por año en `.../ocds/{AÑO}/{modulo}-masivo.zip` (CC BY 4.0).
+
+La **FASE 3 (primer pipeline)** debe construir un flujo pequeño y completo: descargar los CSV de la DNCP → filtrar por la Muni (SICP 108) → limpiar/estructurar → validar → dataset propio en `data/` → subir a GitHub. Según el plan maestro: comprender y hacer funcionar manualmente primero, automatizar (GitHub Actions) después.
