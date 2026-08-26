@@ -1,37 +1,106 @@
 :root {
-  --color-primario: #0f3b5c;
-  --color-fondo: #f4f6f8;
-  --color-texto: #1c2733;
-  --color-acento: #7fb069;
-  --borde: #d4dde5;
+  --fondo: #f8fafc;
+  --tarjeta: #ffffff;
+  --texto: #0f172a;
+  --texto-suave: #64748b;
+  --primario: #4f46e5;
+  --primario-suave: #eef2ff;
+  --exito: #10b981;
+  --borde: #e2e8f0;
+  --sombra: 0 1px 3px rgba(15, 23, 42, .08), 0 4px 12px rgba(15, 23, 42, .05);
+  --radio: 12px;
 }
 * { box-sizing: border-box; }
 body {
-  font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-  margin: 0; background: var(--color-fondo); color: var(--color-texto);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Arial, sans-serif;
+  background: var(--fondo); color: var(--texto);
+  line-height: 1.55;
 }
+a { color: var(--primario); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.nav {
+  position: sticky; top: 0; z-index: 10;
+  background: rgba(255,255,255,.92); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--borde);
+}
+.nav-inner {
+  max-width: 1080px; margin: 0 auto; padding: .75rem 1rem;
+  display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap;
+}
+.nav .marca { font-weight: 700; color: var(--texto); font-size: 1.05rem; }
+.nav ul { list-style: none; display: flex; gap: 1rem; margin: 0; padding: 0; }
+.nav ul li a { color: var(--texto-suave); font-weight: 500; padding: .35rem .5rem; border-radius: 8px; }
+.nav ul li a:hover { background: var(--primario-suave); color: var(--primario); text-decoration: none; }
+.nav ul li a.activo { color: var(--primario); background: var(--primario-suave); }
+.nav .vision { margin-left: auto; font-size: .78rem; color: var(--texto-suave); }
+
+.portada {
+  max-width: 1080px; margin: 0 auto; padding: 2.5rem 1rem 1rem;
+}
+.portada h1 { margin: 0 0 .25rem; font-size: 2.1rem; letter-spacing: -.02em; }
+.portada .subtitulo { font-size: 1.15rem; color: var(--texto-suave); margin: 0 0 .25rem; }
+.portada .meta { font-size: .85rem; color: var(--texto-suave); }
+
 .cabecera {
-  background: var(--color-primario); color: #fff; padding: 2rem 1rem;
+  max-width: 1080px; margin: 0 auto; padding: 2.5rem 1rem 1rem;
 }
-.cabecera h1 { margin: 0 0 .25rem; font-size: 1.6rem; }
-.subtitulo { font-size: 1.15rem; margin: 0 0 .5rem; opacity: .95; }
-.meta { font-size: .85rem; opacity: .75; margin: 0; }
-main { max-width: 960px; margin: 0 auto; padding: 1rem; }
-.seccion { background: #fff; border: 1px solid var(--borde); border-radius: 8px; padding: 1rem; margin-bottom: 1rem; }
-.seccion h2 { margin-top: 0; color: var(--color-primario); font-size: 1.2rem; }
-#metricas { display: flex; gap: 1rem; flex-wrap: wrap; }
-.metrica { flex: 1; min-width: 150px; background: #edf3f7; border-radius: 6px; padding: .75rem; }
-.metrica .valor { font-size: 1.4rem; font-weight: 700; color: var(--color-primario); }
-.metrica .etiqueta { font-size: .8rem; color: #51616f; }
-.filtros { display: flex; gap: .5rem; margin-bottom: .75rem; flex-wrap: wrap; }
-.filtros input[type=search] { flex: 1; min-width: 200px; padding: .5rem; border: 1px solid var(--borde); border-radius: 4px; }
-.filtros select { padding: .5rem; border: 1px solid var(--borde); border-radius: 4px; }
+.cabecera h1 { margin: 0 0 .25rem; font-size: 2.1rem; letter-spacing: -.02em; }
+.cabecera .subtitulo { font-size: 1.15rem; color: var(--texto-suave); margin: 0 0 .25rem; }
+.cabecera .meta { font-size: .85rem; color: var(--texto-suave); }
+
+main { max-width: 1080px; margin: 0 auto; padding: 1rem; }
+.seccion {
+  background: var(--tarjeta); border: 1px solid var(--borde);
+  border-radius: var(--radio); padding: 1.25rem; margin-bottom: 1rem;
+  box-shadow: var(--sombra);
+}
+.seccion h2 { margin-top: 0; font-size: 1.25rem; letter-spacing: -.01em; }
+
+#metricas, .metricas { display: flex; gap: 1rem; flex-wrap: wrap; }
+.metrica {
+  flex: 1; min-width: 160px; background: var(--tarjeta);
+  border: 1px solid var(--borde); border-radius: var(--radio);
+  padding: 1rem 1.1rem; box-shadow: var(--sombra);
+}
+.metrica .valor {
+  font-size: 1.6rem; font-weight: 700; color: var(--primario);
+  font-variant-numeric: tabular-nums; letter-spacing: -.02em;
+}
+.metrica .etiqueta { font-size: .82rem; color: var(--texto-suave); }
+
+.filtros { display: flex; gap: .5rem; margin-bottom: .85rem; flex-wrap: wrap; }
+.filtros input[type=search], .filtros select {
+  padding: .55rem .7rem; border: 1px solid var(--borde); border-radius: 8px;
+  font: inherit; background: #fff;
+}
+.filtros input[type=search]:focus, .filtros select:focus {
+  outline: 2px solid var(--primario); outline-offset: 1px; border-color: transparent;
+}
+
 .tabla-envolvente { overflow-x: auto; }
-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
-th, td { text-align: left; padding: .5rem; border-bottom: 1px solid var(--borde); }
-th { background: #eef3f7; }
-tr:hover { background: #f7fafc; }
+table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+th, td { text-align: left; padding: .6rem .6rem; border-bottom: 1px solid var(--borde); }
+th { font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; color: var(--texto-suave); font-weight: 600; }
+tbody tr:hover { background: #f8fafc; }
 td.monto { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
-.nota { font-size: .85rem; color: #51616f; }
-a { color: var(--color-primario); }
-.vacio { color: #8a97a3; font-style: italic; }
+.cat-etiqueta {
+  display: inline-block; padding: .15rem .55rem; border-radius: 999px;
+  background: var(--primario-suave); color: var(--primario); font-size: .78rem; font-weight: 600;
+}
+.cat-Obras { background: #ecfdf5; color: #047857; }
+.cat-Servicios { background: #eff6ff; color: #1d4ed8; }
+.cat-Bienes { background: #fef3c7; color: #b45309; }
+
+.vacio { color: var(--texto-suave); font-style: italic; }
+.badge-exito {
+  display: inline-block; padding: .15rem .6rem; border-radius: 999px;
+  background: #ecfdf5; color: #047857; font-size: .8rem; font-weight: 600;
+}
+.nota { font-size: .87rem; color: var(--texto-suave); }
+.nota code, li code { background: #f1f5f9; padding: .1rem .35rem; border-radius: 6px; font-size: .85em; }
+ul.sin-estilo { list-style: none; padding-left: 0; }
+ul.sin-estilo li { padding: .25rem 0; }
+
+footer { max-width: 1080px; margin: 2rem auto 1rem; padding: 0 1rem; font-size: .8rem; color: var(--texto-suave); }
