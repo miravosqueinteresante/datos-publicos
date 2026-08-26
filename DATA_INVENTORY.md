@@ -10,12 +10,14 @@
 
 **La Municipalidad de Asunción publica datos reales de transparencia, pero casi todo es PDF o Google Drive.** No existe una sección de datos abiertos con datasets estructurados (CSV/JSON/API) en el sitio municipal. Las fuentes estructuradas y automatizables del dominio de Asunción viven en **portales nacionales**: la nómina salarial (datos.gov.py / datos.sfp.gov.py, API DKAN), las licitaciones y contratos (DNCP, API V3 OCDS + datasets CSV) y las transferencias a municipios (MEF). La cartografía de Asunción es la fuente geoespacial más automatizable (INE Cartografía Censal 2022).
 
+**Hallazgo clave (26-ago-2026):** la Municipalidad **sí expone servicios geoespaciales ArcGIS REST públicos** en `asuncion.gov.py/arcgis/rest/services/` — 19 servicios MapServer en `Mapa_Web/` + `Mapas/Mapa_Base`. Esto **contradice y corrige** el reporte inicial de FASE 1 que describía el catastro como "SPA no scrapeable". Los servicios REST son consultables programáticamente (JSON, con opción de geometría). Ver Dominio F. (Nota: se verificó una referencia externa que citaba una "capa Barrios ID 35" con campos `BRR_ID`/`NOMBRE`/`poblacion` — **esa capa NO existe**; la infraestructura es real pero los IDs y campos de esa referencia concretan están errados. Siempre verificar contra la fuente antes de usar.)
+
 **Las 5 fuentes más prometedoras** (para FASE 2/3):
 1. **Hesakã — salarios mensuales** (asuncion.gov.py/hesaka): 60+ PDFs 2021→jul 2026, URLs predecibles, alta automatización.
 2. **DNCP — contrataciones y contratos de la Muni**: API V3 OCDS + datasets CSV (CC BY 4.0), cubre licitaciones/adjudicaciones/contratos/proveedores.
 3. **datos.gov.py — Nómina de Funcionarios**: dataset estructurado con API DKAN, incluye municipios (granularidad municipal a confirmar).
 4. **MEF — Transferencias a municipios** (servicios.mef.gov.py/consultas-publicas/muni.html): exportable a Excel, desde 2017.
-5. **INE — Cartografía Censal 2022 Asunción**: SHP/KML/GeoJSON en descarga directa, malla censal decenal.
+5. **Muni — servicios ArcGIS REST** (Dominio F): capas de barrios y catastro consultables por API, base para el mapa / ficha de barrios.
 
 **Brecha principal detectada:**
 - **No existe ejecución presupuestaria mensual** pública de la comuna (solo presupuesto aprobado en PDF anual + rendición de cuentas anual).
@@ -40,7 +42,7 @@
 | A7 | Ordenanzas (compendio) | asuncion.gov.py/ordenanzas | Páginas + PDFs | PDF | — | 1991–presente (parcial) | Media (scrape WP) | Completo en JMA |
 | A8 | Resoluciones | asuncion.gov.py/resoluciones | Página + PDFs | PDF | Nula | 2016–2024 (5 docs) | — | Mínima |
 | A9 | Edictos | asuncion.gov.py/edictos | Página + PDF | PDF | Nula | 2016 (1 doc) | — | Mínima |
-| A10 | Catastro (visor) | asuncion.gov.py/catastro/ | SPA JS | Mapa | — | Actual | **Baja** (no scrapeable simple) | Requiere análisis |
+| A10 | Catastro (visor) + servicios ArcGIS | asuncion.gov.py/catastro/ + /arcgis/rest/services/ | Visor SPA + **API REST** | Mapa + **JSON** | — | Actual | **Alta** (servicios REST públicos) | ⭐ Verificado (ver Dominio F) |
 | A11 | Mapa descargable (capas) | asuncion.gov.py/mapa-descargable-de-la-ciudad-de-asuncion | Página → ZIP/PDF | ZIP/PDF | Puntual (02/2026) | Actual | **Alta** (descarga directa) | ⭐ Verificada |
 | A12 | Plan Regulador | asuncion.gov.py/plan-regulador | Página + PDFs | PDF | Irregular | 2018–2022 | Alta (descarga) | Verificada |
 | A13 | Plan Maestro Franja Costera | asuncion.gov.py/plan-maestro-de-la-franja-costera-de-asuncion | Página + PDF | PDF | Puntual | — | Media | PDF pasta 2026 verificado |
@@ -99,6 +101,30 @@
 | E7 | Datos censales distritales | ine.gov.py/censo2022/ | Tablas/PDF/XLSX | Estadística | Decenal | distrito Asunción | Media | Verificada |
 | E8 | ESSAP (saneamiento) | essap.com.py | Portal | Varía | n/d | n/d | n/d | **[no verificado]** |
 
+### Dominio F — Servicios ArcGIS REST de la Municipalidad (geoespacial)
+
+**Raíz:** https://www.asuncion.gov.py/arcgis/rest/services?f=json
+**Carpetas:** `Locator`, `Mapas`, `Mapa_Web` (19 servicios MapServer).
+**Consulta:** cualquier capa responde `?f=json` con metadatos, y `/query?where=1=1&outFields=*&returnGeometry=true&outSR=4326&f=pjson` para features. Sin clave de acceso pública.
+
+| # | Servicio | URL | Tipo | SR | Capas de interés | Estado |
+|---|---------|-----|------|-----|------------------|--------|
+| F1 | **Mapas/Mapa_Base** | /arcgis/rest/services/Mapas/Mapa_Base/MapServer | MapServer | **EPSG:3857** | 68 barrios (capa 30 grupo → 31 `Limites de Barrios`, 32 `Barrios`); límites municipio; río; zonas | ⭐ Verificado |
+| F2 | **Mapa_Web/Mapa_General** | /arcgis/rest/services/Mapa_Web/Mapa_General/MapServer | MapServer | **EPSG:32721** (UTM 21S) | Capa 22 `catastro.sigasu.Lote`; 31 `Lotes`; 32 **`Datos Catastrales`** ⭐ (lotes + valores SATI); 33 Barrios (grupo vacío); movilidad; manzanas | ⭐ Verificado |
+| F3 | Espacios Verdes | /arcgis/rest/services/Mapa_Web/Espacios_Verdes/MapServer | MapServer | — | `Espacios_Verdes_Vigente`, área silvestre protegida | Verificado |
+| F4 | **Movilidad Urbana** | /arcgis/rest/services/Mapa_Web/Movilidad_Urbana/MapServer | MapServer | — | Paradas de buses, semáforos, bicisendas, refugios | Verificado |
+| F5 | Centros Municipales | /arcgis/rest/services/Mapa_Web/Centros_Municipales/MapServer | MapServer | — | Ubicación y límites de centros municipales | Verificado |
+| F6 | Lugares | /arcgis/rest/services/Mapa_Web/Lugares/MapServer | MapServer | — | Estaciones de servicio, clubes, supermercados, direcciones, manzanas, edificaciones | Verificado |
+| F7 | Patrimonios Históricos | /arcgis/rest/services/Mapa_Web/Patrimonios_Historicos/MapServer | MapServer | — | 1.835 patrimonios históricos | Verificado |
+| F8 | Edificios 10+ niveles | /arcgis/rest/services/Mapa_Web/Edificios_desde_10_Niveles_2024/MapServer | MapServer | — | Edificios altos 2024 | Verificado |
+| F9 | Otros servicios | Baldios, Curvas_de_Nivel, Imagen_Satelital_2020, Medidas_Juridicas, Lotes_Calles_y_Ensanches, PlanRegulador, Asuncion_1786, Limites_Centro_Historico, ITINERARIOS, Comisarías, Koika/Caf | /arcgis/rest/services/Mapa_Web/... | MapServer | — | Ver listado completo en la raíz | Verificados (existen) |
+
+**Notas técnicas clave del Dominio F:**
+- **Barrios:** la capa de barrios (F1 capa 32) devuelve 68 registros, pero con **campos mínimos** (`objectid`, `st_area(shape)`); **no tiene `BRR_ID`, `NOMBRE`, `zona`, `seccion`, `poblacion`, `ordenanza`** ni geometría en consulta pública (puede requerir credencial o el visor). Verificar si existe un servicio de barrios con atributos más ricos (revisar `Lotes`/`Datos Catastrales`, que sí tienen campo `barrio`).
+- **Datos Catastrales (F2 capa 32)** es la capa más rica: une `catastro.sigasu.Lote` (numero, manzana, zona, cuenta, barrio, zona_impos, clasificación, geometría `shape`) con `Tabla_Sati_Abril_2025` (superficie, valor terreno/edificación/fiscal). **Potencial eje catastral → ficha de barrio**.
+- **Sistemas de coordenadas:** `Mapa_Base` = Web Mercator (3857); `Mapa_General` = UTM 21S (32721). Para el mapa web habrá que transformar coordenadas (aprendizaje GIS/PostGIS planificado).
+- **Limitación:** la capa de barrios pública actual tiene datos pobres; el dato territorial rico está en las capas catastrales (`Lotes`, `Datos Catastrales`) con el campo `barrio` a nivel de lote.
+
 ---
 
 ## Brechas y oportunidades
@@ -111,14 +137,16 @@
 4. **Boletín oficial / digesto legislativo** — no existe; ordenanzas dispersas entre sitio municipal (compendio) y buscador JMA en IP sin HTTPS.
 5. **Actas de sesiones** públicas — solo órdenes del día; actas históricas solo en imágenes sin OCR.
 6. **Datos de concejales mínimos** — sin declaraciones patrimoniales, asistencia ni votaciones.
+7. **Capa de barrios con atributos ricos** — la capa pública de barrios solo expone `objectid` + área; internamente la Municipalidad gestiona más atributos (los barrios aparecen poblados en las capas catastrales), pero no hay un Feature Layer de barrios con nombres/BRR_ID consultable públicamente.
 
 ### Oportunidades (productos posibles)
 
 1. **Pipeline salarial (Hesakã)**: consolidar 60+ PDFs a CSV mensual, actualizable — producto "nómina municipal en datos estructurados".
 2. **Contrataciones de la Muni en dataset**: consumir API V3 OCDS filtrada por "Municipalidad de Asunción" → responder "¿quién le vende a la Municipalidad, cuánto y por qué?".
 3. **Presupuesto abierto**: combinar presupuesto aprobado (PDF) + transferencias MEF + ejecución vía rendición anual — primer acercamiento a "¿qué está haciendo la Municipalidad, dónde y cuánto?".
-4. **Mapa cívico**: cartografía censal INE + capas municipales → mapas de obras, servicios y territorio.
-5. **Corrector de transparencia**: monitoreo mensual del cumplimiento de Ley 5282 Art. 8 (carpetas Drive atrasadas desde abril 2026).
+4. **Mapa cívico / ficha de barrio**: usar los servicios ArcGIS REST (Dominio F) + cartografía censal INE + capas de servicios (movilidad, espacios verdes, centros, patrimonios) como base geoespacial del producto. La clave territorial es el **barrio** (campo `barrio` en `Lotes`/`Datos Catastrales`) o el **lote/cuenta catastral** (campo `cuenta` / `CTA_SIG_TXT`).
+5. **Datos Catastrales + SATI**: unir `Datos Catastrales` (F2) para obtener valor fiscal de inmuebles por barrio → indicadores de valor de terreno por zona (requiere validar acceso/geometría y consideraciones de datos personales).
+6. **Corrector de transparencia**: monitoreo mensual del cumplimiento de Ley 5282 Art. 8 (carpetas Drive atrasadas desde abril 2026).
 
 ---
 
@@ -128,7 +156,8 @@
 - **Alcance:** fuentes oficiales de Asunción (municipal + junta + nacionales que publican datos de la comuna). Se excluyen prensa y terceros.
 - **Base heredada:** investigación de muchotexto.net `research_ordenanzas_asuncion/` (11-ago-2026), re-verificada el 26-ago-2026 (estado confirmado: buscador JMA en `:3000` sin HTTPS, actas sin OCR, sin boletín oficial).
 - **Método:** navegación y fetch directos. **Todo lo marcado **[no verificado]** se debe confirmar en FASE 2** antes de usarse.
-- **Licencias:** los portales municipales no declaran licencia; los datasets nacionales usan la **Licencia de Uso de la Información Pública del Gobierno Paraguayo** (datos.gov.py) y la DNCP **CC BY 4.0**.
+- **Verificación ArcGIS (26-ago-2026):** se consultaron la raíz de servicios REST, los metadatos de los 19 servicios `Mapa_Web` + `Mapas/Mapa_Base`, y queries reales a las capas de barrios y catastrales. Resultado: infraestructura ArcGIS pública confirmada; **la capa "Barrios ID 35" citada por una referencia externa no existe** (error 500) y las capas de barrios públicas solo tienen `objectid` + área. La información de atributos ricos proviene de `Lotes`/`Datos Catastrales`. Se documenta esta discrepancia para evitar depender de referencias no verificadas.
+- **Licencias:** los portales municipales no declaran licencia; los datasets nacionales usan la **Licencia de Uso de la Información Pública del Gobierno Paraguayo** (datos.gov.py) y la DNCP **CC BY 4.0**. Los servicios ArcGIS no muestran condiciones de uso explícitas (dato: dominio público municipal por Ley 5282/14, no declarado formalmente).
 
 ## Siguiente fase
 
