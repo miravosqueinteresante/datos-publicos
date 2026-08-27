@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos Públicos — Gasto en contrataciones</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav"><div class="nav-inner">
+    <span class="marca">Datos Públicos</span>
+    <ul>
+      <li><a href="index.html">Explorar</a></li>
+      <li><a href="datos.html">Datos</a></li>
+      <li><a href="gasto.html" class="activo">Gasto</a></li>
+      <li><a href="metodologia.html">Metodología</a></li>
+    </ul>
+    <span class="vision">Próximamente: Mapas · Obras · Presupuesto · Indicadores</span>
+  </div></nav>
+
+  <header class="portada">
+    <h1>Gasto en contrataciones</h1>
+    <p class="subtitulo">¿En qué gasta la Municipalidad de Asunción en compras adjudicadas? (2026)</p>
+    <p class="meta">Datos de la DNCP · CC BY 4.0 · Contrataciones adjudicadas, no presupuesto total</p>
+  </header>
+
+  <main>
+    <section id="totales" class="seccion">
+      <div class="metricas">
+        <div class="metrica"><div class="valor" id="total-procesos">—</div><div class="etiqueta">Procesos</div></div>
+        <div class="metrica"><div class="valor" id="total-monto">—</div><div class="etiqueta">Monto adjudicado (PYG)</div></div>
+        <div class="metrica"><div class="valor" id="total-proveedores">—</div><div class="etiqueta">Proveedores distintos</div></div>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <h2>Distribución por categoría</h2>
+      <div id="barras-categoria"></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Distribución por tipo de procedimiento</h2>
+      <div id="barras-tipo"></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Principales proveedores</h2>
+      <div class="tabla-envolvente">
+        <table>
+          <thead><tr><th>Proveedor</th><th>Monto (PYG)</th><th>% del total</th></tr></thead>
+          <tbody id="top-proveedores"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="seccion nota">
+      <h2>Metodología</h2>
+      <p>Gasto en <strong>contrataciones adjudicadas</strong> de la Municipalidad de Asunción (convocante SICP 108),
+      año 2026, desde el portal de datos abiertos de la DNCP (CC BY 4.0). No incluye sueldos ni presupuesto total
+      (no publicados en formato abierto; ver <a href="metodologia.html">Metodología</a>).</p>
+    </section>
+  </main>
+  <footer>Datos Públicos — plataforma de infraestructura cívica</footer>
+  <script src="js/gasto.js"></script>
+</body>
+</html>
