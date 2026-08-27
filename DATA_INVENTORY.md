@@ -146,10 +146,16 @@
 5. **Actas de sesiones** públicas — solo órdenes del día; actas históricas solo en imágenes sin OCR.
 6. **Datos de concejales mínimos** — sin declaraciones patrimoniales, asistencia ni votaciones.
 7. **Capa de barrios con atributos ricos** — la capa pública de barrios solo expone `objectid` + área; internamente la Municipalidad gestiona más atributos (los barrios aparecen poblados en las capas catastrales), pero no hay un Feature Layer de barrios con nombres/BRR_ID consultable públicamente.
+8. **Nómina / salarios de la Municipalidad (INVESTIGADA, no accesible estructurado hoy)** — se evaluaron 3 vías el 26-ago-2026:
+   - **Nómina nacional** (`datos.gov.py` / `datos.hacienda.gov.py`): `datos.hacienda.gov.py` → **403 Forbidden**; la API DKAN del portal no expone un endpoint JSON consumible; la página del dataset no lista recursos descargables en HTML estático.
+   - **Portal SFP** (`datos.sfp.gov.py`): se descubrió su **API REST real** — `https://datos.sfp.gov.py/api/rest` (JBoss): `/funcionarios/partitions` 200 (años/meses), `/oee/data` 200 (434 organismos), `/funcionarios/data` 200 (**43.376.600 registros**). PERO filtrar por la Municipalidad requiere replicar el payload exacto de filtros del SPA (códigos `entidad/oee/nivel`, no por nombre; el `search` de DataTables no filtra). Ingeniería inversa pendiente.
+   - **Hesakã** (`asuncion.gov.py/hesaka`): 140 PDFs públicos con patrón de URL predecible (`.../wp-content/uploads/AAAA/MM/Mes_AAAA.pdf`), pero **escaneados** → 364 páginas/mes sin texto extraíble → requiere OCR (tesseract/easyocr + modelos; alto esfuerzo, riesgo en números).
+   - **Conclusión:** la masa salarial exacta de la Muni no es accesible hoy en formato estructurado de bajo esfuerzo. El indicador de gasto (FASE pendiente) se construye sobre **contrataciones adjudicadas** (DNCP), no sobre la nómina.
 
 ### Oportunidades (productos posibles)
 
-1. **Pipeline salarial (Hesakã)**: consolidar 60+ PDFs a CSV mensual, actualizable — producto "nómina municipal en datos estructurados".
+1. **Pipeline de indicadores de gasto (DNCP)** — **IMPLEMENTADO** (`scripts/indicadores_gasto.py`, salida `www/datos/indicadores-gasto-2026.json`): distribución del gasto en contrataciones por categoría (Bienes/Obras/Servicios) y por proveedor. Es **"gasto en contrataciones adjudicadas"**, no presupuesto total (etiquetado como tal).
+2. **Pipeline salarial (Hesakã o nómina SFP)**: pendiente — requiere OCR (Hesakã, escaneado) o ingeniería inversa del filtro del API SFP. Bloqueado como "pequeño y confiable" hoy; documentado en Brecha 8.
 2. **Contrataciones de la Muni en dataset**: consumir API V3 OCDS filtrada por "Municipalidad de Asunción" → responder "¿quién le vende a la Municipalidad, cuánto y por qué?".
 3. **Presupuesto abierto**: combinar presupuesto aprobado (PDF) + transferencias MEF + ejecución vía rendición anual — primer acercamiento a "¿qué está haciendo la Municipalidad, dónde y cuánto?".
 4. **Mapa cívico / ficha de barrio**: usar los servicios ArcGIS REST (Dominio F) + cartografía censal INE + capas de servicios (movilidad, espacios verdes, centros, patrimonios) como base geoespacial del producto. La clave territorial es el **barrio** (campo `barrio` en `Lotes`/`Datos Catastrales`) o el **lote/cuenta catastral** (campo `cuenta` / `CTA_SIG_TXT`).
