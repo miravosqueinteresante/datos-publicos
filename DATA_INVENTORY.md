@@ -149,7 +149,7 @@
 8. **Nómina / salarios de la Municipalidad (INVESTIGADA, no accesible estructurado hoy)** — se evaluaron 3 vías el 26-ago-2026:
    - **Nómina nacional** (`datos.gov.py` / `datos.hacienda.gov.py`): `datos.hacienda.gov.py` → **403 Forbidden**; la API DKAN del portal no expone un endpoint JSON consumible; la página del dataset no lista recursos descargables en HTML estático.
    - **Portal SFP** (`datos.sfp.gov.py`): se descubrió su **API REST real** — `https://datos.sfp.gov.py/api/rest` (JBoss): `/funcionarios/partitions` 200 (años/meses), `/oee/data` 200 (434 organismos), `/funcionarios/data` 200 (**43.376.600 registros**). PERO filtrar por la Municipalidad requiere replicar el payload exacto de filtros del SPA (códigos `entidad/oee/nivel`, no por nombre; el `search` de DataTables no filtra). Ingeniería inversa pendiente.
-   - **Hesakã** (`asuncion.gov.py/hesaka`): 140 PDFs públicos con patrón de URL predecible (`.../wp-content/uploads/AAAA/MM/Mes_AAAA.pdf`), pero **escaneados** → 364 páginas/mes sin texto extraíble → requiere OCR (tesseract/easyocr + modelos; alto esfuerzo, riesgo en números).
+   - **Hesakã** (`asuncion.gov.py/hesaka`): 140 PDFs públicos con patrón de URL predecible (`.../wp-content/uploads/AAAA/MM/<Mes>_AAAA.pdf`), pero **texto no extraíble real** (ver brecha específica en docs/presupuesto).
    - **Conclusión:** la masa salarial exacta de la Muni no es accesible hoy en formato estructurado de bajo esfuerzo. El indicador de gasto (FASE pendiente) se construye sobre **contrataciones adjudicadas** (DNCP), no sobre la nómina.
 
 ### Oportunidades (productos posibles)

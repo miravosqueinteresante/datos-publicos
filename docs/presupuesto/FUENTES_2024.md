@@ -14,7 +14,7 @@ El ciclo presupuestario 2024 de la Municipalidad de Asunción es **parcialmente 
 **DISPONIBLE (verificado):**
 - **Rendición de Cuentas 2024** — única fuente municipal que publica **ejecución del gasto** (presupuesto vigente vs. obligado, agregado anual por objeto del gasto: total 2.360.168 / obligado 1.253.270 MGs ≈ 53%). Incluye ingresos recaudados 2024 (1.113.156 MGs) y obras.
 - **Presupuesto aprobado 2025** (patrón documentado) y reprogramaciones 2024 (**ORD 156/24**) + base tributaria 2024 (**ORD 107/23** + modif. **ORD 128/24**).
-- **Hesakã (salarios) 2024** — 12 PDFs mensuales, **con capa de texto extraíble (no requiere OCR)** (corrección a un supuesto previo).
+- **Hesakã (salarios) 2024** — 12 PDFs mensuales disponibles en URL, pero **texto no extraíble** (fuente corrupta) → requiere OCR/ingeniería (documentado con evidencia).
 - **DNCP contrataciones 2024** — dump OCDS disponible (~236 MB); el pipeline existente lo procesa pasando `anio="2024"`.
 - **MEF transferencias a la Muni** — consultable por RUC + año 2024 (desde 2017), exporta Excel/PDF (requiere interacción/captcha).
 
@@ -36,7 +36,7 @@ El ciclo presupuestario 2024 de la Municipalidad de Asunción es **parcialmente 
 | P04 | ORD 107/23 + ORD 128/24 — General de Tributos / base de ingresos 2024 | asuncion.gov.py/ordenanzas | 2024 | PDF | ingresos | ✅ Disponible |
 | P05 | Rendición de Cuentas 2024 (ejecución del gasto) | https://www.asuncion.gov.py/wp-content/uploads/2025/08/Rendicion-de-Cuentas-2024.pdf | 2024 | PDF | vigente/obligado/% | ✅ **Disponible (fuente central)** |
 | P06 | Ejecución presupuestaria mensual / por partida 2024 | asuncion.gov.py | 2024 | — | obligado/pagado/mes | **NO ENCONTRADO** (brecha FASE 1) |
-| P07 | Héssaka — salarios mensuales 2024 (12 PDFs) | asuncion.gov.py/hesaka | 2024 | PDF (texto) | personal | ✅ Disponible (sin OCR) |
+| P07 | Héssaka — salarios mensuales 2024 (12 PDFs) | asuncion.gov.py/hesaka | 2024 | PDF | personal | ⚠️ Disponible en URL, **texto no extraíble** (OCR/ingeniería) |
 | P08 | Transferencias del Estado a la Muni (MEF, RUC+año) | servicios.mef.gov.py/consultas-publicas/muni.html | 2024 | Web→Excel/PDF | transferencias | ⚠️ Disponible (requiere RUC + captcha) |
 | P09 | Contrataciones DNCP 2024 (SICP 108) | contrataciones.gov.py/.../ocds/2024/masivo.zip | 2024 | CSV/OCDS | contratos/obras | ✅ Disponible (pipeline existente) |
 
@@ -80,11 +80,12 @@ El ciclo presupuestario 2024 de la Municipalidad de Asunción es **parcialmente 
 ### P06 · Ejecución mensual/por partida 2024 — NO ENCONTRADO
 - Confirma FASE 1: no hay visor público de ejecución del gasto. `/presupuesto` solo muestra el aprobado vigente. La única ejecución pública 2024 es la **anual agregada** de la Rendición (P05).
 
-### P07 · Hesakã 2024 — DISPONIBLE (sin OCR)
+### P07 · Hesakã 2024 — DISPONIBLE EN URL, PERO TEXTO NO EXTRAÍBLE (requiere OCR/ingeniería)
 - 12 PDFs mensuales enero-diciembre 2024 en `/hesaka`:
   - `Enero_2024.pdf`, `Febrero_2024-1.pdf`, `Marzo_2024.pdf`, `Abril_2024.pdf`, `Mayo_2024-1.pdf`, `Junio_2024.pdf`, `Julio_2024.pdf`, `Agosto_2024.pdf`, `Setiembre_2024.pdf`, `Octubre_2024.pdf`, `Noviembre_2024.pdf`, `Diciembre_2024.pdf`.
 - Patrón de URL: `/wp-content/uploads/AAAA/MM/<Mes>_AAAA.pdf` (variaciones de nombre, sufijos `-1`).
-- **TEXTOS EXTRAÍBLES (corrección a supuesto previo):** muestras de Enero_2024 y Junio_2024 tienen capa de texto (operadores BT/Tj, 0 imágenes, FlateDecode) → **no requieren OCR**. El reporte previo de "escaneado" (Marzo_2026) no aplica a la serie 2024 muestreada; esto **habilita un pipeline de salarios viable sin OCR**.
+- **BARRERA VERIFICADA (27-08-2026):** el PDF de Hesakã (muestra Enero_2024, 402 págs) tiene **texto no extraíble real** — `get_text()` devuelve ~8.000 caracteres/página pero **0 alfanuméricos** (fuente TrueType con byte-map corrupto `EPRQUE+TimesNewRoman...Set2`; **0 imágenes**, no es escaneado). Extraer salarios requiere **instalar tesseract + OCR** (~4.800 páginas/año) o reconstruir el CMap. Ver `docs/presupuesto/NOTA-tecnica-hesaka-texto-no-extraible.md`. Se corrige una afirmación previa de "texto extraíble" (falsa).
+- **Alternativa:** la partida 100 Servicios Personales de la ejecución 2024 (P05) da el **monto agregado de personal** (788.089 vigente / 727.234 obligado / 92%) sin necesidad de Hesakã.
 
 ### P08 · MEF transferencias 2024 — DISPONIBLE CON LIMITACIÓN
 - URL: `https://servicios.mef.gov.py/consultas-publicas/muni.html`
