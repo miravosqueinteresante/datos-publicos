@@ -4,7 +4,7 @@ Guía para agentes de IA y colaboradores al trabajar en este repositorio.
 
 ## Regla crítica: el plan maestro es SOLO LOCAL
 
-El documento `DATOS PÚBLICOS — DOCUMENTO MAESTRO DEL PROYECTO.pdf` es interno y de
+El documento `DATOS PÚBLICOS - DOCUMENTO MAESTRO DEL PROYECTO.pdf` es interno y de
 distribución limitada.
 
 - NO lo añadas al repositorio.
@@ -15,14 +15,21 @@ distribución limitada.
 Si un agente lo necesita como referencia, puede leerlo desde el disco local, pero nunca
 persistirlo en un archivo del repo.
 
+## Foco del proyecto (post-pivot)
+
+El proyecto analiza **contratación pública (DNCP)** entidad por entidad. La fuente es la DNCP
+(datos abiertos, OCDS, CC BY 4.0). No se consumen fuentes que requieran romper captchas, OCR
+de PDFs corruptos o ingeniería inversa de SPA: lo que no se obtiene limpio se documenta como
+brecha de la institución.
+
 ## Estructura de carpetas
 
 - `docs/` — documentación del proyecto; specs en `docs/superpowers/specs/`, planes en `docs/superpowers/plans/`
-- `data/` — datasets procesados
-- `scripts/` — pipelines y herramientas (Python)
+- `data/` — datasets de contratación (por entidad+año)
+- `scripts/` — pipeline DNCP y generadores (Python)
 - `lab/` — web del laboratorio (GitHub Pages)
 - `www/` — web de la plataforma pública (GitHub Pages)
-- `.github/workflows/` — GitHub Actions
+- `.github/workflows/` — GitHub Actions (actualizar-datos, deploy-pages)
 
 ## Convenciones
 
@@ -30,6 +37,7 @@ persistirlo en un archivo del repo.
 - Archivos Markdown en español.
 - Proceso manual primero; automatizar (GitHub Actions) solo lo que ya se entiende y funciona.
 - Datos siempre con trazabilidad: fuente original, URL, fecha de obtención, proceso y limitaciones.
+- No prometer en la web datos que no se puedan obtener en abierto.
 
 ## Flujo de trabajo
 
