@@ -1,0 +1,72 @@
+{
+  "procesos": 37,
+  "monto_total": 138891215956.0,
+  "proveedores_distintos": 16,
+  "procesos_sin_proveedor": 20,
+  "por_categoria": [
+    {
+      "categoria": "Bienes",
+      "monto": 88511783865.0
+    },
+    {
+      "categoria": "Obras",
+      "monto": 44613245986.0
+    },
+    {
+      "categoria": "Servicios",
+      "monto": 5766186105.0
+    }
+  ],
+  "por_tipo_procedimiento": [
+    {
+      "tipo": "open",
+      "monto": 134891215956.0
+    },
+    {
+      "tipo": "direct",
+      "monto": 4000000000.0
+    }
+  ],
+  "top_proveedores": [
+    {
+      "proveedor": "PETROLEOS DEL SUR S.A.",
+      "monto": 68357991829.0
+    },
+    {
+      "proveedor": "TECO SOCIEDAD DE RESPONSABILIDAD LIMITADA ",
+      "monto": 42305412809.0
+    },
+    {
+      "proveedor": "VEGA S.A.",
+      "monto": 6884160000.0
+    },
+    {
+      "proveedor": "PATRIA S.A DE SEGUROS Y REASEGUROS",
+      "monto": 5343080786.0
+    },
+    {
+      "proveedor": "CASA DEGGELLER SRL",
+      "monto": 1875720000.0
+    },
+    {
+      "proveedor": "CARLOS VICENTE GUEYRAUD CABALLERO",
+      "monto": 1757833177.0
+    },
+    {
+      "proveedor": "ITTI S.A.E.",
+      "monto": 1320000000.0
+    },
+    {
+      "proveedor": "PEDRO ANDRES DEMESTRI LEGUIZAMON",
+      "monto": 868718173.0
+    },
+    {
+      "proveedor": "WINNER S. R. L.",
+      "monto": 605559500.0
+    },
+    {
+      "proveedor": "CONSTRUTEX S.A.",
+      "monto": 550000000.0
+    }
+  ]
+}
