@@ -3,36 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Datos PÃºblicos â€” MetodologÃ­a</title>
+  <title>Datos Públicos — Metodología</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav class="nav"><div class="nav-inner">
-    <span class="marca">Datos PÃºblicos</span>
+    <span class="marca">Datos Públicos</span>
     <ul>
       <li><a href="demo.html">Demo</a></li>
       <li><a href="index.html">Explorar</a></li>
-      <li><a href="datos.html">Datos</a></li>
       <li><a href="analisis.html">Análisis</a></li>
-      <li><a href="metodologia.html" class="activo">MetodologÃ­a</a></li>
+      <li><a href="datos.html">Datos</a></li>
+      <li><a href="metodologia.html" class="activo">Metodología</a></li>
     </ul>
-    <span class="vision">PrÃ³ximamente: Mapas Â· Obras Â· Presupuesto Â· Indicadores</span>
+    <span class="vision">Contratación pública de Paraguay · entidad por entidad</span>
   </div></nav>
 
   <header class="portada">
-    <h1>MetodologÃ­a</h1>
-    <p class="subtitulo">De dÃ³nde salen los datos, cÃ³mo se procesan y quÃ© limitaciones tienen</p>
+    <h1>Metodología</h1>
+    <p class="subtitulo">De dónde salen los datos, cómo se procesan y qué limitaciones tienen</p>
   </header>
 
   <main>
     <section class="seccion">
       <h2>Fuente</h2>
-      <p>Datos de la <strong>DirecciÃ³n Nacional de Contrataciones PÃºblicas (DNCP)</strong> de Paraguay,
+      <p>Datos de la <strong>Dirección Nacional de Contrataciones Públicas (DNCP)</strong> de Paraguay,
       obtenidos desde su Portal de Datos Abiertos
       (<a href="https://www.contrataciones.gov.py/datos/" target="_blank" rel="noopener">contrataciones.gov.py/datos</a>),
       licencia <strong>CC BY 4.0</strong>.</p>
-      <p>La Municipalidad de AsunciÃ³n es la convocante SICP <code>108</code>.
-      VerificaciÃ³n oficial:
+      <p>La Municipalidad de Asunción es la convocante SICP <code>108</code>.
+      Verificación oficial:
       <a href="https://www.contrataciones.gov.py/convocantes/municipalidad-asuncion/licitaciones/2026.html" target="_blank" rel="noopener">
       perfil de licitaciones de la Muni en la DNCP</a>.</p>
     </section>
@@ -40,35 +40,24 @@
     <section class="seccion">
       <h2>Proceso</h2>
       <ol>
-        <li><code>scripts/dncp_contrataciones.py</code> â€” descarga el ZIP anual de la DNCP, une tablas OCDS por OCID, filtra por la Muni, valida y produce el CSV.</li>
-        <li><code>scripts/generar_datos_web.py</code> â€” convierte el CSV a JSON para la web.</li>
+        <li><code>scripts/dncp_contrataciones.py</code> — descarga el ZIP anual de la DNCP, une tablas OCDS por OCID, filtra por la entidad (SICP 108), valida y produce el CSV.</li>
+        <li><code>scripts/generar_datos_web.py</code> — convierte el CSV a JSON para la web.</li>
         <li>GitHub Actions ejecuta el flujo mensualmente y commitea cambios.</li>
       </ol>
-      <p class="nota">Los procesos sin proveedor son llamados sin adjudicaciÃ³n registrada en el conjunto del aÃ±o.</p>
+      <p class="nota">Los procesos sin proveedor son llamados sin adjudicación registrada en el conjunto del año.</p>
     </section>
 
     <section class="seccion">
       <h2>Trazabilidad y limitaciones</h2>
       <ul class="sin-estilo">
-        <li><strong>Fecha de obtenciÃ³n:</strong> 26-ago-2026 (actualizable mensualmente).</li>
-        <li><strong>Alcance:</strong> solo la Municipalidad de AsunciÃ³n como comprador (SICP 108); procesos donde es cofinanciante quedan fuera.</li>
-        <li><strong>Formato original:</strong> OCDS aplanado (estÃ¡ndar Open Contracting).</li>
-        <li><strong>LimitaciÃ³n:</strong> el campo de comprador puede venir vacÃ­o en algunas adjudicaciones; se usa <code>records</code> (1 fila por proceso) como base.</li>
-      </ul>
-    </section>
-
-    <section class="seccion">
-      <h2>EjecuciÃ³n del presupuesto (ciclo 2024)</h2>
-      <ul class="sin-estilo">
-        <li><strong>Fuente:</strong> RendiciÃ³n de Cuentas 2024 de la Municipalidad de AsunciÃ³n (pÃ¡gina con la tabla "EjecuciÃ³n del Presupuesto de Gastos por Niveles del Objeto del Gasto").</li>
-        <li><strong>Ejercicio:</strong> 2024. Montos en millones de guaranÃ­es.</li>
-        <li><strong>LimitaciÃ³n principal:</strong> la ejecuciÃ³n se publica solo <strong>agregada (anual) por objeto del gasto</strong>; no hay detalle mensual ni por partida en abierto.</li>
-        <li><strong>Transferencias (nivel 800):</strong> la fuente no desglosa el obligado â†’ el total de obligado del dataset excluye esa partida (la suma parcial es 1.165.830; el total oficial de la rendiciÃ³n es 1.253.270).</li>
-        <li><strong>Personal:</strong> representado por la partida Servicios Personales (agregada). Los PDFs de salarios (HesakÃ£) no son extraÃ­bles tÃ©cnicamente (ver <code>docs/presupuesto/NOTA-tecnica-hesaka-texto-no-extraible.md</code>).</li>
-        <li><strong>Presupuesto aprobado detallado 2024:</strong> no publicado en el sitio municipal (solo se conserva el aÃ±o vigente); no reconstruido.</li>
+        <li><strong>Fecha de obtención:</strong> 26-ago-2026 (actualizable mensualmente).</li>
+        <li><strong>Alcance:</strong> solo la Municipalidad de Asunción como comprador (SICP 108); procesos donde es cofinanciante quedan fuera.</li>
+        <li><strong>Formato original:</strong> OCDS aplanado (estándar Open Contracting).</li>
+        <li><strong>Limitación:</strong> el campo de comprador puede venir vacío en algunas adjudicaciones; se usa <code>records</code> (1 fila por proceso) como base.</li>
+        <li><strong>Sobre las brechas</strong> (nómina, presupuesto detallado, ejecución por partida): la Municipalidad no los publica en formato abierto; se documentan como brechas en <code>DATA_INVENTORY.md</code> y son agenda de incidencia (pedidos formales Ley 5282/14), no carga activa del proyecto.</li>
       </ul>
     </section>
   </main>
-  <footer>Datos PÃºblicos â€” plataforma de infraestructura cÃ­vica</footer>
+  <footer>Datos Públicos — plataforma de infraestructura cívica</footer>
 </body>
 </html>
