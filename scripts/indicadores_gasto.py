@@ -8,6 +8,11 @@ RUTA_JSON = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file_
                          "www", "datos", "indicadores-gasto-2026.json")
 
 
+def _traducir_categoria(c):
+    mapa = {"goods": "Bienes", "services": "Servicios", "works": "Obras"}
+    return mapa.get(c, c)
+
+
 def calcular_indicadores(csv_texto):
     filas = list(csv.DictReader(csv_texto.splitlines()))
     por_categoria = {}
@@ -21,7 +26,7 @@ def calcular_indicadores(csv_texto):
             monto = float(monto)
         except ValueError:
             monto = 0
-        cat = f.get("categoria") or "Sin categoría"
+        cat = _traducir_categoria(f.get("categoria") or "Sin categoría")
         por_categoria[cat] = por_categoria.get(cat, 0) + monto
         prov = f.get("proveedor") or ""
         if prov:

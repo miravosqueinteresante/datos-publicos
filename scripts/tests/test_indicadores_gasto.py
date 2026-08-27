@@ -28,6 +28,11 @@ class TestIndicadores(unittest.TestCase):
         self.assertEqual(ind["top_proveedores"][0]["proveedor"], "C1")
         self.assertEqual(ind["top_proveedores"][0]["monto"], 3000)
         self.assertEqual(ind["procesos_sin_proveedor"], 1)
+    def test_categorias_crudas_traducidas(self):
+        csv_crudo = CSV.replace("Obras,open", "works,open").replace("Bienes,open", "goods,open").replace("Servicios,open", "services,open")
+        ind = calcular_indicadores(csv_crudo)
+        cats = {c["categoria"] for c in ind["por_categoria"]}
+        self.assertEqual(cats, {"Obras", "Bienes", "Servicios"})
 
 if __name__ == "__main__":
     unittest.main()
