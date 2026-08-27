@@ -50,16 +50,28 @@ def validar_totales(filas, total_vigente, total_obligado, tol=0.5):
     return errores
 
 
-def extraer_tabla(pdf_path, pagina_idx=3):
+def extraer_tabla(pdf_path, pagina_idx=3, y_min=780):
+    """Extrae la tabla de ejecución del gasto de la página 4, usando bloques
+    con coordenadas y filtrando la región de la tabla (debajo del encabezado).
+    get_text() plano mezcla la tabla de ingresos con la de gastos; bloques evita eso."""
     import fitz
     doc = fitz.open(pdf_path)
-    texto = doc[pagina_idx].get_text()
+    bloques = doc[pagina_idx].get_text("blocks")
     filas = []
-    for linea in texto.splitlines():
-        m = re.match(r"^\s*(\d{3})\s+(.+?)\s+([\d,\.]+)\s+([\d,\.]+)?\s*(\d+%\s*)?$", linea)
+    for b in bloques:
+        x0, y0, x1, y1, texto, bid, bn = b
+        if y0 < y_min:
+            continue
+        partes = [p.strip() for p in texto.split("\n")]
+        partes = [p for p in partes if p]
+        if not partes:
+            continue
+        # fila con nivel (100..900) seguido de denominación y montos
+        m = re.match(r"^\d{3}$", partes[0] or "")
         if m:
-            campos = [m.group(1), m.group(2).strip(), m.group(3), m.group(4) or ""]
-            filas.append(parsear_fila(campos))
+            campos = partes
+            if len(campos) >= 2:
+                filas.append(parsear_fila(campos[:5]))
     return filas
 
 
