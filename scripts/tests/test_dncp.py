@@ -3,6 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 from dncp_contrataciones import es_de_asuncion
 from dncp_contrataciones import verificar_consistencia
+from dncp_contrataciones import anio_desde_args
 from dncp_contrataciones import mapear_fila
 from dncp_contrataciones import validar
 
@@ -94,6 +95,14 @@ class TestConsistencia(unittest.TestCase):
         ]
         ok, msg = verificar_consistencia(filas)
         self.assertFalse(ok)
+
+class TestAnioArgs(unittest.TestCase):
+    def test_sin_args_default_2026(self):
+        self.assertEqual(anio_desde_args([]), "2026")
+    def test_con_arg(self):
+        self.assertEqual(anio_desde_args(["dncp_contrataciones.py", "2024"]), "2024")
+    def test_arg_invalido_default(self):
+        self.assertEqual(anio_desde_args(["x.py", "abc"]), "2026")
 
 if __name__ == "__main__":
     unittest.main()

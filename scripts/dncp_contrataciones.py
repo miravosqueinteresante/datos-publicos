@@ -70,6 +70,7 @@ def verificar_consistencia(filas_records):
 
 import csv
 import os
+import sys
 import urllib.request
 import zipfile
 
@@ -152,5 +153,11 @@ def main(anio="2026"):
     print(f"Dataset escrito: {out}")
 
 
+def anio_desde_args(args):
+    if len(args) >= 2 and str(args[1]).isdigit():
+        return args[1]
+    return "2026"
+
+
 if __name__ == "__main__":
-    main()
+    main(anio_desde_args(sys.argv))
