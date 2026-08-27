@@ -2,11 +2,9 @@ import csv
 import json
 import os
 
-RUTA_ORIGEN = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                           "data", "contrataciones_muni_2026.csv")
-RUTA_DESTINO = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                            "www", "datos", "contrataciones-2026.json")
-
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(ROOT, "data")
+WEB_DATOS = os.path.join(ROOT, "www", "datos")
 
 CATEGORIAS_ES = {"goods": "Bienes", "services": "Servicios", "works": "Obras"}
 
@@ -42,18 +40,60 @@ def fila_a_json(fila):
     }
 
 
+def presupuesto_filas_a_json(filas):
+    return [
+        {
+            "ejercicio": f[0], "nivel": f[1], "denominacion": f[2],
+            "presupuesto_vigente": float(f[3]) if f[3] else None,
+            "obligado": float(f[4]) if f[4] else None,
+            "porcentaje_ejecucion": float(f[5]) if f[5] else None,
+            "fuente": f[6], "url": f[7],
+        }
+        for f in filas
+    ]
+
+
 def generar(csv_texto):
     reader = csv.DictReader(csv_texto.splitlines())
     return [fila_a_json(f) for f in reader]
 
 
-def main():
-    with open(RUTA_ORIGEN, encoding="utf-8") as f:
+def generar_contrataciones(anio):
+    origen = os.path.join(DATA_DIR, f"contrataciones_muni_{anio}.csv")
+    destino = os.path.join(WEB_DATOS, f"contrataciones-{anio}.json")
+    if not os.path.exists(origen):
+        print(f"[contrataciones {anio}] no existe {origen}, omitido")
+        return 0
+    with open(origen, encoding="utf-8") as f:
         datos = generar(f.read())
-    os.makedirs(os.path.dirname(RUTA_DESTINO), exist_ok=True)
-    with open(RUTA_DESTINO, "w", encoding="utf-8") as f:
+    os.makedirs(WEB_DATOS, exist_ok=True)
+    with open(destino, "w", encoding="utf-8") as f:
         json.dump(datos, f, ensure_ascii=False, indent=2)
-    print(f"Generados {len(datos)} registros en {RUTA_DESTINO}")
+    print(f"Generados {len(datos)} registros de contrataciones {anio} en {destino}")
+    return len(datos)
+
+
+def generar_presupuesto(anio):
+    origen = os.path.join(DATA_DIR, f"presupuesto_ejecucion_{anio}.csv")
+    destino = os.path.join(WEB_DATOS, f"presupuesto-ejecucion-{anio}.json")
+    if not os.path.exists(origen):
+        print(f"[presupuesto {anio}] no existe {origen}, omitido")
+        return 0
+    with open(origen, encoding="utf-8") as f:
+        filas = list(csv.reader(f))
+    header = filas[0]
+    datos = presupuesto_filas_a_json(filas[1:])
+    os.makedirs(WEB_DATOS, exist_ok=True)
+    with open(destino, "w", encoding="utf-8") as f:
+        json.dump(datos, f, ensure_ascii=False, indent=2)
+    print(f"Generados {len(datos)} registros de presupuesto {anio} en {destino}")
+    return len(datos)
+
+
+def main():
+    for anio in ["2024", "2026"]:
+        generar_contrataciones(anio)
+        generar_presupuesto(anio)
 
 
 if __name__ == "__main__":
