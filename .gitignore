@@ -31,3 +31,6 @@ data/_sin_versionar/
 
 # Sitio construido para GitHub Pages
 _site/
+
+# Copias locales del plan maestro
+_plan_backup*.pdf
