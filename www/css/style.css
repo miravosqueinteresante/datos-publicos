@@ -104,3 +104,12 @@ ul.sin-estilo { list-style: none; padding-left: 0; }
 ul.sin-estilo li { padding: .25rem 0; }
 
 footer { max-width: 1080px; margin: 2rem auto 1rem; padding: 0 1rem; font-size: .8rem; color: var(--texto-suave); }
+/* Barras de distribución */
+.barra-bloque { margin-bottom: 1rem; }
+.barra-fila { display: grid; grid-template-columns: 140px 1fr 150px; align-items: center; gap: .75rem; margin-bottom: .55rem; }
+.barra-fila .etiqueta { font-size: .86rem; color: var(--texto-suave); text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.barra-track { background: #eef2ff; border-radius: 999px; height: 18px; overflow: hidden; }
+.barra { height: 100%; background: var(--primario); border-radius: 999px; min-width: 2px; }
+.barra-valores { font-size: .84rem; font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; }
+.barra-valores strong { color: var(--texto); }
+.destacado { color: var(--primario); font-weight: 600; }
