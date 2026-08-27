@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Datos Públicos — Gasto en contrataciones</title>
+  <title>Datos Públicos — Gasto de la Municipalidad de Asunción</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,45 +19,40 @@
   </div></nav>
 
   <header class="portada">
-    <h1>Gasto en contrataciones</h1>
-    <p class="subtitulo">¿En qué gasta la Municipalidad de Asunción en compras adjudicadas? (2026)</p>
-    <p class="meta">Datos de la DNCP · CC BY 4.0 · Contrataciones adjudicadas, no presupuesto total</p>
+    <h1>Gasto de la Municipalidad de Asunción</h1>
+    <p class="subtitulo" id="subtitulo-anual">¿En qué gastó la Municipalidad de Asunción? (2024)</p>
+    <p class="meta" id="meta-anual">Datos de la Rendición de Cuentas 2024 y la DNCP · CC BY 4.0 · Contrataciones adjudicadas, no presupuesto total</p>
   </header>
 
   <main>
-    <section id="totales" class="seccion">
-      <div class="metricas">
-        <div class="metrica"><div class="valor" id="total-procesos">—</div><div class="etiqueta">Procesos</div></div>
-        <div class="metrica"><div class="valor" id="total-monto">—</div><div class="etiqueta">Monto adjudicado (PYG)</div></div>
-        <div class="metrica"><div class="valor" id="total-proveedores">—</div><div class="etiqueta">Proveedores distintos</div></div>
-      </div>
+    <section class="seccion">
+      <label for="sel-anio"><strong>Ejercicio fiscal:</strong></label>
+      <select id="sel-anio">
+        <option value="2024">2024</option>
+        <option value="2026">2026</option>
+      </select>
+    </section>
+
+    <section id="contenido-anual" class="seccion">
+      <p class="vacio">Cargando datos…</p>
     </section>
 
     <section class="seccion">
-      <h2>Distribución por categoría</h2>
-      <div id="barras-categoria"></div>
-    </section>
-
-    <section class="seccion">
-      <h2>Distribución por tipo de procedimiento</h2>
-      <div id="barras-tipo"></div>
-    </section>
-
-    <section class="seccion">
-      <h2>Principales proveedores</h2>
-      <div class="tabla-envolvente">
-        <table>
-          <thead><tr><th>Proveedor</th><th>Monto (PYG)</th><th>% del total</th></tr></thead>
-          <tbody id="top-proveedores"></tbody>
-        </table>
-      </div>
+      <h2>Glosario</h2>
+      <ul class="sin-estilo">
+        <li><strong>Presupuesto vigente:</strong> el presupuesto final del ejercicio tras las modificaciones (el aprobado ajustado).</li>
+        <li><strong>Obligado / comprometido:</strong> gasto comprometido u obligado durante el ejercicio (lo "reservado").</li>
+        <li><strong>% ejecución:</strong> (obligado ÷ presupuesto vigente) × 100 — cuánto del presupuesto se ejecutó.</li>
+        <li><strong>Contratación adjudicada:</strong> proceso de compra pública con proveedor asignado (DNCP).</li>
+      </ul>
     </section>
 
     <section class="seccion nota">
-      <h2>Metodología</h2>
-      <p>Gasto en <strong>contrataciones adjudicadas</strong> de la Municipalidad de Asunción (convocante SICP 108),
-      año 2026, desde el portal de datos abiertos de la DNCP (CC BY 4.0). No incluye sueldos ni presupuesto total
-      (no publicados en formato abierto; ver <a href="metodologia.html">Metodología</a>).</p>
+      <h2>Limitaciones</h2>
+      <p>La Municipalidad publica la ejecución del gasto solo <strong>agregada (anual) por objeto del gasto</strong>
+      en la Rendición de Cuentas; no hay detalle mensual ni por partida en abierto. El nivel "Transferencias" de 2024
+      no desglosa el obligado. El personal agregado es la partida Servicios Personales (los PDFs de salarios no son
+      extraíbles). Ver <a href="metodologia.html">Metodología</a>.</p>
     </section>
   </main>
   <footer>Datos Públicos — plataforma de infraestructura cívica</footer>
