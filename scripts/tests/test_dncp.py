@@ -46,6 +46,15 @@ class TestMapear(unittest.TestCase):
             "https://www.contrataciones.gov.py/licitaciones/convocatoria/uuid-1.html",
         )
 
+    def test_tipo_procedimiento_usa_etiqueta_espanol(self):
+        fila = {
+            "compiledRelease/id": "uuid-2",
+            "compiledRelease/tender/procurementMethod": "direct",
+            "compiledRelease/tender/procurementMethodDetails": "Menor cuantía nacional",
+        }
+        salida = mapear_fila(fila, {}, {}, {})
+        self.assertEqual(salida["tipo_procedimiento"], "Menor cuantía nacional")
+
 class TestValidar(unittest.TestCase):
     def test_filas_validas(self):
         filas = [
