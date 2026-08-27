@@ -23,18 +23,19 @@
 
   <main>
     <section class="seccion">
-      <h2>P1 — Contrataciones de la Municipalidad de Asunción (DNCP)</h2>
-      <p>Extrae los procesos de contratación de la Muni desde la DNCP y produce el dataset.</p>
+      <h2>P1 — Motor de contratación pública (DNCP, multi-entidad)</h2>
+      <p>Extrae los procesos de contratación de una entidad (identificada por SICP) desde la DNCP y produce sus datasets.</p>
       <table>
         <thead><tr><th>Atributo</th><th>Valor</th></tr></thead>
         <tbody>
           <tr><td>Fuente</td><td>DNCP — CSV masivos OCDS</td></tr>
-          <tr><td>Identificación</td><td>Convocante SICP <code>108</code> (Municipalidad de Asunción)</td></tr>
+          <tr><td>Identificación de entidad</td><td>Código SICP (Municipalidad de Asunción = <code>108</code>)</td></tr>
           <tr><td>Script</td><td><code>scripts/dncp_contrataciones.py</code></td></tr>
-          <tr><td>Generador web</td><td><code>scripts/generar_datos_web.py</code></td></tr>
+          <tr><td>Generador web</td><td><code>scripts/generar_datos_web.py</code> (por entidad+año)</td></tr>
+          <tr><td>Indicadores</td><td><code>scripts/indicadores_gasto.py</code> (distribución, % método, concentración)</td></tr>
           <tr><td>Automatización</td><td>GitHub Actions: <code>actualizar-datos</code> (mensual + manual)</td></tr>
-          <tr><td>Verificación</td><td>Consistencia nombre ↔ SICP 108 (OK en última corrida)</td></tr>
-          <tr><td>Tests</td><td>17 (stdlib unittest)</td></tr>
+          <tr><td>Verificación</td><td>Consistencia nombre ↔ SICP (OK en última corrida)</td></tr>
+          <tr><td>Tests</td><td>29 (stdlib unittest)</td></tr>
           <tr><td>Estado</td><td><span class="badge-exito">funcionando</span></td></tr>
         </tbody>
       </table>

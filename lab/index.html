@@ -19,7 +19,7 @@
   <header class="portada">
     <h1>Laboratorio</h1>
     <p class="subtitulo">Cómo funciona el sistema</p>
-    <p class="meta">Estado del pipeline de contrataciones de la Municipalidad de Asunción</p>
+    <p class="meta">Estado del motor de contratación pública (DNCP) · Municipalidad de Asunción (SICP 108)</p>
   </header>
 
   <main>
@@ -29,34 +29,33 @@
       <h2>Estado del pipeline</h2>
       <ul class="sin-estilo">
         <li><strong>Fuente:</strong>
-          <a href="https://www.contrataciones.gov.py/datos/open-contracting-info" target="_blank" rel="noopener">DNCP — Portal de Datos Abiertos</a> (CC BY 4.0)</li>
-        <li><strong>Pipeline:</strong> <code>scripts/dncp_contrataciones.py</code> → CSV → JSON web</li>
-        <li><strong>Última actualización del dataset:</strong> 26-ago-2026</li>
+          <a href="https://www.contrataciones.gov.py/datos/" target="_blank" rel="noopener">DNCP — Portal de Datos Abiertos</a> (CC BY 4.0)</li>
+        <li><strong>Pipeline:</strong> <code>scripts/dncp_contrataciones.py</code> → CSV → JSON web → análisis</li>
+        <li><strong>Motor:</strong> parametrizable por entidad (SICP) y año</li>
         <li><strong>Última ejecución del workflow (GitHub Actions):</strong> success (26-ago-2026)</li>
+        <li><strong>Tests:</strong> 29 (stdlib unittest)</li>
       </ul>
-      <p><a href="../www/index.html">Ver plataforma pública →</a></p>
+      <p><a href="../www/analisis.html">Ver análisis de contratación →</a></p>
     </section>
   </main>
 
   <footer>Datos Públicos · Lab — cómo funciona el sistema</footer>
   <script>
-    const FORMATO = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 0 });
-    function cabecera(etiqueta, valor) {
-      const v = typeof valor === "number" ? FORMATO.format(valor) : valor;
+    const FMT = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 0 });
+    function n(etiqueta, valor) {
+      const v = typeof valor === "number" ? FMT.format(valor) : valor;
       return `<div class="metrica"><div class="valor">${v}</div><div class="etiqueta">${etiqueta}</div></div>`;
     }
-    fetch("../www/datos/contrataciones-2026.json")
+    fetch("../www/datos/indicadores-gasto-2026.json")
       .then(r => r.json())
       .then(d => {
-        const conMonto = d.filter(x => !x.monto_nulo);
+        const conMonto = d.por_categoria || [];
         const total = conMonto.reduce((s, x) => s + x.monto, 0);
-        const prov = new Set(d.filter(x => x.proveedor).map(x => x.proveedor));
-        const cat = new Set(d.map(x => x.categoria));
         document.getElementById("metricas").innerHTML = [
-          cabecera("Procesos 2026", d.length),
-          cabecera("Monto adjudicado total", total),
-          cabecera("Proveedores distintos", prov.size),
-          cabecera("Categorías", cat.size),
+          n("Procesos 2026", d.procesos || 0),
+          n("Monto adjudicado", total || 0),
+          n("Proveedores distintos", d.proveedores_distintos || 0),
+          n("Entidades con datos", 1),
         ].join("");
       })
       .catch(e => { document.getElementById("metricas").innerHTML = `<div class="vacio">Error: ${e.message}</div>`; });
