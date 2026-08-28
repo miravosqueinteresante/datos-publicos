@@ -3,6 +3,7 @@
   "valor_estimado_total": 27970527337,
   "monto_adjudicado_total": 8727637800,
   "monto_contratado_total": 1027999400,
+  "proveedores_distintos": 6,
   "procesos_sin_adjudicacion": 29,
   "por_categoria": [
     {

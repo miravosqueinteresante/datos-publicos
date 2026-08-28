@@ -22,6 +22,7 @@ def calcular_indicadores(csv_texto):
     por_categoria = {}
     por_proveedor = {}
     por_tipo = {}
+    proveedores_distintos = set()
     valor_estimado_total = 0
     monto_adjudicado_total = 0
     monto_contratado_total = 0
@@ -42,6 +43,7 @@ def calcular_indicadores(csv_texto):
         prov = f.get("proveedor") or ""
         if prov:
             por_proveedor[prov] = por_proveedor.get(prov, 0) + ma
+            proveedores_distintos.add(prov)
         tipo = f.get("tipo_procedimiento") or "Sin tipo"
         por_tipo[tipo] = por_tipo.get(tipo, 0) + ma
     top_prov = sorted(por_proveedor.items(), key=lambda x: -x[1])[:10]
@@ -54,6 +56,7 @@ def calcular_indicadores(csv_texto):
         "valor_estimado_total": round(valor_estimado_total),
         "monto_adjudicado_total": round(monto_adjudicado_total),
         "monto_contratado_total": round(monto_contratado_total),
+        "proveedores_distintos": len(proveedores_distintos),
         "procesos_sin_adjudicacion": sin_adjudicacion,
         "por_categoria": [{"categoria": c, "monto": round(m)} for c, m in
                           sorted(por_categoria.items(), key=lambda x: -x[1])],
