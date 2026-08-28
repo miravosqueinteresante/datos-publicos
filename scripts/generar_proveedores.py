@@ -32,16 +32,16 @@ def calcular_top(csv_texto):
         if not p:
             continue
         try:
-            monto = float(r.get("monto") or 0)
+            monto = float(r.get("monto_adjudicado") or 0)
         except ValueError:
             monto = 0
         e = proveedores.setdefault(p, {
-            "montos": 0.0, "contratos": 0, "anios": set(),
+            "montos": 0.0, "adjudicaciones": 0, "anios": set(),
             "categorias": {}, "directo_monto": 0.0,
-            "contratos_lista": [],
+            "adjudicaciones_lista": [],
         })
         e["montos"] += monto
-        e["contratos"] += 1
+        e["adjudicaciones"] += 1
         anio = (r.get("fecha_adjudicacion") or "")[:4]
         e["anios"].add(anio)
         cat_es = categoria_es(r.get("categoria"))
@@ -49,7 +49,7 @@ def calcular_top(csv_texto):
         e["categorias"][cat] = e["categorias"].get(cat, 0) + monto
         if es_directo(r.get("tipo_procedimiento")):
             e["directo_monto"] += monto
-        e["contratos_lista"].append({
+        e["adjudicaciones_lista"].append({
             "objeto": r.get("objeto", ""),
             "anio": anio,
             "categoria": cat_es,
@@ -58,22 +58,25 @@ def calcular_top(csv_texto):
             "fecha": r.get("fecha_adjudicacion", ""),
             "url": r.get("url_muni", ""),
         })
+    total_adjudicado = sum(e["montos"] for e in proveedores.values())
     ranking = sorted(proveedores.items(), key=lambda kv: (-kv[1]["montos"], kv[0]))
     resultado = []
     for idx, (nombre, e) in enumerate(ranking[:10], start=1):
         cat_principal = max(e["categorias"], key=lambda k: e["categorias"][k]) if e["categorias"] else ""
         pct_directo = round(e["directo_monto"] / e["montos"] * 100, 1) if e["montos"] else 0
+        pct_adj = round(e["montos"] / total_adjudicado * 100, 1) if total_adjudicado else 0
         anios = sorted(a for a in e["anios"] if a)
         resultado.append({
             "proveedor": nombre,
             "posicion": idx,
             "monto_total": round(e["montos"], 2),
-            "contratos": e["contratos"],
+            "adjudicaciones": e["adjudicaciones"],
+            "pct_del_adjudicado": pct_adj,
             "anios_activos": len(anios),
             "anios": anios,
             "categoria_principal": cat_principal,
             "pct_directo": pct_directo,
-            "contratos_lista": e["contratos_lista"],
+            "adjudicaciones_lista": e["adjudicaciones_lista"],
         })
     return resultado
 
