@@ -2,10 +2,21 @@ import unittest
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 from dncp_contrataciones import es_de_asuncion
+from dncp_contrataciones import es_entidad_por_sicp
 from dncp_contrataciones import verificar_consistencia
-from dncp_contrataciones import anio_desde_args
+from dncp_contrataciones import anio_sicp_desde_args
 from dncp_contrataciones import mapear_fila
 from dncp_contrataciones import validar
+
+class TestEsEntidadPorSicp(unittest.TestCase):
+    def test_filtra_por_sicp_108(self):
+        fila = {"compiledRelease/buyer/id": "DNCP-SICP-CODE-108"}
+        self.assertTrue(es_entidad_por_sicp(fila, "108"))
+    def test_rechaza_otro_sicp(self):
+        fila = {"compiledRelease/buyer/id": "DNCP-SICP-CODE-226"}
+        self.assertFalse(es_entidad_por_sicp(fila, "108"))
+    def test_rechaza_sin_id(self):
+        self.assertFalse(es_entidad_por_sicp({}, "108"))
 
 class TestFiltrar(unittest.TestCase):
     def test_nombre_municipalidad(self):
@@ -95,14 +106,31 @@ class TestConsistencia(unittest.TestCase):
         ]
         ok, msg = verificar_consistencia(filas)
         self.assertFalse(ok)
+    def test_consistencia_otra_entidad(self):
+        filas = [
+            {"compiledRelease/buyer/name": "Universidad Nacional de Asunción", "compiledRelease/buyer/id": "DNCP-SICP-CODE-226"},
+            {"compiledRelease/buyer/name": "Universidad Nacional de Asunción", "compiledRelease/buyer/id": "DNCP-SICP-CODE-226"},
+            {"compiledRelease/buyer/name": "Ministerio de Salud", "compiledRelease/buyer/id": "DNCP-SICP-CODE-80"},
+        ]
+        ok, msg = verificar_consistencia(filas, sicp="226")
+        self.assertTrue(ok)
+        self.assertIn("2", msg)
 
 class TestAnioArgs(unittest.TestCase):
     def test_sin_args_default_2026(self):
-        self.assertEqual(anio_desde_args([]), "2026")
+        self.assertEqual(anio_sicp_desde_args([]), ("2026", "108"))
     def test_con_arg(self):
-        self.assertEqual(anio_desde_args(["dncp_contrataciones.py", "2024"]), "2024")
+        self.assertEqual(anio_sicp_desde_args(["dncp_contrataciones.py", "2024"]), ("2024", "108"))
     def test_arg_invalido_default(self):
-        self.assertEqual(anio_desde_args(["x.py", "abc"]), "2026")
+        self.assertEqual(anio_sicp_desde_args(["x.py", "abc"]), ("2026", "108"))
+
+class TestArgsSicp(unittest.TestCase):
+    def test_default_sicp_108(self):
+        self.assertEqual(anio_sicp_desde_args(["x.py", "2026"]), ("2026", "108"))
+    def test_con_sicp(self):
+        self.assertEqual(anio_sicp_desde_args(["x.py", "2024", "226"]), ("2024", "226"))
+    def test_con_sicp_solo(self):
+        self.assertEqual(anio_sicp_desde_args(["x.py", "2026", "999"]), ("2026", "999"))
 
 if __name__ == "__main__":
     unittest.main()

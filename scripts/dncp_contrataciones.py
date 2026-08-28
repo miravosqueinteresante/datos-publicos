@@ -5,6 +5,11 @@ def es_de_asuncion(texto):
     return "municipalidad de asuncion" in t
 
 
+def es_entidad_por_sicp(fila, sicp):
+    bid = (fila.get("compiledRelease/buyer/id") or "").strip()
+    return bid == f"DNCP-SICP-CODE-{sicp}"
+
+
 COLUMNAS_SALIDA = [
     "id", "objeto", "estado", "categoria", "tipo_procedimiento",
     "comprador", "proveedor", "monto", "moneda",
@@ -55,16 +60,24 @@ def validar(filas):
     return errores
 
 
-def verificar_consistencia(filas_records):
-    """Verifica que filtrar por nombre de comprador y por ID SICP de la Muni
-    produce el mismo conjunto de procesos (control de calidad interno)."""
-    por_nombre = [r for r in filas_records if es_de_asuncion(r.get("compiledRelease/buyer/name"))]
+def verificar_consistencia(filas_records, sicp="108"):
+    """Verifica consistencia entre ID SICP y nombre del comprador.
+
+    El cross-check por nombre aplica solo a la entidad activa (108, la Muni),
+    cuyo nombre se conoce. Para otras entidades (parametrizadas por SICP), la
+    verificación se hace por el ID (decisión: el ID es el primario robusto)."""
+    esperado = f"DNCP-SICP-CODE-{sicp}"
     por_id = [r for r in filas_records
-              if (r.get("compiledRelease/buyer/id") or "").strip() == "DNCP-SICP-CODE-108"]
-    iguales = len(por_nombre) == len(por_id) and not (
-        {r.get("compiledRelease/id") for r in por_nombre} ^
-        {r.get("compiledRelease/id") for r in por_id})
-    msg = f"por nombre: {len(por_nombre)} · por SICP 108: {len(por_id)}"
+              if (r.get("compiledRelease/buyer/id") or "").strip() == esperado]
+    if sicp == "108":
+        por_nombre = [r for r in filas_records if es_de_asuncion(r.get("compiledRelease/buyer/name"))]
+        iguales = len(por_id) == len(por_nombre) and not (
+            {r.get("compiledRelease/id") for r in por_id} ^
+            {r.get("compiledRelease/id") for r in por_nombre})
+        msg = f"por SICP {sicp}: {len(por_id)} · por nombre: {len(por_nombre)}"
+    else:
+        iguales = True
+        msg = f"por SICP {sicp}: {len(por_id)} · cross-check por nombre: solo entidad activa (108)"
     return iguales, msg
 
 
@@ -126,7 +139,7 @@ def indexar_contracts(rows):
     return out
 
 
-def main(anio="2026"):
+def main(anio="2026", sicp="108"):
     zip_path = descargar_zip(anio)
     print("Leyendo tablas ...")
     records = leer_tabla(zip_path, "records.csv")
@@ -134,30 +147,36 @@ def main(anio="2026"):
     suppliers = indexar_suppliers(leer_tabla(zip_path, "awa_suppliers.csv"))
     contracts = indexar_contracts(leer_tabla(zip_path, "contracts.csv"))
     print(f"Total procesos {anio}: {len(records)}")
-    ok, msg = verificar_consistencia(records)
+    ok, msg = verificar_consistencia(records, sicp)
     print(f"Verificación de consistencia: {msg} (estado: {'OK' if ok else 'ADVERTENCIA'})")
-    muni = [mapear_fila(f, awards, suppliers, contracts)
-            for f in records if es_de_asuncion(f.get("compiledRelease/buyer/name", ""))]
-    errores = validar(muni)
+    entidad = [mapear_fila(f, awards, suppliers, contracts)
+               for f in records if es_entidad_por_sicp(f, sicp)]
+    errores = validar(entidad)
     if errores:
         print(f"Advertencias: {len(errores)}")
         for e in errores[:10]:
             print("  -", e)
     os.makedirs(DATA_DIR, exist_ok=True)
-    out = os.path.join(DATA_DIR, f"contrataciones_muni_{anio}.csv")
+    sufijo = "muni" if sicp == "108" else f"ent{sicp}"
+    out = os.path.join(DATA_DIR, f"contrataciones_{sufijo}_{anio}.csv")
     with open(out, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=COLUMNAS_SALIDA)
         writer.writeheader()
-        writer.writerows(muni)
-    print(f"Procesos de la Muni {anio}: {len(muni)}")
+        writer.writerows(entidad)
+    print(f"Procesos entidad {sicp} {anio}: {len(entidad)}")
     print(f"Dataset escrito: {out}")
 
 
-def anio_desde_args(args):
+def anio_sicp_desde_args(args):
+    anio = "2026"
+    sicp = "108"
     if len(args) >= 2 and str(args[1]).isdigit():
-        return args[1]
-    return "2026"
+        anio = args[1]
+    if len(args) >= 3 and str(args[2]).isdigit():
+        sicp = args[2]
+    return anio, sicp
 
 
 if __name__ == "__main__":
-    main(anio_desde_args(sys.argv))
+    anio, sicp = anio_sicp_desde_args(sys.argv)
+    main(anio, sicp)
