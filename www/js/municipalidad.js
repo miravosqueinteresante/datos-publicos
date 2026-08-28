@@ -27,22 +27,22 @@ function barras(datos, etiquetaCampo, valorCampo) {
 }
 
 function renderSerie() {
-  const maxMonto = Math.max(...ANIOS.map(a => INDICADORES[a]?.monto_total || 0), 1);
+  const maxMonto = Math.max(...ANIOS.map(a => INDICADORES[a]?.monto_adjudicado_total || 0), 1);
   const filas = ANIOS.map(a => {
     const d = INDICADORES[a];
     if (!d) return `<tr><td>${a}</td><td colspan="4" class="vacio">sin datos</td></tr>`;
-    const pct = (d.monto_total / maxMonto) * 100;
+    const pct = (d.monto_adjudicado_total / maxMonto) * 100;
     return `<tr>
       <td><strong>${a}</strong></td>
       <td>${FMT.format(d.procesos || 0)}</td>
-      <td class="monto">${FMT.format(d.monto_total || 0)}</td>
+      <td class="monto">${FMT.format(d.monto_adjudicado_total || 0)}</td>
       <td>${FMT.format(d.proveedores_distintos || 0)}</td>
       <td><div class="barra-track" style="min-width:120px"><div class="barra" style="width:${Math.max(pct, 1)}%"></div></div></td>
     </tr>`;
   }).join("");
   document.getElementById("serie-anual").innerHTML = `
     <table>
-      <thead><tr><th>Año</th><th>Procesos</th><th>Monto (PYG)</th><th>Proveedores</th><th>Monto relativo</th></tr></thead>
+      <thead><tr><th>Año</th><th>Procesos</th><th>Monto adjudicado (PYG)</th><th>Proveedores</th><th>Monto relativo</th></tr></thead>
       <tbody>${filas}</tbody>
     </table>`;
 }
@@ -54,20 +54,22 @@ function renderDetalle(anio) {
   el.innerHTML = `
     <div class="metricas">
       <div class="metrica"><div class="valor">${FMT.format(d.procesos || 0)}</div><div class="etiqueta">Procesos</div></div>
-      <div class="metrica"><div class="valor">${FMT.format(d.monto_total || 0)}</div><div class="etiqueta">Monto adjudicado (PYG)</div></div>
-      <div class="metrica"><div class="valor">${FMT.format(d.proveedores_distintos || 0)}</div><div class="etiqueta">Proveedores distintos</div></div>
-    </div>`;
+      <div class="metrica"><div class="valor">${FMT.format(d.valor_estimado_total || 0)}</div><div class="etiqueta">Valor estimado (PYG)</div></div>
+      <div class="metrica"><div class="valor">${FMT.format(d.monto_adjudicado_total || 0)}</div><div class="etiqueta">Monto adjudicado (PYG)</div></div>
+      <div class="metrica"><div class="valor">${FMT.format(d.monto_contratado_total || 0)}</div><div class="etiqueta">Monto contratado (PYG)</div></div>
+    </div>
+    <p class="nota">Sin adjudicación registrada: ${FMT.format(d.procesos_sin_adjudicacion || 0)} procesos. El monto adjudicado suma solo las adjudicaciones; el valor estimado incluye también los procesos aún no adjudicados.</p>`;
   if (d.por_categoria && d.por_categoria.length) {
-    el.insertAdjacentHTML("beforeend", bloque("Distribución por categoría", "Dónde se concentra el monto", barras(d.por_categoria, "categoria", "monto")));
+    el.insertAdjacentHTML("beforeend", bloque("Distribución por categoría", "Monto adjudicado por categoría", barras(d.por_categoria, "categoria", "monto")));
   }
   if (d.por_tipo_procedimiento && d.por_tipo_procedimiento.length) {
-    el.insertAdjacentHTML("beforeend", bloque("¿Cómo se contrata?", "Monto por método de procedimiento", barras(d.por_tipo_procedimiento, "tipo", "monto")));
+    el.insertAdjacentHTML("beforeend", bloque("¿Cómo se contrata?", "Monto adjudicado por método de procedimiento", barras(d.por_tipo_procedimiento, "tipo", "monto")));
   }
   if (d.top_proveedores && d.top_proveedores.length) {
-    el.insertAdjacentHTML("beforeend", bloque("Concentración por proveedor", "Los mayores receptores",
-      `<div class="tabla-envolvente"><table><thead><tr><th>Proveedor</th><th>Monto (PYG)</th><th>% del total</th></tr></thead>
+    el.insertAdjacentHTML("beforeend", bloque("Concentración por proveedor", "Sobre el monto adjudicado total",
+      `<div class="tabla-envolvente"><table><thead><tr><th>Proveedor</th><th>Monto adjudicado (PYG)</th><th>% del adjudicado</th></tr></thead>
        <tbody>${d.top_proveedores.map((p, i) => {
-         const pct = (p.monto / d.monto_total) * 100;
+         const pct = (p.monto / d.monto_adjudicado_total) * 100;
          return `<tr><td><span class="rank">${i + 1}</span> ${p.proveedor}</td><td class="monto">${FMT.format(p.monto)}</td><td class="monto">${FMT2.format(pct)}%</td></tr>`;
        }).join("")}</tbody></table></div>`));
   }
