@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos PÃºblicos â€” Municipalidad de AsunciÃ³n</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav"><div class="nav-inner">
+    <span class="marca">Datos PÃºblicos</span>
+    <ul>
+      <li><a href="demo.html">Demo</a></li>
+      <li><a href="index.html" class="activo">Municipalidad</a></li>
+      <li><a href="datos.html">Datos</a></li>
+      <li><a href="metodologia.html">MetodologÃ­a</a></li>
+    </ul>
+    <span class="vision">ContrataciÃ³n pÃºblica de Paraguay Â· entidad por entidad</span>
+  </div></nav>
+
+  <header class="portada">
+    <h1>Municipalidad de AsunciÃ³n</h1>
+    <p class="subtitulo" id="subtitulo-entidad">Â¿CÃ³mo contrata la Municipalidad? Â· Entidad SICP 108</p>
+    <p class="meta" id="meta-entidad">Serie 2023-2026 Â· Fuente: DNCP (CC BY 4.0) Â· ContrataciÃ³n adjudicada, no presupuesto total</p>
+  </header>
+
+  <main>
+    <section class="ind-bloque" style="margin-bottom:1.25rem;">
+      <header class="ind-bloque-head">
+        <h2>Resumen del ejercicio</h2>
+        <p>ElegÃ­ el aÃ±o para ver sus indicadores:
+          <select id="sel-anio-muni">
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026" selected>2026</option>
+          </select>
+        </p>
+      </header>
+      <div class="ind-bloque-cuerpo" id="detalle-anual">
+        <p class="vacio">Cargando datosâ€¦</p>
+      </div>
+    </section>
+
+    <section class="ind-bloque" style="margin-bottom:1.25rem;">
+      <header class="ind-bloque-head">
+        <h2>EvoluciÃ³n por aÃ±o</h2>
+        <p>ContrataciÃ³n adjudicada de la Municipalidad de AsunciÃ³n, 2023-2026</p>
+      </header>
+      <div class="ind-bloque-cuerpo">
+        <div class="tabla-envolvente" id="serie-anual"></div>
+      </div>
+    </section>
+
+    <section class="ind-bloque" style="margin-bottom:1.25rem;">
+      <header class="ind-bloque-head">
+        <h2>Principales proveedores de la Muni</h2>
+        <p>Top 10 por monto acumulado 2023-2026 Â· clic en cada proveedor para su detalle</p>
+      </header>
+      <div class="ind-bloque-cuerpo" id="fichas-proveedores">
+        <p class="vacio">Cargando proveedoresâ€¦</p>
+      </div>
+    </section>
+
+    <section class="seccion nota">
+      <h2>MetodologÃ­a y limitaciones</h2>
+      <p>Indicadores sobre <strong>contrataciÃ³n adjudicada</strong> de la Municipalidad de AsunciÃ³n (convocante SICP 108),
+      serie 2023-2026. Fuente: DNCP â€” Portal de Datos Abiertos (CC BY 4.0), patrones Open Contracting Partnership (OCP).
+      Los procesos sin proveedor son llamados sin adjudicaciÃ³n registrada en el conjunto del aÃ±o.
+      Ver <a href="metodologia.html">MetodologÃ­a</a> para trazabilidad y brechas.</p>
+    </section>
+  </main>
+  <footer>Datos PÃºblicos â€” plataforma de infraestructura cÃ­vica</footer>
+  <script src="js/index.js"></script>
+</body>
+</html>
