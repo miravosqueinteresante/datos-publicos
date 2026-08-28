@@ -8,6 +8,13 @@ WEB_DATOS = os.path.join(ROOT, "www", "datos")
 ANIOS = ["2023", "2024", "2025", "2026"]
 
 
+CATEGORIAS_ES = {"goods": "Bienes", "services": "Servicios", "works": "Obras"}
+
+
+def categoria_es(crudo):
+    return CATEGORIAS_ES.get(crudo or "", crudo or "")
+
+
 def es_directo(tipo):
     """True cuando el procedimiento NO es licitación pública (menor cuantía,
     directa, excepción, CVE...). 'Licitación Pública Nacional' es el único abierto."""
@@ -37,14 +44,15 @@ def calcular_top(csv_texto):
         e["contratos"] += 1
         anio = (r.get("fecha_adjudicacion") or "")[:4]
         e["anios"].add(anio)
-        cat = r.get("categoria") or "Sin categoría"
+        cat_es = categoria_es(r.get("categoria"))
+        cat = cat_es or "Sin categoría"
         e["categorias"][cat] = e["categorias"].get(cat, 0) + monto
         if es_directo(r.get("tipo_procedimiento")):
             e["directo_monto"] += monto
         e["contratos_lista"].append({
             "objeto": r.get("objeto", ""),
             "anio": anio,
-            "categoria": cat,
+            "categoria": cat_es,
             "monto": monto,
             "procedimiento": r.get("tipo_procedimiento", ""),
             "fecha": r.get("fecha_adjudicacion", ""),

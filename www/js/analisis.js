@@ -60,7 +60,7 @@ function renderFichas(lista) {
           <div class="metrica"><div class="valor">${FMT.format(p.monto_total)}</div><div class="etiqueta">Monto total</div></div>
           <div class="metrica"><div class="valor">${p.contratos}</div><div class="etiqueta">Contratos</div></div>
           <div class="metrica"><div class="valor">${p.anios_activos}</div><div class="etiqueta">Años activos</div></div>
-          <div class="metrica"><div class="valor">${p.categoria_principal || "—"}</div><div class="etiqueta">Categoría pral.</div></div>
+          <div class="metrica"><div class="valor">${p.categoria_principal || "—"}</div><div class="etiqueta">Categoría principal</div></div>
           <div class="metrica"><div class="valor">${FMT2.format(p.pct_directo)}%</div><div class="etiqueta">Por vía directa</div></div>
         </div>
         <h4>Contratos</h4>
