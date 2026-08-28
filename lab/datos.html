@@ -18,44 +18,25 @@
 
   <header class="portada">
     <h1>Datos</h1>
-    <p class="subtitulo">Datasets de contratación pública por entidad y año</p>
+    <p class="subtitulo">Serie temporal de contratación de la Municipalidad de Asunción (2023-2026)</p>
   </header>
 
   <main>
     <section class="seccion">
-      <h2>contrataciones_muni_2026</h2>
-      <p>Contrataciones de la Municipalidad de Asunción, 2026 (DNCP).</p>
-      <table>
-        <thead><tr><th>Atributo</th><th>Valor</th></tr></thead>
-        <tbody>
-          <tr><td>Ruta</td><td><code>data/contrataciones_muni_2026.csv</code></td></tr>
-          <tr><td>Web JSON</td><td><code>www/datos/contrataciones-2026.json</code></td></tr>
-          <tr><td>Formato</td><td>CSV plano · JSON</td></tr>
-          <tr><td>Licencia</td><td>CC BY 4.0</td></tr>
-          <tr><td>Actualización</td><td>Mensual (GitHub Actions)</td></tr>
-          <tr><td>Registros</td><td>36 (última corrida)</td></tr>
-          <tr><td>Estado</td><td><span class="badge-exito">disponible</span></td></tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section class="seccion">
-      <h2>contrataciones_muni_2024</h2>
-      <p>Contrataciones de la Municipalidad de Asunción, 2024 (DNCP).</p>
-      <table>
-        <thead><tr><th>Atributo</th><th>Valor</th></tr></thead>
-        <tbody>
-          <tr><td>Ruta</td><td><code>data/contrataciones_muni_2024.csv</code></td></tr>
-          <tr><td>Web JSON</td><td><code>www/datos/contrataciones-2024.json</code></td></tr>
-          <tr><td>Formato</td><td>CSV plano · JSON</td></tr>
-          <tr><td>Licencia</td><td>CC BY 4.0</td></tr>
-          <tr><td>Registros</td><td>28</td></tr>
-          <tr><td>Estado</td><td><span class="badge-exito">disponible</span></td></tr>
-        </tbody>
-      </table>
-      <p class="nota">El motor es parametrizable por año (<code>python scripts/dncp_contrataciones.py 2024</code>). La entidad
-      hoy está fijada a la Municipalidad de Asunción (SICP 108) por nombre; la parametrización por SICP (multi-entidad)
-      es el siguiente paso del motor.</p>
+      <h2>Datasets de contratación (Muni, SICP 108)</h2>
+      <p>Serie temporal de procesos de contratación de la Municipalidad de Asunción, por ejercicio. Fuente: DNCP (CC BY 4.0).</p>
+      <div class="tabla-envolvente">
+        <table>
+          <thead><tr><th>Año</th><th>Procesos</th><th>Ruta CSV</th><th>Web JSON</th><th>Estado</th></tr></thead>
+          <tbody>
+            <tr><td>2023</td><td>350</td><td><code>data/contrataciones_muni_2023.csv</code></td><td><code>contrataciones-2023.json</code></td><td><span class="badge-exito">disponible</span></td></tr>
+            <tr><td>2024</td><td>100</td><td><code>data/contrataciones_muni_2024.csv</code></td><td><code>contrataciones-2024.json</code></td><td><span class="badge-exito">disponible</span></td></tr>
+            <tr><td>2025</td><td>99</td><td><code>data/contrataciones_muni_2025.csv</code></td><td><code>contrataciones-2025.json</code></td><td><span class="badge-exito">disponible</span></td></tr>
+            <tr><td>2026</td><td>70</td><td><code>data/contrataciones_muni_2026.csv</code></td><td><code>contrataciones-2026.json</code></td><td><span class="badge-exito">disponible</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="nota">Actualizado 27-ago-2026 tras corregir el parsing CSV (conteos reales). Indicadores por año en <code>www/datos/indicadores-gasto-{año}.json</code>.</p>
     </section>
   </main>
   <footer>Datos Públicos · Lab — cómo funciona el sistema</footer>
