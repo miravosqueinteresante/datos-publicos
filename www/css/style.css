@@ -148,6 +148,19 @@ footer { max-width: 1080px; margin: 2rem auto 1rem; padding: 0 1rem; font-size: 
 .det-sub { margin: 0 0 .9rem; font-size: .88rem; color: var(--texto-suave); }
 .det-cuerpo .metricas { margin-bottom: 1rem; }
 
+/* Fichas de proveedores */
+.fichas-grid { display: flex; flex-direction: column; gap: .6rem; }
+.ficha { border: 1px solid var(--borde); border-radius: 10px; background: #fbfcfe; overflow: hidden; }
+.ficha summary {
+  padding: .9rem 1.1rem; cursor: pointer; list-style: none;
+  display: flex; align-items: center; gap: .7rem; flex-wrap: wrap;
+}
+.ficha summary::-webkit-details-marker { display: none; }
+.ficha summary:hover { background: var(--primario-suave); }
+.ficha-resumen { margin-left: auto; font-size: .85rem; color: var(--texto-suave); }
+.ficha-detalle { padding: .75rem 1.1rem 1.2rem; border-top: 1px solid var(--borde); }
+.ficha-detalle h4 { margin: 1rem 0 .5rem; font-size: .95rem; }
+
 /* Ranking de proveedores */
 .rank {
   display: inline-flex; align-items: center; justify-content: center;
