@@ -146,6 +146,12 @@ footer { max-width: 1080px; margin: 2rem auto 1rem; padding: 0 1rem; font-size: 
 .det-sub { margin: 0 0 .9rem; font-size: .88rem; color: var(--texto-suave); }
 .det-cuerpo .metricas { margin-bottom: 1rem; }
 
+/* Paginación */
+.paginacion { display: flex; align-items: center; gap: .75rem; justify-content: center; margin-top: 1rem; font-size: .9rem; color: var(--texto-suave); }
+.paginacion button { padding: .45rem .9rem; border: 1px solid var(--borde); border-radius: 8px; background: #fff; cursor: pointer; font: inherit; }
+.paginacion button:disabled { opacity: .5; cursor: default; }
+.paginacion .pag-info { font-variant-numeric: tabular-nums; }
+
 /* Fichas de proveedores */
 .fichas-grid { display: flex; flex-direction: column; gap: .6rem; }
 .ficha { border: 1px solid var(--borde); border-radius: 10px; background: #fbfcfe; overflow: hidden; }

@@ -81,24 +81,40 @@ function normalizar(texto) {
 }
 
 let CONTRATOS = [];
+let PAGINA = 1;
+const POR_PAGINA = 10;
 
 async function renderContratos(anio) {
   try { CONTRATOS = await (await fetch(`datos/contrataciones-${anio}.json`)).json(); }
   catch { CONTRATOS = []; }
+  PAGINA = 1;
   renderTabla();
 }
 
 function renderTabla() {
   const q = normalizar(document.getElementById("busqueda").value);
   const cat = document.getElementById("filtro-categoria").value;
-  const filas = CONTRATOS.filter(d =>
+  const filtradas = CONTRATOS.filter(d =>
     (!cat || d.categoria === cat) &&
     (!q || normalizar(d.objeto + " " + (d.proveedor || "")).includes(q))
   );
+  const total = filtradas.length;
+  const paginas = Math.max(1, Math.ceil(total / POR_PAGINA));
+  if (PAGINA > paginas) PAGINA = paginas;
+  const inicio = (PAGINA - 1) * POR_PAGINA;
+  const visibles = filtradas.slice(inicio, inicio + POR_PAGINA);
   const tbody = document.querySelector("#tabla tbody");
-  tbody.innerHTML = filas.length === 0
+  tbody.innerHTML = visibles.length === 0
     ? "<tr><td colspan='7' class='vacio'>Sin resultados</td></tr>"
-    : filas.map(filaContrato).join("");
+    : visibles.map(filaContrato).join("");
+  const nav = document.getElementById("paginacion");
+  if (total <= POR_PAGINA) { nav.innerHTML = ""; return; }
+  const desde = inicio + 1;
+  const hasta = Math.min(inicio + POR_PAGINA, total);
+  nav.innerHTML = `
+    <button id="pag-prev" ${PAGINA === 1 ? "disabled" : ""}>Anterior</button>
+    <span class="pag-info">Mostrando ${desde}–${hasta} de ${total}</span>
+    <button id="pag-next" ${PAGINA === paginas ? "disabled" : ""}>Siguiente</button>`;
 }
 
 function filaContrato(d) {
@@ -121,8 +137,12 @@ async function init() {
   renderContratos("2026");
   const sel = document.getElementById("sel-anio-muni");
   sel.addEventListener("change", e => { renderDetalle(e.target.value); renderContratos(e.target.value); });
-  document.getElementById("busqueda").addEventListener("input", renderTabla);
-  document.getElementById("filtro-categoria").addEventListener("change", renderTabla);
+  document.getElementById("busqueda").addEventListener("input", () => { PAGINA = 1; renderTabla(); });
+  document.getElementById("filtro-categoria").addEventListener("change", () => { PAGINA = 1; renderTabla(); });
+  document.getElementById("paginacion").addEventListener("click", e => {
+    if (e.target.id === "pag-prev" && PAGINA > 1) { PAGINA--; renderTabla(); }
+    if (e.target.id === "pag-next") { PAGINA++; renderTabla(); }
+  });
 }
 
 init().catch(e => {
