@@ -1,92 +1,84 @@
 {
-  "procesos": 350,
-  "monto_total": 215308446752.0,
-  "proveedores_distintos": 80,
-  "procesos_sin_proveedor": 250,
+  "procesos": 84,
+  "monto_total": 45517470660.0,
+  "proveedores_distintos": 60,
+  "procesos_sin_proveedor": 12,
   "por_categoria": [
     {
       "categoria": "Bienes",
-      "monto": 138435086212.0
+      "monto": 33632452769.0
     },
     {
       "categoria": "Servicios",
-      "monto": 54037910338.0
+      "monto": 10086202490.0
     },
     {
       "categoria": "Obras",
-      "monto": 22835450202.0
-    },
-    {
-      "categoria": "Sin categoría",
-      "monto": 0.0
+      "monto": 1798815401.0
     }
   ],
   "por_tipo_procedimiento": [
     {
       "tipo": "Licitación Pública Nacional",
-      "monto": 122320402949.0
+      "monto": 28142244953.0
     },
     {
       "tipo": "Contratación por Excepción",
-      "monto": 78228104467.0
+      "monto": 7959291145.0
     },
     {
       "tipo": "Contratación Directa",
-      "monto": 10724535810.0
+      "monto": 7095093036.0
     },
     {
       "tipo": "Concurso de Ofertas",
-      "monto": 3278723526.0
+      "monto": 1783716526.0
     },
     {
       "tipo": "Locación de Inmuebles",
-      "monto": 756680000.0
-    },
-    {
-      "tipo": "Sin tipo",
-      "monto": 0.0
+      "monto": 537125000.0
     }
   ],
   "top_proveedores": [
     {
-      "proveedor": "RAIZEN PARAGUAY SOCIEDAD ANONIMA",
-      "monto": 53697593060.0
-    },
-    {
-      "proveedor": "Consorcio de Gestión Integral de Residuos",
-      "monto": 24000000000.0
-    },
-    {
       "proveedor": "COMPAÑIA DE PETROLEO Y ASFALTO S.A. (COMPASA)",
       "monto": 13591200000.0
-    },
-    {
-      "proveedor": "TECNOLOGIA DEL SUR S.A.E.",
-      "monto": 8999419477.0
-    },
-    {
-      "proveedor": "CONSORCIO CPV ",
-      "monto": 8980573300.0
-    },
-    {
-      "proveedor": "COASEGURO ASEGURADORA YACYRETA S.A./ ASEGURADORA PARAGUAYA S.A.E.C.A./PATRIA S.A. DE SEGUROS",
-      "monto": 8452446021.0
-    },
-    {
-      "proveedor": "BERNARDA GONZALEZ MORINIGO",
-      "monto": 7048385040.0
     },
     {
       "proveedor": "RODRIGUEZ HNOS S.A.E.C.A",
       "monto": 6705101552.0
     },
     {
-      "proveedor": "VEGA S.A.",
-      "monto": 4568983200.0
+      "proveedor": "Consorcio Terminal",
+      "monto": 3489505831.0
+    },
+    {
+      "proveedor": "Cesar Ortiz Baez",
+      "monto": 3000000000.0
+    },
+    {
+      "proveedor": "CONTROL S.A.",
+      "monto": 1558912688.0
+    },
+    {
+      "proveedor": "JOSE ARNALDO PEREIRA CARDENA",
+      "monto": 1461394000.0
+    },
+    {
+      "proveedor": "TECO SOCIEDAD DE RESPONSABILIDAD LIMITADA ",
+      "monto": 1454915401.0
+    },
+    {
+      "proveedor": "PROYEC S.A.E",
+      "monto": 1234000000.0
     },
     {
       "proveedor": "ORTELLADO TONIOLO  S.A.",
-      "monto": 3748275000.0
+      "monto": 1128000000.0
+    },
+    {
+      "proveedor": "PUERTOS Y ESTIBAJES S.A. ",
+      "monto": 1045007704.0
     }
   ]
 }

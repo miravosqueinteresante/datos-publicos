@@ -1,88 +1,52 @@
 {
-  "procesos": 70,
-  "monto_total": 293752696633.0,
-  "proveedores_distintos": 34,
-  "procesos_sin_proveedor": 33,
+  "procesos": 35,
+  "monto_total": 19480003933.0,
+  "proveedores_distintos": 6,
+  "procesos_sin_proveedor": 29,
   "por_categoria": [
     {
-      "categoria": "Obras",
-      "monto": 165934054768.0
+      "categoria": "Servicios",
+      "monto": 13134602183.0
     },
     {
       "categoria": "Bienes",
-      "monto": 108445313195.0
-    },
-    {
-      "categoria": "Servicios",
-      "monto": 19373328670.0
+      "monto": 6345401750.0
     }
   ],
   "por_tipo_procedimiento": [
-    {
-      "tipo": "Licitación Pública Nacional",
-      "monto": 268422136713.0
-    },
     {
       "tipo": "CVE con difusión previa",
       "monto": 11462000000.0
     },
     {
       "tipo": "Menor cuantía nacional",
-      "monto": 10408012247.0
-    },
-    {
-      "tipo": "Contratación por Excepción",
-      "monto": 2368718173.0
-    },
-    {
-      "tipo": "Concurso de Ofertas",
-      "monto": 650000000.0
-    },
-    {
-      "tipo": "Contratación Directa",
-      "monto": 441829500.0
+      "monto": 8018003933.0
     }
   ],
   "top_proveedores": [
-    {
-      "proveedor": "PETROLEOS DEL SUR S.A.",
-      "monto": 68357991829.0
-    },
-    {
-      "proveedor": "Consorcio CCC-TECSUL",
-      "monto": 64777837460.0
-    },
-    {
-      "proveedor": "TECO SOCIEDAD DE RESPONSABILIDAD LIMITADA ",
-      "monto": 42305412809.0
-    },
-    {
-      "proveedor": "TECNOLOGIA DEL SUR S.A.E.",
-      "monto": 31176244418.0
-    },
-    {
-      "proveedor": "COMPAÑIA DE PETROLEO Y ASFALTO S.A. (COMPASA)",
-      "monto": 10548000000.0
-    },
     {
       "proveedor": "CATHAY S.A.E",
       "monto": 7462000000.0
     },
     {
-      "proveedor": "OSCAR MOREL OSES",
-      "monto": 7325262000.0
+      "proveedor": "WINNER S. R. L.",
+      "monto": 556314500.0
     },
     {
-      "proveedor": "CONSTRUCTORA ISACIO VALLEJOS S.A.",
-      "monto": 7000000000.0
+      "proveedor": "Corporation Sekiura S.A.C.E.I",
+      "monto": 444900000.0
     },
     {
-      "proveedor": "VEGA S.A.",
-      "monto": 6884160000.0
+      "proveedor": "LOCALIZA PARAGUAY S.A.",
+      "monto": 165600000.0
     },
     {
-      "proveedor": "PATRIA S.A DE SEGUROS Y REASEGUROS",
-      "monto": 5343080786.0
+      "proveedor": "Laura Griselda Sosa Rios",
+      "monto": 72038400.0
+    },
+    {
+      "proveedor": "EMPORIO FERRETERIA S.R.L.",
+      "monto": 26784900.0
     }
   ]
 }

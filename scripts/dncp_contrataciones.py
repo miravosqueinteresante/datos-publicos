@@ -10,6 +10,32 @@ def es_entidad_por_sicp(fila, sicp):
     return bid == f"DNCP-SICP-CODE-{sicp}"
 
 
+def es_del_anio(fila, anio):
+    """Filtra por año real de adjudicación o publicación del proceso."""
+    for campo in ("fecha_adjudicacion", "fecha_publicacion", "fecha_contrato"):
+        fecha = fila.get(campo) or ""
+        if fecha and fecha[:4] == anio:
+            return True
+    return False
+
+
+def es_registro_valido(fila):
+    """Excluye placeholders: sin objeto, sin monto, o URL que apunta a planned.html."""
+    objeto = fila.get("objeto") or ""
+    monto = fila.get("monto") or "0"
+    url = fila.get("url_muni") or ""
+    if not objeto.strip():
+        return False
+    try:
+        if float(monto) == 0:
+            return False
+    except ValueError:
+        return False
+    if "planned.html" in url:
+        return False
+    return True
+
+
 COLUMNAS_SALIDA = [
     "id", "objeto", "estado", "categoria", "tipo_procedimiento",
     "comprador", "proveedor", "monto", "moneda",
@@ -162,6 +188,8 @@ def main(anio="2026", sicp="108"):
     print(f"Verificación de consistencia: {msg} (estado: {'OK' if ok else 'ADVERTENCIA'})")
     entidad = [mapear_fila(f, awards, suppliers, contracts)
                for f in records if es_entidad_por_sicp(f, sicp)]
+    entidad = [f for f in entidad if es_del_anio(f, anio)]
+    entidad = [f for f in entidad if es_registro_valido(f)]
     errores = validar(entidad)
     if errores:
         print(f"Advertencias: {len(errores)}")
@@ -174,7 +202,7 @@ def main(anio="2026", sicp="108"):
         writer = csv.DictWriter(f, fieldnames=COLUMNAS_SALIDA)
         writer.writeheader()
         writer.writerows(entidad)
-    print(f"Procesos entidad {sicp} {anio}: {len(entidad)}")
+    print(f"Procesos entidad {sicp} {anio} (válidos): {len(entidad)}")
     print(f"Dataset escrito: {out}")
 
 

@@ -1,38 +1,26 @@
 {
-  "procesos": 100,
-  "monto_total": 100725887172.0,
-  "proveedores_distintos": 51,
-  "procesos_sin_proveedor": 37,
+  "procesos": 46,
+  "monto_total": 27714862389.0,
+  "proveedores_distintos": 30,
+  "procesos_sin_proveedor": 10,
   "por_categoria": [
     {
-      "categoria": "Servicios",
-      "monto": 35469404509.0
+      "categoria": "Bienes",
+      "monto": 15110329856.0
     },
     {
-      "categoria": "Bienes",
-      "monto": 33133419721.0
+      "categoria": "Servicios",
+      "monto": 12056151269.0
     },
     {
       "categoria": "Obras",
-      "monto": 32123062942.0
-    },
-    {
-      "categoria": "Sin categoría",
-      "monto": 0.0
+      "monto": 548381264.0
     }
   ],
   "por_tipo_procedimiento": [
     {
       "tipo": "Licitación Pública Nacional",
-      "monto": 77224009347.0
-    },
-    {
-      "tipo": "Contratación por Excepción",
-      "monto": 6924927199.0
-    },
-    {
-      "tipo": "Contratación Directa",
-      "monto": 5692884025.0
+      "monto": 12323635765.0
     },
     {
       "tipo": "CVE con difusión previa",
@@ -40,41 +28,25 @@
     },
     {
       "tipo": "Concurso de Ofertas",
-      "monto": 4310134903.0
+      "monto": 3365669563.0
+    },
+    {
+      "tipo": "Contratación por Excepción",
+      "monto": 2974099417.0
+    },
+    {
+      "tipo": "Contratación Directa",
+      "monto": 2519525946.0
     },
     {
       "tipo": "Menor cuantía nacional",
       "monto": 1359857778.0
-    },
-    {
-      "tipo": "Locación de Inmuebles",
-      "monto": 42000000.0
-    },
-    {
-      "tipo": "Sin tipo",
-      "monto": 0.0
     }
   ],
   "top_proveedores": [
     {
       "proveedor": "BERNARDA GONZALEZ MORINIGO",
-      "monto": 18799970184.0
-    },
-    {
-      "proveedor": "CONSORCIO SAJONIA",
-      "monto": 12023653510.0
-    },
-    {
-      "proveedor": "CONSORCIOR NUEVA ESPERANZA",
-      "monto": 9343268057.0
-    },
-    {
-      "proveedor": "PRESTIGIO DEL SUR S.R.L",
-      "monto": 6388392000.0
-    },
-    {
-      "proveedor": "CONSORCIO SEÑALIZACION CENTRAL",
-      "monto": 5797610834.0
+      "monto": 4991162184.0
     },
     {
       "proveedor": "PROYEC S.A.E",
@@ -85,16 +57,32 @@
       "monto": 3456800000.0
     },
     {
-      "proveedor": "ARTES GRAFICAS ZAMPHIROPOLOS SA",
-      "monto": 2766552260.0
+      "proveedor": "ASEGURADORA YACYRETA S.A. DE SEGUROS",
+      "monto": 1109232613.0
     },
     {
-      "proveedor": "APONTE LATORRE SOCIEDAD ANONIMA",
-      "monto": 2224630250.0
+      "proveedor": "ASEGURADORA TAJY PROPIEDAD COOPERATIVA S.A. DE SEGUROS ",
+      "monto": 823576467.0
     },
     {
-      "proveedor": "CMH S.A.",
-      "monto": 2141734759.0
+      "proveedor": "RODOMAQ S.A",
+      "monto": 807500000.0
+    },
+    {
+      "proveedor": "RIEDER Y CIA. SACI",
+      "monto": 605000000.0
+    },
+    {
+      "proveedor": "CARLOS ALBERTO PERALES ORTELLADO",
+      "monto": 523330400.0
+    },
+    {
+      "proveedor": "SIMON RECALDE ROMERO",
+      "monto": 396500000.0
+    },
+    {
+      "proveedor": "AUTOMOTIVE SA IMPORTADORA Y EXPORTADORA",
+      "monto": 337000000.0
     }
   ]
 }

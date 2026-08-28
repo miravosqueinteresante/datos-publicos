@@ -35,7 +35,7 @@ Método: investigación directa del portal DNCP (12 fetches verificados, docs `r
 | Componente | Detalle |
 |---|---|
 | **Motor multi-entidad** | `dncp_contrataciones.py` (SICP+año), 43 tests, automatizado (GitHub Actions mensual+manual) |
-| **Serie temporal por entidad** | Contrataciones de la Muni 2023-2026 (350/100/99/70) → CSV + JSON + indicadores por año |
+| **Serie temporal por entidad** | Contrataciones de la Muni 2023-2026 (84/46/32/35, filtradas por año real y sin placeholders) → CSV + JSON + indicadores por año |
 | **Indicadores de contratación** | Distribución por categoría, % por procedimiento, concentración por proveedor, evolución anual |
 | **Fichas de proveedores** | Top 10 por monto: métricas (total, contratos, años, categoría, % directo) + lista de contratos |
 | **Web ciudadana** | Demo · Explorar (selector de año) · Análisis (evolución + detalle por año + fichas) · Datos · Metodología |
