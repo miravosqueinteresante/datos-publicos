@@ -17,6 +17,8 @@
 
 **Regla de alcance (decidida tras el pivot):** el proyecto solo consume fuentes que publican datos abiertos limpios, sin romper la página (sin captchas, sin OCR de PDFs corruptos, sin ingeniería inversa del SPA). Lo que no se obtiene limpio se documenta como **brecha de la institución**, no se fuerza.
 
+> **Conteos:** el número de registros por año se genera automáticamente en `data/metadata_{anio}.json` y es la única fuente de verdad. No se escribe a mano en este documento.
+
 ---
 
 ## La fuente DNCP
@@ -40,7 +42,7 @@
 
 | Dataset | Año | Registros | Estado |
 |---|---|---|---|
-| `data/contrataciones_muni_2026.csv` | 2026 | 36 | ✅ |
+| `data/contrataciones_muni_2026.csv` | 2026 | 35 | ✅ |
 | `data/contrataciones_muni_2024.csv` | 2024 | 28 | ✅ |
 
 ---
