@@ -1,0 +1,88 @@
+{
+  "procesos": 82,
+  "monto_total": 77705666851.0,
+  "proveedores_distintos": 25,
+  "procesos_sin_proveedor": 51,
+  "por_categoria": [
+    {
+      "categoria": "Bienes",
+      "monto": 59618244876.0
+    },
+    {
+      "categoria": "Servicios",
+      "monto": 18087421975.0
+    },
+    {
+      "categoria": "Sin categoría",
+      "monto": 0.0
+    }
+  ],
+  "por_tipo_procedimiento": [
+    {
+      "tipo": "Licitación Pública Nacional",
+      "monto": 65709067995.0
+    },
+    {
+      "tipo": "Contratación por Excepción",
+      "monto": 6961237450.0
+    },
+    {
+      "tipo": "Contratación Directa",
+      "monto": 2520107880.0
+    },
+    {
+      "tipo": "Concurso de Ofertas",
+      "monto": 1758573526.0
+    },
+    {
+      "tipo": "Locación de Inmuebles",
+      "monto": 756680000.0
+    },
+    {
+      "tipo": "Sin tipo",
+      "monto": 0.0
+    }
+  ],
+  "top_proveedores": [
+    {
+      "proveedor": "RAIZEN PARAGUAY SOCIEDAD ANONIMA",
+      "monto": 53697593060.0
+    },
+    {
+      "proveedor": "COASEGURO ASEGURADORA YACYRETA S.A./ ASEGURADORA PARAGUAYA S.A.E.C.A./PATRIA S.A. DE SEGUROS",
+      "monto": 8452446021.0
+    },
+    {
+      "proveedor": "BERNARDA GONZALEZ MORINIGO",
+      "monto": 6878885040.0
+    },
+    {
+      "proveedor": "PRESTIGIO DEL SUR S.R.L",
+      "monto": 2114000000.0
+    },
+    {
+      "proveedor": "JOSE ARNALDO PEREIRA CARDENA",
+      "monto": 1754174000.0
+    },
+    {
+      "proveedor": "CARLOS RUBEN LOPEZ AREVALO",
+      "monto": 650000000.0
+    },
+    {
+      "proveedor": "ASEGURADORA TAJY PROPIEDAD COOPERATIVA S.A. DE SEGUROS ",
+      "monto": 586000914.0
+    },
+    {
+      "proveedor": "MARILIA INDUSTRIAL SRL",
+      "monto": 363927690.0
+    },
+    {
+      "proveedor": "COOPERATIVA COLONIAS UNIDAS AGROPECUARIA IND. LTDA.",
+      "monto": 279160000.0
+    },
+    {
+      "proveedor": "SAN PEDRO EMPRENDIMIENTO S.A",
+      "monto": 252525000.0
+    }
+  ]
+}

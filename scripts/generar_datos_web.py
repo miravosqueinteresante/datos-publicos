@@ -61,7 +61,7 @@ def generar_contrataciones(anio):
 
 
 def main():
-    for anio in ["2024", "2026"]:
+    for anio in ["2023", "2024", "2025", "2026"]:
         generar_contrataciones(anio)
 
 

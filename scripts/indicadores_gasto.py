@@ -2,10 +2,7 @@ import csv
 import json
 import os
 
-RUTA_CSV = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                        "data", "contrataciones_muni_2026.csv")
-RUTA_JSON = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                         "www", "datos", "indicadores-gasto-2026.json")
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def _traducir_categoria(c):
@@ -50,14 +47,25 @@ def calcular_indicadores(csv_texto):
     }
 
 
+def _rutas(anio):
+    csv_ruta = os.path.join(ROOT_DIR, "data", f"contrataciones_muni_{anio}.csv")
+    json_ruta = os.path.join(ROOT_DIR, "www", "datos", f"indicadores-gasto-{anio}.json")
+    return csv_ruta, json_ruta
+
+
 def main():
-    with open(RUTA_CSV, encoding="utf-8") as f:
-        ind = calcular_indicadores(f.read())
-    os.makedirs(os.path.dirname(RUTA_JSON), exist_ok=True)
-    with open(RUTA_JSON, "w", encoding="utf-8") as f:
-        json.dump(ind, f, ensure_ascii=False, indent=2)
-    print(f"Indicadores generados: {ind['procesos']} procesos, "
-          f"{ind['monto_total']:.0f} PYG total")
+    for anio in ["2023", "2024", "2025", "2026"]:
+        csv_ruta, json_ruta = _rutas(anio)
+        if not os.path.exists(csv_ruta):
+            print(f"[indicadores {anio}] no existe {csv_ruta}, omitido")
+            continue
+        with open(csv_ruta, encoding="utf-8") as f:
+            ind = calcular_indicadores(f.read())
+        os.makedirs(os.path.dirname(json_ruta), exist_ok=True)
+        with open(json_ruta, "w", encoding="utf-8") as f:
+            json.dump(ind, f, ensure_ascii=False, indent=2)
+        print(f"Indicadores {anio}: {ind['procesos']} procesos, "
+              f"{ind['monto_total']:.0f} PYG total")
 
 
 if __name__ == "__main__":
