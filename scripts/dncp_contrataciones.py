@@ -20,14 +20,14 @@ def es_del_anio(fila, anio):
 
 
 def es_registro_valido(fila):
-    """Excluye placeholders: sin objeto, sin monto, o URL que apunta a planned.html."""
+    """Excluye placeholders: sin objeto, sin valor estimado, o URL planned.html."""
     objeto = fila.get("objeto") or ""
-    monto = fila.get("monto") or "0"
+    ve = fila.get("valor_estimado") or "0"
     url = fila.get("url_muni") or ""
     if not objeto.strip():
         return False
     try:
-        if float(monto) == 0:
+        if float(ve) == 0:
             return False
     except ValueError:
         return False
@@ -37,8 +37,9 @@ def es_registro_valido(fila):
 
 
 COLUMNAS_SALIDA = [
-    "id", "objeto", "estado", "categoria", "tipo_procedimiento",
-    "comprador", "proveedor", "monto", "moneda",
+    "id", "objeto", "estado", "categoria", "tipo_procedimiento", "comprador",
+    "valor_estimado", "monto_adjudicado", "monto_contratado", "moneda",
+    "n_adjudicaciones", "n_proveedores", "proveedor", "proveedores",
     "fecha_publicacion", "fecha_adjudicacion", "fecha_contrato", "url_muni",
 ]
 
@@ -51,7 +52,20 @@ def _buscar(fila, *rutas):
 def mapear_fila(fila, awards, suppliers, contracts):
     uuid = fila.get("compiledRelease/id", "")
     ocid = fila.get("compiledRelease/ocid", "") or uuid
-    aw, sp, co = awards.get(uuid, {}), suppliers.get(uuid, {}), contracts.get(uuid, {})
+    aw = awards.get(uuid, [])
+    sp = suppliers.get(uuid, {})
+    co = contracts.get(uuid, [])
+    valor_estimado = _buscar(fila, "compiledRelease/tender/value/amount")
+    moneda = _buscar(fila, "compiledRelease/tender/value/currency")
+    monto_adjudicado = sum(_num(a.get("monto")) for a in aw)
+    monto_contratado = sum(_num(c.get("monto")) for c in co)
+    nombres = []
+    for i in sorted(sp):
+        for nombre in sp[i]:
+            if nombre and nombre not in nombres:
+                nombres.append(nombre)
+    fecha_adj = min((a["fecha"] for a in aw if a.get("fecha")), default="")
+    fecha_con = min((c["fecha"] for c in co if c.get("fecha")), default="")
     return {
         "id": ocid,
         "objeto": _buscar(fila, "compiledRelease/tender/title",
@@ -61,13 +75,18 @@ def mapear_fila(fila, awards, suppliers, contracts):
         "tipo_procedimiento": _buscar(fila, "compiledRelease/tender/procurementMethodDetails",
                                       "compiledRelease/tender/procurementMethod"),
         "comprador": _buscar(fila, "compiledRelease/buyer/name"),
-        "proveedor": sp.get("proveedor", ""),
-        "monto": aw.get("monto", "") or _buscar(fila, "compiledRelease/tender/value/amount"),
-        "moneda": aw.get("moneda", "") or _buscar(fila, "compiledRelease/tender/value/currency"),
+        "valor_estimado": valor_estimado,
+        "monto_adjudicado": str(int(monto_adjudicado)) if monto_adjudicado else "",
+        "monto_contratado": str(int(monto_contratado)) if monto_contratado else "",
+        "moneda": moneda,
+        "n_adjudicaciones": len(aw),
+        "n_proveedores": len(nombres),
+        "proveedor": nombres[0] if nombres else "",
+        "proveedores": " | ".join(nombres),
         "fecha_publicacion": _buscar(fila, "compiledRelease/tender/datePublished",
                                      "compiledRelease/date"),
-        "fecha_adjudicacion": aw.get("fecha", ""),
-        "fecha_contrato": co.get("fecha", ""),
+        "fecha_adjudicacion": fecha_adj,
+        "fecha_contrato": fecha_con,
         "url_muni": f"https://www.contrataciones.gov.py/licitaciones/convocatoria/{fila.get('compiledRelease/tender/id', '')}.html",
     }
 
@@ -80,9 +99,9 @@ def validar(filas):
             continue
         if not f.get("objeto"):
             errores.append(f"proceso {f['id']} sin objeto")
-        monto = f.get("monto", "")
-        if monto and not str(monto).replace(".", "", 1).isdigit():
-            errores.append(f"proceso {f['id']} monto no numérico: {monto}")
+        ve = f.get("valor_estimado", "")
+        if ve and not str(ve).replace(".", "", 1).isdigit():
+            errores.append(f"proceso {f['id']} valor_estimado no numérico: {ve}")
     return errores
 
 
@@ -108,7 +127,10 @@ def verificar_consistencia(filas_records, sicp="108"):
 
 
 import csv
+import datetime
+import json
 import os
+import re
 import sys
 import urllib.request
 import zipfile
@@ -147,33 +169,86 @@ def leer_tabla(zip_path, nombre):
     return parse_csv_robusto(buf)
 
 
+def _num(x):
+    try:
+        return float(x)
+    except (TypeError, ValueError):
+        return 0.0
+
+
+_AWARD_PAT = re.compile(r"^compiledRelease/awards/(\d+)/(.*)$")
+_SUP_PAT = re.compile(r"^compiledRelease/awards/(\d+)/suppliers/(\d+)/name$")
+_CONT_PAT = re.compile(r"^compiledRelease/contracts/(\d+)/(.*)$")
+
+
 def indexar_awards(rows):
+    """Recolecta TODAS las adjudicaciones (awards/N) de cada release, no solo /0."""
     out = {}
     for r in rows:
-        out[r.get("compiledRelease/id", "")] = {
-            "monto": r.get("compiledRelease/awards/0/value/amount", ""),
-            "moneda": r.get("compiledRelease/awards/0/value/currency", ""),
-            "fecha": r.get("compiledRelease/awards/0/date", ""),
-        }
+        rid = r.get("compiledRelease/id", "")
+        por_indice = {}
+        for k, v in r.items():
+            m = _AWARD_PAT.match(k)
+            if not m:
+                continue
+            i, sub = int(m.group(1)), m.group(2)
+            por_indice.setdefault(i, {})[sub] = v
+        out[rid] = [{
+            "monto": por_indice[i].get("value/amount", ""),
+            "fecha": por_indice[i].get("date", ""),
+            "estado": por_indice[i].get("status", ""),
+        } for i in sorted(por_indice)]
     return out
 
 
 def indexar_suppliers(rows):
+    """Recolecta todos los proveedores por adjudicación (awards/N/suppliers/M)."""
     out = {}
     for r in rows:
-        out[r.get("compiledRelease/id", "")] = {
-            "proveedor": r.get("compiledRelease/awards/0/suppliers/0/name", ""),
-        }
+        rid = r.get("compiledRelease/id", "")
+        por_award = {}
+        for k, v in r.items():
+            m = _SUP_PAT.match(k)
+            if not m:
+                continue
+            i, j = int(m.group(1)), int(m.group(2))
+            por_award.setdefault(i, []).append(v)
+        out[rid] = por_award
     return out
 
 
 def indexar_contracts(rows):
+    """Recolecta TODOS los contratos (contracts/N) de cada release."""
     out = {}
     for r in rows:
-        out[r.get("compiledRelease/id", "")] = {
-            "fecha": r.get("compiledRelease/contracts/0/dateSigned", ""),
-        }
+        rid = r.get("compiledRelease/id", "")
+        por_indice = {}
+        for k, v in r.items():
+            m = _CONT_PAT.match(k)
+            if not m:
+                continue
+            i, sub = int(m.group(1)), m.group(2)
+            por_indice.setdefault(i, {})[sub] = v
+        out[rid] = [{
+            "monto": por_indice[i].get("value/amount", ""),
+            "fecha": por_indice[i].get("dateSigned", ""),
+        } for i in sorted(por_indice)]
     return out
+
+
+def construir_metadata(anio, filas, sicp):
+    con_adjudicacion = sum(1 for f in filas if int(f.get("n_adjudicaciones") or 0) > 0)
+    return {
+        "dataset": f"contrataciones_muni_{anio}",
+        "anio": anio,
+        "sicp": sicp,
+        "registros": len(filas),
+        "con_adjudicacion": con_adjudicacion,
+        "sin_adjudicacion": len(filas) - con_adjudicacion,
+        "generado_en": datetime.date.today().isoformat(),
+        "fuente": "DNCP OCDS (masivo)",
+        "licencia": "CC BY 4.0",
+    }
 
 
 def main(anio="2026", sicp="108"):
@@ -204,6 +279,11 @@ def main(anio="2026", sicp="108"):
         writer.writerows(entidad)
     print(f"Procesos entidad {sicp} {anio} (válidos): {len(entidad)}")
     print(f"Dataset escrito: {out}")
+    meta = construir_metadata(anio, entidad, sicp)
+    meta_ruta = os.path.join(DATA_DIR, f"metadata_{anio}.json")
+    with open(meta_ruta, "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=2)
+    print(f"Metadata: {meta_ruta}")
 
 
 def anio_sicp_desde_args(args):

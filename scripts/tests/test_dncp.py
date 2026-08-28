@@ -8,6 +8,9 @@ from dncp_contrataciones import anio_sicp_desde_args
 from dncp_contrataciones import mapear_fila
 from dncp_contrataciones import validar
 from dncp_contrataciones import parse_csv_robusto
+from dncp_contrataciones import indexar_awards
+from dncp_contrataciones import indexar_suppliers
+from dncp_contrataciones import indexar_contracts
 
 class TestEsEntidadPorSicp(unittest.TestCase):
     def test_filtra_por_sicp_108(self):
@@ -42,7 +45,46 @@ class TestMapear(unittest.TestCase):
         salida = mapear_fila(fila, {}, {}, {})
         self.assertEqual(salida["id"], "ocds-03ad3f-999")
         self.assertEqual(salida["objeto"], "Construcción de vereda")
-        self.assertEqual(salida["monto"], "150000000")
+        self.assertEqual(salida["valor_estimado"], "150000000")
+        self.assertEqual(salida["monto_adjudicado"], "")
+
+    def test_separa_valor_y_adjudicado(self):
+        fila = {
+            "compiledRelease/id": "ocds-x",
+            "compiledRelease/tender/value/amount": "1000",
+            "compiledRelease/tender/value/currency": "PYG",
+        }
+        awards = {"ocds-x": [{"monto": "400", "fecha": "2026-01-01", "estado": "active"}]}
+        suppliers = {"ocds-x": {0: ["Empresa A"]}}
+        contracts = {"ocds-x": [{"monto": "380", "fecha": "2026-02-01"}]}
+        s = mapear_fila(fila, awards, suppliers, contracts)
+        self.assertEqual(s["valor_estimado"], "1000")
+        self.assertEqual(s["monto_adjudicado"], "400")
+        self.assertEqual(s["monto_contratado"], "380")
+        self.assertEqual(s["n_adjudicaciones"], 1)
+        self.assertEqual(s["n_proveedores"], 1)
+        self.assertEqual(s["proveedor"], "Empresa A")
+
+    def test_sin_adjudicacion_deja_adjudicado_vacio(self):
+        fila = {"compiledRelease/id": "ocds-y",
+                "compiledRelease/tender/value/amount": "500",
+                "compiledRelease/tender/value/currency": "PYG"}
+        s = mapear_fila(fila, {}, {}, {})
+        self.assertEqual(s["monto_adjudicado"], "")
+        self.assertEqual(s["n_adjudicaciones"], 0)
+
+    def test_multiples_adjudicaciones_se_sum(self):
+        fila = {"compiledRelease/id": "ocds-z",
+                "compiledRelease/tender/value/amount": "10",
+                "compiledRelease/tender/value/currency": "PYG"}
+        awards = {"ocds-z": [{"monto": "100", "fecha": "2026-01-01", "estado": "active"},
+                              {"monto": "50", "fecha": "2026-01-02", "estado": "active"}]}
+        suppliers = {"ocds-z": {0: ["A"], 1: ["B"]}}
+        s = mapear_fila(fila, awards, suppliers, {})
+        self.assertEqual(s["monto_adjudicado"], "150")
+        self.assertEqual(s["n_adjudicaciones"], 2)
+        self.assertEqual(s["n_proveedores"], 2)
+        self.assertEqual(s["proveedores"], "A | B")
     def test_campos_faltantes_quedan_vacios(self):
         salida = mapear_fila({"compiledRelease/id": "x"}, {}, {}, {})
         self.assertEqual(salida["objeto"], "")
@@ -71,8 +113,8 @@ class TestMapear(unittest.TestCase):
 class TestValidar(unittest.TestCase):
     def test_filas_validas(self):
         filas = [
-            {"id": "a", "objeto": "ob", "monto": "150"},
-            {"id": "b", "objeto": "ob2", "monto": "300"},
+            {"id": "a", "objeto": "ob", "valor_estimado": "150"},
+            {"id": "b", "objeto": "ob2", "valor_estimado": "300"},
         ]
         errores = validar(filas)
         self.assertEqual(len(errores), 0)
@@ -84,8 +126,8 @@ class TestValidar(unittest.TestCase):
         filas = [{"id": "a", "objeto": ""}]
         errores = validar(filas)
         self.assertEqual(len(errores), 1)
-    def test_detecta_monto_no_numerico(self):
-        filas = [{"id": "a", "objeto": "ob", "monto": "ABC"}]
+    def test_detecta_valor_no_numerico(self):
+        filas = [{"id": "a", "objeto": "ob", "valor_estimado": "ABC"}]
         errores = validar(filas)
         self.assertEqual(len(errores), 1)
 
