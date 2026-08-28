@@ -1,88 +1,88 @@
 {
-  "procesos": 36,
-  "monto_total": 60601538625.0,
-  "proveedores_distintos": 17,
-  "procesos_sin_proveedor": 14,
+  "procesos": 99,
+  "monto_total": 203755186621.0,
+  "proveedores_distintos": 47,
+  "procesos_sin_proveedor": 37,
   "por_categoria": [
     {
-      "categoria": "Bienes",
-      "monto": 33387586048.0
-    },
-    {
       "categoria": "Servicios",
-      "monto": 22071344691.0
+      "monto": 89015718706.0
     },
     {
-      "categoria": "2022-09-20T16:47:47-04:00",
-      "monto": 3000000000.0
+      "categoria": "Bienes",
+      "monto": 85868957278.0
     },
     {
       "categoria": "Obras",
-      "monto": 2142607886.0
+      "monto": 28870510637.0
     }
   ],
   "por_tipo_procedimiento": [
     {
       "tipo": "Licitación Pública Nacional",
-      "monto": 49995673649.0
+      "monto": 149787493364.0
+    },
+    {
+      "tipo": "Contratación por Excepción",
+      "monto": 36435884160.0
     },
     {
       "tipo": "Menor cuantía nacional",
-      "monto": 5588560972.0
+      "monto": 9512976472.0
     },
     {
-      "tipo": "2022-10-25T09:00:00-04:00",
-      "monto": 3000000000.0
+      "tipo": "Concurso de Ofertas",
+      "monto": 4640826784.0
+    },
+    {
+      "tipo": "Contratación Directa",
+      "monto": 2025974877.0
     },
     {
       "tipo": "CVE con difusión previa",
       "monto": 1352030964.0
-    },
-    {
-      "tipo": "Contratación Directa",
-      "monto": 665273040.0
     }
   ],
   "top_proveedores": [
+    {
+      "proveedor": "PETROLEOS DEL SUR S.A.",
+      "monto": 40000000000.0
+    },
+    {
+      "proveedor": "COMTEL SOCIEDAD ANÓNIMA",
+      "monto": 30999380000.0
+    },
     {
       "proveedor": "BERNARDA GONZALEZ MORINIGO",
       "monto": 29923920000.0
     },
     {
+      "proveedor": "CONSTRUCCIONES Y VIVIENDAS PARAGUAYAS SA",
+      "monto": 13940290205.0
+    },
+    {
       "proveedor": "PRESTIGIO DEL SUR S.R.L",
-      "monto": 7794750000.0
+      "monto": 9085330000.0
+    },
+    {
+      "proveedor": "LUIS RODRIGO BOVEDA SAMANIEGO",
+      "monto": 7000000000.0
+    },
+    {
+      "proveedor": "CRISPIN RUFFINELLI FERNANDEZ",
+      "monto": 6000000000.0
+    },
+    {
+      "proveedor": "AUTOMOTIVE SA IMPORTADORA Y EXPORTADORA",
+      "monto": 4500000000.0
     },
     {
       "proveedor": "MARILIA INDUSTRIAL SRL",
       "monto": 3693332720.0
     },
     {
-      "proveedor": "AUTOMOTIVE SA IMPORTADORA Y EXPORTADORA",
-      "monto": 3000000000.0
-    },
-    {
-      "proveedor": "ESTACION BAHIA S.A",
-      "monto": 3000000000.0
-    },
-    {
-      "proveedor": "COASEGURO ASEGURADORA YACYRETA S.A./ASEGURADORA PARAGUAYA S.A.E.C.A/PATRIA S.A. DE SEGUROS/ASEGURADORA TAJY PROPIEDAD COOPERATIVA S.A. DE SEGUROS.-",
-      "monto": 894780964.0
-    },
-    {
-      "proveedor": "WINNER S. R. L.",
-      "monto": 533899500.0
-    },
-    {
-      "proveedor": "ASEGURADORA TAJY PROPIEDAD COOPERATIVA S.A. DE SEGUROS ",
-      "monto": 525507330.0
-    },
-    {
-      "proveedor": "SERVIAM PARAGUAY SOCIEDAD ANONIMA",
-      "monto": 478894310.0
-    },
-    {
-      "proveedor": "JOSE ARNALDO PEREIRA CARDENA",
-      "monto": 421780000.0
+      "proveedor": "SALLUSTRO Y COMPAÑIA S.A.",
+      "monto": 3541845600.0
     }
   ]
 }

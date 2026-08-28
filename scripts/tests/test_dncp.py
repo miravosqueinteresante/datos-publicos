@@ -7,6 +7,7 @@ from dncp_contrataciones import verificar_consistencia
 from dncp_contrataciones import anio_sicp_desde_args
 from dncp_contrataciones import mapear_fila
 from dncp_contrataciones import validar
+from dncp_contrataciones import parse_csv_robusto
 
 class TestEsEntidadPorSicp(unittest.TestCase):
     def test_filtra_por_sicp_108(self):
@@ -131,6 +132,20 @@ class TestArgsSicp(unittest.TestCase):
         self.assertEqual(anio_sicp_desde_args(["x.py", "2024", "226"]), ("2024", "226"))
     def test_con_sicp_solo(self):
         self.assertEqual(anio_sicp_desde_args(["x.py", "2026", "999"]), ("2026", "999"))
+
+class TestParseCsvRobusto(unittest.TestCase):
+    def test_valor_con_coma_se_preserva(self):
+        # header con comillas internas = 1 campo; el dato 3 pasa intacto
+        texto = 'a,b,"texto,con coma",d\n1,2,3,4\n'
+        filas = parse_csv_robusto(texto)
+        self.assertEqual(len(filas), 1)
+        self.assertEqual(filas[0]["a"], "1")
+        self.assertEqual(filas[0]["d"], "4")
+        self.assertEqual(list(filas[0].keys()), ["a", "b", "texto,con coma", "d"])
+    def test_campos_con_comillas(self):
+        texto = 'x,y\n"comilla,\"\"interna\"\"\",2\n'
+        filas = parse_csv_robusto(texto)
+        self.assertEqual(filas[0]["x"], 'comilla,"interna"')
 
 if __name__ == "__main__":
     unittest.main()

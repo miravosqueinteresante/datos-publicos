@@ -21,14 +21,37 @@
 
   <header class="portada">
     <h1>Análisis de la contratación</h1>
-    <p class="subtitulo">¿Cómo contrata la Municipalidad de Asunción? (2026)</p>
+    <p class="subtitulo">¿Cómo contrata la Municipalidad de Asunción? (serie 2023-2026)</p>
     <p class="meta">Indicadores de contratación adjudicada · Fuente: DNCP (CC BY 4.0) · Patrones Open Contracting</p>
   </header>
 
   <main>
-    <div id="analisis">
-      <p class="vacio">Cargando datos…</p>
-    </div>
+    <section class="ind-bloque" style="margin-bottom:1.25rem;">
+      <header class="ind-bloque-head">
+        <h2>Evolución por año</h2>
+        <p>Contratación adjudicada de la Municipalidad de Asunción, 2023-2026</p>
+      </header>
+      <div class="ind-bloque-cuerpo">
+        <div class="tabla-envolvente" id="serie-anual"></div>
+      </div>
+    </section>
+
+    <section class="ind-bloque" style="margin-bottom:1.25rem;">
+      <header class="ind-bloque-head">
+        <h2>Detalle por año</h2>
+        <p>Elegí el ejercicio para ver sus indicadores completos:
+          <select id="sel-anio-analisis">
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026" selected>2026</option>
+          </select>
+        </p>
+      </header>
+      <div class="ind-bloque-cuerpo" id="detalle-anual">
+        <p class="vacio">Cargando datos…</p>
+      </div>
+    </section>
 
     <section class="seccion nota">
       <h2>Sobre estos indicadores</h2>

@@ -1,16 +1,20 @@
 {
-  "procesos": 82,
-  "monto_total": 77705666851.0,
-  "proveedores_distintos": 25,
-  "procesos_sin_proveedor": 51,
+  "procesos": 350,
+  "monto_total": 215308446752.0,
+  "proveedores_distintos": 80,
+  "procesos_sin_proveedor": 250,
   "por_categoria": [
     {
       "categoria": "Bienes",
-      "monto": 59618244876.0
+      "monto": 138435086212.0
     },
     {
       "categoria": "Servicios",
-      "monto": 18087421975.0
+      "monto": 54037910338.0
+    },
+    {
+      "categoria": "Obras",
+      "monto": 22835450202.0
     },
     {
       "categoria": "Sin categoría",
@@ -20,19 +24,19 @@
   "por_tipo_procedimiento": [
     {
       "tipo": "Licitación Pública Nacional",
-      "monto": 65709067995.0
+      "monto": 122320402949.0
     },
     {
       "tipo": "Contratación por Excepción",
-      "monto": 6961237450.0
+      "monto": 78228104467.0
     },
     {
       "tipo": "Contratación Directa",
-      "monto": 2520107880.0
+      "monto": 10724535810.0
     },
     {
       "tipo": "Concurso de Ofertas",
-      "monto": 1758573526.0
+      "monto": 3278723526.0
     },
     {
       "tipo": "Locación de Inmuebles",
@@ -49,40 +53,40 @@
       "monto": 53697593060.0
     },
     {
+      "proveedor": "Consorcio de Gestión Integral de Residuos",
+      "monto": 24000000000.0
+    },
+    {
+      "proveedor": "COMPAÑIA DE PETROLEO Y ASFALTO S.A. (COMPASA)",
+      "monto": 13591200000.0
+    },
+    {
+      "proveedor": "TECNOLOGIA DEL SUR S.A.E.",
+      "monto": 8999419477.0
+    },
+    {
+      "proveedor": "CONSORCIO CPV ",
+      "monto": 8980573300.0
+    },
+    {
       "proveedor": "COASEGURO ASEGURADORA YACYRETA S.A./ ASEGURADORA PARAGUAYA S.A.E.C.A./PATRIA S.A. DE SEGUROS",
       "monto": 8452446021.0
     },
     {
       "proveedor": "BERNARDA GONZALEZ MORINIGO",
-      "monto": 6878885040.0
+      "monto": 7048385040.0
     },
     {
-      "proveedor": "PRESTIGIO DEL SUR S.R.L",
-      "monto": 2114000000.0
+      "proveedor": "RODRIGUEZ HNOS S.A.E.C.A",
+      "monto": 6705101552.0
     },
     {
-      "proveedor": "JOSE ARNALDO PEREIRA CARDENA",
-      "monto": 1754174000.0
+      "proveedor": "VEGA S.A.",
+      "monto": 4568983200.0
     },
     {
-      "proveedor": "CARLOS RUBEN LOPEZ AREVALO",
-      "monto": 650000000.0
-    },
-    {
-      "proveedor": "ASEGURADORA TAJY PROPIEDAD COOPERATIVA S.A. DE SEGUROS ",
-      "monto": 586000914.0
-    },
-    {
-      "proveedor": "MARILIA INDUSTRIAL SRL",
-      "monto": 363927690.0
-    },
-    {
-      "proveedor": "COOPERATIVA COLONIAS UNIDAS AGROPECUARIA IND. LTDA.",
-      "monto": 279160000.0
-    },
-    {
-      "proveedor": "SAN PEDRO EMPRENDIMIENTO S.A",
-      "monto": 252525000.0
+      "proveedor": "ORTELLADO TONIOLO  S.A.",
+      "monto": 3748275000.0
     }
   ]
 }

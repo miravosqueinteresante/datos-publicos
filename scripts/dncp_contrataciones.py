@@ -102,12 +102,23 @@ def descargar_zip(anio="2026", destino=SIN_VERSIONAR):
     return zip_path
 
 
+def parse_csv_robusto(texto):
+    """Parsea CSV respetando comillas (maneja comas dentro de valores).
+    Devuelve lista de dicts con la primera línea como encabezado."""
+    import csv as _csv
+    reader = _csv.reader(texto.splitlines())
+    filas = list(reader)
+    if not filas:
+        return []
+    header = filas[0]
+    return [dict(zip(header, row)) for row in filas[1:] if row]
+
+
 def leer_tabla(zip_path, nombre):
     with zipfile.ZipFile(zip_path) as z:
         with z.open(nombre) as f:
-            buf = f.read().decode("utf-8").splitlines()
-    header = buf[0].split(",")
-    return [dict(zip(header, ln.split(",", len(header) - 1))) for ln in buf[1:]]
+            buf = f.read().decode("utf-8")
+    return parse_csv_robusto(buf)
 
 
 def indexar_awards(rows):
