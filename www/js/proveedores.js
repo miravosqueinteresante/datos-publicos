@@ -30,8 +30,11 @@ function renderFichas(lista) {
 }
 
 async function init() {
+  let v = "";
+  try { const m = await (await fetch("datos/metadata-2026.json")).json(); v = m.generado_en || ""; } catch {}
+  const q = v ? `?v=${v}` : "";
   try {
-    const prov = await (await fetch("datos/proveedores.json")).json();
+    const prov = await (await fetch("datos/proveedores.json" + q)).json();
     renderFichas(prov);
   } catch {}
 }

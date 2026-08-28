@@ -3,6 +3,7 @@ const FMT2 = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 1 });
 const ANIOS = ["2023", "2024", "2025", "2026"];
 
 let INDICADORES = {};
+let CACHE_V = "";
 
 function bloque(titulo, subtitulo, contenido) {
   return `
@@ -87,7 +88,8 @@ let PAGINA = 1;
 const POR_PAGINA = 10;
 
 async function renderContratos(anio) {
-  try { CONTRATOS = await (await fetch(`datos/contrataciones-${anio}.json`)).json(); }
+  const q = CACHE_V ? `?v=${CACHE_V}` : "";
+  try { CONTRATOS = await (await fetch(`datos/contrataciones-${anio}.json${q}`)).json(); }
   catch { CONTRATOS = []; }
   PAGINA = 1;
   renderTabla();
@@ -130,8 +132,10 @@ function filaContrato(d) {
 }
 
 async function init() {
+  try { const m = await (await fetch("datos/metadata-2026.json")).json(); CACHE_V = m.generado_en || ""; } catch {}
+  const q = CACHE_V ? `?v=${CACHE_V}` : "";
   for (const a of ANIOS) {
-    try { INDICADORES[a] = await (await fetch(`datos/indicadores-gasto-${a}.json`)).json(); }
+    try { INDICADORES[a] = await (await fetch(`datos/indicadores-gasto-${a}.json${q}`)).json(); }
     catch { INDICADORES[a] = null; }
   }
   renderDetalle("2026");

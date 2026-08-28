@@ -74,9 +74,24 @@ def generar_contrataciones(anio):
     return len(datos)
 
 
+def copiar_metadata(anio):
+    origen = os.path.join(DATA_DIR, f"metadata_{anio}.json")
+    destino = os.path.join(WEB_DATOS, f"metadata-{anio}.json")
+    if not os.path.exists(origen):
+        print(f"[metadata {anio}] no existe {origen}, omitido")
+        return
+    os.makedirs(WEB_DATOS, exist_ok=True)
+    with open(origen, encoding="utf-8") as f:
+        contenido = f.read()
+    with open(destino, "w", encoding="utf-8") as f:
+        f.write(contenido)
+    print(f"Copiado metadata {anio} a {destino}")
+
+
 def main():
     for anio in ["2023", "2024", "2025", "2026"]:
         generar_contrataciones(anio)
+        copiar_metadata(anio)
 
 
 if __name__ == "__main__":
