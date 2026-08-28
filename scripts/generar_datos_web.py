@@ -14,13 +14,21 @@ def categoria_es(crudo):
 
 
 def fila_a_json(fila):
-    monto = fila.get("monto") or ""
-    es_nulo = not monto
+    monto_adj = fila.get("monto_adjudicado") or ""
+    es_nulo = not monto_adj
     try:
-        monto_num = float(monto)
+        monto_num = float(monto_adj)
     except ValueError:
         monto_num = 0
         es_nulo = True
+    try:
+        valor_estimado = float(fila.get("valor_estimado") or 0)
+    except ValueError:
+        valor_estimado = 0
+    try:
+        monto_contratado = float(fila.get("monto_contratado") or 0)
+    except ValueError:
+        monto_contratado = 0
     return {
         "id": fila.get("id", ""),
         "objeto": fila.get("objeto", ""),
@@ -30,8 +38,14 @@ def fila_a_json(fila):
         "tipo_procedimiento": fila.get("tipo_procedimiento", ""),
         "comprador": fila.get("comprador", ""),
         "proveedor": fila.get("proveedor", ""),
+        "valor_estimado": valor_estimado,
+        "monto_adjudicado": monto_num,
+        "monto_contratado": monto_contratado,
         "monto": monto_num,
         "monto_nulo": es_nulo,
+        "n_adjudicaciones": int(fila.get("n_adjudicaciones") or 0),
+        "n_proveedores": int(fila.get("n_proveedores") or 0),
+        "proveedores": fila.get("proveedores", ""),
         "moneda": fila.get("moneda", ""),
         "fecha_publicacion": fila.get("fecha_publicacion", ""),
         "fecha_adjudicacion": fila.get("fecha_adjudicacion", ""),
