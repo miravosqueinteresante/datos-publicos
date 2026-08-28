@@ -54,6 +54,30 @@
 
     <section class="ind-bloque" style="margin-bottom:1.25rem;">
       <header class="ind-bloque-head">
+        <h2>Procesos / Contratos</h2>
+        <p>La tabla del ejercicio seleccionado. Los procesos sin proveedor son llamados sin adjudicación registrada.</p>
+      </header>
+      <div class="ind-bloque-cuerpo">
+        <div class="filtros">
+          <input type="search" id="busqueda" placeholder="Buscar por objeto o proveedor...">
+          <select id="filtro-categoria">
+            <option value="">Todas las categorías</option>
+            <option value="Bienes">Bienes</option>
+            <option value="Servicios">Servicios</option>
+            <option value="Obras">Obras</option>
+          </select>
+        </div>
+        <div class="tabla-envolvente">
+          <table id="tabla">
+            <thead><tr><th>Objeto</th><th>Categoría</th><th>Proveedor</th><th>Monto (PYG)</th><th>Adjudicación</th><th>Contrato</th><th>Enlace</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="ind-bloque" style="margin-bottom:1.25rem;">
+      <header class="ind-bloque-head">
         <h2>Principales proveedores</h2>
         <p>Top 10 por monto acumulado 2023-2026, con ficha completa de cada uno</p>
       </header>

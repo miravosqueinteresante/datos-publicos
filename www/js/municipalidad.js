@@ -73,6 +73,44 @@ function renderDetalle(anio) {
   }
 }
 
+function normalizar(texto) {
+  return (texto || "").toLowerCase()
+    .replace(/[áàäâ]/g, "a").replace(/[éèëê]/g, "e")
+    .replace(/[íìïî]/g, "i").replace(/[óòöô]/g, "o")
+    .replace(/[úùüû]/g, "u").replace(/ñ/g, "n");
+}
+
+let CONTRATOS = [];
+
+async function renderContratos(anio) {
+  try { CONTRATOS = await (await fetch(`datos/contrataciones-${anio}.json`)).json(); }
+  catch { CONTRATOS = []; }
+  renderTabla();
+}
+
+function renderTabla() {
+  const q = normalizar(document.getElementById("busqueda").value);
+  const cat = document.getElementById("filtro-categoria").value;
+  const filas = CONTRATOS.filter(d =>
+    (!cat || d.categoria === cat) &&
+    (!q || normalizar(d.objeto + " " + (d.proveedor || "")).includes(q))
+  );
+  const tbody = document.querySelector("#tabla tbody");
+  tbody.innerHTML = filas.length === 0
+    ? "<tr><td colspan='7' class='vacio'>Sin resultados</td></tr>"
+    : filas.map(filaContrato).join("");
+}
+
+function filaContrato(d) {
+  const monto = d.monto_nulo ? "<td class='monto vacio'>—</td>" : `<td class='monto'>${FMT.format(d.monto)}</td>`;
+  const ad = d.fecha_adjudicacion ? d.fecha_adjudicacion.slice(0, 10) : "—";
+  const co = d.fecha_contrato ? d.fecha_contrato.slice(0, 10) : "—";
+  const prov = d.proveedor || "<span class='vacio'>Sin adjudicación</span>";
+  const cc = d.categoria ? "cat-" + d.categoria.replace(/\s+/g, "") : "";
+  const cat = d.categoria ? `<span class="cat-etiqueta ${cc}">${d.categoria}</span>` : "—";
+  return `<tr><td>${d.objeto}</td><td>${cat}</td><td>${prov}</td>${monto}<td>${ad}</td><td>${co}</td><td><a href="${d.url_muni}" target="_blank" rel="noopener">ver</a></td></tr>`;
+}
+
 async function init() {
   for (const a of ANIOS) {
     try { INDICADORES[a] = await (await fetch(`datos/indicadores-gasto-${a}.json`)).json(); }
@@ -80,8 +118,11 @@ async function init() {
   }
   renderDetalle("2026");
   renderSerie();
+  renderContratos("2026");
   const sel = document.getElementById("sel-anio-muni");
-  sel.addEventListener("change", e => renderDetalle(e.target.value));
+  sel.addEventListener("change", e => { renderDetalle(e.target.value); renderContratos(e.target.value); });
+  document.getElementById("busqueda").addEventListener("input", renderTabla);
+  document.getElementById("filtro-categoria").addEventListener("change", renderTabla);
 }
 
 init().catch(e => {
