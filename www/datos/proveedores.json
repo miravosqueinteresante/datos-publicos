@@ -1,0 +1,460 @@
+[
+  {
+    "proveedor": "PETROLEOS DEL SUR S.A.",
+    "posicion": 1,
+    "monto_total": 108357991829.0,
+    "contratos": 2,
+    "anios_activos": 2,
+    "anios": [
+      "2023",
+      "2025"
+    ],
+    "categoria_principal": "goods",
+    "pct_directo": 0.0,
+    "contratos_lista": [
+      {
+        "objeto": "PROVISIÓN DE COMBUSTIBLE - AD REFERÉNDUM - PLURIANUAL",
+        "anio": "2025",
+        "categoria": "services",
+        "monto": 40000000000.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2025-05-28T00:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1efae5c0-1a26-632a-b9dd-0b32875b166b.html"
+      },
+      {
+        "objeto": "PROVISION DE COMBUSTIBLE - PLURIANUAL",
+        "anio": "2023",
+        "categoria": "goods",
+        "monto": 68357991829.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2023-03-22T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/410181-provision-combustible-plurianual-1.html"
+      }
+    ]
+  },
+  {
+    "proveedor": "Consorcio CCC-TECSUL",
+    "posicion": 2,
+    "monto_total": 64777837460.0,
+    "contratos": 1,
+    "anios_activos": 1,
+    "anios": [
+      "2023"
+    ],
+    "categoria_principal": "works",
+    "pct_directo": 0.0,
+    "contratos_lista": [
+      {
+        "objeto": "DESAGUE PLUVIAL DEL MERCADO DE ABASTO - CUENCA ITAY Y LAMBARÉ ",
+        "anio": "2023",
+        "categoria": "works",
+        "monto": 64777837460.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2023-10-19T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/421414-desague-pluvial-mercado-abasto-cuenca-itay-lambare-1.html"
+      }
+    ]
+  },
+  {
+    "proveedor": "BERNARDA GONZALEZ MORINIGO",
+    "posicion": 3,
+    "monto_total": 56504679224.0,
+    "contratos": 9,
+    "anios_activos": 4,
+    "anios": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "categoria_principal": "goods",
+    "pct_directo": 22.6,
+    "contratos_lista": [
+      {
+        "objeto": "ADQUISICION DE CEMENTO PORTLAND PARA LA DIRECCION DE VIALIDAD",
+        "anio": "2023",
+        "categoria": "goods",
+        "monto": 169500000.0,
+        "procedimiento": "Contratación Directa",
+        "fecha": "2023-07-20T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/425057-adquisicion-cemento-portland-direccion-vialidad-1.html"
+      },
+      {
+        "objeto": "ALQUILER DE CAMIONES COMPACTADORES PARA RECOLECCION DE BASURA",
+        "anio": "2022",
+        "categoria": "services",
+        "monto": 6878885040.0,
+        "procedimiento": "Contratación por Excepción",
+        "fecha": "2022-04-07T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/406510-alquiler-camiones-compactadores-recoleccion-basura-1.html"
+      },
+      {
+        "objeto": "ALQUILER DE CAMIONES RECOLECTORES COMPACTADORES PARA LA DIRECCION DE SERVICIOS URBANOS",
+        "anio": "2022",
+        "categoria": "services",
+        "monto": 13808808000.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2022-11-24T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/391402-alquiler-camiones-recolectores-compactadores-direccion-servicios-urbanos-1.html"
+      },
+      {
+        "objeto": "ALQUILER DE CAMIONES COMPACTADORES PARA RECOLECCION DE BASURA",
+        "anio": "2024",
+        "categoria": "goods",
+        "monto": 4658162184.0,
+        "procedimiento": "CVE con difusión previa",
+        "fecha": "2024-09-23T00:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1ef24371-420b-6bb4-af60-b9c0b1799b46.html"
+      },
+      {
+        "objeto": "ADQUISICION DE PISOS DE ADOQUIN DE CONCRETO PARA LA DIRECCION DE VIALIDAD",
+        "anio": "2024",
+        "categoria": "services",
+        "monto": 333000000.0,
+        "procedimiento": "Menor cuantía nacional",
+        "fecha": "2024-09-13T00:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1ef2d777-6cd1-6764-81f3-23b01acdeb66.html"
+      },
+      {
+        "objeto": "ALQUILER DE CAMIONES RECOLECTORES COMPACTADORES PARA LA DIRECCION DE SERVICIOS URBANOS - PLURIANUAL",
+        "anio": "2024",
+        "categoria": "goods",
+        "monto": 23446800000.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2024-12-03T00:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1ef01a70-8531-6d70-8181-8de8e94e71ef.html"
+      },
+      {
+        "objeto": "ALQUILER DE MAQUINARIAS PARA LA DIRECCION DE SERVICIOS URBANOS",
+        "anio": "2023",
+        "categoria": "services",
+        "monto": 6477120000.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2023-10-24T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/432064-alquiler-maquinarias-direccion-servicios-urbanos-1.html"
+      },
+      {
+        "objeto": "Adquisicion de contenedores de 5m3",
+        "anio": "2025",
+        "categoria": "services",
+        "monto": 195000000.0,
+        "procedimiento": "Menor cuantía nacional",
+        "fecha": "2025-11-20T00:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1f03a230-8cf4-6e76-913d-a1c0c98b27a3.html"
+      },
+      {
+        "objeto": "ADQUISICION DE PIEDRA BRUTA BLANCA PARA LA DIRECCION DE VIALIDAD",
+        "anio": "2025",
+        "categoria": "services",
+        "monto": 537404000.0,
+        "procedimiento": "Menor cuantía nacional",
+        "fecha": "2025-02-05T00:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1ef64980-e3e8-60cc-b922-0b09af1954d8.html"
+      }
+    ]
+  },
+  {
+    "proveedor": "RAIZEN PARAGUAY SOCIEDAD ANONIMA",
+    "posicion": 4,
+    "monto_total": 53697593060.0,
+    "contratos": 1,
+    "anios_activos": 1,
+    "anios": [
+      "2021"
+    ],
+    "categoria_principal": "goods",
+    "pct_directo": 0.0,
+    "contratos_lista": [
+      {
+        "objeto": "ADQUISICION DE COMBUSTIBLE PARA LA MUNICIPALIDAD DE ASUNCION",
+        "anio": "2021",
+        "categoria": "goods",
+        "monto": 53697593060.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2021-02-16T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/375170-adquisicion-combustible-municipalidad-asuncion-1.html"
+      }
+    ]
+  },
+  {
+    "proveedor": "TECO SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+    "posicion": 5,
+    "monto_total": 43760328210.0,
+    "contratos": 2,
+    "anios_activos": 2,
+    "anios": [
+      "2022",
+      "2024"
+    ],
+    "categoria_principal": "works",
+    "pct_directo": 0.0,
+    "contratos_lista": [
+      {
+        "objeto": "DESAGUE PLUVIAL DE VARIAS CALLES DE LA CIUDAD DE ASUNCION - PLURIANUAL",
+        "anio": "2022",
+        "categoria": "works",
+        "monto": 1454915401.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2022-11-24T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/413108-desague-pluvial-calles-ciudad-asuncion-plurianual-1.html"
+      },
+      {
+        "objeto": "DESAGUE PLUVIAL DE VARIAS CUENCAS DE LA CIUDAD DE ASUNCION - PLURIANUAL",
+        "anio": "2024",
+        "categoria": "works",
+        "monto": 42305412809.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2024-11-21T00:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1eef0fd2-7f54-6be0-827b-f7d7a6d54405.html"
+      }
+    ]
+  },
+  {
+    "proveedor": "TECNOLOGIA DEL SUR S.A.E.",
+    "posicion": 6,
+    "monto_total": 40175663895.0,
+    "contratos": 2,
+    "anios_activos": 2,
+    "anios": [
+      "2021",
+      "2022"
+    ],
+    "categoria_principal": "works",
+    "pct_directo": 0.0,
+    "contratos_lista": [
+      {
+        "objeto": "MEJORAMIENTO VIAL DE LAS AVENIDAS EUSEBIO AYALA Y BRUNO GUGGIARI",
+        "anio": "2022",
+        "categoria": "works",
+        "monto": 8999419477.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2022-08-04T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/388295-mejoramiento-vial-avenidas-eusebio-ayala-bruno-guggiari-1.html"
+      },
+      {
+        "objeto": "DESAGÜE PLUVIAL EN LA CUENCA DE LA AVENIDA DOCTOR FELIPE MOLAS LOPEZ",
+        "anio": "2021",
+        "categoria": "works",
+        "monto": 31176244418.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2021-07-20T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/388451-desague-pluvial-cuenca-avenida-doctor-felipe-molas-lopez-1.html"
+      }
+    ]
+  },
+  {
+    "proveedor": "COMTEL SOCIEDAD ANÓNIMA",
+    "posicion": 7,
+    "monto_total": 31799380000.0,
+    "contratos": 2,
+    "anios_activos": 2,
+    "anios": [
+      "2022",
+      "2023"
+    ],
+    "categoria_principal": "goods",
+    "pct_directo": 100.0,
+    "contratos_lista": [
+      {
+        "objeto": "SERVICIO DE MANTENIMIENTO Y SOPORTE TECNICO DE LA INFRAESTRUCTURA DEL CENTRO AVANZADO DE GESTION DE TRAFICO (ATMS)",
+        "anio": "2022",
+        "categoria": "services",
+        "monto": 800000000.0,
+        "procedimiento": "Contratación por Excepción",
+        "fecha": "2022-11-23T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/416849-servicio-mantenimiento-soporte-tecnico-infraestructura-centro-avanzado-gestion-trafi-1.html"
+      },
+      {
+        "objeto": "PROVISION, INSTALACION Y PUESTA EN FUNCIONAMIENTO DEL SISTEMA DE RED DEL CENTRO DE CONTROL ATMS",
+        "anio": "2023",
+        "categoria": "goods",
+        "monto": 30999380000.0,
+        "procedimiento": "Contratación por Excepción",
+        "fecha": "2023-10-17T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/432244-provision-instalacion-puesta-funcionamiento-sistema-red-centro-control-atms-1.html"
+      }
+    ]
+  },
+  {
+    "proveedor": "COMPAÑIA DE PETROLEO Y ASFALTO S.A. (COMPASA)",
+    "posicion": 8,
+    "monto_total": 24139200000.0,
+    "contratos": 3,
+    "anios_activos": 2,
+    "anios": [
+      "2020",
+      "2023"
+    ],
+    "categoria_principal": "goods",
+    "pct_directo": 0.0,
+    "contratos_lista": [
+      {
+        "objeto": "ADQUISICION DE CEMENTO ASFALTICO PARA LA DIRECCION DE VIALIDAD - PLURIANUAL",
+        "anio": "2023",
+        "categoria": "goods",
+        "monto": 10639200000.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2023-02-01T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/400027-adquisicion-cemento-asfaltico-direccion-vialidad-plurianual-ad-referendum-1.html"
+      },
+      {
+        "objeto": "ADQUISICION DE EMULSION ASFALTICA ROTURA RAPIDA TIPO RR1C - PLURIANUAL.",
+        "anio": "2023",
+        "categoria": "goods",
+        "monto": 2952000000.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2023-02-08T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/399756-adquisicion-emulsion-asfaltica-rotura-rapida-tipo-rr1c-plurianual-1.html"
+      },
+      {
+        "objeto": "ADQUISICION DE CEMENTO ASFALTICO PARA LA DIRECCION DE VIALIDAD",
+        "anio": "2020",
+        "categoria": "goods",
+        "monto": 10548000000.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2020-07-17T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/359908-adquisicion-cemento-asfaltico-direccion-vialidad-1.html"
+      }
+    ]
+  },
+  {
+    "proveedor": "Consorcio de Gestión Integral de Residuos",
+    "posicion": 9,
+    "monto_total": 24000000000.0,
+    "contratos": 1,
+    "anios_activos": 1,
+    "anios": [
+      "2022"
+    ],
+    "categoria_principal": "services",
+    "pct_directo": 100.0,
+    "contratos_lista": [
+      {
+        "objeto": "GESTION INTEGRAL DE RESIDUOS SOLIDOS URBANOS Y SUS DERIVADOS LIQUIDOS RECEPCIONADOS EN EL RELLENO SANITARIO CATEURA",
+        "anio": "2022",
+        "categoria": "services",
+        "monto": 24000000000.0,
+        "procedimiento": "Contratación por Excepción",
+        "fecha": "2022-08-03T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/415128-gestion-integral-residuos-solidos-urbanos-sus-derivados-liquidos-recepcionados-relle-1.html"
+      }
+    ]
+  },
+  {
+    "proveedor": "PRESTIGIO DEL SUR S.R.L",
+    "posicion": 10,
+    "monto_total": 17762997000.0,
+    "contratos": 11,
+    "anios_activos": 5,
+    "anios": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "categoria_principal": "services",
+    "pct_directo": 5.6,
+    "contratos_lista": [
+      {
+        "objeto": "ADQUISICION DE CUBIERTAS PARA CAMIONES Y MAQUINARIAS DE LA DIRECCION DE SERVICIOS URBANOS",
+        "anio": "2022",
+        "categoria": "goods",
+        "monto": 175275000.0,
+        "procedimiento": "Contratación Directa",
+        "fecha": "2022-09-02T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/413170-adquisicion-cubiertas-camiones-maquinarias-direccion-servicios-urbanos-1.html"
+      },
+      {
+        "objeto": "ADQUISICION DE BOLSAS NEGRAS PARA RESIDUOS PARA LA DIRECCION DE SERVICIOS URBANOS - PLURIANUAL",
+        "anio": "2022",
+        "categoria": "goods",
+        "monto": 1944000000.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2022-06-15T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/391407-adquisicion-bolsas-negras-residuos-direccion-servicios-urbanos-plurianual-1.html"
+      },
+      {
+        "objeto": "ADQUISICION DE PAPELERAS URBANAS DE CESTAS BASCULANTES PARA LA DIRECCION DE SERVICIOS URBANOS",
+        "anio": "2023",
+        "categoria": "goods",
+        "monto": 170000000.0,
+        "procedimiento": "Contratación Directa",
+        "fecha": "2023-11-06T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/432732-adquisicion-papeleras-urbanas-cestas-basculantes-direccion-servicios-urbanos-1.html"
+      },
+      {
+        "objeto": "ADQUISICION DE INSECTICIDAS, FUMIGANTES Y OTROS PARA EL JBZA",
+        "anio": "2023",
+        "categoria": "goods",
+        "monto": 21600000.0,
+        "procedimiento": "Contratación Directa",
+        "fecha": "2023-11-23T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/424376-adquisicion-insecticidas-fumigantes-otros-jbza-1.html"
+      },
+      {
+        "objeto": "ADQUISICION DE REPUESTOS PARA DESMALEZADORAS DE LA DIRECCION GENERAL DEL AREA SOCIAL",
+        "anio": "2024",
+        "categoria": "goods",
+        "monto": 79404000.0,
+        "procedimiento": "Contratación Directa",
+        "fecha": "2024-04-08T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/434431-adquisicion-repuestos-desmalezadoras-direccion-general-area-social-1.html"
+      },
+      {
+        "objeto": "ADQUISICION DE MATERIALES DE CONSTRUCCION",
+        "anio": "2021",
+        "categoria": "goods",
+        "monto": 6200000000.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2021-11-01T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/359192-adquisicion-materiales-construccion-1.html"
+      },
+      {
+        "objeto": "ADQUISICION DE PRECINTAS DE SEGURIDAD PARA LA DIRECCION DE SERVICIOS URBANOS - AD REFERENDUM",
+        "anio": "2024",
+        "categoria": "goods",
+        "monto": 87388000.0,
+        "procedimiento": "Contratación Directa",
+        "fecha": "2024-07-16T12:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/437476-adquisicion-precintas-seguridad-direccion-servicios-urbanos-ad-referendum-1.html"
+      },
+      {
+        "objeto": "ADQUISICION DE BOLSAS PARA RESIDUOS DE LA DIRECCION DE SERVICIOS URBANOS",
+        "anio": "2024",
+        "categoria": "services",
+        "monto": 457250000.0,
+        "procedimiento": "CVE con difusión previa",
+        "fecha": "2024-11-14T00:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1ef460da-b76b-6d0e-9589-f1742df2ec37.html"
+      },
+      {
+        "objeto": "ADQUISICION DE BOLSAS PARA RESIDUOS PARA LA DIRECCION DE SERVICIOS URBANOS - PLURIANUAL",
+        "anio": "2024",
+        "categoria": "services",
+        "monto": 1137500000.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2024-12-18T00:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1ef1debf-9c57-6ae4-b7ee-6757749e61ee.html"
+      },
+      {
+        "objeto": "ADQUISICION DE MATERIALES DE CONSTRUCCION - PLURIANUAL",
+        "anio": "2024",
+        "categoria": "services",
+        "monto": 6200000000.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2024-11-21T00:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1eef293a-04d0-6c12-b22d-2fa835f04e99.html"
+      },
+      {
+        "objeto": "ADQUISICIÓN DE CUBIERTAS PARA CAMIONES Y MAQUINARIAS DE LA DIRECCIÓN DE SERVICIOS URBANOS - PLURIANUAL",
+        "anio": "2025",
+        "categoria": "services",
+        "monto": 1290580000.0,
+        "procedimiento": "Licitación Pública Nacional",
+        "fecha": "2025-03-13T00:00:00-04:00",
+        "url": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1ef1f59c-1e8b-6450-9d6e-3b3df9b8f896.html"
+      }
+    ]
+  }
+]
