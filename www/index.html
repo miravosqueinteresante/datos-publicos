@@ -21,11 +21,21 @@
 
   <header class="portada">
     <h1>Contrataciones de la Municipalidad de Asunción</h1>
-    <p class="subtitulo">¿Qué está haciendo la Municipalidad, cuánto y con quién?</p>
+    <p class="subtitulo" id="subtitulo-anio">¿Qué está haciendo la Municipalidad, cuánto y con quién? (2026)</p>
     <p class="meta">Datos de contratación pública — año 2026 · Fuente: DNCP (CC BY 4.0)</p>
   </header>
 
   <main>
+    <div class="filtros" style="margin-bottom:1rem;">
+      <label for="sel-anio-explorar"><strong>Ejercicio:</strong></label>
+      <select id="sel-anio-explorar">
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        <option value="2026" selected>2026</option>
+      </select>
+    </div>
+
     <section id="metricas" class="seccion"></section>
 
     <section class="seccion">

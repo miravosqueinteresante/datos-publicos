@@ -11,9 +11,11 @@ function normalizar(texto) {
 
 let DATOS = [];
 
-async function cargarDatos() {
-  const res = await fetch("datos/contrataciones-2026.json");
+async function cargarDatos(anio = "2026") {
+  const res = await fetch(`datos/contrataciones-${anio}.json`);
   DATOS = await res.json();
+  const sub = document.getElementById("subtitulo-anio");
+  if (sub) sub.textContent = `¿Qué está haciendo la Municipalidad, cuánto y con quién? (${anio})`;
   renderMetricas();
   renderProveedores();
   renderTabla();
@@ -93,4 +95,6 @@ function filaTabla(d) {
 document.getElementById("busqueda").addEventListener("input", renderTabla);
 document.getElementById("filtro-categoria").addEventListener("change", renderTabla);
 
-cargarDatos();
+const selAnio = document.getElementById("sel-anio-explorar");
+if (selAnio) selAnio.addEventListener("change", e => cargarDatos(e.target.value));
+cargarDatos("2026");
