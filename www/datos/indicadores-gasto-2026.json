@@ -1,52 +1,60 @@
 {
   "procesos": 35,
-  "monto_total": 19480003933.0,
-  "proveedores_distintos": 6,
-  "procesos_sin_proveedor": 29,
+  "valor_estimado_total": 27970527337,
+  "monto_adjudicado_total": 8727637800,
+  "monto_contratado_total": 1027999400,
+  "procesos_sin_adjudicacion": 29,
   "por_categoria": [
     {
       "categoria": "Servicios",
-      "monto": 13134602183.0
+      "monto": 8562037800
     },
     {
       "categoria": "Bienes",
-      "monto": 6345401750.0
+      "monto": 165600000
     }
   ],
   "por_tipo_procedimiento": [
     {
       "tipo": "CVE con difusión previa",
-      "monto": 11462000000.0
+      "monto": 7462000000
     },
     {
       "tipo": "Menor cuantía nacional",
-      "monto": 8018003933.0
+      "monto": 1265637800
     }
   ],
   "top_proveedores": [
     {
       "proveedor": "CATHAY S.A.E",
-      "monto": 7462000000.0
+      "monto": 7462000000,
+      "pct_del_adjudicado": 85.5
     },
     {
       "proveedor": "WINNER S. R. L.",
-      "monto": 556314500.0
+      "monto": 556314500,
+      "pct_del_adjudicado": 6.4
     },
     {
       "proveedor": "Corporation Sekiura S.A.C.E.I",
-      "monto": 444900000.0
+      "monto": 444900000,
+      "pct_del_adjudicado": 5.1
     },
     {
       "proveedor": "LOCALIZA PARAGUAY S.A.",
-      "monto": 165600000.0
+      "monto": 165600000,
+      "pct_del_adjudicado": 1.9
     },
     {
       "proveedor": "Laura Griselda Sosa Rios",
-      "monto": 72038400.0
+      "monto": 72038400,
+      "pct_del_adjudicado": 0.8
     },
     {
       "proveedor": "EMPORIO FERRETERIA S.R.L.",
-      "monto": 26784900.0
+      "monto": 26784900,
+      "pct_del_adjudicado": 0.3
     }
-  ]
+  ],
+  "monto_total": 8727637800
 }

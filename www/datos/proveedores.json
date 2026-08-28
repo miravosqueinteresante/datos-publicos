@@ -3,14 +3,15 @@
     "proveedor": "PETROLEOS DEL SUR S.A.",
     "posicion": 1,
     "monto_total": 40000000000.0,
-    "contratos": 1,
+    "adjudicaciones": 1,
+    "pct_del_adjudicado": 31.6,
     "anios_activos": 1,
     "anios": [
       "2025"
     ],
     "categoria_principal": "Servicios",
     "pct_directo": 0.0,
-    "contratos_lista": [
+    "adjudicaciones_lista": [
       {
         "objeto": "PROVISIÓN DE COMBUSTIBLE - AD REFERÉNDUM - PLURIANUAL",
         "anio": "2025",
@@ -26,14 +27,15 @@
     "proveedor": "COMPAÑIA DE PETROLEO Y ASFALTO S.A. (COMPASA)",
     "posicion": 2,
     "monto_total": 13591200000.0,
-    "contratos": 2,
+    "adjudicaciones": 2,
+    "pct_del_adjudicado": 10.7,
     "anios_activos": 1,
     "anios": [
       "2023"
     ],
     "categoria_principal": "Bienes",
     "pct_directo": 0.0,
-    "contratos_lista": [
+    "adjudicaciones_lista": [
       {
         "objeto": "ADQUISICION DE CEMENTO ASFALTICO PARA LA DIRECCION DE VIALIDAD - PLURIANUAL",
         "anio": "2023",
@@ -58,14 +60,15 @@
     "proveedor": "CATHAY S.A.E",
     "posicion": 3,
     "monto_total": 7462000000.0,
-    "contratos": 1,
+    "adjudicaciones": 1,
+    "pct_del_adjudicado": 5.9,
     "anios_activos": 1,
     "anios": [
       "2026"
     ],
     "categoria_principal": "Servicios",
     "pct_directo": 100.0,
-    "contratos_lista": [
+    "adjudicaciones_lista": [
       {
         "objeto": "ADQUISICION DE CAMIONES RECOLECTORES COMPACTADORES PARA LA DIRECCION DE SERVICIOS URBANOS",
         "anio": "2026",
@@ -81,14 +84,15 @@
     "proveedor": "RODRIGUEZ HNOS S.A.E.C.A",
     "posicion": 4,
     "monto_total": 6705101552.0,
-    "contratos": 1,
+    "adjudicaciones": 1,
+    "pct_del_adjudicado": 5.3,
     "anios_activos": 1,
     "anios": [
       "2023"
     ],
     "categoria_principal": "Bienes",
     "pct_directo": 0.0,
-    "contratos_lista": [
+    "adjudicaciones_lista": [
       {
         "objeto": "PROVISIÓN, INSTALACIÓN Y PUESTA EN FUNCIONAMIENTO DE EQUIPOS CONTROLADORES E INSUMOS VARIOS PARA LA RENOVACIÓN DEL SISTEMA SEMAFÓRICO DE LA CIUDAD DE ASUNCIÓN",
         "anio": "2023",
@@ -104,7 +108,8 @@
     "proveedor": "PROYEC S.A.E",
     "posicion": 5,
     "monto_total": 5670829500.0,
-    "contratos": 4,
+    "adjudicaciones": 4,
+    "pct_del_adjudicado": 4.5,
     "anios_activos": 2,
     "anios": [
       "2023",
@@ -112,7 +117,7 @@
     ],
     "categoria_principal": "Bienes",
     "pct_directo": 27.5,
-    "contratos_lista": [
+    "adjudicaciones_lista": [
       {
         "objeto": "ADQUISICIÓN DE RETROEXCAVADORA PARA LA DIRECCIÓN DE VIALIDAD",
         "anio": "2023",
@@ -155,7 +160,8 @@
     "proveedor": "BERNARDA GONZALEZ MORINIGO",
     "posicion": 6,
     "monto_total": 5160662184.0,
-    "contratos": 3,
+    "adjudicaciones": 3,
+    "pct_del_adjudicado": 4.1,
     "anios_activos": 2,
     "anios": [
       "2023",
@@ -163,7 +169,7 @@
     ],
     "categoria_principal": "Bienes",
     "pct_directo": 100.0,
-    "contratos_lista": [
+    "adjudicaciones_lista": [
       {
         "objeto": "ADQUISICION DE CEMENTO PORTLAND PARA LA DIRECCION DE VIALIDAD",
         "anio": "2023",
@@ -197,14 +203,15 @@
     "proveedor": "SALLUSTRO Y COMPAÑIA S.A.",
     "posicion": 7,
     "monto_total": 3541845600.0,
-    "contratos": 1,
+    "adjudicaciones": 1,
+    "pct_del_adjudicado": 2.8,
     "anios_activos": 1,
     "anios": [
       "2024"
     ],
     "categoria_principal": "Bienes",
     "pct_directo": 0.0,
-    "contratos_lista": [
+    "adjudicaciones_lista": [
       {
         "objeto": "ADQUISICION DE UNIFORMES PARA FUNCIONARIOS MUNICIPALES - PLURIANUAL",
         "anio": "2024",
@@ -220,14 +227,15 @@
     "proveedor": "Consorcio Terminal",
     "posicion": 8,
     "monto_total": 3489505831.0,
-    "contratos": 1,
+    "adjudicaciones": 1,
+    "pct_del_adjudicado": 2.8,
     "anios_activos": 1,
     "anios": [
       "2022"
     ],
     "categoria_principal": "Bienes",
     "pct_directo": 100.0,
-    "contratos_lista": [
+    "adjudicaciones_lista": [
       {
         "objeto": "Adquisición de Aire Acondicionado Central para Planta Alta y Planta Baja de la Terminal de Ómnibus de Asunción",
         "anio": "2022",
@@ -243,14 +251,15 @@
     "proveedor": "CONDOR SACI",
     "posicion": 9,
     "monto_total": 3456800000.0,
-    "contratos": 1,
+    "adjudicaciones": 1,
+    "pct_del_adjudicado": 2.7,
     "anios_activos": 1,
     "anios": [
       "2024"
     ],
     "categoria_principal": "Bienes",
     "pct_directo": 0.0,
-    "contratos_lista": [
+    "adjudicaciones_lista": [
       {
         "objeto": "ADQUISICION DE CAMIONES VOLQUETES, CAMIONES PLAYEROS Y CAMIONES UTILITARIOS PARA LA DIRECCION DE VIALIDAD",
         "anio": "2024",
@@ -266,14 +275,15 @@
     "proveedor": "Cesar Ortiz Baez",
     "posicion": 10,
     "monto_total": 3000000000.0,
-    "contratos": 1,
+    "adjudicaciones": 1,
+    "pct_del_adjudicado": 2.4,
     "anios_activos": 1,
     "anios": [
       "2023"
     ],
     "categoria_principal": "Servicios",
     "pct_directo": 0.0,
-    "contratos_lista": [
+    "adjudicaciones_lista": [
       {
         "objeto": "MANTENIMIENTO Y REPARACIÓN DE EQUIPOS DE AIRE ACONDICIONADO CENTRAL DE LOS BLOQUES A y C -",
         "anio": "2023",

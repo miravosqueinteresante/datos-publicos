@@ -1,0 +1,11 @@
+{
+  "dataset": "contrataciones_muni_2023",
+  "anio": "2023",
+  "sicp": "108",
+  "registros": 84,
+  "con_adjudicacion": 72,
+  "sin_adjudicacion": 12,
+  "generado_en": "2026-08-28",
+  "fuente": "DNCP OCDS (masivo)",
+  "licencia": "CC BY 4.0"
+}
