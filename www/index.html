@@ -1,111 +1,20 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Datos Públicos — ¿Cómo contrata la Municipalidad de Asunción?</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MuchoTexto Data</title>
   <link rel="stylesheet" href="css/style.css">
-  <style>
-    .hero {
-      background: linear-gradient(135deg, #0f3b5c 0%, #4f46e5 100%);
-      color: #fff;
-      padding: 6rem 1.5rem 5rem;
-      text-align: center;
-    }
-    .hero h1 { font-size: 2.4rem; line-height: 1.15; margin: 0 auto 1rem; max-width: 1000px; letter-spacing: -.02em; }
-    .hero .lead { font-size: 1.2rem; max-width: 820px; margin: 0 auto 2.75rem; opacity: .92; }
-    .hero .ctas { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
-    .btn {
-      display: inline-block; padding: .8rem 1.6rem; border-radius: 10px;
-      font-weight: 600; text-decoration: none; transition: transform .08s;
-    }
-    .btn-primario { background: #fff; color: #0f3b5c; }
-    .btn-secundario { background: rgba(255,255,255,.15); color: #fff; border: 1px solid rgba(255,255,255,.4); }
-    .btn:hover { transform: translateY(-1px); text-decoration: none; }
-    .tres { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
-    .tarjeta-punto { background: #fff; border: 1px solid var(--borde); border-radius: 12px; padding: 1.1rem; box-shadow: var(--sombra); }
-    .tarjeta-punto h3 { margin: 0 0 .35rem; color: var(--primario); font-size: 1.05rem; }
-    .tarjeta-punto p { margin: 0; font-size: .9rem; color: var(--texto-suave); }
-    .meta-chica { font-size: .8rem; color: var(--texto-suave); }
-  </style>
 </head>
 <body>
-  <nav class="nav"><div class="nav-inner">
-    <a href="index.html" class="marca">Datos Públicos</a>
-    <ul>
-      <li><a href="municipalidad.html">Municipalidad</a></li>
-      <li><a href="proveedores.html">Proveedores</a></li>
-      <li><a href="datos.html">Datos</a></li>
-      <li><a href="metodologia.html">Metodología</a></li>
-      <li><a href="calidad.html">Calidad</a></li>
-    </ul>
-    <span class="vision">Contrataciones de la Municipalidad de Asunción</span>
-  </div></nav>
-
-  <section class="hero">
-    <h1>¿Cómo contrata la Municipalidad de Asunción?</h1>
-    <p class="lead">Datos Públicos demuestra que con iniciativa, datos que ya existen y herramientas accesibles, podemos construir servicios públicos útiles. No es una idea: es un prototipo funcionando.</p>
-    <div class="ctas">
-      <a class="btn btn-primario" href="municipalidad.html">Ver el análisis</a>
-      <a class="btn btn-secundario" href="proveedores.html">Principales Proveedores</a>
-    </div>
-  </section>
-
-  <div style="max-width:1080px;margin:0 auto;padding:1rem;">
-    <section class="seccion">
-      <h2>Por qué importa</h2>
-      <div class="tres">
-        <div class="tarjeta-punto">
-          <h3>Es real</h3>
-          <p>Sitio publicado, datos verificables, código abierto. No una maqueta.</p>
-        </div>
-        <div class="tarjeta-punto">
-          <h3>Datos ya públicos</h3>
-          <p>Construido sobre lo que la Municipalidad y la DNCP ya publican. Sin esperar a "una gran plataforma".</p>
-        </div>
-        <div class="tarjeta-punto">
-          <h3>Herramientas accesibles</h3>
-          <p>Datos + Python + GitHub + una página web. Reproducible y automático.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="seccion">
-      <h2>Prueba viva (datos reales)</h2>
-      <div class="metricas" id="metricas-demo">
-        <div class="metrica"><div class="valor">—</div><div class="etiqueta">Procesos 2026</div></div>
-        <div class="metrica"><div class="valor">—</div><div class="etiqueta">Monto adjudicado</div></div>
-        <div class="metrica"><div class="valor">—</div><div class="etiqueta">Proveedores</div></div>
-      </div>
-      <p class="meta-chica" id="meta-demo">Serie 2023-2026 en Análisis. Fuente: DNCP (CC BY 4.0).</p>
-    </section>
-
-    <section class="seccion">
-      <h2>Qué encontramos y qué falta</h2>
-      <p>La Municipalidad publica en abierto sus <strong>contrataciones</strong> (DNCP). Eso ya permite responder preguntas concretas: qué compra, a quién, cuánto y con qué procedimiento.</p>
-      <p>Pero no publica en formato abierto: nómina de salarios detallada, presupuesto aprobado histórico ni ejecución por partida. Lo documentamos con evidencia — eso también es transparencia.
-      <a href="metodologia.html">Ver metodología y limitaciones →</a></p>
-    </section>
-
-    <section class="seccion" style="text-align:center;">
-      <h2>¿Qué se podría hacer con apoyo institucional?</h2>
-      <p>Con una alianza o pedidos formales de acceso (Ley 5282/14), este prototipo puede crecer: serie temporal de contratación por año, otras entidades de la DNCP, y la conexión con datos que hoy la institución no publica. La base ya está construida.</p>
-      <p><a class="btn btn-primario" href="datos.html" style="background:var(--primario);color:#fff;">Ver los datos</a></p>
-    </section>
-  </div>
-
-  <footer>Datos Públicos — plataforma de infraestructura cívica · Repo en GitHub</footer>
-
-  <script>
-    const FMT = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 0 });
-    fetch("datos/indicadores-gasto-2026.json")
-      .then(r => r.json())
-      .then(d => {
-        document.querySelectorAll("#metricas-demo .metrica")[0].querySelector(".valor").textContent = FMT.format(d.procesos || 0);
-        document.querySelectorAll("#metricas-demo .metrica")[1].querySelector(".valor").textContent = FMT.format(d.monto_total || 0);
-        document.querySelectorAll("#metricas-demo .metrica")[2].querySelector(".valor").textContent = FMT.format(d.proveedores_distintos || 0);
-      })
-      .catch(() => {});
-  </script>
+  <main class="contenedor">
+    <h1>MuchoTexto Data</h1>
+    <p class="meta">Capa de datos de MuchoTexto · datospublicos.muchotexto.net</p>
+    <p>Infraestructura de datos verificables sobre Paraguay que estructura, normaliza y
+       demuestra con evidencia oficial lo que explica el universo editorial de MuchoTexto.</p>
+    <p>El primer conector es <strong>ANDE</strong> (energía). El sitio se construye por fases;
+       la base y los indicadores llegarán próximamente.</p>
+    <p><a class="btn btn-primario" href="https://muchotexto.net" target="_blank" rel="noopener">Ver MuchoTexto</a></p>
+  </main>
 </body>
 </html>
