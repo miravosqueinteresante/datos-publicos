@@ -139,11 +139,10 @@ footer { max-width: 48rem; margin: 2rem auto 1rem; padding: 0 1rem; font-size: .
 
 /* Barras de distribución */
 .barras { display: flex; flex-direction: column; gap: .9rem; }
-.barra-fila { display: grid; grid-template-columns: 180px 1fr auto; align-items: center; gap: 1rem; }
-.barra-nombre {
-  font-size: .9rem; color: var(--texto); font-weight: 500;
-  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: right;
-}
+.barra-fila { display: grid; grid-template-columns: 210px 1fr auto; align-items: center; gap: 1rem; }
+.barra-nombre { text-align: right; line-height: 1.2; }
+.barra-nombre .bn-txt { font-size: .9rem; color: var(--texto); font-weight: 500; }
+.barra-nombre .bn-sub { display: block; font-size: .72rem; color: var(--texto-suave); margin-top: .15rem; line-height: 1.3; }
 .barra-track { background: rgba(255, 255, 255, .06); border-radius: 999px; height: 22px; overflow: hidden; }
 .barra { height: 100%; background: var(--acento); border-radius: 999px; min-width: 2px; }
 .barra-valores {

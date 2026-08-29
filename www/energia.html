@@ -106,7 +106,18 @@
       tarifa_residencial_bt_501_1000: "Tarifa BT 501-1000 kWh",
       tarifa_residencial_bt_mas_1000: "Tarifa BT >1000 kWh",
     };
-      const PRINCIPALES = ["consumo_total", "demanda_maxima", "factor_carga",
+    const CAT_SUB = {
+      residencial: "Viviendas / hogares familiares",
+      industrial: "Actividades industriales (clase tarifaria I)",
+      otros: "Comercios y servicios (no residencial, industrial ni estatal)",
+      gubernamental: "Entidades del Estado",
+      diferencial: "Clientes en media tensión, facturación punta / fuera de punta",
+      alta_tension: "Subestaciones a 66 kV",
+      muy_alta_tension: "Subestaciones a 220 kV",
+      electrointensivas: "Industrias electrointensivas (régimen especial)",
+      alumbrado_publico: "Alumbrado de vía pública",
+    };
+    const PRINCIPALES = ["consumo_total", "demanda_maxima", "factor_carga",
         "clientes_total", "perdidas_totales",
         "consumo_categoria_residencial", "consumo_categoria_electrointensivas"];
       const fmt = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 2 });
@@ -151,10 +162,12 @@
       for (const d of cat) {
         const pct = totalCat ? (d.valor / totalCat * 100) : 0;
         const nombre = ETIQUETAS[d.indicador] || d.indicador;
+        const sub = CAT_SUB[d.indicador.replace("consumo_categoria_", "")] || "";
         const fila = document.createElement("div");
         fila.className = "barra-fila";
         fila.innerHTML =
-          `<div class="barra-nombre">${nombre}</div>` +
+          `<div class="barra-nombre"><span class="bn-txt">${nombre}</span>` +
+          `<span class="bn-sub">${sub}</span></div>` +
           `<div class="barra-track"><div class="barra" style="width:${pct.toFixed(1)}%"></div></div>` +
           `<div class="barra-valores"><strong>${fmt.format(d.valor)} GWh</strong>` +
           `<span class="barra-pct">${pct.toFixed(1)}%</span></div>`;
