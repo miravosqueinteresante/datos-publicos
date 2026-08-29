@@ -1150,5 +1150,53 @@
     "fecha_extraccion": "2026-08-29",
     "metodo_extraccion": "extraccion_pdf",
     "estado_verificacion": "extraido"
+  },
+  {
+    "id": "ANDE-generacion_itaipu_paraguay-2025-01-01",
+    "entidad": "ANDE",
+    "indicador": "generacion_itaipu_paraguay",
+    "valor": 25768.0,
+    "unidad": "GWh",
+    "fecha_inicio": "2025-01-01",
+    "fecha_fin": "2025-12-31",
+    "fuente": "Itaipú Binacional",
+    "documento": null,
+    "url": "https://www.itaipu.gov.py/noticias/energia/itaipu-suministro-25-768-gwh-de-energia-electrica-a-paraguay-en-el-2025",
+    "fecha_publicacion": null,
+    "fecha_extraccion": "2026-08-29",
+    "metodo_extraccion": "extraccion_manual",
+    "estado_verificacion": "verificado"
+  },
+  {
+    "id": "ANDE-generacion_yacyreta_paraguay-2025-01-01",
+    "entidad": "ANDE",
+    "indicador": "generacion_yacyreta_paraguay",
+    "valor": 3081.0,
+    "unidad": "GWh",
+    "fecha_inicio": "2025-01-01",
+    "fecha_fin": "2025-12-31",
+    "fuente": "Entidad Binacional Yacyretá",
+    "documento": null,
+    "url": "https://paraguayoindependiente.com/2026/01/21/yacyreta-muestra-una-senal-preocupante-para-paraguay/",
+    "fecha_publicacion": null,
+    "fecha_extraccion": "2026-08-29",
+    "metodo_extraccion": "extraccion_manual",
+    "estado_verificacion": "verificado"
+  },
+  {
+    "id": "ANDE-generacion_yacyreta_total-2025-01-01",
+    "entidad": "ANDE",
+    "indicador": "generacion_yacyreta_total",
+    "valor": 16103.0,
+    "unidad": "GWh",
+    "fecha_inicio": "2025-01-01",
+    "fecha_fin": "2025-12-31",
+    "fuente": "Entidad Binacional Yacyretá",
+    "documento": null,
+    "url": "https://paraguayoindependiente.com/2026/01/21/yacyreta-muestra-una-senal-preocupante-para-paraguay/",
+    "fecha_publicacion": null,
+    "fecha_extraccion": "2026-08-29",
+    "metodo_extraccion": "extraccion_manual",
+    "estado_verificacion": "verificado"
   }
 ]

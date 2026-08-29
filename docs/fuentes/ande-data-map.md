@@ -48,11 +48,16 @@ extraer de PDF/HTML conservando URL + fecha de obtención (principio de trazabil
   cuadro "Origen de la Energía" con dos series validadas: `generacion_binacional_itaipu_yacyreta`
   ("Energía Comprada (Itaipú y Yacyretá)") y `generacion_nacional_acaray_termicas` ("Generación Bruta
   (Acaray y Térmicas)"), en MWh→GWh. `generacion.php` es JS-renderizado sin datos; se descartó.
-- **Generación por central individual (Itaipú vs Yacyretá; Acaray vs térmicas) — BRECHA FINA**: la
-  Compilación las reporta combinadas. Para separarlas falta la Memoria Anual 2025 de ANDE o los informes
-  de gestión de las binacionales. Quedan fuera hasta tener fuente primaria.
-- **Generación año 2025 (corriente)**: la Compilación llega a 2020; el BAGP 2025 no desglosa generación por
-  central. Requiere Memoria Anual 2025 / informes binacionales 2025 (aún puede no estar publicado).
+- **Generación por central individual (2025) — RESUELTA parcialmente (curada)**: Itaipú y Yacyretá
+  publican sus cifras 2025 en fuentes primarias. `generacion_itaipu_paraguay` = 25.768 GWh (energía
+  suministrada a Paraguay, itaipu.gov.py 09/01/2026) y `generacion_yacyreta_paraguay` = 3.081 GWh
+  (energía retirada por ANDE, EBY vía prensa), más `generacion_yacyreta_total` = 16.103 GWh. Se integran
+  como registros **curados/verificados** (`extraccion_manual`) con su URL de procedencia, no por scraper.
+- **Acaray 2025 (por central) — BRECHA FINA**: la Compilación trae "Acaray + Térmicas" combinado (serie
+  2000–2020), pero no el valor 2025 de Acaray aislado. Requiere Memoria Anual 2025 de ANDE. Mientras tanto
+  queda fuera del dataset publicado.
+- **Generación año 2025 combinada vs serie histórica**: la serie 2000–2020 (Compilación) y los valores
+  curados 2025 (binacionales) son métricas distintas y años distintos; conviven etiquetadas en el dataset.
 - **Frecuencia mensual no estructurada**: consumo y demanda mensuales solo circulan como cifras sueltas
   en notas de prensa (ej. enero–mayo 2026 = 14.587,1 GWh, +19,4%). No hay serie mensual descargable →
   brecha de trazabilidad para granularidad mensual.

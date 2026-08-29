@@ -1,7 +1,7 @@
 import os
 import urllib.request
 
-from connectors.ande import connector
+from connectors.ande import connector, curados
 
 SOURCES = {
     "bagp": "https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf",
@@ -31,6 +31,7 @@ def main():
             recs += connector.run_compilacion(path, url)
         else:
             recs += connector.run_pdf(path, url)
+    recs += curados.CURADOS
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     connector.store(recs, OUT)
     print(f"ANDE connector: {len(recs)} indicadores -> {OUT}")
