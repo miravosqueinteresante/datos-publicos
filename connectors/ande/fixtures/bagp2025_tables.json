@@ -1,0 +1,2607 @@
+[
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "1",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "2",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "3",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "4",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "5",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "6",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "7",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "8",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "9",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "10",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "11",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "12",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "Consumo de Energía, Demanda Máxima y Factor de Carga del SIN",
+      null,
+      null
+    ],
+    [
+      "Indicadores",
+      "Año 2024",
+      "Año 2025"
+    ],
+    [
+      "Consumo de Energía Eléctrica (MWh/año)",
+      "26.154.488",
+      "29.418.538"
+    ],
+    [
+      "Demanda Máxima de Potencia (MW)",
+      "5.027",
+      "5.280"
+    ],
+    [
+      "Factor de Carga Anual (%)",
+      "59,39",
+      "63,60"
+    ]
+  ],
+  [
+    [
+      "Demanda Máxima de Potencia del SIN\nAño 2025",
+      null
+    ],
+    [
+      "Meses",
+      "MW"
+    ],
+    [
+      "Enero",
+      "4.936"
+    ],
+    [
+      "Febrero",
+      "5.054"
+    ],
+    [
+      "Marzo",
+      "5.122"
+    ],
+    [
+      "Abril",
+      "3.673"
+    ],
+    [
+      "Mayo",
+      "4.077"
+    ],
+    [
+      "Junio",
+      "3.918"
+    ],
+    [
+      "Julio",
+      "4.072"
+    ],
+    [
+      "Agosto",
+      "4.188"
+    ],
+    [
+      "Setiembre",
+      "4.675"
+    ],
+    [
+      "Octubre",
+      "4.718"
+    ],
+    [
+      "Noviembre",
+      "5.269"
+    ],
+    [
+      "Diciembre",
+      "5.280"
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "13",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      "",
+      "Cantidad de"
+    ],
+    [
+      "Categoría",
+      "Consumo (kWh)",
+      null
+    ],
+    [
+      null,
+      null,
+      "Usuarios"
+    ],
+    [
+      "",
+      "",
+      null
+    ],
+    [
+      "Residencial",
+      "7.425.632.545",
+      "1.482.966"
+    ],
+    [
+      "Industrial",
+      "266.595.986",
+      "121"
+    ],
+    [
+      "Otros",
+      "6.842.117.693",
+      "189.767"
+    ],
+    [
+      "Gubernamental",
+      "442.721.865",
+      "7.919"
+    ],
+    [
+      "Diferencial",
+      "101.215.024",
+      "107"
+    ],
+    [
+      "Alta Tensión",
+      "886.324.372",
+      "14"
+    ],
+    [
+      "Muy Alta Tensión",
+      "253.382.351",
+      "4"
+    ],
+    [
+      "Consumidores Intensivo Especial",
+      "5.464.852.192",
+      "47"
+    ],
+    [
+      "Sub Total Consumo Nacional",
+      "21.682.842.028",
+      "1.680.945"
+    ],
+    [
+      "Exportación",
+      "113.360.874",
+      "1"
+    ],
+    [
+      "Sub Total Consumo Nacional",
+      "",
+      ""
+    ],
+    [
+      "y Exportación",
+      "21.796.202.902",
+      "1.680.946"
+    ],
+    [
+      "Alumbrado Público",
+      "236.466.394",
+      "-"
+    ],
+    [
+      "Total",
+      "22.032.669.296",
+      "1.680.946"
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "14",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "15",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "16",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "17",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "DETALLE",
+      "PLAN DE FORMACIÓN Y\nCAPACITACIÓN AÑO 2025",
+      "PLAZAS OTORGADAS\nA DICIEMBRE/2025",
+      "% EJEC."
+    ],
+    [
+      "Cursos Organizados por ANDE",
+      "",
+      "3.326",
+      "78%"
+    ],
+    [
+      "Cursos Organizados por\nInstituciones externas",
+      "4.252",
+      "407",
+      "10%"
+    ],
+    [
+      "Total",
+      "4.252",
+      "3.733",
+      "88%"
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "18",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "19",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "20",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "21",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "PROCEDIMIENTOS ADMINISTRATIVOS IMPLEMENTADOS - EJERCICIO FISCAL 2025",
+      null,
+      null,
+      ""
+    ],
+    [
+      null,
+      null,
+      null,
+      ""
+    ],
+    [
+      "ÍTEM",
+      "DESCRIPCIÓN",
+      "CANTIDAD",
+      ""
+    ],
+    [
+      "Instrucciones de Procedimientos Generales (IPG's)",
+      null,
+      null,
+      null
+    ],
+    [
+      "1",
+      "Instrucciones de Procedimientos Generales (IPG's), Aprobadas por Resolución.",
+      "61",
+      ""
+    ],
+    [
+      "2",
+      "Instrucciones de Procedimientos Generales (IPG's), Presentada para su Aprobación.",
+      "23",
+      ""
+    ],
+    [
+      "3",
+      "Instrucciones de Procedimientos Generales (IPG's), en Proceso de Elaboración y/o Actualización.",
+      "118",
+      ""
+    ],
+    [
+      "Total IPG's",
+      null,
+      "202",
+      ""
+    ],
+    [
+      "Estudios Organizacionales (EO's)",
+      null,
+      null,
+      ""
+    ],
+    [
+      "1",
+      "Reestructuraciones aprobadas",
+      "32",
+      ""
+    ],
+    [
+      "2",
+      "Estudios Organizacionales Pendientes de Aprobación",
+      "39",
+      ""
+    ],
+    [
+      "3",
+      "Normas de Organización Aprobadas",
+      "49",
+      ""
+    ],
+    [
+      "4",
+      "Normas de Organización en Pendientes de Aprobación",
+      "84",
+      ""
+    ],
+    [
+      "5",
+      "Organigramas Generales o Sectoriales Presentados y Aprobados",
+      "12",
+      ""
+    ],
+    [
+      "Total EO's",
+      null,
+      "216",
+      ""
+    ],
+    [
+      "Diseño, Elaboración de Especificaciones Tecnicas y Control de Formularios (D, E.E.T.T. y CF)",
+      null,
+      null,
+      ""
+    ],
+    [
+      "1",
+      "Diseño de Formularios.",
+      "10",
+      ""
+    ],
+    [
+      "2",
+      "Rediseño de Formularios.",
+      "58",
+      ""
+    ],
+    [
+      "3",
+      "Elaboración de Especificaciones Técnicas y Control de Pruebas de Imprenta de Formularios.",
+      "47",
+      ""
+    ],
+    [
+      "Total D, E.E.T.T. y CF",
+      null,
+      "115",
+      ""
+    ],
+    [
+      "Otras Actividades",
+      null,
+      null,
+      ""
+    ],
+    [
+      "1",
+      "Conformación de Nóminas de Disertantes para Cursos y Seminarios",
+      "11",
+      ""
+    ],
+    [
+      "2",
+      "Elaboración de Informes (Gestión de la Unidad)",
+      "7",
+      ""
+    ],
+    [
+      "3",
+      "Revisión de Código de Buen Gobierno y PCBG-01 \"Gestión de Reclamos por Controversias\"",
+      "3",
+      ""
+    ],
+    [
+      "4",
+      "Socializacion sobre Gestión por Procesos",
+      "23",
+      ""
+    ],
+    [
+      "5",
+      "Plataforma de Capacitación sobre NRM-MECIP 2015",
+      "1",
+      ""
+    ],
+    [
+      "6",
+      "Actualización del Mapa de Procesos",
+      "2",
+      ""
+    ],
+    [
+      "7",
+      "Identificación de Macroprocesos, Procesos, Subprocesos, Actividades y Tareas",
+      "84",
+      ""
+    ],
+    [
+      "8",
+      "Caracterización de Procesos (Ficha de Procesos)",
+      "156",
+      ""
+    ],
+    [
+      "9",
+      "Actualización del Normograma",
+      "1",
+      ""
+    ],
+    [
+      "10",
+      "Revisión de Propuesta de Manual de Cargos, Carreras y Salarios (PCCyS)",
+      "19",
+      ""
+    ],
+    [
+      "11",
+      "Revisión de Especificaciones Técnicas Ambientales Generales",
+      "5",
+      ""
+    ],
+    [
+      "12",
+      "Participación en Comisiones Concurso de Oposición Interno Institucional",
+      "150",
+      ""
+    ],
+    [
+      "13",
+      "Participación en Seminarios de Mejores Prácticas Regionales y Sectoriales",
+      "4",
+      ""
+    ],
+    [
+      "14",
+      "Revisión del Manual de Cálculo de Depósito de Garantía",
+      "1",
+      ""
+    ],
+    [
+      "Total Otras Actividades",
+      null,
+      "467",
+      ""
+    ],
+    [
+      "Total Procedimientos Administrativos Implementados",
+      null,
+      "1000",
+      ""
+    ],
+    [
+      null,
+      null,
+      null,
+      ""
+    ],
+    [
+      null,
+      null,
+      null,
+      ""
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "22",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "23",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "24",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "CICLOS",
+      "MONOFÁSICOS",
+      "TRIFÁSICOS",
+      "TOTAL"
+    ],
+    [
+      "ENERO",
+      "2.914",
+      "1.540",
+      "4.454"
+    ],
+    [
+      "FEBRERO",
+      "3.575",
+      "2.092",
+      "5.667"
+    ],
+    [
+      "MARZO",
+      "1.406",
+      "1.585",
+      "2.991"
+    ],
+    [
+      "ABRIL",
+      "1.299",
+      "1.425",
+      "2.724"
+    ],
+    [
+      "MAYO",
+      "5.137",
+      "1.605",
+      "6.742"
+    ],
+    [
+      "JUNIO",
+      "5.214",
+      "1.708",
+      "6.922"
+    ],
+    [
+      "JULIO",
+      "6.238",
+      "2.093",
+      "8.331"
+    ],
+    [
+      "AGOSTO",
+      "5.175",
+      "1.499",
+      "6.674"
+    ],
+    [
+      "SEPTIEMBRE",
+      "4.759",
+      "1.404",
+      "6.163"
+    ],
+    [
+      "OCTUBRE",
+      "6.720",
+      "1.700",
+      "8.420"
+    ],
+    [
+      "NOVIEMBRE",
+      "7.162",
+      "1.666",
+      "8.828"
+    ],
+    [
+      "DICIEMBRE\nTOTAL",
+      "5.016\n54.615",
+      "1.351\n19.668",
+      "6.367\n74.283"
+    ]
+  ],
+  [
+    [
+      "MES",
+      "CANTIDAD DE\nSUMINISTROS"
+    ],
+    [
+      "ENERO",
+      "806"
+    ],
+    [
+      "FEBRERO",
+      "698"
+    ],
+    [
+      "MARZO",
+      "819"
+    ],
+    [
+      "ABRIL",
+      "597"
+    ],
+    [
+      "MAYO",
+      "730"
+    ],
+    [
+      "JUNIO",
+      "587"
+    ],
+    [
+      "JULIO",
+      "551"
+    ],
+    [
+      "AGOSTO",
+      "377"
+    ],
+    [
+      "SEPTIEMBRE",
+      "342"
+    ],
+    [
+      "OCTUBRE",
+      "417"
+    ],
+    [
+      "NOVIEMBRE",
+      "345"
+    ],
+    [
+      "DICIEMBRE",
+      "198"
+    ],
+    [
+      "TOTAL",
+      "6.467"
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "25",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "Cantidad de verificaciones",
+      "Cantidad\nOts"
+    ],
+    [
+      "Meses",
+      null
+    ],
+    [
+      "ENERO",
+      "347"
+    ],
+    [
+      "FEBRERO",
+      "365"
+    ],
+    [
+      "MARZO",
+      "434"
+    ],
+    [
+      "ABRIL",
+      "380"
+    ],
+    [
+      "MAYO",
+      "427"
+    ],
+    [
+      "JUNIO",
+      "379"
+    ],
+    [
+      "JULIO",
+      "286"
+    ],
+    [
+      "AGOSTO",
+      "202"
+    ],
+    [
+      "SEPTIEMBRE",
+      "170"
+    ],
+    [
+      "OCTUBRE",
+      "208"
+    ],
+    [
+      "NOVIEMBRE",
+      "143"
+    ],
+    [
+      "DICIEMBRE",
+      "104"
+    ],
+    [
+      "Total general",
+      "3.445"
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "26",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "PROY.",
+      "CÓDIGO\nSNIP",
+      "DESCRIPCIÓN",
+      "ORGANISMO\nFINANCIADOR"
+    ],
+    [
+      "5",
+      "58",
+      "PROYECTO DE FORTALECIMIENTO DEL SECTOR DE LA ENERGÍA - BIRF 7994 - PA.",
+      "BIRF - 402"
+    ],
+    [
+      "9",
+      "159",
+      "PROYECTO DE CONSTRUCCIÓN DE LA LÍNEA DE TRANSMISIÓN DE 500 KV YACYRETÁ - VILLA\nHAYES BID-BEI-CAF.",
+      "BID - 401\nCAF - 405\nBEI - 409"
+    ],
+    [
+      "15",
+      "160",
+      "MANEJO DE PASIVOS AMBIENTALES DEL SISTEMA ELÉCTRICO.",
+      "BID - 401"
+    ],
+    [
+      "22",
+      "275",
+      "PROYECTO DE MEJORAMIENTO DEL SISTEMA DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA EN EL\nÁREA METROPOLITANA.",
+      "CAF - 405\nOFID - 406"
+    ],
+    [
+      "23",
+      "278",
+      "PROYECTO DE REFUERZO DEL SISTEMA ELÉCTRICO EN LOS DEPARTAMENTOS DE CENTRAL,\nPARAGUARÍ Y PRESIDENTE HAYES.",
+      "CAF - 405\nOFID - 406"
+    ],
+    [
+      "27",
+      "621",
+      "MEJORAMIENTO DEL SISTEMA DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA ÁREA METROPOLITANA -\nFASE II.",
+      "CAF - 405\nBEI - 409"
+    ],
+    [
+      "28",
+      "276",
+      "REFUERZO DEL SISTEMA ELÉCTRICO EN LA CIUDAD DE ASUNCIÓN.",
+      "CAF - 405\nBEI - 409"
+    ],
+    [
+      "29",
+      "277",
+      "REFUERZO DEL SISTEMA ELÉCTRICO EN LOS DEPARTAMENTOS DE CAAGUAZÚ Y ALTO PARANÁ.",
+      "CAF - 405\nBEI - 409"
+    ],
+    [
+      "30",
+      "706",
+      "REPOSICIÓN DEL COMPENSADOR ESTÁTICO DE REACTIVOS EN LA SUBESTACIÓN SAN LORENZO.",
+      "CAF - 405\nBEI - 409"
+    ],
+    [
+      "31",
+      "717",
+      "CONSTRUCCIÓN DE LA SUBESTACIÓN MINGA GUAZÚ EN 500 KV EN LA CIUDAD DE MINGA GUAZÚ /\nOBRAS PARA MEJORAS Y OPTIMIZACIÓN DE SISTEMAS.",
+      "CAF - 405"
+    ],
+    [
+      "32",
+      "776",
+      "CONSTRUCCIÓN DE LA SUBESTACIÓN MARIA AUXILIADORA EN 220 KV Y LA LT 220 KV SANTA RITA -\nMARIA AUXILIADORA DEL DEPARTAMENTO DE ITAIPÚA / OBRAS PARA MEJORAS Y OPTIMIZACIÓN\nDE SISTEMAS.",
+      "CAF - 405"
+    ],
+    [
+      "33",
+      "777",
+      "MEJORAMIENTO DE 5000 KM DE LÍNEAS DE MEDIA Y BAJA TENSIÓN CONSTRUIDA BAJO EL SISTEMA\nDE AUTO AYUDA EN LOS DEPARTAMENTOS DE CONCEPCIÓN, SAN PEDRO, CORDILLERA, GUAIRA,\nCAAGUAZÚ, CAAZAPÁ, ITAPÚA, MISIONES, PARAGUARÍ, ALTO PARANÁ, ÑEEMBUCÚ, AMAMBAY Y\nCANINDEYÚ / OBRAS PARA MEJORAS Y OPTIMIZACIÓN DE SISTEMAS.",
+      "CAF - 405"
+    ],
+    [
+      "34",
+      "794",
+      "PROYECTO DE REHABILITACIÓN Y MODERNIZACIÓN DE LA CENTRAL HIDROÉLECTICA ACARAY -\nBID/ANDE.",
+      "BID - 401"
+    ],
+    [
+      "35",
+      "712",
+      "CONSTRUCCIÓN DE LA SUBESTACIÓN VALENZUELA 500 KV - FONPLATA/ANDE.",
+      "FONPLATA - 403"
+    ],
+    [
+      "36",
+      "844",
+      "PROYECTO DE MEJORAMIENTO DEL SISTEMA DE DISTRIBUCIÓN, EN 14 DEPARTAMENTOS DE LA\nREPUBLICA DEL PARAGUAY.",
+      "CAF - 405"
+    ],
+    [
+      "37",
+      "848",
+      "PROYECTO DE ADQUISICIÓN DE SUBESTACIONES MÓVILES DE 220/23 KV-41,67 MVA Y DE 66/23 KV-30",
+      "CAF - 405"
+    ],
+    [
+      "38",
+      "886",
+      "PROYECTO DE MEJORAMIENTO DE LA GESTIÓN DEL SISTEMA INTEGRAL DE DISTRIBUCIÓN\nELÉCTRICA DEL SISTEMA INTERCONECTADO NACIONAL - SGIDE.",
+      "CAF - 405"
+    ],
+    [
+      "40",
+      "952",
+      "CONSTRUCCIÓN DEL SEGUNDO CIRCUITO DE LA LÍNEA DE TRANSMISIÓN DE 500 KV MARGEN\nDERECHA ITAIPÚ-VILLA HAYES.",
+      "BID - 401"
+    ],
+    [
+      "44",
+      "961",
+      "PROYECTO DE CONSTRUCCIÓN DE LA LÍNEA DE TRANSMISIÓN 220 KV VILLA HAYES – VILLA REAL -\nPOZO COLORADO- LOMA PLATA Y LA SUBESTACIÓN POZO COLORADO EN 220 KV.",
+      "FONPLATA - 403\nKFW - 654"
+    ],
+    [
+      "45",
+      "897",
+      "CONSTRUCCIÓN DE LA LÍNEA DE TRANSMISIÓN DE 500 KV YGUAZÚ-VALENZUELA.",
+      "BID - 401\nJICA - 602"
+    ],
+    [
+      "",
+      null,
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "27",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "PROY.",
+      "CÓDIGO\nSNIP",
+      "DESCRIPCIÓN",
+      "ORGANISMO\nFINANCIADOR"
+    ],
+    [
+      "46",
+      "900",
+      "MEJORAMIENTO DE LA EFICIENCIA ENERGÉTICA DE LA RED DE ALUMBRADO PÚBLICO Y DE LA\nINFRAESTRUCTURA EDILICIA DE LA ANDE EN ASUNCIÓN.",
+      "BID - 401\nJICA - 602"
+    ],
+    [
+      "48",
+      "966",
+      "CONSTRUCCIÓN DE LA LT 220 KV DOBLE TERNA - VALENZUELA - INTERSECCIÓN\nLT 220 KV SAN PATRICIO - GUARAMBARÉ\"",
+      "BID - 401"
+    ],
+    [
+      "49",
+      "971",
+      "PROYECTO DE CONSTRUCCIÓN DE LAS LÍNEAS DE TRANSMISIÓN SUBTERRÁNEAS DE 220 KV SAN\nLORENZO - VILLA AURELIA Y BARRIO MOLINO - VILLA AURELIA, EN ASUNCIÓN Y CENTRAL",
+      "TAIWAN - 509"
+    ],
+    [
+      "50",
+      "969",
+      "PROYECTO DE MODERNIZACIÓN DEL COMPENSADOR ESTÁTICO DE REACTIVOS (CER) EN LA\nSUBESTACIÓN LIMPIO EN 220 KV.",
+      "TAIWAN - 509"
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "28",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "29",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "30",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "31",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "32",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "33",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "ENTE\nFINANCIERO",
+      "REFERENCIA DEL\nPRÉSTAMO",
+      "FECHA\nVTO.",
+      "MONEDA DE\nDESEMBOLSO",
+      "EN MONEDA EXTRANJERA",
+      null,
+      null,
+      "FECHA DE\nPAGO",
+      "INSTITUCIÓN\nPAGADORA"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      "INTERÉS",
+      "COMISIÓN",
+      "TOTAL",
+      null,
+      null
+    ],
+    [
+      "MEF",
+      "BONOS SOBERANOS I - BIRF\n9425-PY",
+      "10-ene-25",
+      "Dólares Americanos",
+      "6.392.258,71",
+      "0,00",
+      "6.392.258,71",
+      "08-ene-25",
+      "ANDE"
+    ],
+    [
+      "MEF",
+      "BONOS SOBERANOS II",
+      "06-feb-25",
+      "Dólares Americanos",
+      "3.050.000,00",
+      "0,00",
+      "3.050.000,00",
+      "29-ene-25",
+      "ANDE"
+    ],
+    [
+      "MEF",
+      "BONOS SOBERANOS I - BIRF\n9425-PY",
+      "10-jul-25",
+      "Dólares Americanos",
+      "5.502.653,19",
+      "0,00",
+      "5.502.653,19",
+      "07-jul-25",
+      "ANDE"
+    ],
+    [
+      "MEF",
+      "BONOS SOBERANOS II",
+      "06-ago-25",
+      "Dólares Americanos",
+      "3.050.000,00",
+      "0,00",
+      "3.050.000,00",
+      "22-jul-25",
+      "ANDE"
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "34",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "ENTE\nFINANCIERO",
+      "PRÉSTAMO",
+      "FECHA\nVTO.",
+      "MONEDA DE\nDESMBOLSO",
+      "EN MONEDA EXTRANJERA",
+      null,
+      null,
+      null,
+      "FECHA DE\nPAGO",
+      "INSTITUCIÓN\nPAGADORA"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      "AMORTIZACIÓN",
+      "INTERÉS",
+      "COMISIÓN",
+      "TOTAL",
+      null,
+      null
+    ],
+    [
+      "BEI",
+      "BEI II FI 87416 - Comisión",
+      "03-feb-25",
+      "Dólares Americanos",
+      "0,00",
+      "0,00",
+      "276.994,54",
+      "276.994,54",
+      "29-ene-25",
+      "ANDE"
+    ],
+    [
+      "CAF",
+      "CAF 10852",
+      "17-mar-25",
+      "Dólares Americanos",
+      "6.626.969,74",
+      "4.474.404,11",
+      "31.910,59",
+      "11.133.284,44",
+      "10-mar-25",
+      "ANDE"
+    ],
+    [
+      "CAF",
+      "CAF 10170",
+      "17-mar-25",
+      "Dólares Americanos",
+      "6.550.998,15",
+      "3.786.568,47",
+      "5.397,72",
+      "10.342.964,34",
+      "10-mar-25",
+      "ANDE"
+    ],
+    [
+      "BID",
+      "BID 4690/OC-PR",
+      "15-mar-25",
+      "Dólares Americanos",
+      "0,00",
+      "639.237,25",
+      "254.215,18",
+      "893.452,43",
+      "10-mar-25",
+      "ANDE"
+    ],
+    [
+      "BID",
+      "BID 2891/OC-PR",
+      "15-mar-25",
+      "Dólares Americanos",
+      "1.295.701,42",
+      "1.057.000,54",
+      "0,00",
+      "2.352.701,96",
+      "10-mar-25",
+      "ANDE"
+    ],
+    [
+      "OFID",
+      "OFID 2454P",
+      "15-mar-25",
+      "Dólares Americanos",
+      "735.930,00",
+      "326.902,77",
+      "0,00",
+      "1.062.832,77",
+      "10-mar-25",
+      "ANDE"
+    ],
+    [
+      "OFID",
+      "OFID 12118PB",
+      "15-mar-25",
+      "Dólares Americanos",
+      "85.030,00",
+      "41.951,20",
+      "0,00",
+      "126.981,20",
+      "10-mar-25",
+      "ANDE"
+    ],
+    [
+      "FONPLATA",
+      "PAR-26/2018",
+      "15-mar-25",
+      "Dólares Americanos",
+      "2.957.937,26",
+      "2.154.143,14",
+      "0,00",
+      "5.112.080,40",
+      "12-mar-25",
+      "ANDE"
+    ],
+    [
+      "FONPLATA",
+      "PAR-29/2022",
+      "15-mar-25",
+      "Dólares Americanos",
+      "0,00",
+      "0,00",
+      "79.187,50",
+      "79.187,50",
+      "12-mar-25",
+      "ANDE"
+    ],
+    [
+      "JICA",
+      "PG-P19",
+      "20-mar-25",
+      "Yenes Japoneses",
+      "0,00",
+      "33.183.530,00",
+      "0,00",
+      "33.183.530,00",
+      "12-mar-25",
+      "ANDE"
+    ],
+    [
+      "ICO",
+      "ICO - 01002011.0",
+      "05-abr-25",
+      "Dólares Americanos",
+      "154.113,86",
+      "11.235,07",
+      "0,00",
+      "165.348,93",
+      "24-mar-25",
+      "ANDE"
+    ],
+    [
+      "CAF",
+      "CAF 007822",
+      "15-abr-25",
+      "Dólares Americanos",
+      "3.178.578,85",
+      "580.670,73",
+      "0,00",
+      "3.759.249,58",
+      "10-abr-25",
+      "ANDE"
+    ],
+    [
+      "OFID",
+      "OFID 1409PB",
+      "15-abr-25",
+      "Dólares Americanos",
+      "399.840,00",
+      "90.966,38",
+      "0,00",
+      "490.806,38",
+      "10-abr-25",
+      "ANDE"
+    ],
+    [
+      "BID",
+      "BID 1835/OC-PR",
+      "15-abr-25",
+      "Dólares Americanos",
+      "1.754.202,71",
+      "812.309,22",
+      "0,00",
+      "2.566.511,93",
+      "10-abr-25",
+      "ANDE"
+    ],
+    [
+      "BID",
+      "BID 5023/OC-PR",
+      "15-abr-25",
+      "Dólares Americanos",
+      "0,00",
+      "1.178.739,14",
+      "72.157,98",
+      "1.250.897,12",
+      "10-abr-25",
+      "ANDE"
+    ],
+    [
+      "CAF",
+      "CAF 11652/11824",
+      "15-abr-25",
+      "Dólares Americanos",
+      "0,00",
+      "2.581.092,26",
+      "294.510,67",
+      "2.875.602,93",
+      "10-abr-25",
+      "ANDE"
+    ],
+    [
+      "CAF",
+      "CAF 12497",
+      "15-abr-25",
+      "Dólares Americanos",
+      "0,00",
+      "1.909.974,00",
+      "0,00",
+      "1.909.974,00",
+      "10-abr-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 87416 COMISIÓN",
+      "01-may-25",
+      "Dólares Americanos",
+      "0,00",
+      "0,00",
+      "40.161,94",
+      "40.161,94",
+      "24-abr-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 83244 1ERA. DISP.",
+      "09-may-25",
+      "Dólares Americanos",
+      "656.927,87",
+      "550.536,91",
+      "0,00",
+      "1.207.465",
+      "24-abr-25",
+      "ANDE"
+    ],
+    [
+      "KFW",
+      "KFW 31003",
+      "15-may-25",
+      "Dólares Americanos",
+      "0,00",
+      "0,00",
+      "93.750,00",
+      "93.750,00",
+      "08-may-25",
+      "ANDE"
+    ],
+    [
+      "BIRF",
+      "BIRF 79940 PY",
+      "15-may-25",
+      "Dólares Americanos",
+      "2.367.295,38",
+      "1.677.659,06",
+      "0,00",
+      "4.044.954,44",
+      "08-may-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 83244 2DA. DISP.",
+      "22-may-25",
+      "Dólares Americanos",
+      "723.787,13",
+      "685.549,81",
+      "0,00",
+      "1.409.336,94",
+      "08-may-25",
+      "ANDE"
+    ],
+    [
+      "BID",
+      "BID 5502/OC-PR",
+      "15-may-25",
+      "Dólares Americanos",
+      "0,00",
+      "0,00",
+      "2.816.666,66",
+      "2.816.666,66",
+      "08-may-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 87416 1ERA. DISP.",
+      "18-jun-25",
+      "Dólares Americanos",
+      "732.395,46",
+      "261.611,66",
+      "0,00",
+      "994.007,12",
+      "11-jun-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 87416 2DA. DISP.",
+      "18-jun-25",
+      "Dólares Americanos",
+      "0,00",
+      "367.260,93",
+      "0,00",
+      "367.260,93",
+      "11-jun-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 87416 3ERA. DISP.",
+      "18-jun-25",
+      "Dólares Americanos",
+      "0,00",
+      "390.581,69",
+      "0,00",
+      "390.581,69",
+      "11-jun-25",
+      "ANDE"
+    ],
+    [
+      "CAF",
+      "CAF 10613",
+      "16-jun-25",
+      "Dólares Americanos",
+      "5.962.577,93",
+      "3.412.333,10",
+      "36.771,80",
+      "9.411.682,83",
+      "11-jun-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 83244 3ERA. DISP.",
+      "30-jun-25",
+      "Dólares Americanos",
+      "530.477,71",
+      "507.986,95",
+      "0,00",
+      "1.038.464,66",
+      "11-jun-25",
+      "ANDE"
+    ],
+    [
+      "CAF",
+      "CAF 8633",
+      "07-jul-25",
+      "Dólares Americanos",
+      "2.306.975,83",
+      "811.146,72",
+      "0,00",
+      "3.118.122,55",
+      "25-jun-25",
+      "ANDE"
+    ],
+    [
+      "TAIWÁN",
+      "TAIWÁN ICDF",
+      "15-jul-25",
+      "Dólares Americanos",
+      "0,00",
+      "0,00",
+      "135.625,00",
+      "135.625,00",
+      "07-jul-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI II FI 87416 - Comisión",
+      "01-ago-25",
+      "Dólares Americanos",
+      "0,00",
+      "0,00",
+      "42.470,09",
+      "42.470,09",
+      "22-jul-25",
+      "ANDE"
+    ],
+    [
+      "BID",
+      "BID 2891/OC-PR",
+      "15-sep-25",
+      "Dólares Americanos",
+      "1.295.701,42",
+      "1.000.994,33",
+      "0,00",
+      "2.296.695,75",
+      "09-sep-25",
+      "ANDE"
+    ],
+    [
+      "BID",
+      "BID 4690/OC-PR",
+      "15-sep-25",
+      "Dólares Americanos",
+      "886.590,24",
+      "886.985,77",
+      "236.854,24",
+      "2.010.430,25",
+      "09-sep-25",
+      "ANDE"
+    ],
+    [
+      "BID",
+      "CAF 10170",
+      "15-sep-25",
+      "Dólares Americanos",
+      "6.719.677,53",
+      "3.453.719,69",
+      "797,84",
+      "10.174.195,06",
+      "09-sep-25",
+      "ANDE"
+    ],
+    [
+      "CAF",
+      "CAF 10852",
+      "15-sep-25",
+      "Dólares Americanos",
+      "6.942.759,22",
+      "4.225.529,94",
+      "20.302,25",
+      "11.188.591,41",
+      "10-sep-25",
+      "ANDE"
+    ],
+    [
+      "OFID",
+      "OFID 2454P",
+      "15-sep-25",
+      "Dólares Americanos",
+      "735.860,00",
+      "321.407,36",
+      "0,00",
+      "1.057.267,36",
+      "09-sep-25",
+      "ANDE"
+    ],
+    [
+      "OFID",
+      "OFID 12118PB",
+      "15-sep-25",
+      "Dólares Americanos",
+      "179.120,00",
+      "75.132,43",
+      "0,00",
+      "254.252,43",
+      "09-sep-25",
+      "ANDE"
+    ],
+    [
+      "FONPLATA",
+      "PAR-26/2018",
+      "15-sep-25",
+      "Dólares Americanos",
+      "2.957.937,26",
+      "2.015.763,28",
+      "0,00",
+      "4.973.700,54",
+      "09-sep-25",
+      "ANDE"
+    ],
+    [
+      "FONPLATA",
+      "PAR-29/2022",
+      "15-sep-25",
+      "Dólares Americanos",
+      "0,00",
+      "0,00",
+      "63.559,52",
+      "63.559,52",
+      "09-sep-25",
+      "ANDE"
+    ],
+    [
+      "JICA",
+      "PG-P19",
+      "20-sep-25",
+      "Yenes Japoneses",
+      "0,00",
+      "56.933.720,00",
+      "0,00",
+      "56.933.720,00",
+      "09-sep-25",
+      "ANDE"
+    ],
+    [
+      "ICO",
+      "ICO - 01002011.0",
+      "05-oct-25",
+      "Dólares Americanos",
+      "154.113,86",
+      "10.489,89",
+      "0,00",
+      "164.603,75",
+      "22-sep-25",
+      "ANDE"
+    ],
+    [
+      "CAF",
+      "CAF 007822",
+      "15-oct-25",
+      "Dólares Americanos",
+      "3.178.578,85",
+      "444.422,86",
+      "0,00",
+      "3.623.001,71",
+      "10-oct-25",
+      "ANDE"
+    ],
+    [
+      "OFID",
+      "OFID 1409PB",
+      "15-oct-25",
+      "Dólares Americanos",
+      "399.840,00",
+      "81.303,60",
+      "0,00",
+      "481.143,60",
+      "09-oct-25",
+      "ANDE"
+    ],
+    [
+      "BID",
+      "BID 1835/OC-PR",
+      "15-oct-25",
+      "Dólares Americanos",
+      "1.754.202,71",
+      "749.726,50",
+      "0,00",
+      "2.503.929,21",
+      "10-oct-25",
+      "ANDE"
+    ],
+    [
+      "BID",
+      "BID 5023/OC-PR",
+      "15-oct-25",
+      "Dólares Americanos",
+      "0,00",
+      "1.127.740,92",
+      "75.852,60",
+      "1.203.593,52",
+      "09-oct-25",
+      "ANDE"
+    ],
+    [
+      "CAF",
+      "CAF 11652/11824",
+      "15-oct-25",
+      "Dólares Americanos",
+      "0,00",
+      "2.905.172,06",
+      "268.995,35",
+      "3.174.167,41",
+      "10-oct-25",
+      "ANDE"
+    ],
+    [
+      "CAF",
+      "CAF 12497",
+      "15-oct-25",
+      "Dólares Americanos",
+      "0,00",
+      "3.445.280,00",
+      "0,00",
+      "3.445.280,00",
+      "10-oct-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 87416 COMISIÓN",
+      "03-nov-25",
+      "Dólares Americanos",
+      "0,00",
+      "0,00",
+      "43.393,36",
+      "43.393,36",
+      "27-oct-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 83244 1ERA. DISP.",
+      "10-nov-25",
+      "Dólares Americanos",
+      "656.927,87",
+      "529.098,80",
+      "0,00",
+      "1.186.026,67",
+      "27-oct-25",
+      "ANDE"
+    ],
+    [
+      "KFW",
+      "KFW 31003",
+      "17-nov-25",
+      "Dólares Americanos",
+      "0,00",
+      "0,00",
+      "94.791,67",
+      "94.791,67",
+      "12-nov-25",
+      "ANDE"
+    ],
+    [
+      "BIRF",
+      "BIRF 79940 PY",
+      "15-nov-25",
+      "Dólares Americanos",
+      "2.367.295,38",
+      "1.675.464,65",
+      "0,00",
+      "4.042.760,03",
+      "12-nov-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 83244 2DA. DISP.",
+      "24-nov-25",
+      "Dólares Americanos",
+      "723.787,13",
+      "664.845,17",
+      "0,00",
+      "1.388.632,30",
+      "12-nov-25",
+      "ANDE"
+    ],
+    [
+      "BID",
+      "BID 5502/OC-PR",
+      "17-nov-25",
+      "Dólares Americanos",
+      "0,00",
+      "0,00",
+      "664.444,44",
+      "664.444,44",
+      "12-nov-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 87416 1ERA. DISP.",
+      "18-dic-25",
+      "Dólares Americanos",
+      "732.395,46",
+      "255.071,37",
+      "0,00",
+      "987.466,83",
+      "09-dic-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 87416 2DA. DISP.",
+      "18-dic-25",
+      "Dólares Americanos",
+      "0,00",
+      "366.270,31",
+      "0,00",
+      "366.270,31",
+      "09-dic-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 87416 3ERA. DISP.",
+      "18-dic-25",
+      "Dólares Americanos",
+      "0,00",
+      "390.581,69",
+      "0,00",
+      "390.581,69",
+      "09-dic-25",
+      "ANDE"
+    ],
+    [
+      "CAF",
+      "CAF 10613",
+      "15-dic-25",
+      "Dólares Americanos",
+      "6.315.519,11",
+      "3.416.580,62",
+      "25.416,25",
+      "9.757.515,98",
+      "09-dic-25",
+      "ANDE"
+    ],
+    [
+      "BEI",
+      "BEI 83244 3ERA. DISP.",
+      "30-dic-25",
+      "Dólares Americanos",
+      "530.477,71",
+      "485.706,48",
+      "0,00",
+      "1.016.184,19",
+      "09-dic-25",
+      "ANDE"
+    ],
+    [
+      "CAF",
+      "CAF 8633",
+      "07-ene-26",
+      "Dólares Americanos",
+      "2.306.975,83",
+      "722.301,21",
+      "0,00",
+      "3.029.277,04",
+      "22-dic-25",
+      "ANDE"
+    ],
+    [
+      "TAIWÁN",
+      "TAIWÁN ICDF",
+      "15-ene-26",
+      "Dólares Americanos",
+      "0,00",
+      "0,00",
+      "115.000,00",
+      "115.000,00",
+      "22-dic-25",
+      "ANDE"
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "35",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "MES DE SUBSIDIO",
+      "AÑO 2021",
+      "AÑO 2022",
+      "AÑO 2023",
+      "AÑO 2024",
+      "AÑO 2025"
+    ],
+    [
+      "ENERO",
+      "5.004",
+      "4.920",
+      "4.742",
+      "5.154",
+      "4.507"
+    ],
+    [
+      "FEBRERO",
+      "4.779",
+      "4.576",
+      "4.217",
+      "4.431",
+      "3.872"
+    ],
+    [
+      "MARZO",
+      "6.260",
+      "5.510",
+      "5.793",
+      "3.913",
+      "4.219"
+    ],
+    [
+      "ABRIL",
+      "5.047",
+      "4.583",
+      "3.660",
+      "4.800",
+      "4.359"
+    ],
+    [
+      "MAYO",
+      "5.031",
+      "5.583",
+      "5.472",
+      "4.365",
+      "4.042"
+    ],
+    [
+      "JUNIO",
+      "5.399",
+      "4.729",
+      "4.581",
+      "4.352",
+      "4.256"
+    ],
+    [
+      "JULIO",
+      "5.723",
+      "5.000",
+      "4.912",
+      "4.786",
+      "3.878"
+    ],
+    [
+      "AGOSTO",
+      "5.058",
+      "4.864",
+      "4.750",
+      "4.210",
+      "4.265"
+    ],
+    [
+      "SEPTIEMBRE",
+      "5.351",
+      "4.975",
+      "4.043",
+      "3.988",
+      "3.869"
+    ],
+    [
+      "OCTUBRE",
+      "5.096",
+      "4.846",
+      "5.472",
+      "4.736",
+      "4.650"
+    ],
+    [
+      "NOVIEMBRE (*)",
+      "5.175",
+      "4.583",
+      "4.617",
+      "4.168",
+      "3.541"
+    ],
+    [
+      "DICIEMBRE",
+      "5.842",
+      "5.510",
+      "4.404",
+      "4.324",
+      "4.725"
+    ],
+    [
+      "TOTAL",
+      "63.765",
+      "59.680",
+      "56.662",
+      "53.228",
+      "50.185"
+    ],
+    [
+      "PROMEDIO",
+      "5.314",
+      "4.973",
+      "4.722",
+      "4.436",
+      "4.182"
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "36",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "Total facturas vencidas",
+      "46.047.048,05",
+      "302.767.629.398",
+      ""
+    ],
+    [
+      "",
+      null,
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "37",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "Recursos Humanos",
+      null,
+      null,
+      null,
+      ""
+    ],
+    [
+      "Descripción",
+      "Mujer",
+      "Hombre",
+      "Total",
+      null
+    ],
+    [
+      "Total Recursos Humanos Activos (a+b)",
+      "1035",
+      "3798",
+      "4833",
+      null
+    ],
+    [
+      "Recursos Humanos Activos Nombrados (a)",
+      "868",
+      "3319",
+      "4187",
+      null
+    ],
+    [
+      "Recursos Humanos Contratados (b)",
+      "167",
+      "479",
+      "646",
+      null
+    ],
+    [
+      "Recursos Humanos Profesionales (Nombrados y\nContratados que posean Título Universitario)",
+      "487",
+      "218",
+      "705",
+      null
+    ],
+    [
+      "Personal en Cargos Gerenciales (A partir de Jefe de\nDepartamento)",
+      "64",
+      "196",
+      "260",
+      null
+    ],
+    [
+      "Recursos Humanos Comisionados a otras\nInstituciones",
+      "8",
+      "18",
+      "26",
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "38",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      "Recursos Humanos y Financieros destinados a actividades relacionadas a Género.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      ""
+    ],
+    [
+      "Cantidad de\nFuncionarios/as",
+      null,
+      "En Guaraníes",
+      "En Guaraníes",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      "Total Ejecutado\npor la Entidad\n(a)",
+      null,
+      "Ejecución destinada a\nGénero\n(b)",
+      "",
+      "% Participación del gasto en género",
+      ""
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "con respecto al total Ejecutado por",
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "la Entidad",
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "c= b/a*100",
+      null
+    ],
+    [
+      "18 funcionarios,\nMiembros de la\nComisión de\nEquidad de Género",
+      null,
+      "---------------------",
+      null,
+      "Cursos y Taller:\n209.800.000\nConsultora:132.000.000",
+      "------------------------",
+      null,
+      null
+    ],
+    [
+      "Principales actividades realizadas:\n1. Curso Taller de Formación en Equidad de Género y Energía, con una carga horaria total de 40 horas, y\nla participación de 25 funcionarias y funcionarios de distintas áreas, una acción conjunta entre la\nComisión de Equidad de Género, el Departamento de Formación y Capacitación de la Dirección de\nRecursos Humanos y la Dirección de Planificación y Estudios, realizado en Asunción.\n2. Curso Taller de Formación en Equidad de Género y Energía, con una carga horaria total de 40 horas, y\nla participación de 25 funcionarias y funcionarios de distintas áreas, una acción conjunta entre la\nComisión de Equidad de Género, el Departamento de Formación y Capacitación de la Dirección de\nRecursos Humanos y la Dirección de Planificación y Estudios, realizado en Ciudad del Este.\n3. Taller en Equidad de Género y Energía, con una carga horaria total de 4 horas, y la participación de 25\nfuncionarias y funcionarios de distintas áreas, una acción conjunta entre la Comisión de Equidad de\nGénero, el Departamento de Formación y Capacitación de la Dirección de Recursos Humanos y la\nDirección de Planificación y Estudios, realizado en Encarnación.\n4. Taller en Equidad de Género y Energía, con una carga horaria total de 4 horas, y la participación de 25\nfuncionarias y funcionarios de distintas áreas, una acción conjunta entre la Comisión de Equidad de\nGénero, el Departamento de Formación y Capacitación de la Dirección de Recursos Humanos y la\nDirección de Planificación y Estudios, realizado en Coronel Oviedo.\n5. Acompañamiento a la -\"Demostración Femenina de Trabajo en Líneas Vivas\" durante el “4to Rodeo\nInternacional de Linieros de la CIER”, donde se destacó a las mujeres del Departamento de\nMantenimiento en Líneas de Distribución de la ANDE, quienes son las dos únicas a nivel regional, de\nlos países integrantes de la CIER, que realizan tareas en líneas vivas (23 mil voltios).\n6. Ley 7239 Participación en el Curso de Emergencia Social ante la Violencia contra las mujeres\n7. Preparación y habilitación de la Sala de Lactancia Materna\n8. Taller sobre Mujeres con Energía en conmemoración del 08 de marzo del 2025 con la participación de\n40 funcionarios/as.\n9. Recordatorio de mujeres en la energía 23 de junio\n10. Participación de reuniones construyendo Futuro del Sector Energético Paraguay con el Banco\nMundial.\n11. Participación en el lanzamiento del Observatorio de Equidad de Género impulsado por el Ministerio\nde la Mujer\n12. Participación en la Red de Mecanismos de Género en al Ministerio de la Mujer\n13. Habilitación en la página Web de la ANDE el apartado de Equidad de Género",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "Total Ejecutado"
+    ],
+    [
+      "por la Entidad"
+    ],
+    [
+      "(a)"
+    ]
+  ],
+  [
+    [
+      "Ejecución destinada a"
+    ],
+    [
+      "Género"
+    ],
+    [
+      "(b)"
+    ]
+  ],
+  [
+    [
+      "Cantidad de"
+    ],
+    [
+      "Funcionarios/as"
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "39",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      null,
+      null
+    ],
+    [
+      "",
+      "40",
+      ""
+    ],
+    [
+      "",
+      null,
+      null
+    ]
+  ]
+]

@@ -1,0 +1,1674 @@
+Administración Nacional de Electricidad
+AD
+AÑO 2025
+MIN
+TRACIÓN NACIONAL DE
+ELECTRICIDAD
+AÑO 2023
+ÍNDICE
+Contenido
+SIGLAS .............................................................................................................................................................. 2
+GLOSARIO DE TÉRMINOS ............................................................................................................................ 3
+PRESENTACIÓN .............................................................................................................................................. 4
+I INTERVENCIÓN DE LA ENTIDAD .................................................................................................. 6
+I.1 Rol de la Entidad y su vinculación con los Planes ................................................................................ 6
+II RESULTADOS DE LA GESTIÓN INSTITUCIONAL ....................................................................... 8
+II.1 Logros alcanzados por la Entidad ..................................................................................................... 8
+II.2 Principales Informaciones Complementarias de la Entidad .............................................................13
+ Datos del Sistema Interconectado Nacional ................................................................................13
+ Demanda de Potencia del Sistema Interconectado Nacional .......................................................13
+ Consumo de energía por categoría de clientes .............................................................................14
+III DESAFIO FUTURO Y SEGUIMIENTO ............................................................................................15
+III.1 DESAFIO FUTURO ....................................................................................................................15
+III.2 SEGUIMIENTO AL DESAFÍO DECLARADO EN EL BAGP 2024 ........................................16
+ANEXO I ......................................................................................................................................................17
+ Logros Obtenidos por Estructura Programática Presupuestaria ...................................................17
+ANEXO II .....................................................................................................................................................38
+ Recursos Humanos ......................................................................................................................38
+ANEXO III....................................................................................................................................................39
+ Informaciones de Género .............................................................................................................39
+1 BAGP | Balance Anual de Gestión Pública
+SIGLAS
+Se debe realizar la descripción en orden alfabético, de todas las abreviaturas que se utilicen, señalando el
+nombre completo, para brindar al lector el significado de las mismas.
+ACY: Central Hidroeléctrica Acaray
+ANDE: Administración Nacional de Electricidad
+BID: Banco Interamericano de Desarrollo
+BEI: Banco Europeo de Inversiones
+BIRF: Banco Internacional de Reconstrucción y Fomento
+BT: Baja Tensión
+CAF: Banco de Desarrollo de América Latina
+CNEP: Consejo Nacional de Empresas Públicas
+EBY: Entidad Binacional Yacyretá
+FONPLATA: Fondo Financiero para el Desarrollo de los Países de la Cuenca del Plata
+JICA: Agencia de Cooperación internacional del Japón
+G.: Guaraníes
+IPU: Itaipú Binacional
+km: Kilómetros
+kV: Kilovoltios
+kVA: Kilovoltioamperio
+kWh: Kilovatio-hora
+LPI: Licitación Pública Internacional
+LPN: Licitación Pública Nacional
+L.S.T: Línea de Sub-transmisión
+L.T: Línea de Transmisión
+MIC: Ministerio de Industria y Comercio
+mm2: Milímetro cuadrado
+MT: Media tensión
+MVA: Megavoltioamperio
+MW: Megavatio
+MWh: Megavatio-hora
+N°: Número
+SE: Subestación
+SEMD: Subestación Margen Derecha
+SIN: Sistema Interconectado Nacional
+USD: Dólares de los Estados Unidos de América
+2 BAGP| Balance Anual de Gestión Pública
+GLOSARIO DE TÉRMINOS
+SCADA: significa en español control de supervisión y adquisición de datos (del inglés Supervisory Control
+and Data Acquisition). Es un sistema de software y hardware utilizado para monitorear, controlar, automatizar
+y gestionar procesos a distancia en tiempo real, recopilando datos de sensores y dispositivos.
+SGIDE: significa Sistema de Gestión Integral de Distribución Eléctrica. Es una plataforma tecnológica
+diseñada para automatizar, optimizar e integrar los procesos técnicos, operativos y administrativos de las
+redes de distribución de energía.
+Factor de Carga: es un indicador que mide la eficiencia en el uso de la energía eléctrica, representando la
+relación entre la carga ´promedio y la demanda máxima en un periodo. Un factor de carga alto (cercano a 1 o
+a 100%) indica un consumo constante y eficiente, mientras que uno bajo señala picos de demanda.
+Frecuencia Equivalente de Interrupción por Potencia- FEP: es un indicador de calidad del servicio
+eléctrico que mide el número medio de interrupciones de energía, ponderado por la potencia (en kVA)
+afectada en un periodo.
+Duración Equivalente de Interrupción por Potencia- DEP: es un indicador de calidad de servicio eléctrico,
+mide el tiempo promedio (generalmente en horas o minutos) que toda la potencia instalada en una zona
+hipotéticamente queda sin suministro debido a cortes durante un periodo.
+Alimentadores de Media Tensión: son conductores o circuitos eléctricos trifásicos que transportan energía
+eléctrica de alto voltaje en 23 kV desde las subestaciones principales hasta puntos de distribución locales,
+centros de transformación o grandes cargas industriales, funcionando sin tomas intermedias para garantizar un
+suministro eficiente.
+Cables desnudos en Media Tensión: son conductores eléctricos, generalmente de aluminio o cobre,
+utilizados en líneas aéreas sin ningún tipo de aislamiento o cubierta protectora.
+Cables protegidos en Media Tensión: son conductores eléctricos aéreos cubiertos por capas aislantes
+diseñados para operar entre 1 kV y 36 kV, reduciendo fallas por contacto con ramas, animales o viento.
+Cables preensamblados en Baja Tensión: son conjuntos de conductores de aluminio aislados con
+polietileno reticulado, trenzados alrededor de un mensajero neutro, diseñados para líneas aéreas de
+distribución eléctrica hasta 1 kV.
+Balance Anual de Gestión Pública |BAGP 3
+PRESENTACIÓN
+La Administración Nacional de Electricidad (ANDE) por su naturaleza, es una Institución autárquica y
+descentralizada de la Administración Pública, con duración ilimitada, personería jurídica y patrimonio propio.
+Tiene por objeto satisfacer las necesidades de energía eléctrica del país, fomentando su desarrollo económico
+y el bienestar de la población mediante el aprovechamiento prioritario de los recursos naturales nacionales.
+A través de toda la planificación técnica y los trabajos ejecutados, la ANDE reafirma su compromiso de
+brindar un servicio eléctrico confiable que sostenga el bienestar de las familias y el desarrollo del país.
+En el trascurso del año 2025, con el objetivo de acompañar el crecimiento de la demanda y brindar un buen
+servicio de energía eléctrica se han desarrollado diversos proyectos en el sistema de transmisión de energía
+eléctrica en todo el territorio nacional. Dichos proyectos incluyen la construcción, repotenciación, ampliación
+y adecuación de líneas y subestaciones en diferentes regiones del país.
+Entre los proyectos primordiales ejecutados se destacan:
+ Culminación de la Subestación Valenzuela en 500 kV.
+ Culminación de la Subestación Alto Paraná 220/66/23 kV.
+ Culminación de la Subestación María Auxiliadora 220/23 kV.
+ Leasing Operativo para el 4to. Autotransformador Villa Hayes 500/220 kV.
+ Construcción de la Línea de Transmisión en 500 kV Yguazú-Valenzuela doble circuito en el marco
+del Proyecto de Expansión del Sistema de Transmisión en Alta Tensión y Acciones de Eficiencia
+Energética.
+ Construcción de la Línea de Transmisión 220 kV Valenzuela Guarambaré doble circuito.
+ Construcción de la Línea de Transmisión 220 kV Villa Hayes-Villa Real-Pozo Colorado-Loma Plata
+y la Subestación de Pozo Colorado en 220 kV en la Región Occidental.
+ Construcción e interconexión de Subestaciones compactas en 66 kV en el Sistema Metropolitano,
+ubicados RECOLETA e INERAM.
+ Construcción de Obras Preliminares para la ejecución de las intervenciones en el Complejo Acaray-
+Yguazú Recapacitación y Modernización de la Subestación Acaray.
+Se han obtenido financiamientos externos de Organismos Multilaterales de Créditos aprobados por Leyes,
+respaldando proyectos importantes para la expansión del Sistema de Transmisión y Distribución de vital
+importancia para el desarrollo del Sector Eléctrico.
+En la Gestión Comercial se han logrado excelentes resultados en la venta de energía eléctrica, reducción de la
+morosidad de clientes particulares, reducción de pérdidas eléctricas, aumento de la recaudación e
+incorporación de tecnología en la gestión comercial, enfocado en el compromiso Institucional con la Mejora
+Continua, y sustentado por el pilar fundamental para la Institución, que constituye el esfuerzo, responsabilidad
+y compromiso de todos los funcionarios, el trabajo coordinado y en equipo, con valores de innovación,
+sentido de pertenencia, y patriotismo que han permitido alcanzar metas significativas para la sostenibilidad y
+eficiencia del servicio.
+En el ámbito de Telemática durante el ejercicio 2025, se avanzó significativamente en la modernización
+tecnológica de los sistemas de control operacional, comunicaciones y ciberseguridad. Las acciones ejecutadas
+abarcaron la sustitución de equipos obsoletos, la implementación de nuevas soluciones digitales y la
+expansión de la infraestructura de comunicaciones, consolidando un ecosistema tecnológico más robusto,
+confiable y seguro para el Sistema Eléctrico Nacional.
+4 BAGP| Balance Anual de Gestión Pública
+Transformación Digital y Evolución del Modelo de Gestión: La ANDE se encuentra en una etapa crucial de
+evolución hacia una red eléctrica interactiva y eficiente. La implementación de las Smart Grids (Redes
+Inteligentes) está transformando el modelo de negocio, optimizando la relación técnica y comercial en toda la
+cadena de valor: desde la generación y transmisión hasta la distribución y el consumo final.
+Un pilar fundamental de esta modernización es el Sistema de Gestión Integral de Distribución (SGIDE), que
+junto con el despliegue masivo de la infraestructura de medición inteligente (AMI), permite una gestión de la
+demanda en tiempo real, reduciendo los tiempos de respuesta ante averías y mejorando significativamente la
+calidad del servicio eléctrico. Estas acciones se complementan con la digitalización de procesos en las áreas
+de Transmisión y Generación, asegurando un sistema robusto y de vanguardia.
+Compromiso con la Equidad y la Inclusión Sectorial: Consciente de que el acceso a la energía y la tecnología
+no es neutral al género, la ANDE ha reforzado su Plan de Acción en Equidad de Género, entendiendo que
+hombres y mujeres pueden necesitar soluciones energéticas diferentes, se ha promovido la participación de
+mujeres no solo como consumidoras sino con un mayor protagonismo en toda la cadena de producción de
+energía eléctrica.
+En este periodo, la Institución ha intensificado sus lineamientos para:
+ Fomentar la participación laboral femenina en áreas técnicas y de toma de decisiones.
+ Eliminar brechas de género en el sector eléctrico nacional.
+ Garantizar que la modernización tecnológica (como el uso de aplicaciones y gestión energética) sea
+accesible y beneficie equitativamente a toda la población, promoviendo la autonomía económica de
+las mujeres como motor para la reducción de la pobreza.
+Balance Anual de Gestión Pública |BAGP 5
+I INTERVENCIÓN DE LA ENTIDAD
+I.1 Rol de la Entidad y su vinculación con los Planes
+1. Identidad Corporativa
+Misión: Satisfacer las necesidades de energía eléctrica del país y actuar en el mercado eléctrico regional con
+responsabilidad socioambiental, garantizando el desarrollo sostenible de Paraguay y el bienestar de su
+población.
+Visión: Ser una empresa pública referente, eficaz y eficiente, orientada a la excelencia en el servicio al cliente,
+con talento humano calificado y tecnología de vanguardia, posicionada entre las mejores del sector eléctrico
+regional para el año 2030.
+2. Alineación con el Plan Nacional de Desarrollo (PND) 2030
+La ANDE ejecuta sus acciones en concordancia con los ejes estratégicos del Gobierno Nacional, destacando
+los siguientes pilares:
+I. Reducción de Pobreza y Desarrollo Social
+- Universalización del Acceso (Energía para Todos): Bajo el Plan Nacional de Electrificación, se
+establece la meta de alcanzar el 100% de cobertura eléctrica nacional para el año 2028. Esto incluye:
+- Ejecución de más de 6.100 proyectos de ampliación de red, integrando a poblaciones vulnerables y
+zonas rurales.
+- Implementación de soluciones tecnológicas descentralizadas como mini-redes y sistemas
+fotovoltaicos individuales para zonas remotas del Chaco y regiones aisladas.
+- Proyección de conexión de 383.000 nuevos usuarios para 2030, asegurando la densificación de redes
+ante el crecimiento demográfico.
+- Equidad de Género e Inclusión: Se ratifica el compromiso con el Plan de Acción en Equidad de
+Género, reconociendo que el acceso a la energía eléctrica es un catalizador para eliminar brechas de
+desigualdad, reducir la carga de cuidados en el hogar y potenciar las oportunidades económicas de
+las mujeres.
+II. Crecimiento Económico Inclusivo
+- Infraestructura: Fortalecimiento del Sistema Interconectado Nacional (SIN) mediante la ampliación,
+mejora y sustitución de líneas de transmisión y distribución.
+- Transformación Digital: Implementación de la Red Eléctrica Inteligente (Smart Grid), que incluye:
+- Despliegue masivo de medidores inteligentes y telemedición.
+- Consolidación de la Facturación Electrónica y sistemas de gestión integrados (SAP, SGIDE) para
+optimizar la transparencia y la experiencia del usuario.
+III. Inserción del Paraguay en el Mundo (Integración Regional)
+- Soberanía Energética y Exportación: Culminación de las obras estratégicas para disponer del 100%
+de la energía paraguaya proveniente de las binacionales (Itaipú y Yacyretá).
+- Hub Energético Regional: Posicionar al Paraguay como el eje de la integración energética del Cono
+Sur, facilitando el intercambio regional y el uso sostenible de los excedentes energéticos.
+3. Objetivos Estratégicos (Según Política Energética Decreto N° 2553/24)
+Conforme a la actualización de la Política Energética con proyección al 2050, la ANDE asume los siguientes
+compromisos:
+- Seguridad y Calidad: Garantizar el suministro eléctrico con estándares internacionales de
+continuidad y eficiencia, minimizando el impacto socioambiental.
+6 BAGP| Balance Anual de Gestión Pública
+- Sostenibilidad de la Matriz: Incrementar la participación de la energía eléctrica en el consumo final
+de energía (sustitución de biomasa y derivados de petróleo) para lograr una matriz más limpia.
+- Acceso Universal y Asequible: Asegurar que el servicio eléctrico sea un derecho accesible, seguro y
+con tarifas competitivas para todos los estratos sociales.
+- Potenciar el rol de los usuarios para la gestión racional, eficiente y estratégico de la electricidad.
+Balance Anual de Gestión Pública |BAGP 7
+II RESULTADOS DE LA GESTIÓN INSTITUCIONAL
+II.1 Logros alcanzados por la Entidad
+Los principales resultados de la gestión, los avances en infraestructura eléctrica y las proyecciones
+estratégicas orientadas a garantizar la sostenibilidad y confiabilidad del Sistema Interconectado Nacional
+(SIN), han llevado a un nuevo récord en la ejecución presupuestaria en inversiones.
+Durante el año 2025, se registró un aumento del 12,48% en la energía disponible en el SIN, así como un
+incremento del 15,95% en la energía facturada, reflejando el crecimiento sostenido de la demanda eléctrica en
+el país.
+En materia de gestión comercial, la ANDE logró reducir el índice de morosidad de clientes particulares, que
+descendió del 22,04% al 18,81%, además de disminuir las pérdidas en distribución del 21,89% al 21%.
+Asimismo, se destaca el incremento del importe facturado en un 13,34%, consolidando una mejora
+significativa en la eficiencia operativa de la institución.
+En el área de distribución eléctrica, las metas anuales fueron ampliamente superadas. Se alcanzó un
+incremento de 481.000 kVA en la potencia instalada en transformadores de 23 kV, superando la meta prevista
+de 425.000 kVA. De igual manera, se ejecutó el cambio de 817,26 km de conductores en 23 kV, por encima
+de los 730 km programados, y se realizó el mantenimiento integral de 357 alimentadores de Media Tensión,
+superando la meta anual de 333 alimentadores.
+En cuanto al sistema de transmisión, se destacan obras estratégicas culminadas durante el 2025, como la
+Subestación Valenzuela 500 kV, la Subestación Alto Paraná 220/66/23 kV y la Subestación María
+Auxiliadora 220/23 kV, que representaron una inversión total de ₲ 756.559 millones (USD 104,35 millones).
+Asimismo, continúan avanzando proyectos de gran envergadura, como la Línea de Transmisión 500 kV doble
+terna Yguazú–Valenzuela y la Línea de Transmisión 220 kV Villa Hayes–Villa Real–Pozo Colorado–Loma
+Plata, orientados a fortalecer la confiabilidad del sistema eléctrico nacional.
+Logro Histórico: La ANDE supera los USD 349,2 Millones en Inversión Anual.
+Por primera vez en su historia institucional, la ANDE ha marcado un hito sin precedentes en el
+fortalecimiento del Sistema Eléctrico Nacional. Al cierre del ejercicio 2025, la institución ejecutó inversiones
+en infraestructura eléctrica por un monto de 349,2 millones de dólares, una cifra récord que supera
+ampliamente inversiones de décadas anteriores.
+Este nivel de ejecución no es solo un logro administrativo, sino un paso decisivo hacia la soberanía energética
+y el desarrollo industrial del país. Las inversiones se centraron en el Fortalecimiento del Sistema de
+Transmisión y la Modernización y Digitalización del Sistema de Distribución.
+Las inversiones también contribuyeron al acceso por primera vez a la energía eléctrica en localidades lejanas.
+La ANDE se constituye como uno de los principales motores de desarrollo del País, comprometido con la
+mejora de la calidad del servicio, que reflejará en el bienestar del ciudadano.
+Fortalecimiento del Sistema Eléctrico: ANDE se prepara para el Verano.
+Con el firme objetivo de garantizar la continuidad y calidad del servicio durante los meses de mayor demanda
+de energía, debido a las altas temperaturas que se registran en el verano y al sostenido crecimiento de
+consumo de energía, la ANDE ha culminado un ambicioso plan de ejecución de obras estratégicas. Estas
+acciones se han centrado en robustecer los dos pilares fundamentales del suministro: el Sistema de
+Transmisión y la Red de Distribución a nivel nacional.
+Avances en el Sistema de Transmisión: Para asegurar que la energía llegue con potencia y estabilidad, se han
+realizado intervenciones clave, como ser la modernización de la subestación Alto Paraná y la puesta en
+servicio de la nueva subestación María Auxiliadora. Asimismo, se llevó a cabo el mantenimiento preventivo y
+la repotenciación de transformadores en subestaciones críticas del área metropolitana y puntos estratégicos del
+interior.
+Mejoras en la Red de Distribución: Entendiendo que ésta área es el más sensible para el usuario final, la
+ejecución en distribución incluyó:
+8 BAGP| Balance Anual de Gestión Pública
+Instalación de Transformadores: Se han colocado más de 4.000 nuevos transformadores de distribución para
+aliviar las zonas con mayor crecimiento de consumo; tal es así que a finales del mes de octubre, ya se había
+superado la meta del año 2.025, de aumentar en 425.000 kVA de potencia de nuevos transformadores. A
+mediados del mes de diciembre ya se tiene registrado un aumento de 481.000 kVA de potencia de nuevos
+transformadores.
+Cambio de Conductores: Se procedió al reemplazo de cables desnudos por conductores protegidos en Media
+Tensión y preensamblados en Baja Tensión, los cuales son mucho más resistentes a las condiciones climáticas
+adversas y minimizan los cortes por contacto con ramas. En Media Tensión, a finales del mes de noviembre
+ya se había superado la meta del año 2.025, de cambiar 730 km de líneas; a mediados de diciembre ya se tiene
+registrado el cambio de 817 km de líneas de distribución en Media Tensión.
+Mantenimiento Preventivo: Se intensificaron las tareas de mantenimiento integral de alimentadores. Este
+mantenimiento es una acción clave para anticipar posibles fallas, reducir significativamente las interrupciones
+y, de esta manera, garantizar la continuidad y calidad del servicio eléctrico. Se resalta que en el área
+Metropolitana, estas tareas se realizan sin necesidad de interrupciones en el suministro a los usuarios, ya que
+el trabajo se ejecuta con tensión, en líneas vivas. A mediados de diciembre ya se tiene registrado el
+mantenimiento integral de 357 alimentadores, superando así la meta del año 2.025, que fue de 333
+alimentadores. Cabe señalar que además se realizaron el mantenimiento integral de más de 10.000 zonas de
+transformadores, consistente en tareas de limpieza de franja de servidumbre (poda de árboles) y el ajuste de
+conexiones en puestos de distribución para reducir las averías por calor.
+Estas inversiones no solo buscan mitigar los cortes accidentales, sino también garantizar una respuesta
+eficiente del sistema ante la alta demanda estacional, el Sistema Interconectado Nacional alcanzó, en
+diciembre, nuevos picos históricos de demanda de potencia. El hito más reciente registró un valor de 5.280
+MW, al momento que se registraba una temperatura ambiente de 37°C y una sensación térmica de 44°C. Pese
+a estas exigencias extremas, el sistema eléctrico respondió con total solvencia y sin complicaciones,
+ratificando la solidez de la infraestructura ejecutada para este verano.
+A través de toda la planificación técnica y los trabajos ejecutados, la ANDE reafirma su compromiso de
+brindar un servicio eléctrico confiable que sostenga el bienestar de las familias y el desarrollo económico del
+país.
+En el ámbito de los sistemas corporativos, se ejecutaron una serie de iniciativas orientadas a modernizar las
+plataformas tecnológicas institucionales, mejorar la experiencia del cliente y optimizar los procesos internos
+de gestión.
+Se realizaron las adecuaciones para la actualización de las versiones del Sistema Operativo del servidor de la
+aplicación y servidor de la Base de Datos del GFV (Gestión de Flota de Vehículos).
+En MI ANDE se desarrolló e implementó un nuevo formulario para la solicitud de consumo inteligente,
+facilitando el acceso digital del cliente a servicios avanzados.
+En el sistema comercial, se implementó la facturación de los medidores por consumo en franja horaria para
+BT (consumo inteligente), avanzando en la modernización tarifaria.
+En MI ANDE web se puso a disposición del cliente la consulta y descarga de las notas de crédito como
+Documento Electrónico, cumpliendo con las normativas de SIFEN y SEDECO.
+Durante el año 2025, la ANDE llevó a cabo la adquisición, instalación y despliegue de un sistema XDR
+(Extended Detection and Response) de Detección y Respuesta a Incidentes de Seguridad, constituyendo uno
+de los hitos más relevantes en la evolución de la ciberseguridad institucional. Un XDR es una plataforma de
+detección y respuesta extendida que integra y correlaciona automáticamente eventos de seguridad
+provenientes de múltiples capas tecnológicas: Endpoints, Red, Correo, Servidores, Identidades, entre otros.
+Con su implementación, la ANDE transitó de un modelo reactivo a un modelo de ciberdefensa activa, que
+habilita las siguientes capacidades:
+• Detección temprana de intrusiones.
+• Aislamiento automático de equipos comprometidos.
+Balance Anual de Gestión Pública |BAGP 9
+• Bloqueo de procesos maliciosos.
+• Reducción del riesgo de propagación en redes corporativas y SCADA.
+• Generación de evidencia forense para auditoría y cumplimiento normativo.
+En el marco del fortalecimiento de la infraestructura de adquisición de datos asociada al sistema SCADA,
+durante el año 2025 se procedió a la sustitución de seis (6) Gateways de Comunicaciones e Interfaces
+Hombre-Máquina (IHM) instalados en subestaciones y estaciones del Sistema Interconectado Nacional (SIN).
+Estos equipos se encontraban en condición de obsolescencia tecnológica, con indisponibilidad de repuestos y
+falta de soporte del fabricante, generando una ocurrencia creciente de fallos, restricciones operativas y riesgo
+en la disponibilidad del sistema.
+Las sustituciones se realizaron en las siguientes instalaciones: Subestaciones Ciudad Nueva (SE-CNU),
+Kilómetro 15 (SE-K15), Banco Central (SE-BCP), Tres Bocas (SE-TBO), Estaciones Mburucuja (ES-MBU),
+Cerro Corá (ES-CCO) y Pirapo (ES-PPO). Los trabajos abarcaron todas las adecuaciones necesarias en la
+infraestructura eléctrica y de red de comunicaciones, configuración del sistema e integración al SCADA
+Nacional, así como contraste de medidas, pruebas de telemando y señalización para garantizar la correcta
+operación.
+Adicionalmente, se prosiguió con los trabajos de actualización tecnológica de Unidades Terminales Remotas
+(RTUs) obsoletas en seis (6) subestaciones del SIN. Las subestaciones intervenidas fueron: Barrio Parque
+(SE-BPA), San Pedro del Norte (SE-SPN), Naranjal (SE-NAR), Caazapá (SE-CZA), Villalbín (SE-VIN) y
+Villarrica (SE-VIL).
+Las tareas comprendieron el reemplazo de RTUs obsoletas por equipos modernos, con mayor capacidad de
+procesamiento, compatibilidad con protocolos actuales, disponibilidad de repuestos y soporte técnico. Se
+llevaron a cabo pruebas reales de telemando, señalización y contraste de medidas, incrementando la
+confiabilidad, estabilidad operativa y disponibilidad del sistema SCADA.
+Las nuevas implementaciones en el sistema de Supervisión y Control incluyeron la integración de nuevas
+Estaciones y Subestaciones, así como los trabajos realizados para que las ampliaciones y adecuaciones del
+sistema eléctrico cuenten con la integración y supervisión centralizada remota y local necesaria para mejorar
+la flexibilidad operativa y la capacidad de maniobra del sistema.
+Para las nuevas estaciones/subestaciones o nuevos sistemas secundarios en subestaciones existentes, se realizó
+el comisionamiento y puesta en servicio del Sistema de Supervisión y Control local, procediendo a la
+integración completa al SCADA Nacional de todos los niveles de supervisión, control y adquisición de datos.
+Se ejecutaron pruebas funcionales y operativas, tanto simuladas como en condiciones reales, validando el
+correcto comportamiento de señales digitales, alarmas, medidas analógicas, sistemas de protección y
+comandos de control remoto.
+Los locales intervenidos en esta etapa fueron:
+• Estaciones Alto Paraná (ES-APR), Luque (ES-LUQ) y María Auxiliadora (ES-MAU):
+comisionamiento y puesta en servicio del sistema de supervisión y control local con integración
+completa al SCADA Nacional.
+• Estación Valenzuela (ES-VAL): comisionamiento y puesta en servicio de los sistemas de supervisión
+y control de las líneas en 500 kV correspondientes a las estaciones Ayolas y Villa Hayes, incluyendo
+la integración al SCADA local y nacional de las posiciones CADEMOT y WEX.
+10 BAGP| Balance Anual de Gestión Pública
+Dentro de las ampliaciones se destacan los trabajos asociados a la puesta en servicio de nuevos
+transformadores en las Estaciones Cambyretá (ES-CAM) y Paso Pé (ES-PPE), subestaciones Villeta (SE-
+VTA), Pilar (SE-PIL) y Ciudad Nueva (SE-CNU); trabajos de seccionamiento de la línea de 220 kV GUA–
+PSA en la Estación San Antonio (ES-SAN); y puesta en servicio de nuevos alimentadores de 23 kV en
+diversas estaciones y subestaciones del SIN, garantizando su correcta integración al SCADA y disponibilidad
+para la operación en tiempo real.
+En el ámbito del mantenimiento, se gestionaron acciones preventivas y correctivas para garantizar la
+confiabilidad del sistema SCADA, con la finalidad de minimizar interrupciones y mejorar los tiempos de
+respuesta. Dentro de las acciones preventivas se destaca el cumplimiento del Plan Anual de Mantenimiento y
+la incorporación del mantenimiento preventivo de los Centros de Control Regional y Nacional.
+La actualización, expansión y modernización de los sistemas y servicios de comunicación son necesarios para
+mejorar la resiliencia y disponibilidad de enlaces y sistemas de comunicación críticos. Entre las principales
+acciones ejecutadas se incluyen:
+• Implementación de once (11) nuevos enlaces de fibra óptica OPGW (Optical Ground Wire) para
+enlaces troncales de la Zona Centro-Norte, robusteciendo la comunicación con los sitios: ES-ELA,
+ES-VAL, ES-COV, CT-COV, ES-CYO, ES-SES, ES-BSP, ES-SRO, ES-HOR, ES-CCO y ES-PJC;
+incluyendo el comisionamiento y puesta en servicio de los respectivos equipos de comunicaciones en
+los sitios extremos.
+• Continuación de la implementación de la red de fibra óptica OPDC (Optical Distribution Cable) para
+reemplazo del cable mensajero de las líneas compactas de distribución en las ciudades de: Asunción,
+Villarrica, Ciudad del Este, Saltos del Guairá, Coronel Bogado y Concepción.
+En 2025, la Dirección de Telemática de la ANDE consolidó su rol estratégico en el fortalecimiento
+tecnológico del sistema eléctrico nacional. La modernización de la infraestructura SCADA mediante la
+sustitución de equipos obsoletos, la actualización de RTUs en múltiples subestaciones y la puesta en servicio
+de nuevas estaciones garantizaron una mayor confiabilidad y eficiencia operativa.
+En materia de ciberseguridad, la implementación del sistema XDR representó un salto cualitativo en la
+capacidad de detección y respuesta a incidentes, transitando hacia un modelo de ciberdefensa activa. El
+proceso licitatorio del WAF refuerza el compromiso institucional con la protección de los sistemas críticos
+expuestos a Internet.
+La expansión de la red de fibra óptica, la modernización de los sistemas de telefonía IP y la puesta en marcha
+del Sistema de Gestión Integrada de Comunicaciones fortalecieron la resiliencia y disponibilidad de los
+enlaces críticos en todo el país.
+Los avances en sistemas corporativos, especialmente con Oracle Analytics Server y las mejoras en MI ANDE
+y el sistema comercial, optimizaron los procesos internos y la atención al cliente.
+Estas acciones, ejecutadas con alto nivel de exigencia técnica y compromisos de calidad, establecen bases
+sólidas para afrontar los desafíos tecnológicos y operativos que plantea el crecimiento del sistema eléctrico
+nacional en los próximos años.
+Los ETC´s (equipos tele-comandados) se instalaron en las líneas de media tensión y fueron integrados al
+sistema SCADA, con el cual se supervisarán y controlarán 121.800 señales distribuidas en 400 alimentadores
+de distribución de 23Kv.
+Balance Anual de Gestión Pública |BAGP 11
+Estos equipos han permitido reducir sustancialmente las interrupciones del servicio y reducir el tiempo de
+reposición en caso de emergencia o algún evento que ocasione inconveniente en el sistema de distribución
+eléctrica, gracias al seccionamiento de las líneas, y son telecomandadas desde los Centros de Operación de
+Distribución Regionales.
+En febrero del 2024 se inició la instalación de 1.000 reconectadores adicionales, adquiridos en el marco de la
+Licitación Pública Internacional N° 1706/2022, con fondos provenientes del préstamo CAF VI componente 3,
+de aproximadamente 32.544.158. USD. En julio de 2025 se culminó el montaje de todos los reconectadores.
+Con estos ETC´s se completó la supervisión y control de aproximadamente 800 alimentadores de distribución
+de 23 kV, además de 1.000 km de tendido de fibra óptica.
+En Diciembre de 2025, el indicador de pérdidas totales, bajo la modalidad de año móvil (acumulado en los
+últimos 12 meses) se situó en 24,40%. Este valor representa una disminución de 0,22 puntos porcentuales en
+comparación con el 24,62 % registrado en Noviembre del 2025.
+El mes de diciembre cerró con un indicador de pérdidas mensuales del 23,93%. Este valor muestra una
+estabilización tras el "rebote" administrativo de noviembre (28,63%). Durante diciembre se registró el pico
+más alto de disponibilidad energética del año, alcanzando los 3.055.252 MWh. Este incremento está
+directamente relacionado con las altas temperaturas estacionales que disparan la demanda en el Sistema
+Interconectado Nacional (SIN). El indicador acumulado de los últimos 12 meses se sitúa en 24,40%. Este
+valor es fundamental ya que suaviza las anomalías mensuales y confirma una trayectoria de mejora respecto
+al 24,62% registrado en el periodo móvil anterior.
+El cierre del ejercicio 2025 muestra un sistema que retorna a sus niveles operativos históricos. Mientras que
+las pérdidas en transmisión fluctúan por demanda estacional, el área de distribución presenta una tendencia
+positiva hacia la estabilización técnica y la mejora en los procesos de facturación.
+Las pérdidas en transmisión experimentaron un leve aumento, registrando un 4,37% en diciembre de 2025,
+esto representa un aumento de 0,16 puntos porcentuales en comparación con el 4,21% de noviembre de 2025.
+Este incremento es de naturaleza estacional y técnica. Debido a las altas temperaturas registradas en
+diciembre, la carga del Sistema Interconectado Nacional (SIN) aumenta, lo que eleva las pérdidas por efecto
+Joule en las líneas de transmisión y transformadores de potencia. No obstante, se aprecia una ligera mejora en
+el nivel de pérdidas de 0,25 puntos porcentuales con relación al cierre del 2024.
+Las pérdidas en distribución experimentaron una reducción, alcanzando el 20,03% en diciembre del 2025.
+Esto representa un descenso de 0,38% puntos porcentuales con respecto al 20,41% del mes anterior. Esta
+reducción en el indicador del año móvil se atribuye a una recuperación efectiva en la captura de volumen de
+energía facturada a lo largo del año, fruto de un esfuerzo conjunto para mejorar la operación y a la vez
+desalentar el hurto. Se compensó el déficit de facturación arrastrado desde el tercer trimestre, regularizando
+los índices de eficiencia comercial.
+En conclusión, conforme a las metas establecidas en el ‘Plan Maestro de Gestión y Control para Reducción de
+Pérdidas Eléctricas 2024’, que proyectaba un índice del 21,3% para el cierre del ejercicio 2025, la ANDE
+ratifica su compromiso institucional con resultados tangibles. Al alcanzar un nivel de pérdidas en distribución
+del 20,03%, la institución no solo se alinea con sus objetivos estratégicos, sino que supera la meta planificada
+en un 1,27%, demostrando una firme determinación en la optimización del sistema eléctrico nacional.
+12 BAGP| Balance Anual de Gestión Pública
+II.2 Principales Informaciones Complementarias de la Entidad
+ Datos del Sistema Interconectado Nacional
+Consumo de Energía, Demanda Máxima y Factor de Carga del SIN
+Indicadores Año 2024 Año 2025
+Consumo de Energía Eléctrica (MWh/año) 26.154.488 29.418.538
+Demanda Máxima de Potencia (MW) 5.027 5.280
+Factor de Carga Anual (%) 59,39 63,60
+ Demanda de Potencia del Sistema Interconectado Nacional
+Demanda Máxima de Potencia del SIN
+Año 2025
+Meses MW
+Enero 4.936
+Febrero 5.054
+Marzo 5.122
+Abril 3.673
+Mayo 4.077
+Junio 3.918
+Julio 4.072
+Agosto 4.188
+Setiembre 4.675
+Octubre 4.718
+Noviembre 5.269
+Diciembre 5.280
+Se observa, en los primeros 4 meses, un promedio de demanda máxima de potencia de 4.696 MW
+considerando las altas temperaturas de verano, en invierno, hasta el mes de agosto, se mantiene un promedio
+de 4.064 MW, volviendo a aumentar a partir de setiembre, siendo que la máxima del SIN se ha registrado en
+diciembre, un valor de 5.280 MW.
+Las variaciones en el indicador de demanda máxima de potencia del SIN, durante los meses del año, se debe
+principalmente a las condiciones climatológicas registradas, siendo la temperatura y la humedad relativa del
+aire las variables de mayor impacto.
+Balance Anual de Gestión Pública |BAGP 13
+ Consumo de energía por categoría de clientes
+Cantidad de
+Categoría Consumo (kWh)
+Usuarios
+Residencial 7.425.632.545 1.482.966
+Industrial 266.595.986 121
+Otros 6.842.117.693 189.767
+Gubernamental 442.721.865 7.919
+Diferencial 101.215.024 107
+Alta Tensión 886.324.372 14
+Muy Alta Tensión 253.382.351 4
+Consumidores Intensivo Especial 5.464.852.192 47
+Sub Total Consumo Nacional 21.682.842.028 1.680.945
+Exportación 113.360.874 1
+Sub Total Consumo Nacional
+y Exportación 21.796.202.902 1.680.946
+Alumbrado Público 236.466.394 -
+Total 22.032.669.296 1.680.946
+14 BAGP| Balance Anual de Gestión Pública
+III DESAFIO FUTURO Y SEGUIMIENTO
+III.1 DESAFIO FUTURO
+La Administración Nacional de Electricidad tiene el gran compromiso de mejorar la calidad del servicio de
+suministro de energía eléctrica, lo cual conlleva a seguir acompañando la creciente demanda de energía con
+obras de infraestructura en el sistema de transmisión y distribución que contribuyen al aumento de
+confiabilidad del sistema eléctrico a nivel país.
+De cara al futuro, la institución proyecta una demanda eléctrica de 11.009 MW de potencia y 57.561 GWh de
+energía al año 2043, impulsando nuevos proyectos de transmisión, generación y soluciones alternativas.
+Asimismo, en el año 2026 se tiene prevista la ejecución de 10 proyectos de obras de transmisión de gran
+envergadura que ya cuentan con financiamiento, a través de la modalidad de leasing operativo, que permitirán
+continuar fortaleciendo el sistema eléctrico nacional.
+Históricamente reconocido por su abundancia hidroeléctrica, Paraguay enfrenta hoy un punto de inflexión. El
+crecimiento sostenido de la demanda y la acelerada industrialización exigen a la ANDE la ejecución del plan
+de inversiones más ambicioso de su historia.
+A través de su Plan Maestro de Obras, la institución ha trazado una hoja de ruta con horizontes al 2033
+(Transmisión y Distribución) y 2043 (Generación), sustentada en tres pilares estratégicos:
+• Soberanía Energética: Garantizar la capacidad técnica para retirar y distribuir el 100% de la energía
+que corresponde al país en las binacionales Itaipú y Yacyretá.
+• Diversificación y acompañamiento del crecimiento consumo: Integrar fuentes renovables no
+convencionales —con énfasis en la energía solar— para reducir la vulnerabilidad ante la variabilidad del
+régimen hidrológico, diversificando la matriz energética de generación del país.
+• Seguridad y Robustez: Fortalecer el Sistema Interconectado Nacional mediante la expansión de la
+red de 500 y 220 kV.
+Los principales desafíos de la ANDE para el refuerzo en el sistema de transmisión, distribución y generación
+son:
+En materia de Transmisión, entre las obras emblemáticas que permitirán que la energía eléctrica llegue a los
+centros de mayor consumo e industrialización, que se encuentran en ejecución y próximas a iniciar: la línea de
+500 kV Yguazú – Valenzuela, línea 220 kV Chaco (Villa Hayes – Concepción – Pozo Colorado – Loma
+Plata) y la segunda línea de 500 kV Margen Derecha Itaipú – Villa Hayes. Asimismo, para acelerar otras
+obras criticas del Sistema Interconectado Nacional, la ANDE emplea mecanismos innovadores como el
+Leasing Operativo, una modalidad financiera que permite construir subestaciones y líneas de transmisión sin
+comprometer la deuda pública inmediata.
+En Distribución, la transición hacia una Smart Grid es ya una realidad. Esta transformación digital, basada en
+la medición inteligente y la automatización, se complementa con el fortalecimiento físico de la red:
+instalación masiva de transformadores, despliegue de conductores protegidos de 23 kV y un riguroso
+mantenimiento preventivo.
+En cuanto a la Generación de Energía, el Paraguay se encuentra comenzando su transición hacia una matriz
+mixta. La Ley N° 7452/25, que moderniza el régimen de Alianza Público – Privada (APP) y la recientemente
+promulgada Ley N° 7599/25, de Modernización del Régimen de Generación de Energía Eléctrica a partir de
+Fuentes Renovables No Convencionales (ERNC), buscan dinamizar la inversión en infraestructura, siendo
+Balance Anual de Gestión Pública |BAGP 15
+probablemente la Ley N° 7599/25, el marco legal más transformador para el sector energético paraguayo en
+las últimas décadas.
+A través de estas herramientas legales, la ANDE está impulsando proyectos para aprovechar el potencial solar
+del Paraguay. Tal es así que para inicios del año 2026, se pretende licitar la primera planta solar a gran escala,
+de unos 140 MW en el Chaco y luego expandir este modelo en las regiones occidental y oriental. Es
+importante mencionar además que el Paraguay llega a estas licitaciones de 2026 con un perfil crediticio
+mejorado. Esto atraerá a gigantes mundiales de la energía solar que buscan proyectos de gran envergadura,
+permitiendo que Paraguay capitalice su potencial solar, asegurando energía competitiva y limpia para las
+próximas décadas.
+En el Plan Estratégico Institucional para el periodo 2025-2031 se han fijado las siguientes metas para el año
+2026:
+ Reducción de pérdidas en distribución al 19,2%.
+ Reducción del Índice de Morosidad al 19,0%.
+ Índice de ejecución presupuestaria en obras por USD 350 millones.
+ Frecuencia de interrupción sin tormentas: 7,78 veces en el año.
+ Duración de interrupción en distribución sin tormenta: 8,00 hs. en el año.
+III.2 SEGUIMIENTO AL DESAFÍO DECLARADO EN EL BAGP 2024
+En el BAGP 2024, se ha mencionado que la Administración Nacional de Electricidad tiene el gran
+compromiso de mejorar la calidad del servicio de suministro de energía eléctrica, lo cual conlleva a seguir
+acompañando la creciente demanda de energía con obras de infraestructura en el sistema de transmisión y
+distribución que contribuyen al aumento de confiabilidad del sistema eléctrico a nivel país.
+Los principales desafíos de la ANDE para el refuerzo en el sistema de transmisión, se destacan obras
+estratégicas culminadas durante el 2025: como la Subestación Valenzuela 500 kV, la Subestación Alto Paraná
+220/66/23 kV y la Subestación María Auxiliadora 220/23 kV, que representaron una inversión total de ₲
+756.559 millones (USD 104,35 millones). Asimismo, continúan avanzando proyectos de gran envergadura,
+como la Línea de Transmisión 500 kV doble terna Yguazú–Valenzuela y la LT 220 kV Villa Hayes–Villa
+Real–Pozo Colorado–Loma Plata, orientados a fortalecer la confiabilidad del sistema eléctrico nacional.
+En el Plan Estratégico Institucional para el periodo 2025-2031 se ha llegado a las siguientes metas en el año
+2025:
+ Reducción de pérdidas en distribución al 20,03%.
+ Reducción del Índice de Morosidad al 18,8%.
+ Índice de ejecución presupuestaria en obras por USD 349,2 millones.
+ Frecuencia de interrupción sin tormentas: 6,85 veces en el año.
+ Duración de interrupción en distribución sin tormenta: 5,12 horas en el año.
+16 BAGP| Balance Anual de Gestión Pública
+ANEXO I
+ Logros Obtenidos por Estructura Programática Presupuestaria
+INFORME SOBRE LOS RESULTADOS CUALITATIVOS Y CUANTITATIVOS
+DE LOS PROGRAMAS, SUBPROGRAMAS Y/O PROYECTOS EN
+EJECUCIÓN
+EJERCICIO FISCAL 2025
+El presente informe se realiza de manera a dar cumplimiento a lo establecido en el Capítulo 09 “Sistema de
+Control y Evaluación”, Anexo A del Decreto Nº 3248/2025 por el cual se reglamenta la Ley Nº 7408/2024
+“Que aprueba el Presupuesto General de la Nación para el Ejercicio Fiscal 2025”, el cual establece en el
+Artículo 313 inciso 1.b) “... Informe de Cierre: Los OEE deberán elaborar y presentar en forma anual, un
+único informe, denominado Balance Anual de Gestión Pública (BAGP), según formato establecido por el
+Ministerio de Economía y Finanzas...”.
+En tal sentido, detallamos a continuación los resultados cualitativos y cuantitativos de los programas y
+proyectos en ejecución en la Institución al cierre del Ejercicio Fiscal 2025, con el detalle de las principales
+actividades desarrolladas, el monto de los recursos aplicados y los principales logros y/o resultados obtenidos
+en cada uno de las actividades y proyectos, teniendo en cuenta la estructura presupuestaria aprobada a nivel
+institucional, la cual se detalla a continuación:
+ Programa 1 – Programa Central
+Actividad 1 – Gestión Administrativa;
+Actividad 2 – Mantenimiento, Operación y Mejora del SEN;
+Proyectos – Proyectos Presupuestados y Ejecutados Institucionalmente.
+ Programa 3 – Presupuesto de Partidas no Asignables a Programas
+Actividad 1 - Gestión de Pago del Servicio de la Deuda;
+Actividad 2 - Transferencias Consolidables.
+1. PROGRAMA 1 – PROGRAMA CENTRAL
+1. ACTIVIDAD 1 – GESTIÓN ADMINISTRATIVA
+En el Ejercicio Fiscal 2025, la Actividad 1 – Gestión Administrativa, cuenta con un presupuesto aprobado de
+₲ 2.500.847 millones, del cual al cierre se ha ejecutado un monto de ₲ 2.087.993 millones, equivalente a una
+ejecución del 83,49% con respecto al monto aprobado.
+La Actividad 1 – Gestión Administrativa tiene definido dos indicadores cualitativos:
+1. La Capacitación de Recursos Humanos, y
+2. Los Procedimientos Administrativos implementados.
+Estos indicadores contribuyen a lograr el resultado esperado para este programa, definido como “Clientes
+Satisfechos y Gestión Administrativa e Imagen Empresarial Mejoradas”.
+1.1 Capacitación de Recursos Humanos
+Con relación a este indicador, informamos que la ANDE ha desarrollado para el Ejercicio Fiscal 2025 un
+Programa de Capacitación, el cual se ejecutó en el ejercicio a través de eventos de capacitación organizados
+tanto internamente, por el Departamento de Formación y Capacitación de la Institución, como a través de la
+concesión de becas a funcionarios para la participación en eventos organizados por Instituciones Externas.
+En este sentido, la Institución ha programado para el Ejercicio Fiscal 2025 un Plan de Capacitación que
+contiene 4.252 plazas, de las cuales se ha ejecutado el 88% de lo programado, correspondiente a 3.733 plazas
+otorgadas, conforme se ilustra en el siguiente cuadro:
+Balance Anual de Gestión Pública |BAGP 17
+PLAN DE FORMACIÓN Y PLAZAS OTORGADAS
+DETALLE % EJEC.
+CAPACITACIÓN AÑO 2025 A DICIEMBRE/2025
+Cursos Organizados por ANDE 3.326 78%
+4.252
+Cursos Organizados por
+407 10%
+Instituciones externas
+Total 4.252 3.733 88%
+Fuente: Departamento de Formación y Capacitación.
+Con respecto a las áreas temáticas en las cuales se impartieron las capacitaciones, la ANDE a través de su
+Departamento de Formación y Capacitación ha organizado cursos para sus funcionarios inherentes a temas
+técnicos, administrativos, informáticos, entre otros, de los cuales se citan a los siguientes:
+TALLER DE FORMULACIÓN DE ACUERDOS Y COMPROMISOS ÉTICOS.
+CURSO "MONTAJES DE REDES DE DISTRIBUCIÓN" - DUAL ED P2 G1 - ASUNCIÓN - CENTRAL
+CURSO "MONTAJES DE REDES DE DISTRIBUCIÓN" - DUAL ED P2 G3 - CAAGUAZÚ
+CURSO "OPERACIÓN DE EQUIPOS DE DISTRIBUCIÓN" - DUAL ED P2 G1 - ASUNCIÓN - CENTRAL
+CURSO "INTERPRETACIÓN DE PROYECTOS DE REDES DE DISTRIBUCIÓN" - DUAL ED P2 G1 -
+ASUNCIÓN - CENTRAL
+CURSO "OPERACIÓN DE EQUIPOS DE DISTRIBUCIÓN" - DUAL ED P2 G2 - ASUNCIÓN - CENTRAL
+CURSO "TRANSFORMADORES DE DISTRIBUCIÓN" - DUAL ED P2 G2 - ASUNCIÓN - CENTRAL
+CURSO "OPERACIÓN DE EQUIPOS DE DISTRIBUCIÓN" - DUAL ED P2 G3 - CAAGUAZÚ
+CURSO "TRANSFORMADORES DE DISTRIBUCIÓN" - DUAL ED P2 G3 - CAAGUAZÚ
+CURSO "SEGURIDAD EN OPERACIÓN Y MANTENIMIENTO DE REDES DE DISTRIBUCIÓN" - DUAL ED
+P3 G1 - SAN PEDRO – AMAMBAY - DUAL ED P3 G2 – CORDILLERA - DUAL ED P3 G3 – PARAGUARI -
+DUAL ED P3 G4 – GUAIRA - DUAL ED P3 G5 – CAAZAPA - DUAL ED P3 G6 – MISIONES - DUAL ED P3
+G7 – ÑEEMBUCÚ - DUAL ED P3 G8 – ITAPÚA - DUAL ED P3 G9 - ALTO PARANÁ
+CURSO "TECNOLOGÍA DE MATERIALES Y ESTRUCTURAS" - DUAL ED P3 G1 - SAN PEDRO -
+AMAMBAY
+CURSO "TECNOLOGÍA DE MATERIALES Y ESTRUCTURAS" - DUAL ED P3 G2 – CORDILLERA - DUAL
+ED P3 G2 – CORDILLERA - DUAL ED P3 G3 – PARAGUARI - DUAL ED P3 G4 – GUAIRÁ - DUAL ED P3 G6
+– MISIONES - DUAL ED P3 G7 – ÑEEMBUCÚ - DUAL ED P3 G9 - ALTO PARANÁ
+CURSO "OPERACIÓN DE REDES DE DISTRIBUCIÓN" - DUAL ED P3 G4 – GUAIRÁ - DUAL ED P3 G7 -
+ÑEEMBUCÚ
+CURSO "TECNOLOGÍA DE MATERIALES Y ESTRUCTURAS" - DUAL ED P3 G8 - ITAPÚA
+CURSO "SEGURIDAD EN GENERACIÓN Y TRANSMISIÓN" - DUAL EM P2 - ALTO PARANÁ
+CURSO "MAQUINAS ELÉCTRICAS (TRANSFORMADORES, MOTORES, GENERADORES)" - DUAL EM P2
+- ALTO PARANÁ
+CURSO "MANTENIMIENTO DE EQUIPOS DE POTENCIA I" - DUAL EM P2 - ALTO PARANÁ
+CURSO "EQUIPAMIENTO DE ESTACIONES Y SUBESTACIONES" - DUAL EM P2 - ALTO PARANÁ
+CURSO "EQUIPOS DE MANIOBRAS" - DUAL EM P2 - ALTO PARANÁ
+CURSO "MANTENIMIENTO DE EQUIPOS DE POTENCIA II" - DUAL EM P2 - ALTO PARANÁ
+CURSO "QUÍMICA INDUSTRIAL" - DUAL EM P2 - ALTO PARANÁ
+SEMINARIO TALLER "CULTURA ORGANIZACIONAL Y JORNADA DE INDUCCIÓN"
+CURSO "FORMACIÓN METODOLÓGICA PARA INSTRUCTORES"
+JORNADA "CAPACITACIÓN A TUTORES Y FACILITADORES DEL PROGRAMA DUAL" - GRUPO 1 -
+GRUPO 2 - GRUPO 3 - GRUPO 4 - GRUPO 5 - GRUPO 6 - GRUPO 7 - GRUPO 8 - GRUPO 9
+SEMINARIO GESTIÓN OPERATIVA PARA JEFES
+CURSO "FORMACIÓN EN EQUIDAD DE GÉNERO"
+TALLER "FORMULACIÓN DE ACUERDOS Y COMPROMISOS ÉTICOS"
+TALLER "IMPORTANCIA DE LA EQUIDAD DE GÉNERO"
+VI SEMINARIO DE INNOVACIÓN EN DISTRIBUCIÓN
+18 BAGP| Balance Anual de Gestión Pública
+VI SEMINARIO GC INNOVA
+V SEMINARIO DE GESTIÓN DE RRHH
+IX EXPOSICIÓN DE MEJORES PRÁCTICAS REGIONALES
+IV EXPOSICIÓN DE MEJORES PRÁCTICAS SECTORIALES DE LA ANDE
+XX ERIAC
+CURSO ACTUALIZACIÓN TÉCNICA - SEGUNDA PROMOCIÓN - MODULO I
+CURSO MEDICIONES Y PROTECCIONES DIGITALES - PRIMERA PROMOCIÓN
+CURSO FORMACIÓN DE ELECTRICISTAS DE REDES DE DISTRIBUCIÓN - MÓDULO I - 38 PROMOCIÓN
+CURSO CAPACITACIÓN "RODEO REGIONAL DE ELECTRICISTAS DE DISTRIBUCIÓN - NORTE -
+CHACO" - ESTE - CENTRO" - SUR - CENTRAL - ASUNCION"
+CURSO CAPACITACIÓN HABILITACIÓN DE COMPETENCIAS PARA APOYO EN SITUACIÓN DE
+EMERGENCIA ÁREA DE OPERACIÓN DE REDES DE DISTRIBUCIÓN - ESTE - QUINTA PROMOCIÓN
+CURSO FORMACIÓN EN INNOVACIÓN TECNOLÓGICA - SEGUNDA PROMOCIÓN - CAAZAPA
+CURSO SEGURIDAD EN ESTACIONES Y SUBESTACIONES
+III SEMINARIO DE INTEGRIDAD, ÉTICA, LEGALIDAD Y ANTICORRUPCIÓN DE LA ANDE
+JORNADA DE ENTRENAMIENTO EN RESOLUCIÓN DE DESAFIOS Y RELACIONAMIENTO - G1 GC - G2
+GT - G3 DSA - DP
+TALLER "MANEJO DEFENSIVO” - GRUPO 1 - GRUPO 2
+SEMINARIO "ELECTRICIDAD BÁSICA PARA PROFESIONALES"
+CURSO DE NORMA DE REQUISITOS MÍNIMOS MECIP-2015
+CHARLA "MESAS REDONDAS PARA LA TRANSFORMACIÓN"
+CHARLA "MANEJO DE RESIDUOS PELIGROSOS Y PASIVOS AMBIENTALES"
+CURSO DE CAPACITACIÓN DE “DISEÑO Y ACTUALIZACIÓN DE REDES ELÉCTRICAS CON EL
+ELECTRIC OFFICE”
+CURSO TALLER DE FORMACIÓN Y ACTUALIZACIÓN DE AUDITORES INTERNOS
+CURSO DE INGLÉS MODALIDAD TAILOR CORPORATE – FAST
+XXIII SICESD 2025 CAMINOS PARA LA EXCELENCIA EN SERVICIOS DE DISTRIBUCIÓN Y
+RELACIONAMIENTO CON LOS CLIENTES
+CURSO CAPACITACIÓN DE FISCALES DE OBRAS DE DISTRIBUCIÓN – SÉPTIMA PROMOCIÓN
+CURSO DE CAPACITACIÓN "DISEÑO Y ACTUALIZACIÓN DE REDES ELÉCTRICAS CON EL ELECTRIC
+OFFICE"
+CURSO DE INGLÉS MODALIDAD TAILOR CORPORATE – FAST MODALIDAD HÍBRIDA
+Con respecto a las becas otorgadas por la ANDE a sus funcionarios para participar en eventos de capacitación
+organizados por Instituciones Externas, se destacan cursos inherentes a las áreas técnica, administrativa y
+gerencial, entre los cuales se mencionan a los siguientes:
+XXVIII SEMINARIO NACIONAL DE PRESUPUESTO PÚBLICO
+MAE XXX - UCA
+TALLER CAPACITACIÓN: "PROYECTANDO CRECIMIENTO"
+DISEÑO INTEGRAL DE SISTEMAS DE PUESTA A TIERRA
+MAESTRÍA EN ASUNTOS PÚBLICOS Y GOBERNABILIDAD
+CONGRESO INTERNACIONAL DE ECONOMÍA INNOVACIÓN Y SOSTENIBILIDAD
+PROGRAMA DE MAESTRÍA EN PLANIFICACIÓN Y CONDUCCIÓN ESTRATÉGICA NACIONAL
+MAESTRÍA EN INGENIERÍA ELÉCTRICA
+FORMACIÓN EN LA LEY DE SUMINISTRO Y CONTRATACIONES PÚBLICAS Y SU NUEVO DECRETO
+PROGRAMA DE CAPACITACIÓN EN LIDERAZGO ESTRATÉGICO
+CURSO CCNA3
+CAPACITACIÓN DIAGNOSTICO Y MANTENIMIENTO DE TRANSFORMADORES
+GESTIÓN FINANCIERA Y PRESUPUESTARIA PÚBLICA
+POSGRADO CONTRATACIONES PÚBLICAS
+Balance Anual de Gestión Pública |BAGP 19
+MAESTRÍA EN GOBIERNO Y GERENCIA PÚBLICA
+CURSO TALLER DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+SEGUNDO WORKSHOP DE SUBESTACIÓN DIGITAL
+XX ERIAC
+CHARLA SOBRE LA DENUNCIA DE SINIESTROS
+DIPLOMADO EN GESTIÓN DE SUMINISTROS Y CONTRATACIONES PÚBLICAS
+XV CURSO LATINOAMERICANO DE REGULACIÓN DE LOS SISTEMAS ELÉCTRICOS
+INMERSIÓN EN SMART GRIDS EN EDF
+POSGRADO EN AUDITORIA FORENSE
+CURSO DE OPERACIÓN DE RELÉ CON MALETA OMICRON CMC356
+CURSO TALLER DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA
+MAESTRÍA EN DERECHO PENAL Y PROCESAL PENAL
+MAESTRÍA EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS
+PROGRAMA DE PERFECCIONAMIENTO EN GESTIÓN DEL NEGOCIO DE DISTRIBUCIÓN DEL SECTOR
+ENERGÍA ELÉCTRICA
+MAESTRÍA EN INTELIGENCIA ARTIFICIAL Y ANÁLISIS DE DATOS
+ESPECIALIZACIÓN EN SISTEMAS DE INFORMACIÓN GEOGRÁFICA Y TELEDETECCIÓN
+CURSO DE CAPACITACIÓN - PROYECTO Y DIMENSIONAMIENTO DE TRANSFORMADORES DE
+POTENCIA
+PROGRAMA DE ESPECIALIZACIÓN CURSO AUTOMATIZACIÓN IEC 61850
+II CONGRESO INTERNACIONAL DE BIM DE PARAGUAY
+SUMMIT - EDICIÓN III GESTIÓN DE TALENTO HUMANO
+CAPACITACIÓN EN EVALUACIÓN DE IMPACTO AMBIENTAL Y SERVICIOS AMBIENTALES
+CURSO DE PILOTO DE RPA ALA ROTATIVA - CURSO EN FOTOGRAMETRÍA
+CURSO DE CAPACITACIÓN - MONTAJE Y MANTENIMIENTO DE TRANSFORMADORES DE POTENCIA
+XXIX CONGRESO LATINOAMERICANO DE AUDITORÍA INTERNA Y EVALUACIÓN DE RIESGOS
+CURSO TALLER PROJECT MANAGEMENT
+XXV SEMINARIO NACIONAL DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA SENDI 2025
+CONGRESO DE AUDITORÍA INTERNA 2025 (CONAI)
+EPECIALIZACIÓN EN GOBERNABILIDAD, GERENCIA POLÍTICA Y GESTIÓN PÚBLICA
+ESPECIALIZACIÓN POLÍTICA Y GESTIÓN PÚBLICA - EDICIÓN 2025
+MAESTRÍA EN ADMINISTRACIÓN FINANCIERA (MAF)
+VIII CONGRESO IBEROAMERICANO CEAPI
+XII CONGRESO INTERNACIONAL SALUD LABORAL Y PREVENCIÓN DE RIESGOS
+SEMINARIO INTERNACIONAL ENERGÍA Y DESARROLLO - UN CAMINO HACIA LA
+UNIVERSALIZACIÓN DE LA ENERGÍA EN AMÉRICA LATINA Y EL CARIBE
+ENASE 2025
+POSGRADO GESTIÓN Y TRATAMIENTO DE RESIDUOS Y EFLUENTES
+DIPLOMADO EN GESTIÓN DE GOBIERNO Y LIDERAZGO POLÍTICO
+BUSINESS INTELLIGENCE CON POWER BI
+ESPECIALIZACIÓN EN GOBERNABILIDAD, GERENCIA POLÍTICA, GESTIÓN PÚBLICA
+CONGRESO INTERNACIONAL DE RESPONSABILIDAD SOCIAL, EMPRESARIAL Y SOSTENIBILIDAD
+DIPLOMADO EN POWER BI
+DIPLOMADO EN MERCADO DE VALORES
+CONTRATACIONES PÚBLICAS
+POSGRADO GESTIÓN Y DERECHO LABORAL
+DIPLOMADO EN CABLEADO DE REDES DE FIBRA ÓPTICA
+DIPLOMADO EN BUSINESS INTELLIGENCE Y ANÁLISIS DE DATOS
+20 BAGP| Balance Anual de Gestión Pública
+17° FÓRUM LATINO-AMERICANO DE SMART GRID
+SEGURIDAD INDUSTRIAL Y SALUD OCUPACIONAL
+ACTUALIZACIÓN EN PRUEBAS ELECTRÓNICAS
+CURSO SIMULACIÓN DE CONTENIDOS, COMUNICACIÓN EMPRESARIAL Y GESTIÓN DEL
+CONOCIMIENTO
+AUDITORIA EN SEGURIDAD Y SALUD OCUPACIONAL
+CURSO DE ESPECIALIZACIÓN EN PROTECCIONES DE SISTEMAS ELECTRICOS - CEPSE
+MEDICIÓN INTELIGENTE E INFRAESTRUCTURA DE LA MEDICIÓN AVANZADA
+XXV CONGRESO DE AUDITORÍA INTERNA CAICR 2025
+4TO. SEMINARIO INTERNACIONAL EN GESTIÓN DE RESIDUOS
+IV SIMPOSIO CIER - REDES Y CIUDADES INTELIGENTES
+DIPLOMADO EN ENERGIA NUCLEAR
+SMALL MODULAR REACTORS SCHOOL: REGIONAL WORKSHOP ON KEY ASPECTS OF SMR
+DEVELOPMENT AND DEPLOYMENT
+XXXIII ENCUENTRO ICOFOM LAC
+MAESTRÍA EN INGENIERÍA ELÉCTRICA ÉNFASIS EN SISTEMAS DE POTENCIA Y DISTRIBUCIÓN
+DIPLOMADO EN PROTOCOLO Y CEREMONIAL
+I CONGRESO FORESTAL PARAGUAYO
+XV CAM - CONGRESO DE ARCHIVOS DEL MERCOSUR
+CURSO DE DESARROLLO WEB FULL STACK
+12° SENOP - SEMINARIO NACIONAL DE OPERADORES DE SISTEMAS E INSTALACIONES ELÉCTRICAS
+3° FORO MUNDIAL DE RELACIONES PÚBLICAS, PROTOCOLO Y EVENTOS
+CONFERENCIA LATINOAMERICANA DE ARBITRAJE
+3° FORO MUNDIAL DE RELACIONES PÚBLICAS, PROTOCOLO Y EVENTOS
+MAESTRÍA EN INFORMATICA Y COMPUTACIÓN
+CAPACITACIÓN SOBRE LA NORMA DE REQUISITOS MÍNIMOS (NRM) DEL MECIP 2015
+MAESTRIA EN DERECHO POCESAL CIVIL
+XI CONGRESO IBEROAMERICANO DE RESIDUOS SÓLIDOS
+PROGRAMA DE ESPECIALIZACIÓN EN CIBERSEGURIDAD Y CIBERDEFENSA ESTRATÉGICA
+INMERSIÓN EN GENERACIÓN EN EDF
+DERECHO DE SEGUROS
+DIPLOMADO EN ENERGIA NUCLEAR
+2-01 SEMICONDUCTOR TECHNICIAN TRAINING COURSE (PROGRAMA EXCLUSIVO PARA
+PARAGUAY)
+X CONGRESO INTERNACIONAL SOBRE TRABAJOS CON TENSIÓN Y SEGURIDAD EN TRANSMISIÓN Y
+DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA (X CITTES)
+2DO CONGRESO PARAGUAYO DE ESTADÍSTICA
+IEEE CHILECON 2025
+CONGRESO INTERNACIONAL DE DIRECCIÓN DE PROYECTOS 2025
+DIAGNÓSTICO Y MANTENIMIENTO DE TRANSFORMADORES
+VII FORO IBEROAMERICANO DE COMPRA PÚBLICA DE INNOVACIÓN E INNOVACIÓN ABIERTA 2025
+SEMANA NACIONAL DE RESTABLECIMIENTO ANTE COLAPSO TOTAL 2025
+60° REUNIÓN DE ALTOS EJECUTVOS DE LA CIER
+NORMA IEC 61850
+1.2 Procedimientos Administrativos Implementados
+La ANDE cuenta con un Manual de Procedimientos, el cual tiene por objetivo servir como instrumento de
+apoyo efectivo a la gestión empresarial y contiene instrucciones que se mantienen constantemente
+actualizadas.
+Balance Anual de Gestión Pública |BAGP 21
+En efecto, las instrucciones en su contexto general deben describir en forma clara y precisa los
+procedimientos que involucran las actividades desarrolladas por las distintas unidades de la empresa, por
+tanto, deben ser modificadas siempre que sea necesario, para facilitar el desarrollo de los diferentes procesos
+administrativos y técnicos de la empresa.
+En este sentido, el siguiente cuadro detalla la gestión realizada por la Institución respecto a la elaboración de
+instrucciones de procedimientos generales y específicos, así como estudios organizacionales de diseño,
+rediseño y control de formularios orientados al cumplimiento de los procesos administrativos y técnicos
+programados al cierre del Ejercicio Fiscal 2025:
+PROCEDIMIENTOS ADMINISTRATIVOS IMPLEMENTADOS - EJERCICIO FISCAL 2025
+ÍTEM DESCRIPCIÓN CANTIDAD
+Instrucciones de Procedimientos Generales (IPG's)
+1 Instrucciones de Procedimientos Generales (IPG's), Aprobadas por Resolución. 61
+2 Instrucciones de Procedimientos Generales (IPG's), Presentada para su Aprobación. 23
+3 Instrucciones de Procedimientos Generales (IPG's), en Proceso de Elaboración y/o Actualización. 118
+Total IPG's 202
+Estudios Organizacionales (EO's)
+1 Reestructuraciones aprobadas 32
+2 Estudios Organizacionales Pendientes de Aprobación 39
+3 Normas de Organización Aprobadas 49
+4 Normas de Organización en Pendientes de Aprobación 84
+5 Organigramas Generales o Sectoriales Presentados y Aprobados 12
+Total EO's 216
+Diseño, Elaboración de Especificaciones Tecnicas y Control de Formularios (D, E.E.T.T. y CF)
+1 Diseño de Formularios. 10
+2 Rediseño de Formularios. 58
+3 Elaboración de Especificaciones Técnicas y Control de Pruebas de Imprenta de Formularios. 47
+Total D, E.E.T.T. y CF 115
+Otras Actividades
+1 Conformación de Nóminas de Disertantes para Cursos y Seminarios 11
+2 Elaboración de Informes (Gestión de la Unidad) 7
+3 Revisión de Código de Buen Gobierno y PCBG-01 "Gestión de Reclamos por Controversias" 3
+4 Socializacion sobre Gestión por Procesos 23
+5 Plataforma de Capacitación sobre NRM-MECIP 2015 1
+6 Actualización del Mapa de Procesos 2
+7 Identificación de Macroprocesos, Procesos, Subprocesos, Actividades y Tareas 84
+8 Caracterización de Procesos (Ficha de Procesos) 156
+9 Actualización del Normograma 1
+10 Revisión de Propuesta de Manual de Cargos, Carreras y Salarios (PCCyS) 19
+11 Revisión de Especificaciones Técnicas Ambientales Generales 5
+12 Participación en Comisiones Concurso de Oposición Interno Institucional 150
+13 Participación en Seminarios de Mejores Prácticas Regionales y Sectoriales 4
+14 Revisión del Manual de Cálculo de Depósito de Garantía 1
+Total Otras Actividades 467
+Total Procedimientos Administrativos Implementados 1000
+FUENTE: Departamento de Organización y Métodos.
+1.3. a. Plan Estratégico Institucional, Plan Operativo Anual y Gestión de Riesgos.
+La ANDE, en cumplimiento de los procesos establecidos en el Plan Estratégico Institucional (PEI) 2025/2031
+aprobado por Resolución P/N° 50009, se han realizado socializaciones y jornadas taller en distintas unidades
+administrativas y Agencias Regionales del país, tales como:
+22 BAGP| Balance Anual de Gestión Pública
+ Socialización del Plan Estratégico Institucional (PEI), Plan Operativo Anual (POA).
+ Capacitación en Gestión de Riesgos (Identificación, Análisis, Valoración, Calificación, Ponderación,
+Priorización de Riesgos, Políticas de Administración de Riesgos) Políticas Operacionales, Diseño de
+Controles y Análisis de la Efectividad de los Controles.
+ Socialización del Plan Estratégico Institucional (PEI) y Jornadas de Elaboración del Plan Operativo
+Anual (POA) 2026.
+ Jornada de Inducción y Seminario Taller Cultura Organizacional.
+ Curso "Gestión Operativa para Jefes" (PEI y POA).
+1.3. b. Contrato de Gestión por Resultados, Periodo 2024 – 2026 firmado entre la
+ANDE y el Consejo Nacional de Empresas Públicas (CNEP)
+Se han enviado los informes correspondientes al CONTRATO DE GESTIÓN POR RESULTADOS
+PERIODO 2024 – 2026, firmado entre la ANDE y el Consejo Nacional de Empresas Públicas (CNEP), dando
+así cumplimiento a lo requerido para el año 2025.
+1.3. c. Actualización de Políticas Institucionales
+En este periodo se han aprobado los siguientes documentos:
+ Resolución P/N° 51346 de fecha 09 de diciembre de 2025, POR LA QUE SE APRUEBA LA
+ACTUALIZACIÓN 05 DEL CAPÍTULO 03 – POLÍTICA DE COMUNICACIÓN, DEL MANUAL
+DE POLÍTICAS DE LA ADMINISTRACIÓN NACIONAL DE ELECTRICIDAD (ANDE).
+ Resolución P/N° 51367 de fecha 17 de diciembre de 2025, POR LA QUE SE APRUEBA
+ACTUALIZACIÓN 03 DE LA POLÍTICA DE GESTIÓN DEL TALENTO HUMANO DE LA
+ADMINISTRACIÓN NACIONAL DE ELECTRICIDAD.
+2. ACTIVIDAD 2 – MANTENIMIENTO, OPERACIÓN Y MEJORA DEL SEN
+La meta de producción anual prevista para esta Actividad se encuentra definida como “Energía Facturada a
+los Clientes”, cuya unidad de medida está representada por la cantidad de kWh facturados. En tal sentido, la
+cantidad anual de unidades físicas prevista de ser facturada para el Ejercicio Fiscal 2025 fue de
+26.920.649.478kWh, del cual al cierre del Ejercicio Fiscal 2025 se ha ejecutado 22.032.669.296 kWh,
+equivalente a un 81,84% de avance físico.
+Por otra parte, esta Actividad tiene una asignación financiera de ₲ 8.539.792 millones y al cierre del Ejercicio
+Fiscal 2025 presenta una ejecución de ₲ 7.841.675 millones, el cual equivale al 91,83% de ejecución con
+respecto al monto total aprobado.
+2.1 Unidades Físicas (kWh) facturadas por Categoría
+Seguidamente se detalla la cantidad de kWh facturado por Categoría, discriminados de la siguiente manera:
+ Residencial: Pertenecen a este Grupo de Consumo los clientes que utilizan la energía eléctrica para
+el abastecimiento de instalaciones en locales destinados principalmente para vivienda incluyendo
+iluminación en general, artefactos electrodomésticos, calefacción y aire acondicionado. Al cierre del
+Ejercicio Fiscal 2025 el consumo total de esta Categoría fue de 7.425.632.545 kWh.
+ Industrial: Pertenecen a este Grupo de Consumo los clientes que utilizan la energía eléctrica para el
+abastecimiento a las instalaciones usadas principalmente para actividades industriales, tales como
+producir, fabricar, transformar, procesar, extraer, beneficiar o refinar materiales y/o productos. Así
+también, las relacionadas con la explotación agropecuaria fuera de cualquier ejido urbano municipal.
+Al cierre del Ejercicio Fiscal 2025 el consumo de esta categoría fue de 266.595.986 kWh.
+Balance Anual de Gestión Pública |BAGP 23
+ Gubernamental: Pertenecen a este Grupo de Consumo los clientes que utilizan la energía para el
+abastecimiento a las reparticiones gubernamentales que están sostenidas exclusivamente con fondos
+asignados en el Presupuesto General de Gastos de la Nación y a las dependencias municipales
+servidas directamente por la ANDE. Al cierre del Ejercicio Fiscal 2025 el consumo de la categoría
+gubernamental fue de 442.721.865 kWh.
+ Exportación: esta categoría se agrupa a los usuarios con tarifas asignadas al consumo de energía
+exportada. Al cierre del Ejercicio Fiscal 2025 se contaba con un (1) usuario clasificado en la
+categoría exportación, la Empresa ENARSA de la República Argentina. El consumo de la
+mencionada Empresa al cierre del Ejercicio Fiscal 2025 ascendió a 113.360.874 kWh.
+ Alta Tensión y muy Alta Tensión: Pertenece a esta categoría los clientes cuyo abastecimiento de
+energía eléctrica en los niveles de tensión de 66.000 voltios y 220.000 voltios sea considerado
+factible por la ANDE. Al cierre del Ejercicio Fiscal 2025 el consumo de esta categoría fue de
+1.139.706.723 kWh.
+ Consumidores Intensivo Especial: Pertenece a esta categoría a este Grupo de Consumo aquellos
+clientes que utilizan la energía eléctrica para: procesar datos, proveer servicios de almacenamiento de
+información, incluyendo minería de criptoactivos, blockchain, token y data centers, abastecidos en
+Muy Alta Tensión (220 kV), Alta Tensión (66 kV) y Media Tensión (23 kV) Factor de Carga
+mensual igual o mayor a 80%, las cuales se regirán por las tarifas especiales para Consumidores
+Intensivo Especial, establecidas por Resolución P/N° 47191/2022 y la Resolución P/N° 47708/2023,
+vigentes para este tipo de clientes y sus respectivos contratos suscritos con la ANDE, o aquellos que
+lo sustituyan o amplíen. Al cierre del Ejercicio Fiscal 2025 el consumo de esta categoría ascendió a
+5.464.852.192 kWh.
+ Diferencial: Pertenece a este Grupo de Consumo los clientes conectados en Media Tensión, tanto en
+línea como en estación y subestaciones, que soliciten la facturación del consumo y la potencia
+máxima discriminados en punta y fuera de punta. Al cierre del Ejercicio Fiscal 2025 el consumo de
+esta categoría fue de 101.215.024 kWh.
+ Otros: Pertenece a esta categoría los clientes que utilizan la energía eléctrica para el abastecimiento
+a las instalaciones de locales que no pertenezcan a los grupos de consumo Residencial o Domestico,
+Industrial o Gubernamental. Al cierre del Ejercicio Fiscal 2025 el consumo de esta categoría fue de
+6.842.117.693 kWh.
+ Alumbrado Público: esta categoría se agrupa el consumo facturado en concepto de Alumbrado
+Público. Al cierre del Ejercicio Fiscal 2025, se ha facturado en esta categoría un total de 236.466.394
+kWh.
+2.2 Pérdidas Eléctricas
+Uno de los Objetivos más importantes del Plan Estratégico de la ANDE constituye la reducción de las
+Pérdidas Eléctricas, a través de la implementación del Plan de Reducción de las Pérdidas Eléctricas a corto
+plazo. En tal sentido, en el año 2015 el nivel de pérdidas ascendía al 25,28% y al cierre del año 2025 las
+pérdidas totales se situaron en el orden del 24,40%, tal como se puede observar en el siguiente gráfico:
+24 BAGP| Balance Anual de Gestión Pública
+Cabe señalar que las pérdidas eléctricas representan un impacto negativo para los aspectos técnicos,
+financieros y administrativos de la ANDE, para lo cual esta Institución, en su compromiso por lograr una
+disminución de los niveles de pérdidas eléctricas, realiza acciones en el marco del Plan de Reducción de
+Pérdidas Eléctricas ejecutado por la empresa, el cual se encuentra agrupado en cuatro (4) Acciones que se
+describen a continuación:
+Acción 1: Cambio de medidores electromecánicos por electrónicos.
+La ANDE se encuentra abocada a la sustitución de los medidores electromecánicos instalados por presentar
+desperfectos en la medición, debido a diversos motivos tales como: fraudes en el equipo, medidores
+averiados, rotos y quemados, pérdidas, entre otros.
+En tal sentido, al cierre de 2025 fueron realizados un total de 74.283 cambios de medidores electromecánicos
+a medidores electrónicos, de los cuales 54.615 medidores corresponden a medidores electrónicos monofásicos
+y 19.668 medidores corresponden a medidores electrónicos trifásicos. Los mismos se detallan en el siguiente
+cuadro:
+Medidores Cambiados Enero a Diciembre/2025
+CICLOS MONOFÁSICOS TRIFÁSICOS TOTAL CANTIDAD DE MEDIDORES CAMBIADOS -EJERCICIO 2025
+ENERO 2.914 1.540 4.454 10.000
+FEBRERO 3.575 2.092 5.667
+MARZO 1.406 1.585 2.991 8.000
+ABRIL 1.299 1.425 2.724 6.000
+MAYO 5.137 1.605 6.742
+JUNIO 5.214 1.708 6.922 4.000
+JULIO 6.238 2.093 8.331 2.000
+AGOSTO 5.175 1.499 6.674
+0
+SEPTIEMBRE 4.759 1.404 6.163
+OCTUBRE 6.720 1.700 8.420
+NOVIEMBRE 7.162 1.666 8.828
+DICIEMBRE 5.016 1.351 6.367 TRIFÁSICOS MONOFÁSICOS
+TOTAL 54.615 19.668 74.283
+Fuente: Gerencia Comercial
+La utilización de medidores electrónicos permite a la ANDE mejorar sustancialmente la calidad de la
+medición ya que se pasa de una medición electromecánica clase 2 (IEC) a una medición electrónica clase 1
+(IEC). A esto se le suma la posibilidad de identificación por factor de potencia bajo, ya que el medidor
+electrónico a ser utilizado mide la energía reactiva, también se cuenta con la función de la medición de
+demanda máxima lo que permite realizar un control preciso de la potencia de contrato de los clientes en BT,
+pudiéndose actualizar la misma de forma rápida sin la necesidad de verificaciones de llaves limitadoras y
+mantener así el catastro de clientes y la potencia instalada de los mismos, a todo esto se debe sumar las
+múltiples funciones que permiten la identificación de situaciones de presunto fraude mediante los avisos que
+el medidor realiza.
+Acción 2: Verificación de suministros con Potencia Reservada.
+Los suministros con potencia reservada constituyen los usuarios en media tensión con mayor consumo dentro
+del sistema eléctrico de ANDE. Su verificación continua asegura el correcto registro de la energía consumida
+y facturada. Al cierre del Ejercicio Fiscal 2025 se realizaron 6.467 verificaciones de suministros con Potencia
+Reservada, tal como se observa en el siguiente cuadro:
+Verificaciones Realizadas
+CANTIDAD DE VERIFICACIONES REALIZADAS -EJERCICIO 2025
+CANTIDAD DE
+MES
+SUMINISTROS
+900 806 819
+ENERO 806
+FEBRERO 698 800 698 730
+MARZO 819 700 597 587 551
+ABRIL 597 600
+MAYO 730 500 417
+JUNIO 587 400 377 342 345
+J A U G L O IO STO 5 3 5 7 1 7 300 198
+200
+SEPTIEMBRE 342
+100
+OCTUBRE 417
+NOVIEMBRE 345 0
+DICIEMBRE 198
+TOTAL 6.467
+Fuente: Gerencia Comercial
+Balance Anual de Gestión Pública |BAGP 25
+Acción 3: Regularización de suministros de Clientes Públicos.
+La verificación y regularización de los suministros de usuarios gubernamentales se realiza priorizando el
+segmento de mayor consumo tales como: Industrias Oficiales, Hospitales Públicos, Ministerios, Policía
+Nacional, Ejército Nacional, a fin de verificar y regularizar los suministros con conexión directa, medidor
+averiado y otros. Al cierre del Ejercicio Fiscal 2025 se han emitido un total de 3.445 órdenes de trabajo a
+suministros de usuarios gubernamentales.
+Cantidad de verificaciones Cantidad
+Verificación de suministros de Clientes
+Meses Ots
+Públicos ejecutadas a nivel país
+ENERO 347
+FEBRERO 365 500 347 365 434380 427 379
+MARZO 434 3 4 0 0 0 0 286 202 208
+ABRIL 380 200 170 143 104
+MAYO 427 100
+0
+JUNIO 379
+JULIO 286
+AGOSTO 202
+SEPTIEMBRE 170
+OCTUBRE 208
+NOVIEMBRE 143
+DICIEMBRE 104
+Total general 3.445
+Fuente: Gerencia Comercial
+Los trabajos realizados para la regularización de estos suministros se detallan a continuación:
+14 Cambio de acometida.
+2 Cambio de sitio del medidor.
+16 Inspección instalación servicio individual.
+2 Revisión de Retiro de Medidor BT.
+40 Reconexión MT.
+50 Cambio de medidor.
+149 Medidor averiado/quemado/roto.
+21 Revisión medidor y conexión de sum. BT.
+19 Inspección por presunto fraude.
+11 Colocación de medidor.
+9 Colocación medidor y conexión de suministro MT.
+9 Revisión medidor y conexión de suministro MT.
+689 Suspensión por impago de BT.
+393 Reconexión manual de Sum.BT.
+355 Reconexión BT.
+164 Medidor quemado/averiado/roto MT.
+120 Suspensión por impago de MT.
+154 Revisión equipos MT.
+101 Falta de Lectura Consecutiva.
+98 Reconexión MT.
+68 Colocación de medidor y conexión de suministro BT.
+32 Inspección/Verificación de Pérdida .
+42 Cambio de medidor.
+48 Reconexión manual de Sum.MT.
+35 Reconexión manual de Sum.MT.
+17 Medidor averiado/quemado/roto.
+17 Corte Manual de Suministro MT.
+24 Retiro de medidor.
+23 Lecturas especiales.
+21 Modificación de contrato BT.
+10 Inspección Instalación Servicio Individual.
+28 Inspección por presunto fraude.
+75 Otros.
+26 BAGP| Balance Anual de Gestión Pública
+Acción 4: Verificaciones e Intervenciones de varios Suministros.
+Las conexiones clandestinas perjudican directamente a los ingresos de la ANDE y también repercuten en la
+calidad del suministro normal de energía eléctrica a las viviendas en regla.
+En tal sentido, esta Institución a través de su División de Gestión de Pérdidas Eléctricas conjuntamente con
+las Divisiones de Gestión Regional, ejecuta el programa de reducción de las pérdidas eléctricas. Estas oficinas
+cuentan con cuadrillas propias, así también disponen de cuadrillas tercerizadas contratadas para realizar
+trabajos de verificación y regularización de suministros en todo el territorio nacional.
+De esta manera, al cierre del Ejercicio Fiscal 2025 se han realizado 31.058 verificaciones de los cuales en
+1.700 suministros verificados se han constatado que registran fraudes y en 29.358 suministros verificados se
+han constatado que registran conexiones normales.
+3. PROYECTOS DE INVERSIÓN
+Asimismo, este programa se encuentra desagregado por proyectos de inversión. Al cierre del Ejercicio Fiscal
+2025, la ANDE cuenta con veinticuatro (24) proyectos, los cuales se detallan en el cuadro siguiente:
+PROYECTOS DE INVERSIÓN DE LA ANDE
+PROYECTOS - PRESUPUESTO DE PROGRAMA CENTRAL
+CÓDIGO ORGANISMO
+PROY. DESCRIPCIÓN
+SNIP FINANCIADOR
+5 58 PROYECTO DE FORTALECIMIENTO DEL SECTOR DE LA ENERGÍA - BIRF 7994 - PA. BIRF - 402
+BID - 401
+PROYECTO DE CONSTRUCCIÓN DE LA LÍNEA DE TRANSMISIÓN DE 500 KV YACYRETÁ - VILLA
+9 159 CAF - 405
+HAYES BID-BEI-CAF.
+BEI - 409
+15 160 MANEJO DE PASIVOS AMBIENTALES DEL SISTEMA ELÉCTRICO. BID - 401
+PROYECTO DE MEJORAMIENTO DEL SISTEMA DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA EN EL CAF - 405
+22 275
+ÁREA METROPOLITANA. OFID - 406
+PROYECTO DE REFUERZO DEL SISTEMA ELÉCTRICO EN LOS DEPARTAMENTOS DE CENTRAL, CAF - 405
+23 278
+PARAGUARÍ Y PRESIDENTE HAYES. OFID - 406
+MEJORAMIENTO DEL SISTEMA DE DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA ÁREA METROPOLITANA - CAF - 405
+27 621
+FASE II. BEI - 409
+CAF - 405
+28 276 REFUERZO DEL SISTEMA ELÉCTRICO EN LA CIUDAD DE ASUNCIÓN.
+BEI - 409
+CAF - 405
+29 277 REFUERZO DEL SISTEMA ELÉCTRICO EN LOS DEPARTAMENTOS DE CAAGUAZÚ Y ALTO PARANÁ.
+BEI - 409
+CAF - 405
+30 706 REPOSICIÓN DEL COMPENSADOR ESTÁTICO DE REACTIVOS EN LA SUBESTACIÓN SAN LORENZO.
+BEI - 409
+CONSTRUCCIÓN DE LA SUBESTACIÓN MINGA GUAZÚ EN 500 KV EN LA CIUDAD DE MINGA GUAZÚ /
+31 717 CAF - 405
+OBRAS PARA MEJORAS Y OPTIMIZACIÓN DE SISTEMAS.
+CONSTRUCCIÓN DE LA SUBESTACIÓN MARIA AUXILIADORA EN 220 KV Y LA LT 220 KV SANTA RITA -
+32 776 MARIA AUXILIADORA DEL DEPARTAMENTO DE ITAIPÚA / OBRAS PARA MEJORAS Y OPTIMIZACIÓN CAF - 405
+DE SISTEMAS.
+MEJORAMIENTO DE 5000 KM DE LÍNEAS DE MEDIA Y BAJA TENSIÓN CONSTRUIDA BAJO EL SISTEMA
+DE AUTO AYUDA EN LOS DEPARTAMENTOS DE CONCEPCIÓN, SAN PEDRO, CORDILLERA, GUAIRA,
+33 777 CAF - 405
+CAAGUAZÚ, CAAZAPÁ, ITAPÚA, MISIONES, PARAGUARÍ, ALTO PARANÁ, ÑEEMBUCÚ, AMAMBAY Y
+CANINDEYÚ / OBRAS PARA MEJORAS Y OPTIMIZACIÓN DE SISTEMAS.
+PROYECTO DE REHABILITACIÓN Y MODERNIZACIÓN DE LA CENTRAL HIDROÉLECTICA ACARAY -
+34 794 BID - 401
+BID/ANDE.
+35 712 CONSTRUCCIÓN DE LA SUBESTACIÓN VALENZUELA 500 KV - FONPLATA/ANDE. FONPLATA - 403
+PROYECTO DE MEJORAMIENTO DEL SISTEMA DE DISTRIBUCIÓN, EN 14 DEPARTAMENTOS DE LA
+36 844 CAF - 405
+REPUBLICA DEL PARAGUAY.
+37 848 PROYECTO DE ADQUISICIÓN DE SUBESTACIONES MÓVILES DE 220/23 KV-41,67 MVA Y DE 66/23 KV-30 CAF - 405
+PROYECTO DE MEJORAMIENTO DE LA GESTIÓN DEL SISTEMA INTEGRAL DE DISTRIBUCIÓN
+38 886 CAF - 405
+ELÉCTRICA DEL SISTEMA INTERCONECTADO NACIONAL - SGIDE.
+CONSTRUCCIÓN DEL SEGUNDO CIRCUITO DE LA LÍNEA DE TRANSMISIÓN DE 500 KV MARGEN
+40 952 BID - 401
+DERECHA ITAIPÚ-VILLA HAYES.
+PROYECTO DE CONSTRUCCIÓN DE LA LÍNEA DE TRANSMISIÓN 220 KV VILLA HAYES – VILLA REAL - FONPLATA - 403
+44 961
+POZO COLORADO- LOMA PLATA Y LA SUBESTACIÓN POZO COLORADO EN 220 KV. KFW - 654
+BID - 401
+45 897 CONSTRUCCIÓN DE LA LÍNEA DE TRANSMISIÓN DE 500 KV YGUAZÚ-VALENZUELA.
+JICA - 602
+Balance Anual de Gestión Pública |BAGP 27
+CÓDIGO ORGANISMO
+PROY. DESCRIPCIÓN
+SNIP FINANCIADOR
+MEJORAMIENTO DE LA EFICIENCIA ENERGÉTICA DE LA RED DE ALUMBRADO PÚBLICO Y DE LA BID - 401
+46 900
+INFRAESTRUCTURA EDILICIA DE LA ANDE EN ASUNCIÓN. JICA - 602
+CONSTRUCCIÓN DE LA LT 220 KV DOBLE TERNA - VALENZUELA - INTERSECCIÓN
+48 966 BID - 401
+LT 220 KV SAN PATRICIO - GUARAMBARÉ"
+PROYECTO DE CONSTRUCCIÓN DE LAS LÍNEAS DE TRANSMISIÓN SUBTERRÁNEAS DE 220 KV SAN
+49 971 TAIWAN - 509
+LORENZO - VILLA AURELIA Y BARRIO MOLINO - VILLA AURELIA, EN ASUNCIÓN Y CENTRAL
+PROYECTO DE MODERNIZACIÓN DEL COMPENSADOR ESTÁTICO DE REACTIVOS (CER) EN LA
+50 969 TAIWAN - 509
+SUBESTACIÓN LIMPIO EN 220 KV.
+A continuación, detallamos el avance de los diferentes proyectos de los Programas de Inversión:
+Proyecto 5 – Proyecto de Fortalecimiento del Sector de la Energía – BIRF:
+Cabe señalar, que la asignación presupuestaria lograda a través de una solicitud de reprogramación
+presupuestaria para el Ejercicio Fiscal 2025 fue de ₲ 1.275 millones, y al cierre del ejercicio presenta una
+ejecución presupuestaria del 23,01% equivalente a ₲ 293 millones. Cabe señalar que el presente proyecto se
+encuentra en su etapa final y los recursos se destinaron al pago de liquidación final de obras a proveedores.
+Proyecto 6 – Programa de Apoyo a la Red de Transmisión y Distribución – CAF –
+OFID:
+Cabe señalar que, la asignación presupuestaria lograda a través de una solicitud de reprogramación
+presupuestaria para el Ejercicio Fiscal 2025 fue de ₲ 1.750 millones, y al cierre del ejercicio presenta una
+ejecución presupuestaria del 24,97% equivalente a ₲ 437 millones. Es importante mencionar que el presente
+proyecto se encuentra en su etapa final y los recursos se destinaron al pago de liquidación final de obra a
+proveedores.
+Proyecto 9 – Proyecto de Construcción de la Línea de Transmisión de 500 kV
+Yacyretá - Villa Hayes – BID – BEI – CAF:
+Al cierre del Ejercicio Fiscal 2025, no presenta avance productivo atendiendo a que las obras se encuentran
+concluidas. Con relación a la ejecución financiera, el proyecto presenta una ejecución presupuestaria del
+38,81% equivalente a ₲ 6.194 millones considerando una asignación presupuestaria de ₲ 15.959 millones.
+Cabe señalar que el presente proyecto se encuentra en su etapa final, y queda pendiente realizar la liquidación
+final de las obras para la obtención del Acta Final de Recepción de Obra.
+En el marco del proyecto se ejecutaron los siguientes procesos licitatorios:
+LPI N° 1044/2014 – Construcción de la Línea de 500 kW Yacyretá-Ayolas-Villa Hayes.
+LPI N° 1045/2014 – Ampliación de las Subestaciones Ayolas y Villa Hayes.
+LPI N° 1164/2015 – Servicios Profesionales de Supervisión Técnica, Ambiental y Social,
+correspondiente a la Obra “Sistema de Transmisión Sur en 500 kW Yacyretá - Subestación Ayolas –
+Subestación Villa Hayes”.
+LPI N° 1340/2017- Ejecución de Obras de Restauración y Modernización de la Subestación San
+Lorenzo.
+LPN N° 1279/2017 - Adquisición de certificados de Servicios Ambientales para la Compensación de
+obras de la ANDE del alto impacto ambiental - Ley N° 3001/2016.
+LPN N° 1382/2018 - Servicios Profesionales de Supervisión Técnica y Socio Ambiental
+Correspondiente a la Obra de Restauración y Modernización de la Subestación de San Lorenzo.
+LPI N° 1503/2019 - Restauración y Modernización de la Subestación de San Lorenzo.
+LPN N° 1514/2019 - Proyecto de Construcción e Instalación de Bancos de Reactores en 500 kV para
+la Subestación de Villa Hayes.
+Proyecto 15 – Manejo de Pasivos Ambientales del Sistema Eléctrico:
+En este proyecto, la asignación financiera para el Ejercicio Fiscal 2025 fue de ₲ 3.000 millones, de la cual se
+28 BAGP| Balance Anual de Gestión Pública
+ha ejecutado ₲ 2.586 millones, correspondiente a una ejecución presupuestaria del 86,20%. Cabe señalar que
+el presente proyecto se encuentra en su etapa final, y queda pendiente realizar la liquidación final de los
+procesos licitatorios para la obtención del Acta Final de Recepción de Obra.
+En el presente Proyecto se enmarcaron las siguientes licitaciones:
+LPN N° 1161/2015 – Adquisición de equipos informáticos para la implementación del Sistema
+Informático de Mitigación de Pasivos Ambientales.
+LPN N° 1116/2016 – Construcción de depósito de recepción y sistema de drenaje para
+almacenamiento de equipos y aceites usados.
+LPN N° 1272/2016 – Adquisición de Vehículos para la Mitigación de Pasivos Ambientales.
+LPN N° 1443/2018 - Adquisición de Sistemas de protección contra incendio en los depósitos de San
+Lorenzo.
+CP N° 2/2016 – Contratación de servicios de toma de muestras y análisis de PCB en Aceite Dieléctrico
+en transformadores en desuso, y de PCB y Dioxinas y Foranos en otros materiales potencialmente
+contaminados con dichas sustancias, ubicados en el predio de Laurelty - San Lorenzo.
+LCO N° 951/2017 - Adquisición de vehículos para trabajos de Mitigación de pasivos ambientales.
+CD N° 1/2019 - Adquisición de equipo para el Laboratorio de PCB de la ANDE.
+LPI N° 1310/2017 - Contratación de servicios de eliminación de residuos contaminados con PCB.
+Proyecto 22 – Proyecto de Mejoramiento del Sistema de Distribución de Energía
+Eléctrica en el Área Metropolitana:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 27.279
+millones, el cual al cierre del año registró una ejecución financiera de ₲ 9.294 millones, correspondiente a
+una ejecución del 34,07%.
+En el marco del presente proyecto se encuentran ejecutándose los siguientes procesos licitatorios:
+LPI N° 1207/2017 - Mejoramiento y Refuerzo del Sistema de Distribución del Área Metropolitana, en
+Distritos del Departamento Central, con provisión total de materiales.
+LPI N° 1234/2017 - Contratación de Consultoría para la Fiscalización de las Obras de Mejoramiento
+del Sistema de Distribución de Energía Eléctrica en el Área Metropolitana.
+Proyecto 23 – Proyecto de Refuerzo del Sistema Eléctrico en los Dptos. de Central,
+Paraguarí y Presidente Hayes:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 113.904
+millones, el cual al cierre del año registró una ejecución financiera de ₲ 34.342 millones, correspondiente a
+una ejecución del 30,15%.
+En el marco del presente proyecto se encuentra ejecutándose las siguientes licitaciones:
+LPI N° 1278/2017 -Proyecto de Construcción e Interconexión de la SE Buey Rodeo.
+LPI N° 1283/2017 - Recapacitación de Líneas de Transmisión de 220 y 66 kV - Sistema
+Metropolitano.
+LPI N° 1359/2018 - Construcción de la Línea de Transmisión Subterránea 66 kV Lambaré - Tres
+Bocas.
+LPI N° 1380/2018 - Construcción de la Línea Aérea de Transmisión 2 X 66 kW Guarambaré – Itauguá
+y Ampliación de la Subestación Itauguá.
+LPI N° 1376/2018 - Proyecto de Construcción de la SE Villa Elisa en 220 kV y Ampliación de la SE
+La Victoria.
+LPI N° 1451/2019 - Proyecto de Construcción e Interconexión de la SE Villa Elisa en 220 kV.
+LPI N° 1496/2019 – Fiscalización de Obras: Programa de Refuerzo del Sistema de Transmisión.
+Balance Anual de Gestión Pública |BAGP 29
+LPI N° 1600/2021 – Recapacitación de las Subestaciones de Luque y Capiatá.
+CONSULTORÍA N° 11/2018 – Servicio de Consultoría Individual de Asistencia Técnica a la Unidad
+Ambiental de la ANDE, para Apoyo a en la Gestión Ambiental y Social.
+CONSULTORÍA N° 12/2018 - Servicio de Consultoría Individual de Asistencia Técnica a la Unidad
+Coordinadora de Proyectos de la ANDE, para el Apoyo en la Gestión Financiera y Administrativa del
+Proyecto de Mejoramiento del Sistema Transmisión de Energía Eléctrica en el Área Metropolitana,
+Financiada por la CAF.
+LCO N° 1117/2021 – Servicio de Consultoría Individual de Asistencia Técnica a la Unidad
+Coordinadora de Proyectos de ANDE para el Apoyo de la Gestión Administrativa y Financiera del
+Proyecto de Mejoramiento del Sistema de Transmisión y de Distribución de Electricidad del Sistema
+Metropolitano del Paraguay, Financiado a través de la CAF.
+LCO N° 1133/2021 – Servicio de Consultoría Nacional Individual para la Contratación de Especialista
+Social y Ambiental.
+CD N° 6399/2019 – Servicio de Consultoría Individual de Asistencia Técnica a la Unidad Ambiental
+de la ANDE, para Apoyo a la Gestión Ambiental y Social.
+Proyecto 27 - Mejoramiento del Sistema de Distribución de Energía Eléctrica Área
+Metropolitana - Fase II:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 385.118
+millones, el cual al cierre del año 2025 registra una ejecución financiera de ₲ 222.896 millones,
+correspondiente a una ejecución del 57,88%.
+En el marco del presente proyecto se encuentran adjudicadas las siguientes licitaciones.
+LCO N° 1028/2019 - Contratación de Servicios de Consultoría Individual para el Apoyo
+Administrativo y Financiero en la Ejecución del Proyecto de Mejoramiento del Sistema Metropolitano
+de Paraguay – Fase II.
+LPI N° 1551/2021 - Mejoramiento y Refuerzo del Sistema de Distribución del Área Metropolitana en
+Distritos del Departamento Central y Cordillera.
+LPI N° 1788/2023 - Mejoramiento y Refuerzo del Sistema de Distribución del Área Metropolitana en
+Distritos de los Departamentos Central.
+Proyecto 28 - Refuerzo del Sistema Eléctrico en la Ciudad de Asunción:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 43.270
+millones, el cual al cierre del año 2025 registra una ejecución financiera de ₲ 14.638 millones,
+correspondiente a una ejecución del 33,83%.
+En el marco del presente proyecto fueron adjudicadas las siguientes licitaciones:
+LPI N° 1481/2019 - Repotenciación de las Líneas de Transmisión Subterráneas 66 kV, Central –
+General Diaz – Republicano.
+LPI N° 1484/2019 - Ampliación de las Subestaciones Parque Caballero y Puerto Botánico y
+Construcción de la LT 220 kV Villa Hayes – Puerto Botánico - Parque Caballero.
+LPI N° 1546/2020 - Servicios Profesionales de Supervisión Técnica Ambiental y Social de Obras del
+Programa de Refuerzo del Sistema de Transmisión.
+Proyecto 29 – Refuerzo del Sistema Eléctrico en los Departamentos de Caaguazú y
+Alto Paraná:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 73.904
+millones, el cual al cierre del año 2025 registra una ejecución financiera de ₲ 33.741 millones,
+correspondiente a una ejecución del 45,66%.
+30 BAGP| Balance Anual de Gestión Pública
+En el marco del presente proyecto fueron adjudicadas las siguientes licitaciones:
+LPI N° 1480/2019 - Ampliación de la Subestación Caaguazú.
+LPI N° 1482/2020 - Proyecto de Construcción e Interconexión de la Subestación Alto Paraná
+220/66/23 kV.
+LPI N° 1483/2020 - Proyecto de Construcción e Interconexión de la Subestación Santa Rita.
+LPI N°1710/2023 – Suministro e Instalación de Fibra Óptica OPGW en Líneas de Transmisión 220
+kV.
+Proyecto 30 – Reposición del Compensador Estático de Reactivos en la Subestación
+San Lorenzo:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 20.089
+millones, el cual al cierre del año 2025 registra una ejecución financiera de ₲ 13.403 millones,
+correspondiente a una ejecución del 66,71%. Cabe señalar que el presente proyecto se encuentra en su etapa
+final, y queda pendiente realizar la liquidación final de la obra para la obtención del Acta Final de Recepción
+de Obra.
+En el marco del presente proyecto se encuentra adjudicada la LPI N° 1487/2019 - Proyecto de Construcción e
+Instalación de un Sistema de Compensación Reactiva basado en STATCOM de 220 kV en la Subestación San
+Lorenzo.
+Proyecto 31 - Construcción de la Subestación Minga Guazú en 500 kV en la Ciudad
+de Minga Guazú:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 29.054
+millones, el cual al cierre del año 2025 registra una ejecución financiera de ₲ 23.255 millones,
+correspondiente a una ejecución del 80,04%.
+En el marco del presente proyecto se encuentran adjudicadas las siguientes licitaciones:
+LPI N° 1542/2019 - Proyecto de Construcción e Interconexión de la Subestación Yguazú en 500
+kV.
+LCO N° 1114/2020 - Adquisición de Equipos Informáticos.
+LCO N° 1130/2020 - Contratación de Especialistas Ambientales y Sociales para la Supervisión de
+Obras de Distribución y de la Subestación, y para la Reserva Natural Yguazú.
+LCO N° 1169/2022 - Servicio de Consultoría Individual para el Apoyo a la Gestión Ambiental y
+Social de la ANDE, Financiado por CAF.
+Proyecto 32 - Construcción de la Subestación Maria Auxiliadora en 220 kV y la LT
+220 kV Santa Rita - Maria Auxiliadora del Departamento de Itapúa:
+En este proyecto, la asignación presupuestaria para el Ejercicio Fiscal 2025 fue de ₲ 51.542 millones, el cual
+al cierre del año 2025 registra una ejecución financiera de ₲ 32.032 millones, correspondiente a una ejecución
+del 62,15%.
+En el marco del presente proyecto se encuentran adjudicadas las siguientes licitaciones:
+LPI N° 1596/2020 - Construcción de la LT 220 kV Santa Rita - Maria Auxiliadora.
+LCO N° 1075/2020 y N° 1115/2021 - Servicios Profesionales de Auditoría Financiera y Contable
+del Programa de Fortalecimiento de Transmisión del Sistema Interconectado Nacional y de
+Distribución Eléctrica Rural.
+LCO N° 1116/2021 y 1144/2022 - Servicios de Consultorías Individuales de Asistencia
+Administrativas, Económico Financiera y Estadística para el Programa.
+Balance Anual de Gestión Pública |BAGP 31
+Proyecto 33 - Mejoramiento de 5000 km de líneas de Media y Baja Tensión
+construida bajo el Sistema de Auto Ayuda en los Departamentos de Concepción,
+San Pedro, Cordillera, Guaira, Caaguazú, Caazapá, Itapúa, Misiones, Paraguarí,
+Alto Paraná, Ñeembucú, Amambay y Canindeyú:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 49.372
+millones, el cual al cierre del año 2025 registra una ejecución financiera de ₲ 17.892 millones,
+correspondiente a una ejecución del 36,24%.
+En el marco del presente proyecto se encuentran adjudicadas las siguientes licitaciones:
+LPI N° 1526/2020 - Ejecución de Obras de Mejoramiento de Líneas de Autoayuda en MT y BT,
+con Provisión Total de Materiales en varios Departamentos del País.
+LPI N° 1527/2020 - Contratación de Servicios de Fiscalización de las Obras de Mejoramiento de
+las Líneas de Autoayuda.
+Proyectos 34 - Proyecto de Rehabilitación y Modernización de la Central
+Hidroeléctrica Acaray - BID/ANDE:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 405.606
+millones, el cual al cierre del año 2025 registra una ejecución financiera de ₲ 58.422 millones,
+correspondiente a una ejecución del 14,40%.
+En el marco del presente proyecto se encuentran adjudicadas las siguientes licitaciones:
+LPI N° 1663/2021 - Diseño, Suministro e Instalación de una Planta Solar Fotovoltaica en la
+Comunidad de Puerto Esperanza de la localidad de Bahía Negra.
+LPI N° 1594/2021 - Adquisición de Equipos y Herramientas Especiales.
+LPI N° 1815/2024 - Recapacitación y Modernización de la SE Acaray.
+LPN N° 1801/2024 - Ejecución de obras civiles para Construcción de Edificio para Guardería
+Infantil – Complejo San Miguel.
+Proyectos 35 - Construcción de la Subestación Valenzuela 500 kV -
+FONPLATA/ANDE:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 85.548
+millones, el cual al cierre del año 2025 registra una ejecución financiera de ₲ 67.907 millones,
+correspondiente a una ejecución del 79,38%.
+En el marco del presente proyecto se encuentran adjudicadas las siguientes licitaciones:
+LPI N° 1561/2020 - Proyecto de Construcción e Interconexión de la Subestación Valenzuela.
+LCO N° 1131/2021 - Servicios Profesionales de Auditoría Financiera y Contable del Proyecto de
+Construcción de Subestación de Transformación y Líneas de Transmisión de Energía en la
+Localidad de Valenzuela.
+Proyectos 36 - Proyecto de Mejoramiento del Sistema de Distribución – FASE III,
+en 14 Departamentos de la República del Paraguay:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 148.443
+millones, el cual al cierre del año 2025 registra una ejecución financiera de ₲ 121.150 millones
+correspondiente a una ejecución del 81,61%. En el marco del presente proyecto se encuentra adjudicada la
+LPI N° 1749/2023 - Mejoramiento del Sistema de Distribución - Fase III.
+32 BAGP| Balance Anual de Gestión Pública
+Proyecto 37 - Proyecto de Adquisición de Subestaciones Móviles 220/23 KV –
+41,67 MVA Y 66/23 KV – 30 MVA:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 2.229
+millones, el cual al cierre del año 2025 no registra aún ejecución financiera ni productiva. En el marco del
+presente proyecto se encuentra adjudicada la LPI N° 1687/2022 – Adquisición de Subestaciones Móviles.
+Proyecto 38 – Proyecto de Mejoramiento de la Gestión del Sistema Integral de
+Distribución Eléctrica del Sistema de Interconectado Nacional – SGIDE:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 203.530
+millones, el cual al cierre del año 2025 registra una ejecución financiera de ₲ 86.206 millones,
+correspondiente a una ejecución del 42,36 %.
+En el marco del presente proyecto se encuentran adjudicadas las siguientes licitaciones:
+VEX N° 263/2022 - Desarrollo y Puesta en servicio de los Sistemas de Gestión de Fuera de
+Servicio (OMS) y Gestión de Distribución (DMS).
+LPI N° 1723/2022 - Desarrollo y Puesta en servicio de un Sistema de Información Geográfica GIS
+SMALLWORD ELECTRIC OFFICE.
+LPI N° 1706/2022 - Adquisición, Instalación e Integración de llaves telecomandadas para
+distribución.
+Proyecto 40 – Construcción del 2° circuito de la línea de transmisión de 500 KV
+margen derecha de Itaipú - Villa Hayes:
+Cabe señalar, que la asignación presupuestaria para el año 2025 fue gestionada a través de una solicitud de
+modificación presupuestaria y aprobada por Decreto N° 4287 de fecha 23/07/2025. Por tanto, para el cierre
+del Ejercicio Fiscal 2025 la asignación financiera fue de ₲ 554.338 millones, el cual no registró una ejecución
+financiera al cierre del año y no registra aún avance productivo.
+Proyecto 44 – Proyecto de Construcción de la Línea de Transmisión 220 kV Villa
+Hayes – Villa Real - Pozo Colorado - Loma Plata y la Subestación Pozo Colorado
+en 220 kV:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 544.122
+millones, y registró una ejecución financiera de ₲ 231.616 millones, correspondiente a una ejecución del
+42,57%. En el marco del presente proyecto se encuentra adjudicada la LPI N° 1753/2023 - Proyecto de
+Construcción de la Línea de Transmisión 220 KV Villa Hayes - Villa Real - Pozo Colorado - Loma Plata y la
+Subestación Pozo Colorado en 220 KV, en la Región Occidental.
+Proyectos 45 – Construcción de la Línea de Transmisión de 500 kV Yguazú-
+Valenzuela:
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 253.302
+millones y registró una ejecución financiera de ₲ 97.214 millones, correspondiente a una ejecución del
+38,38%. En el marco del presente proyecto se encuentra adjudicada la LPI N°1684/2022 - Proyecto de
+Construcción de la Línea de Transmisión 500 kV Yguazú – Valenzuela.
+Proyectos 46 – Mejoramiento de la Eficiencia Energética de la Red de Alumbrado
+Público y de la Infraestructura Edilicia de la ANDE en Asunción.
+La asignación financiera para el Ejercicio Fiscal 2025 correspondiente al presente proyecto fue de ₲ 32.265
+millones, el cual no registra una ejecución financiera ni productiva al cierre del Ejercicio.
+Balance Anual de Gestión Pública |BAGP 33
+Proyectos 48 – Construcción de la LT 220 kV Doble Terna - Valenzuela –
+Intersección LT 220 kV San Patricio - Guarambaré.
+Cabe señalar, que la asignación presupuestaria para el año 2025 fue gestionada a través de una solicitud de
+modificación presupuestaria y aprobada por Decreto N° 4287 de fecha 23/07/2025. Por tanto, para el Ejercicio
+Fiscal 2025 la asignación financiera fue de ₲ 139.658 millones y registra una ejecución financiera de ₲
+83.636 millones, correspondiente a una ejecución del 59,89%.
+Proyectos 49 – Proyecto De Construcción de las Líneas de Transmisión
+Subterráneas de 220 kV San Lorenzo - Villa Aurelia y Barrio Molino - Villa
+Aurelia, en Asunción y Central.
+Cabe señalar, que la asignación presupuestaria para el año 2025 fue gestionada a través de una solicitud de
+modificación presupuestaria y aprobada por Decreto N° 4287 de fecha 23/07/2025. Por tanto, para el Ejercicio
+Fiscal 2025 la asignación financiera fue de ₲ 162.371 millones y registra una ejecución financiera de ₲
+152.485 millones, correspondiente a una ejecución del 93,91%.
+Proyectos 50 – Proyecto de Modernización del Compensador Estático de Reactivos
+(CER) en la Subestación Limpio En 220 kV.
+Cabe señalar, que la asignación presupuestaria para el año 2025 fue gestionada a través de una solicitud de
+modificación presupuestaria y aprobada por Decreto N° 4287 de fecha 23/07/2025. Por tanto, para el Ejercicio
+Fiscal 2025 la asignación financiera fue de ₲ 95.108 millones, el cual no registra una ejecución financiera al
+cierre del Ejercicio.
+2. PROGRAMA 3 – PRESUPUESTO DE PARTIDAS NO ASIGNABLES A
+PROGRAMAS
+2. ACTIVIDAD 1 – GESTIÓN DE PAGO DEL SERVICIO DE LA DEUDA
+La Actividad 1 – Gestión de Pago del Servicio de la Deuda, al cierre registra una ejecución financiera por
+valor de ₲ 1.189.293 millones, equivalente a un 82,19 % de ejecución con respecto al monto total aprobado
+para el Ejercicio 2025 de ₲ 1.447.000 millones.
+La ANDE durante el Ejercicio Fiscal 2025 ha cumplido en tiempo y forma el calendario de pagos del servicio
+de la deuda externa e interna bajo su responsabilidad.
+Pagos Deuda Interna
+Durante el año 2025, se han realizado los pagos de los intereses de los financiamientos provenientes de la
+primera y la segunda colocación de Bonos Soberanos en el Mercado Internacional realizado por el Ministerio
+de Hacienda, por un importe total de USD 17.994.911,90, tal como se observa en el siguiente cuadro:
+BONOS SOBERANOS
+EN MONEDA EXTRANJERA
+ENTE REFERENCIA DEL FECHA MONEDA DE FECHA DE INSTITUCIÓN
+FINANCIERO PRÉSTAMO VTO. DESEMBOLSO INTERÉS COMISIÓN TOTAL PAGO PAGADORA
+MEF BONOS SOB 94 E 2 R 5 A -P N Y OS I - BIRF 10-ene-25 Dólares Americanos 6.392.258,71 0,00 6.392.258,71 08-ene-25 ANDE
+MEF BONOS SOBERANOS II 06-feb-25 Dólares Americanos 3.050.000,00 0,00 3.050.000,00 29-ene-25 ANDE
+MEF BONOS SOB 94 E 2 R 5 A -P N Y OS I - BIRF 10-jul-25 Dólares Americanos 5.502.653,19 0,00 5.502.653,19 07-jul-25 ANDE
+MEF BONOS SOBERANOS II 06-ago-25 Dólares Americanos 3.050.000,00 0,00 3.050.000,00 22-jul-25 ANDE
+Pagos Deuda Externa
+Así también, durante el Ejercicio Fiscal 2025, la ANDE ha cancelado todos los pagos en concepto de
+amortizaciones, intereses y comisiones de la Deuda Externa a su cargo, con vencimientos en dicho periodo.
+Asimismo, ha realizado los pagos adelantados del Préstamo CFA II – 8633 y TAIWÁN ICDF con
+vencimiento en el mes de enero/2026.
+34 BAGP| Balance Anual de Gestión Pública
+En tal sentido, se detalla seguidamente los montos pagados en cada concepto, el ente financiero, el préstamo, la
+fecha de vencimiento, moneda de desembolso y la fecha de pago:
+SERVICIO DE LA DEUDA PÚBLICA
+EN MONEDA EXTRANJERA
+ENTE FECHA MONEDA DE FECHA DE INSTITUCIÓN
+FINANCIERO PRÉSTAMO VTO. DESMBOLSO AMORTIZACIÓN INTERÉS COMISIÓN TOTAL PAGO PAGADORA
+BEI BEI II FI 87416 - Comisión 03-feb-25 Dólares Americanos 0,00 0,00 276.994,54 276.994,54 29-ene-25 ANDE
+CAF CAF 10852 17-mar-25 Dólares Americanos 6.626.969,74 4.474.404,11 31.910,59 11.133.284,44 10-mar-25 ANDE
+CAF CAF 10170 17-mar-25 Dólares Americanos 6.550.998,15 3.786.568,47 5.397,72 10.342.964,34 10-mar-25 ANDE
+BID BID 4690/OC-PR 15-mar-25 Dólares Americanos 0,00 639.237,25 254.215,18 893.452,43 10-mar-25 ANDE
+BID BID 2891/OC-PR 15-mar-25 Dólares Americanos 1.295.701,42 1.057.000,54 0,00 2.352.701,96 10-mar-25 ANDE
+OFID OFID 2454P 15-mar-25 Dólares Americanos 735.930,00 326.902,77 0,00 1.062.832,77 10-mar-25 ANDE
+OFID OFID 12118PB 15-mar-25 Dólares Americanos 85.030,00 41.951,20 0,00 126.981,20 10-mar-25 ANDE
+FONPLATA PAR-26/2018 15-mar-25 Dólares Americanos 2.957.937,26 2.154.143,14 0,00 5.112.080,40 12-mar-25 ANDE
+FONPLATA PAR-29/2022 15-mar-25 Dólares Americanos 0,00 0,00 79.187,50 79.187,50 12-mar-25 ANDE
+JICA PG-P19 20-mar-25 Yenes Japoneses 0,00 33.183.530,00 0,00 33.183.530,00 12-mar-25 ANDE
+ICO ICO - 01002011.0 05-abr-25 Dólares Americanos 154.113,86 11.235,07 0,00 165.348,93 24-mar-25 ANDE
+CAF CAF 007822 15-abr-25 Dólares Americanos 3.178.578,85 580.670,73 0,00 3.759.249,58 10-abr-25 ANDE
+OFID OFID 1409PB 15-abr-25 Dólares Americanos 399.840,00 90.966,38 0,00 490.806,38 10-abr-25 ANDE
+BID BID 1835/OC-PR 15-abr-25 Dólares Americanos 1.754.202,71 812.309,22 0,00 2.566.511,93 10-abr-25 ANDE
+BID BID 5023/OC-PR 15-abr-25 Dólares Americanos 0,00 1.178.739,14 72.157,98 1.250.897,12 10-abr-25 ANDE
+CAF CAF 11652/11824 15-abr-25 Dólares Americanos 0,00 2.581.092,26 294.510,67 2.875.602,93 10-abr-25 ANDE
+CAF CAF 12497 15-abr-25 Dólares Americanos 0,00 1.909.974,00 0,00 1.909.974,00 10-abr-25 ANDE
+BEI BEI 87416 COMISIÓN 01-may-25 Dólares Americanos 0,00 0,00 40.161,94 40.161,94 24-abr-25 ANDE
+BEI BEI 83244 1ERA. DISP. 09-may-25 Dólares Americanos 656.927,87 550.536,91 0,00 1.207.465 24-abr-25 ANDE
+KFW KFW 31003 15-may-25 Dólares Americanos 0,00 0,00 93.750,00 93.750,00 08-may-25 ANDE
+BIRF BIRF 79940 PY 15-may-25 Dólares Americanos 2.367.295,38 1.677.659,06 0,00 4.044.954,44 08-may-25 ANDE
+BEI BEI 83244 2DA. DISP. 22-may-25 Dólares Americanos 723.787,13 685.549,81 0,00 1.409.336,94 08-may-25 ANDE
+BID BID 5502/OC-PR 15-may-25 Dólares Americanos 0,00 0,00 2.816.666,66 2.816.666,66 08-may-25 ANDE
+BEI BEI 87416 1ERA. DISP. 18-jun-25 Dólares Americanos 732.395,46 261.611,66 0,00 994.007,12 11-jun-25 ANDE
+BEI BEI 87416 2DA. DISP. 18-jun-25 Dólares Americanos 0,00 367.260,93 0,00 367.260,93 11-jun-25 ANDE
+BEI BEI 87416 3ERA. DISP. 18-jun-25 Dólares Americanos 0,00 390.581,69 0,00 390.581,69 11-jun-25 ANDE
+CAF CAF 10613 16-jun-25 Dólares Americanos 5.962.577,93 3.412.333,10 36.771,80 9.411.682,83 11-jun-25 ANDE
+BEI BEI 83244 3ERA. DISP. 30-jun-25 Dólares Americanos 530.477,71 507.986,95 0,00 1.038.464,66 11-jun-25 ANDE
+CAF CAF 8633 07-jul-25 Dólares Americanos 2.306.975,83 811.146,72 0,00 3.118.122,55 25-jun-25 ANDE
+TAIWÁN TAIWÁN ICDF 15-jul-25 Dólares Americanos 0,00 0,00 135.625,00 135.625,00 07-jul-25 ANDE
+BEI BEI II FI 87416 - Comisión 01-ago-25 Dólares Americanos 0,00 0,00 42.470,09 42.470,09 22-jul-25 ANDE
+BID BID 2891/OC-PR 15-sep-25 Dólares Americanos 1.295.701,42 1.000.994,33 0,00 2.296.695,75 09-sep-25 ANDE
+BID BID 4690/OC-PR 15-sep-25 Dólares Americanos 886.590,24 886.985,77 236.854,24 2.010.430,25 09-sep-25 ANDE
+BID CAF 10170 15-sep-25 Dólares Americanos 6.719.677,53 3.453.719,69 797,84 10.174.195,06 09-sep-25 ANDE
+CAF CAF 10852 15-sep-25 Dólares Americanos 6.942.759,22 4.225.529,94 20.302,25 11.188.591,41 10-sep-25 ANDE
+OFID OFID 2454P 15-sep-25 Dólares Americanos 735.860,00 321.407,36 0,00 1.057.267,36 09-sep-25 ANDE
+OFID OFID 12118PB 15-sep-25 Dólares Americanos 179.120,00 75.132,43 0,00 254.252,43 09-sep-25 ANDE
+FONPLATA PAR-26/2018 15-sep-25 Dólares Americanos 2.957.937,26 2.015.763,28 0,00 4.973.700,54 09-sep-25 ANDE
+FONPLATA PAR-29/2022 15-sep-25 Dólares Americanos 0,00 0,00 63.559,52 63.559,52 09-sep-25 ANDE
+JICA PG-P19 20-sep-25 Yenes Japoneses 0,00 56.933.720,00 0,00 56.933.720,00 09-sep-25 ANDE
+ICO ICO - 01002011.0 05-oct-25 Dólares Americanos 154.113,86 10.489,89 0,00 164.603,75 22-sep-25 ANDE
+CAF CAF 007822 15-oct-25 Dólares Americanos 3.178.578,85 444.422,86 0,00 3.623.001,71 10-oct-25 ANDE
+OFID OFID 1409PB 15-oct-25 Dólares Americanos 399.840,00 81.303,60 0,00 481.143,60 09-oct-25 ANDE
+BID BID 1835/OC-PR 15-oct-25 Dólares Americanos 1.754.202,71 749.726,50 0,00 2.503.929,21 10-oct-25 ANDE
+BID BID 5023/OC-PR 15-oct-25 Dólares Americanos 0,00 1.127.740,92 75.852,60 1.203.593,52 09-oct-25 ANDE
+CAF CAF 11652/11824 15-oct-25 Dólares Americanos 0,00 2.905.172,06 268.995,35 3.174.167,41 10-oct-25 ANDE
+CAF CAF 12497 15-oct-25 Dólares Americanos 0,00 3.445.280,00 0,00 3.445.280,00 10-oct-25 ANDE
+BEI BEI 87416 COMISIÓN 03-nov-25 Dólares Americanos 0,00 0,00 43.393,36 43.393,36 27-oct-25 ANDE
+BEI BEI 83244 1ERA. DISP. 10-nov-25 Dólares Americanos 656.927,87 529.098,80 0,00 1.186.026,67 27-oct-25 ANDE
+KFW KFW 31003 17-nov-25 Dólares Americanos 0,00 0,00 94.791,67 94.791,67 12-nov-25 ANDE
+BIRF BIRF 79940 PY 15-nov-25 Dólares Americanos 2.367.295,38 1.675.464,65 0,00 4.042.760,03 12-nov-25 ANDE
+BEI BEI 83244 2DA. DISP. 24-nov-25 Dólares Americanos 723.787,13 664.845,17 0,00 1.388.632,30 12-nov-25 ANDE
+BID BID 5502/OC-PR 17-nov-25 Dólares Americanos 0,00 0,00 664.444,44 664.444,44 12-nov-25 ANDE
+BEI BEI 87416 1ERA. DISP. 18-dic-25 Dólares Americanos 732.395,46 255.071,37 0,00 987.466,83 09-dic-25 ANDE
+BEI BEI 87416 2DA. DISP. 18-dic-25 Dólares Americanos 0,00 366.270,31 0,00 366.270,31 09-dic-25 ANDE
+BEI BEI 87416 3ERA. DISP. 18-dic-25 Dólares Americanos 0,00 390.581,69 0,00 390.581,69 09-dic-25 ANDE
+CAF CAF 10613 15-dic-25 Dólares Americanos 6.315.519,11 3.416.580,62 25.416,25 9.757.515,98 09-dic-25 ANDE
+BEI BEI 83244 3ERA. DISP. 30-dic-25 Dólares Americanos 530.477,71 485.706,48 0,00 1.016.184,19 09-dic-25 ANDE
+CAF CAF 8633 07-ene-26 Dólares Americanos 2.306.975,83 722.301,21 0,00 3.029.277,04 22-dic-25 ANDE
+TAIWÁN TAIWÁN ICDF 15-ene-26 Dólares Americanos 0,00 0,00 115.000,00 115.000,00 22-dic-25 ANDE
+2. Actividad 2 - TRANSFERENCIAS CONSOLIDABLES
+En cuanto a la Actividad 2 del Programa 3 – Presupuesto de Partidas no Asignables a Programas, en el
+presupuesto para el año 2025 de la Administración Nacional de Electricidad (ANDE) fue aprobado por el Ley
+N° Nº 7408/2024 fue incluido un importe de ₲ 106.000.000.000, de los cuales al cierre, la ANDE ha
+transferido al Ministerio de Economía y Finanzas el importe de ₲ 5.000.000.000.
+Balance Anual de Gestión Pública |BAGP 35
+3. TARIFA SOCIAL
+La Ley Nº 3480 “Que amplía la tarifa social de Energía Eléctrica” de fecha 24 de julio de 2008” es la
+normativa que rige y establece los conceptos y definiciones para la aplicación y cálculo del subsidio por
+Tarifa Social. A continuación se muestra en detalle el promedio de clientes beneficiarios de la Tarifa Social
+de Energía Eléctrica, el mes de aplicación del subsidio, así como los importes subsidiados.
+MONTO TOTAL SUBSIDIADO - TARIFA SOCIAL
+(EN MILLONES DE GUARANÍES)
+MES DE SUBSIDIO AÑO 2021 AÑO 2022 AÑO 2023 AÑO 2024 AÑO 2025
+ENERO 5.004 4.920 4.742 5.154 4.507
+FEBRERO 4.779 4.576 4.217 4.431 3.872
+MARZO 6.260 5.510 5.793 3.913 4.219
+ABRIL 5.047 4.583 3.660 4.800 4.359
+MAYO 5.031 5.583 5.472 4.365 4.042
+JUNIO 5.399 4.729 4.581 4.352 4.256
+JULIO 5.723 5.000 4.912 4.786 3.878
+AGOSTO 5.058 4.864 4.750 4.210 4.265
+SEPTIEMBRE 5.351 4.975 4.043 3.988 3.869
+OCTUBRE 5.096 4.846 5.472 4.736 4.650
+NOVIEMBRE (*) 5.175 4.583 4.617 4.168 3.541
+DICIEMBRE 5.842 5.510 4.404 4.324 4.725
+TOTAL 63.765 59.680 56.662 53.228 50.185
+PROMEDIO 5.314 4.973 4.722 4.436 4.182
+(*) Datos preliminares del mes de noviembre/2025.
+Cabe señalar que la Ley Nº 3480 establece en su Artículo 6º cuanto sigue: “la diferencia entre la tarifa
+residencial normal de la ANDE y la tarifa social, así como las quitas de las deudas de los usuarios, serán
+descontados previamente y sin más trámite de la transferencia que regularmente hace la ANDE al Estado en
+concepto de IVA”. Esto ha sido modificado conforme a lo establecido en el Artículo N° 138 de la Ley N°
+6380/2019 que dispone “El producto de los impuestos, tasas, contribuciones y otros ingresos percibidos por
+los organismos y entidades del Estado, entes autónomos y autárquicos, empresas públicas y todo aquel ente
+regulado por la Ley N° 1535/1999 “DE ADMINISTRACIÓN FINANCIERA DEL ESTADO”, deberá
+contabilizarse y depositarse en la respectiva cuenta de recaudación por un importe íntegro, sin deducción
+alguna. Todo subsidio o condonación establecida por leyes generales o especiales será cubierto por el
+Estado paraguayo vía Presupuesto General de la Nación, dejándose sin efecto cualquier otro tipo de
+compensación”.
+Por lo expuesto, los montos de la Tarifa Social a partir del año 2020 ya no pueden ser descontados del IVA a
+ser transferido por la ANDE al Tesoro Público, por lo que deberán ser reembolsados por el Ministerio de
+Economía y Finanzas a la ANDE. Al respecto, señalamos que esta Institución ha remitido todas las
+documentaciones requeridas en el marco de la Ley N° 3480/2008 para el reembolso por parte del Ministerio
+de Economía y Finanzas de los subsidios otorgados por la ANDE en concepto de Tarifa Social, de los
+importes correspondientes a los años 2020, 2021, 2022, 2023 y a Septiembre/2025, cuyo importe total
+pendiente de reembolso asciende a ₲ 281.618.524.187.
+4. COMPROMISOS PENDIENTES DE PAGO POR COMPRA DE ENERGÍA
+Cabe señalar que al cierre Ejercicio Fiscal 2025 se tenían compromisos vencidos pendientes de pago con las
+Entidades Binacionales por un valor total de USD 46.047.048,05, correspondientes a suministros de potencia
+y energía de los meses de Setiembre a Octubre/2025 de la Itaipú Binacional.
+A continuación se muestra el detalle de los compromisos pendientes de pago al cierre del Ejercicio Fiscal
+2025 por compra de energía de las Entidades Binacionales:
+36 BAGP| Balance Anual de Gestión Pública
+DETALLE DE COMPROMISOS DE PAGOS VENCIDOS Y A VENCER DE LAS BINACIONALES
+FECHA:
+ITAIPU BINACIONAL
+Cotización cierre 29/12/25
+6.575,18
+Facturas Vencidas
+Factura N° Concepto Parcela Mes Suministro Vcto. USD GUARANIES
+PY-00231/2025 Potencia 3/3 Setiembre 10-dic.-25 1.965.181,21 12.921.420.188
+PY-00234/2025 Royalties 3/3 Setiembre 10-dic.-25 791.519,66 5.204.384.238
+PY-00237/2025 Resarcimientos 3/3 Setiembre 10-dic.-25 60.886,12 400.337.199
+PY-00260/2025 Potencia 1/3 Octubre 20-dic.-25 19.776.170,80 130.031.882.721
+PY-00263/2025 Royalties 1/3 Octubre 20-dic.-25 658.221,97 4.327.927.933
+PY-00266/2025 Resarcimientos 1/3 Octubre 20-dic.-25 50.632,46 332.917.538
+PY-00094/2025 Aju. Dólar. Royalties 10/12 Diciembre/25 25-dic.-25 2.098.024,14 13.794.886.365
+PY-00106/2025 Aju. Dólar. Resarc. 10/12 Diciembre/25 25-dic.-25 161.386,46 1.061.145.024
+PY-00261/2025 Potencia 2/3 Octubre 30-dic.-25 19.776.170,80 130.031.882.721
+PY-00264/2025 Royalties 2/3 Octubre 30-dic.-25 658.221,97 4.327.927.933
+PY-00267/2025 Resarcimientos 2/3 Octubre 30-dic.-25 50.632,46 332.917.538
+Total facturas vencidas 46.047.048,05 302.767.629.398
+Balance Anual de Gestión Pública |BAGP 37
+ANEXO II
+ Recursos Humanos
+Se deben presentar datos de Recursos Humanos Activos (Nombrados y Contratados), discriminados por sexo,
+según el siguiente detalle:
+Recursos Humanos
+Descripción Mujer Hombre Total
+Total Recursos Humanos Activos (a+b) 1035 3798 4833
+Recursos Humanos Activos Nombrados (a) 868 3319 4187
+Recursos Humanos Contratados (b) 167 479 646
+Recursos Humanos Profesionales (Nombrados y
+487 218 705
+Contratados que posean Título Universitario)
+Personal en Cargos Gerenciales (A partir de Jefe de
+64 196 260
+Departamento)
+Recursos Humanos Comisionados a otras
+8 18 26
+Instituciones
+Las Instituciones donde prestaron servicios los funcionarios de la Administración Nacional de Electricidad, en
+calidad de comisionados, en el año 2025 son:
+- Agencia Espacial del Paraguay (AEP).
+- Autoridad Reguladora Radiológica y Nuclear (ARRN).
+- Caja de Jubilaciones y Pensiones del Personal de la ANDE.
+- Dirección Nacional de Correos del Paraguay (DINACOPA).
+- Dirección Nacional de Migraciones.
+- Itaipú Binacional.
+- Ministerio de Obras Públicas y Comunicaciones.
+- Ministerio de Relaciones Exteriores.
+- Secretaria Nacional de Antidrogas (SENAD).
+- Honorable Cámara de Diputados
+- Municipalidades de: Asunción, Bahía Negra, Iturbe, Luque, San Lorenzo, Valenzuela, Ybytimi,
+Ypacarai, Itaugua
+38 BAGP| Balance Anual de Gestión Pública
+ANEXO III
+ Informaciones de Género
+Recursos Humanos y Financieros destinados a actividades relacionadas a Género.
+En Guaraníes
+Total Ejecutado Ejecución destinada a % Participación del gasto en género
+Cantidad de
+por la Entidad Género con respecto al total Ejecutado por
+Funcionarios/as
+(a) (b) la Entidad
+c= b/a*100
+18 funcionarios, --------------------- Cursos y Taller: ------------------------
+Miembros de la 209.800.000
+Comisión de
+Consultora:132.000.000
+Equidad de Género
+Principales actividades realizadas:
+1. Curso Taller de Formación en Equidad de Género y Energía, con una carga horaria total de 40 horas, y
+la participación de 25 funcionarias y funcionarios de distintas áreas, una acción conjunta entre la
+Comisión de Equidad de Género, el Departamento de Formación y Capacitación de la Dirección de
+Recursos Humanos y la Dirección de Planificación y Estudios, realizado en Asunción.
+2. Curso Taller de Formación en Equidad de Género y Energía, con una carga horaria total de 40 horas, y
+la participación de 25 funcionarias y funcionarios de distintas áreas, una acción conjunta entre la
+Comisión de Equidad de Género, el Departamento de Formación y Capacitación de la Dirección de
+Recursos Humanos y la Dirección de Planificación y Estudios, realizado en Ciudad del Este.
+3. Taller en Equidad de Género y Energía, con una carga horaria total de 4 horas, y la participación de 25
+funcionarias y funcionarios de distintas áreas, una acción conjunta entre la Comisión de Equidad de
+Género, el Departamento de Formación y Capacitación de la Dirección de Recursos Humanos y la
+Dirección de Planificación y Estudios, realizado en Encarnación.
+4. Taller en Equidad de Género y Energía, con una carga horaria total de 4 horas, y la participación de 25
+funcionarias y funcionarios de distintas áreas, una acción conjunta entre la Comisión de Equidad de
+Género, el Departamento de Formación y Capacitación de la Dirección de Recursos Humanos y la
+Dirección de Planificación y Estudios, realizado en Coronel Oviedo.
+5. Acompañamiento a la -"Demostración Femenina de Trabajo en Líneas Vivas" durante el “4to Rodeo
+Internacional de Linieros de la CIER”, donde se destacó a las mujeres del Departamento de
+Mantenimiento en Líneas de Distribución de la ANDE, quienes son las dos únicas a nivel regional, de
+los países integrantes de la CIER, que realizan tareas en líneas vivas (23 mil voltios).
+6. Ley 7239 Participación en el Curso de Emergencia Social ante la Violencia contra las mujeres
+7. Preparación y habilitación de la Sala de Lactancia Materna
+8. Taller sobre Mujeres con Energía en conmemoración del 08 de marzo del 2025 con la participación de
+40 funcionarios/as.
+9. Recordatorio de mujeres en la energía 23 de junio
+10. Participación de reuniones construyendo Futuro del Sector Energético Paraguay con el Banco
+Mundial.
+11. Participación en el lanzamiento del Observatorio de Equidad de Género impulsado por el Ministerio
+de la Mujer
+12. Participación en la Red de Mecanismos de Género en al Ministerio de la Mujer
+13. Habilitación en la página Web de la ANDE el apartado de Equidad de Género
+Balance Anual de Gestión Pública |BAGP 39
+Contactos:
+Incluir informaciones de las personas que elaboraron el informe.
+ Nombre y Apellido: Ing. Patricia Delgado.
+ Dependencia: Oficina de Coordinación y Control de Gestión de la Dirección de Planificación
+y Estudios.
+ Dirección de correo electrónico institucional: patricia_delgado@ande.gov.py.
+ Nº de teléfono institucional: 2172927.
+ Nombre y Apellido: Econ. Denis Amarilla.
+ Dependencia: Dpto. Estudios Económicos, Financieros y Bancarios.
+ Dirección de correo electrónico institucional: denis_amarilla@ande.gov.py.
+ Nº de teléfono institucional: 2172270.
+40 BAGP| Balance Anual de Gestión Pública

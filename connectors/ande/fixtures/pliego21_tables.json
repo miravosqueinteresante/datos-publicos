@@ -1,0 +1,1471 @@
+[
+  [
+    [
+      "Revisión",
+      "Descripción"
+    ],
+    [
+      "1",
+      "Modificada por Resolución P/N° 42847de la Administración Nacional de Electricidad, de\nfecha 28 de octubre de 2019."
+    ],
+    [
+      "2",
+      "Modificada por Decreto N° 3978 del Poder Ejecutivo de la Nación, de fecha 25 de agosto de\n2020; y por Resolución P/N° 43968 de la Administración Nacional de Electricidad, de fecha\n2 de setiembre de 2020."
+    ],
+    [
+      "3",
+      "Modificada por Resolución P/N° 45001 de la Administración Nacional de Electricidad, de\nfecha 17 de marzo de 2021."
+    ]
+  ],
+  [
+    [
+      ""
+    ],
+    [
+      "5.1.1. GRUPO DE CONSUMO RESIDENCIAL O DOMESTICO (VIVIENDAS) - BT"
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      "Instalación de Entrega",
+      ":",
+      null,
+      "Línea de Baja Tensión",
+      null,
+      null
+    ],
+    [
+      "Tensión de Abastecimiento",
+      null,
+      ":",
+      null,
+      "",
+      "380/ 3 Voltios",
+      ""
+    ],
+    [
+      "Llave limitadora",
+      null,
+      ":",
+      null,
+      "Hasta 16 Amperios",
+      null,
+      null
+    ],
+    [
+      "",
+      "Consumo",
+      "",
+      ":",
+      "",
+      "Hasta 300 kWh",
+      ""
+    ]
+  ],
+  [
+    [
+      "Faja de Consumo",
+      "Precio",
+      "Unidad"
+    ],
+    [
+      "0 - 50 kWh",
+      "311,55",
+      "G/kWh"
+    ],
+    [
+      "51 – 150 kWh",
+      "349,89",
+      "G/kWh"
+    ],
+    [
+      "151 - 300 kWh",
+      "365,45",
+      "G/kWh"
+    ]
+  ],
+  [
+    [
+      "",
+      "Rango de Consumo de Tarifa",
+      "",
+      "",
+      "Descuentos Establecidos",
+      ""
+    ],
+    [
+      null,
+      "Social",
+      null,
+      null,
+      "en la Ley N° 3480/2008",
+      null
+    ],
+    [
+      "0-100 kWh",
+      null,
+      null,
+      "75%",
+      null,
+      null
+    ],
+    [
+      "101-200 kWh",
+      null,
+      null,
+      "50%",
+      null,
+      null
+    ],
+    [
+      "201- 300 kWh",
+      null,
+      null,
+      "25%",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      null,
+      ":",
+      "Línea de Baja Tensión",
+      null,
+      null
+    ],
+    [
+      "Tensión de Abastecimiento",
+      null,
+      ":",
+      "",
+      "380 ó 380 / 3 Voltios",
+      ""
+    ],
+    [
+      "",
+      "Carga Contratada",
+      ":",
+      "",
+      "Hasta 30 kW (*)",
+      ""
+    ]
+  ],
+  [
+    [
+      "Faja de Consumo",
+      "Precio",
+      "Unidad"
+    ],
+    [
+      "0 - 50 kWh",
+      "311,55",
+      "G/kWh"
+    ],
+    [
+      "51 - 150 kWh",
+      "349,89",
+      "G/kWh"
+    ],
+    [
+      "151 - 300 kWh",
+      "365,45",
+      "G/kWh"
+    ],
+    [
+      "301 - 500 kWh",
+      "403,82",
+      "G/kWh"
+    ],
+    [
+      "501 - 1000 kWh",
+      "420,27",
+      "G/kWh"
+    ],
+    [
+      "Mayor a 1000 kWh",
+      "435,51",
+      "G/kWh"
+    ]
+  ],
+  [
+    [
+      "Carga Contratada (kW)",
+      null,
+      null,
+      "kWh",
+      null,
+      null
+    ],
+    [
+      "Hasta 3,0",
+      null,
+      null,
+      "15",
+      null,
+      null
+    ],
+    [
+      "De 3,1 a 6,0",
+      null,
+      null,
+      "30",
+      null,
+      null
+    ],
+    [
+      "De 6,1 a 12,0",
+      null,
+      null,
+      "60",
+      null,
+      null
+    ],
+    [
+      "De 12,1 a 24,0",
+      null,
+      null,
+      "120",
+      null,
+      null
+    ],
+    [
+      "",
+      "Mayor a 24,0",
+      "",
+      "",
+      "240",
+      ""
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      null,
+      ":",
+      "Línea de Baja Tensión",
+      null,
+      null
+    ],
+    [
+      "",
+      "Tensión de Abastecimiento",
+      ":",
+      "",
+      "380 ó 380 / 3 Voltios",
+      ""
+    ],
+    [
+      "",
+      "Carga Contratada",
+      ":",
+      "",
+      "Hasta 30 kW (*)",
+      ""
+    ]
+  ],
+  [
+    [
+      "Fajas de Consumo",
+      "Precio",
+      "Unidad"
+    ],
+    [
+      "Tarifa única de energía",
+      "406,00",
+      "G/kWh"
+    ]
+  ],
+  [
+    [
+      "Carga Contratada (kW)",
+      null,
+      null,
+      "kWh",
+      null,
+      null
+    ],
+    [
+      "",
+      "De 0,3 a 3,0",
+      "",
+      "",
+      "15",
+      ""
+    ],
+    [
+      "",
+      "De 3,1 a 6,0",
+      "",
+      "",
+      "30",
+      ""
+    ],
+    [
+      "",
+      "De 6,1 a 12,0",
+      "",
+      "",
+      "60",
+      ""
+    ],
+    [
+      "",
+      "De 12,1 a 24,0",
+      "",
+      "",
+      "120",
+      ""
+    ],
+    [
+      "",
+      "Mayor de 24,0",
+      "",
+      "",
+      "240",
+      ""
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      null,
+      ":",
+      null,
+      null,
+      "Línea de baja tensión",
+      null,
+      null
+    ],
+    [
+      "Tensión de Abastecimiento",
+      null,
+      ":",
+      null,
+      null,
+      "",
+      "380 ó 380/ 3 Voltios",
+      ""
+    ],
+    [
+      "",
+      "Carga Contratada",
+      "",
+      ":",
+      "",
+      "",
+      "Hasta 30 kW (*)",
+      ""
+    ]
+  ],
+  [
+    [
+      "Fajas de Consumo",
+      "Precio",
+      "Unidad"
+    ],
+    [
+      "Tarifa única de energía",
+      "404,97",
+      "G/kWh"
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      null,
+      null,
+      ": Línea de Baja Tensión",
+      null,
+      null
+    ],
+    [
+      "Tensión de Abastecimiento",
+      null,
+      null,
+      ":",
+      "380 ó 380/ 3 Voltios",
+      ""
+    ],
+    [
+      "",
+      "Carga Contratada",
+      "",
+      ":",
+      "Hasta 30 kW (*)",
+      ""
+    ]
+  ],
+  [
+    [
+      "Tarifa única de energía",
+      "388,16",
+      "G/kWh"
+    ]
+  ],
+  [
+    [
+      "Carga Contratada (kW)",
+      null,
+      null,
+      "kWh",
+      null,
+      null
+    ],
+    [
+      "De 0,3 a 3,0",
+      null,
+      null,
+      "15",
+      null,
+      null
+    ],
+    [
+      "De 3,1 a 6,0",
+      null,
+      null,
+      "30",
+      null,
+      null
+    ],
+    [
+      "De 6,1 a 12,0",
+      null,
+      null,
+      "60",
+      null,
+      null
+    ],
+    [
+      "De 12,1 a 24,0",
+      null,
+      null,
+      "120",
+      null,
+      null
+    ],
+    [
+      "",
+      "Mayor de 24,0",
+      "",
+      "",
+      "240",
+      ""
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      ":",
+      "Lámparas del sistema de\nalumbrado público"
+    ]
+  ],
+  [
+    [
+      "Lámparas del sistema de"
+    ],
+    [
+      "alumbrado público"
+    ]
+  ],
+  [
+    [
+      "",
+      "Concepto",
+      "",
+      "",
+      "Tarifa",
+      "",
+      "",
+      "Unidad",
+      ""
+    ],
+    [
+      "",
+      "Hasta 10 Vatios/metro",
+      "",
+      "",
+      "427,14",
+      "",
+      "",
+      "G/m",
+      ""
+    ]
+  ],
+  [
+    [
+      "",
+      "Concepto",
+      "",
+      "",
+      "Tarifa",
+      "",
+      "",
+      "Unidad",
+      ""
+    ],
+    [
+      "",
+      "Mayor a 10 Vatios/metro",
+      "",
+      "",
+      "482,88",
+      "",
+      "",
+      "G/m",
+      ""
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      null,
+      null,
+      ":",
+      null,
+      null,
+      "Estación o Subestación",
+      null,
+      null
+    ],
+    [
+      "Tensión de Abastecimiento",
+      null,
+      null,
+      ":",
+      null,
+      null,
+      "23.000 Voltios",
+      null,
+      null
+    ],
+    [
+      "Potencia Reservada Máxima",
+      null,
+      null,
+      ":",
+      null,
+      null,
+      "6.000 kilovatios",
+      null,
+      null
+    ],
+    [
+      "",
+      "Potencia Reservada Mínima",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "2.000 kilovatios",
+      ""
+    ]
+  ],
+  [
+    [
+      "Concepto",
+      "Unidad",
+      "Tarifas"
+    ],
+    [
+      "Potencia Reservada",
+      "G/kW-mes",
+      "36.011"
+    ],
+    [
+      "Exceso Potencia Reservada",
+      "G/kW-mes",
+      "87.533"
+    ],
+    [
+      "Energía en Punta",
+      "G/kWh",
+      "262,78"
+    ],
+    [
+      "Energía Fuera de Punta",
+      "G/kWh",
+      "153,37"
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      ":",
+      "Línea de Media Tensión"
+    ],
+    [
+      "Tensión de Abastecimiento",
+      ":",
+      "23.000 Voltios"
+    ],
+    [
+      "Potencia Reservada Máxima",
+      ":",
+      "3.000 kilovatios"
+    ],
+    [
+      "Potencia Reservada Mínima",
+      ":",
+      "40,1 kilovatios"
+    ]
+  ],
+  [
+    [
+      "Concepto",
+      null,
+      null,
+      "Unidad",
+      null,
+      null,
+      "Tarifas",
+      null,
+      null
+    ],
+    [
+      "",
+      "Potencia Reservada",
+      "",
+      "",
+      "G/kW-mes",
+      "",
+      "",
+      "38.127",
+      ""
+    ],
+    [
+      "",
+      "Exceso Potencia Reservada",
+      "",
+      "",
+      "G/kW-mes",
+      "",
+      "",
+      "87.533",
+      ""
+    ],
+    [
+      "",
+      "Energía en Punta",
+      "",
+      "",
+      "G/kWh",
+      "",
+      "",
+      "304,27",
+      ""
+    ],
+    [
+      "Energía Fuera de Punta",
+      "Energía Fuera de Punta",
+      null,
+      "G/kWh",
+      "G/kWh",
+      null,
+      "167,68",
+      "167,68",
+      null
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      ":",
+      "Línea de Media Tensión"
+    ],
+    [
+      "Tensión de abastecimiento",
+      ":",
+      "23.000 ó 23.000 / 3 Voltios"
+    ],
+    [
+      "Potencia Limitada",
+      ":",
+      "2,2 a 150 kW (*)"
+    ]
+  ],
+  [
+    [
+      "",
+      "Concepto",
+      "",
+      "",
+      "Unidad",
+      "",
+      "",
+      "Tarifas",
+      ""
+    ],
+    [
+      "",
+      "Energía",
+      "",
+      "",
+      "G/kWh",
+      "",
+      "",
+      "308,37",
+      ""
+    ]
+  ],
+  [
+    [
+      "",
+      "Instalación de Entrega",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "Estación o Subestación",
+      ""
+    ],
+    [
+      "",
+      "Tensión de Abastecimiento",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "23.000 Voltios",
+      ""
+    ],
+    [
+      "Potencia Reservada Máxima",
+      null,
+      null,
+      ":",
+      null,
+      null,
+      "6.000 kilovatios",
+      null,
+      null
+    ],
+    [
+      "",
+      "Potencia Reservada Mínima",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "2.000 kilovatios",
+      ""
+    ]
+  ],
+  [
+    [
+      "Concepto",
+      "Unidad",
+      "Tarifas"
+    ]
+  ],
+  [
+    [
+      "",
+      "Potencia Reservada",
+      "",
+      "",
+      "G/kW-mes",
+      "",
+      "",
+      "32.901",
+      ""
+    ],
+    [
+      "Exceso Potencia Reservada",
+      "Exceso Potencia Reservada",
+      null,
+      "G/kW-mes",
+      "G/kW-mes",
+      null,
+      "87.533",
+      "87.533",
+      null
+    ],
+    [
+      "Energía en Punta",
+      null,
+      null,
+      "G/kWh",
+      null,
+      null,
+      "318,10",
+      null,
+      null
+    ],
+    [
+      "Energía Fuera de Punta",
+      null,
+      null,
+      "G/kWh",
+      null,
+      null,
+      "164,80",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      null,
+      null,
+      ":",
+      null,
+      null,
+      "Línea de Media Tensión",
+      null,
+      null
+    ],
+    [
+      "",
+      "Tensión de Abastecimiento",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "23.000 Voltios",
+      ""
+    ],
+    [
+      "Potencia Reservada Máxima",
+      null,
+      null,
+      ":",
+      null,
+      null,
+      "3.000 kilovatios",
+      null,
+      null
+    ],
+    [
+      "",
+      "Potencia Reservada Mínima",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "40,1 kilovatios",
+      ""
+    ]
+  ],
+  [
+    [
+      "Concepto",
+      null,
+      null,
+      "Unidad",
+      null,
+      null,
+      "Tarifas",
+      null,
+      null
+    ],
+    [
+      "",
+      "Potencia Reservada",
+      "",
+      "",
+      "G/kW-mes",
+      "",
+      "",
+      "41.126",
+      ""
+    ],
+    [
+      "Exceso Potencia Reservada",
+      null,
+      null,
+      "G/kW-mes",
+      null,
+      null,
+      "87.533",
+      null,
+      null
+    ],
+    [
+      "",
+      "Energía en Punta",
+      "",
+      "",
+      "G/kWh",
+      "",
+      "",
+      "331,93",
+      ""
+    ],
+    [
+      "Energía Fuera de Punta",
+      "Energía Fuera de Punta",
+      null,
+      "G/kWh",
+      "G/kWh",
+      null,
+      "144,83",
+      "144,83",
+      null
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      ":",
+      "Línea de Media Tensión"
+    ],
+    [
+      "Tensión de abastecimiento",
+      ":",
+      "23.000 ó 23.000 / 3 Voltios"
+    ],
+    [
+      "Potencia Limitada",
+      ":",
+      "2,2 a 150 kW (*)"
+    ]
+  ],
+  [
+    [
+      "Concepto",
+      null,
+      null,
+      "Unidad",
+      null,
+      null,
+      "Tarifas",
+      null,
+      null
+    ],
+    [
+      "",
+      "Energía",
+      "",
+      "",
+      "G/kWh",
+      "",
+      "",
+      "310,00",
+      ""
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      ":",
+      "Estación o Subestación"
+    ],
+    [
+      "Tensión de Abastecimiento",
+      ":",
+      "23.000 Voltios"
+    ],
+    [
+      "Potencia Reservada Máxima",
+      ":",
+      "6.000 kilovatios"
+    ],
+    [
+      "Potencia Reservada Mínima",
+      ":",
+      "2.000 kilovatios"
+    ]
+  ],
+  [
+    [
+      "Concepto",
+      "Unidad",
+      "Tarifas"
+    ],
+    [
+      "Potencia Reservada",
+      "G/kW-mes",
+      "20.550"
+    ],
+    [
+      "Exceso Potencia Reservada",
+      "G/kW-mes",
+      "87.533"
+    ],
+    [
+      "Energía en Punta",
+      "G/kWh",
+      "276,61"
+    ],
+    [
+      "Energía Fuera de Punta",
+      "G/kWh",
+      "193,10"
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      ":",
+      "Línea de Media Tensión"
+    ],
+    [
+      "Tensión de Abastecimiento",
+      ":",
+      "23.000 Voltios"
+    ],
+    [
+      "Potencia Reservada Máxima",
+      ":",
+      "3.000 kilovatios"
+    ],
+    [
+      "Potencia Reservada Mínima",
+      ":",
+      "40,1 kilovatios"
+    ]
+  ],
+  [
+    [
+      "Concepto",
+      "Unidad",
+      "Tarifas"
+    ]
+  ],
+  [
+    [
+      "",
+      "Potencia Reservada",
+      "",
+      "",
+      "G/kW-mes",
+      "",
+      "",
+      "21.686",
+      ""
+    ],
+    [
+      "",
+      "Exceso Potencia Reservada",
+      "",
+      "",
+      "G/kW-mes",
+      "",
+      "",
+      "87.533",
+      ""
+    ],
+    [
+      "",
+      "Energía en Punta",
+      "",
+      "",
+      "G/kWh",
+      "",
+      "",
+      "276,61",
+      ""
+    ],
+    [
+      "",
+      "Energía Fuera de Punta",
+      "",
+      "",
+      "G/kWh",
+      "",
+      "",
+      "193,10",
+      ""
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      ":",
+      "Línea de Media Tensión"
+    ],
+    [
+      "Tensión de abastecimiento",
+      ":",
+      "23.000 ó 23.000 / 3 Voltios"
+    ],
+    [
+      "Potencia Limitada",
+      ":",
+      "2,2 a 150 kW (*)"
+    ]
+  ],
+  [
+    [
+      "",
+      "Concepto",
+      "",
+      "",
+      "Unidad",
+      "",
+      "",
+      "Tarifas",
+      ""
+    ],
+    [
+      "Energía",
+      null,
+      null,
+      "G/kWh",
+      null,
+      null,
+      "296,16",
+      null,
+      null
+    ]
+  ],
+  [
+    [
+      "",
+      "Instalación de Entrega",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "Estación o Subestación"
+    ],
+    [
+      "",
+      "Tensión de Abastecimiento",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "23.000 Voltios"
+    ],
+    [
+      "",
+      "Potencia Reservada Máxima Fuera de Punta de Carga",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "6.000 kilovatios"
+    ],
+    [
+      "",
+      "Potencia Reservada Máxima Punta de Carga",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "5.100 kilovatios"
+    ],
+    [
+      "",
+      "Potencia Reservada Mínima Fuera de Punta de Carga",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "2.000 kilovatios"
+    ],
+    [
+      "",
+      "Potencia Reservada Mínima Punta de Carga",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "0 kilovatios"
+    ]
+  ],
+  [
+    [
+      "",
+      "Concepto",
+      "",
+      "",
+      "Tarifa",
+      "",
+      "",
+      "Unidad"
+    ],
+    [
+      "Potencia Reservada en Punta",
+      "Potencia Reservada en Punta",
+      null,
+      "34.689",
+      "34.689",
+      null,
+      "G/kW-mes",
+      null
+    ],
+    [
+      "",
+      "Potencia Reservada Fuera de Punta",
+      "",
+      "",
+      "23.597",
+      "",
+      "",
+      "G/kW-mes"
+    ],
+    [
+      "Energía en Punta de Carga",
+      null,
+      null,
+      "262,78",
+      null,
+      null,
+      "G/kWh",
+      null
+    ],
+    [
+      "",
+      "Energía Fuera de Punta de Carga",
+      "",
+      "",
+      "162,95",
+      "",
+      "",
+      "G/kWh"
+    ],
+    [
+      "Exceso Potencia Reservada en Punta",
+      "Exceso Potencia Reservada en Punta",
+      null,
+      "116.195",
+      "116.195",
+      null,
+      "G/kW-mes",
+      "G/kW-mes"
+    ],
+    [
+      "Exceso Potencia Reservada Fuera de Punta",
+      null,
+      null,
+      "81.802",
+      null,
+      null,
+      "G/kW-mes",
+      "G/kW-mes"
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      null,
+      null,
+      ":",
+      null,
+      null,
+      "Línea de Media Tensión",
+      null,
+      null
+    ],
+    [
+      "Tensión de Abastecimiento",
+      null,
+      null,
+      ":",
+      null,
+      null,
+      "23.000 Voltios",
+      null,
+      null
+    ],
+    [
+      "Potencia Reservada Máxima Fuera de Punta de Carga",
+      null,
+      null,
+      ":",
+      null,
+      null,
+      "3.000 kilovatios",
+      null,
+      null
+    ],
+    [
+      "Potencia Reservada Máxima Punta de Carga",
+      null,
+      null,
+      ":",
+      null,
+      null,
+      "2.550 kilovatios",
+      null,
+      null
+    ],
+    [
+      "Potencia Reservada Mínima Fuera de Punta de Carga",
+      null,
+      null,
+      ":",
+      null,
+      null,
+      "40,1 kilovatios",
+      null,
+      null
+    ],
+    [
+      "",
+      "Potencia Reservada Mínima Punta de Carga",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "0 kilovatios",
+      ""
+    ]
+  ],
+  [
+    [
+      "Concepto",
+      "Tarifa",
+      "Unidad"
+    ],
+    [
+      "Potencia Reservada en Punta",
+      "38.732",
+      "G/kW-mes"
+    ],
+    [
+      "Potencia Reservada Fuera de Punta",
+      "23.800",
+      "G/kW-mes"
+    ],
+    [
+      "Energía en Punta de Carga",
+      "262,78",
+      "G/kWh"
+    ],
+    [
+      "Energía Fuera de Punta de Carga",
+      "153,37",
+      "G/kWh"
+    ],
+    [
+      "Exceso Potencia Reservada en Punta",
+      "116.195",
+      "G/kW-mes"
+    ],
+    [
+      "Exceso Potencia Reservada Fuera de Punta",
+      "81.802",
+      "G/kW-mes"
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      null,
+      null,
+      ":",
+      null,
+      null,
+      "Estación o Subestación",
+      null,
+      null
+    ],
+    [
+      "",
+      "Tensión de Abastecimiento",
+      "",
+      "",
+      ":",
+      "",
+      "",
+      "66.000 Voltios",
+      ""
+    ]
+  ],
+  [
+    [
+      "Concepto",
+      "Tarifa",
+      "Unidad"
+    ],
+    [
+      "Potencia Reservada",
+      "34.761",
+      "G/kW-mes"
+    ],
+    [
+      "Energía en Punta de Carga",
+      "245,8",
+      "G/kWh"
+    ],
+    [
+      "Energía Fuera de Punta de Carga",
+      "169,5",
+      "G/kWh"
+    ],
+    [
+      "Exceso Potencia Reservada en Punta",
+      "113.646",
+      "G/kW-mes"
+    ],
+    [
+      "Exceso Potencia Reservada Fuera de Punta",
+      "73.000",
+      "G/kW-mes"
+    ]
+  ],
+  [
+    [
+      "Instalación de Entrega",
+      null,
+      null,
+      ":",
+      null,
+      "Estación o Subestación",
+      null,
+      null
+    ],
+    [
+      "",
+      "Tensión de Abastecimiento",
+      "",
+      "",
+      ":",
+      "",
+      "220.000 Voltios",
+      ""
+    ]
+  ],
+  [
+    [
+      "Concepto",
+      "Tarifa",
+      "Unidad"
+    ],
+    [
+      "Potencia Reservada",
+      "31.033",
+      "G/kW-mes"
+    ],
+    [
+      "Energía en Punta de Carga",
+      "232,4",
+      "G/kWh"
+    ],
+    [
+      "Energía Fuera de Punta de Carga",
+      "165,4",
+      "G/kWh"
+    ],
+    [
+      "Exceso Potencia Reservada en Punta",
+      "111.426",
+      "G/kW-mes"
+    ],
+    [
+      "Exceso Potencia Reservada Fuera de Punta",
+      "65.708",
+      "G/kW-mes"
+    ]
+  ]
+]

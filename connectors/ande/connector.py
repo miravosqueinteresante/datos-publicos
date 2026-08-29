@@ -3,12 +3,6 @@ import json
 from . import extractor, metadata, normalizer, validators
 
 ENERGY_UNITS = {"GWh", "MWh", "kWh"}
-PDF_PARSERS = [
-    extractor.extract_consumo_categoria,
-    extractor.extract_tarifas,
-    extractor.extract_perdidas,
-    extractor.extract_clientes,
-]
 
 
 def fetch(url, opener=None):
@@ -52,18 +46,27 @@ def run(html, url, fuente="ANDE", metodo="extraccion_html", prior=None):
     return _collect(extractor.extract(html), url, fuente, metodo, prior)
 
 
-def run_text(text, url, fuente="ANDE", metodo="extraccion_pdf", parsers=None, prior=None):
-    if parsers is None:
-        parsers = PDF_PARSERS
+def _run_pdf_parts(text, tables, url, prior=None):
     raw = []
-    for parser in parsers:
-        raw.extend(parser(text))
-    return _collect(raw, url, fuente, metodo, prior)
+    raw += extractor.extract_perdidas(text)
+    raw += extractor.extract_clientes(tables)
+    raw += extractor.extract_consumo_categoria(tables)
+    raw += extractor.extract_clientes_categoria(tables)
+    raw += extractor.extract_sin_indicators(tables)
+    raw += extractor.extract_tarifas(tables)
+    return _collect(raw, url, "ANDE", "extraccion_pdf", prior)
 
 
 def run_pdf(path, url, prior=None):
     text = extractor.pdf_text(path)
-    return run_text(text, url, prior=prior)
+    tables = extractor.pdf_tables(path)
+    return _run_pdf_parts(text, tables, url, prior)
+
+
+def run_compilacion(path, url, prior=None):
+    tables = extractor.pdf_tables(path)
+    raw = extractor.extract_generacion_serie(tables)
+    return _collect(raw, url, "ANDE", "extraccion_pdf", prior)
 
 
 def store(records, path):

@@ -1,7 +1,0 @@
-Tarifas residenciales BT (Categoría 142), Pliego Nº 21, precios en G/kWh
-0-50 kWh: 311,55
-51-150 kWh: 349,89
-151-300 kWh: 365,45
-301-500 kWh: 403,82
-501-1000 kWh: 420,27
->1000 kWh: 435,51

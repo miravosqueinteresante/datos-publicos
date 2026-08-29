@@ -33,5 +33,9 @@ data/_sin_versionar/
 # Sitio construido para GitHub Pages
 _site/
 
+# Cache de PDFs descargados por el conector ANDE
+connectors/ande/_cache/
+
+
 # Copias locales del plan maestro
 _plan_backup*.pdf

@@ -28,63 +28,20 @@ def extract(html):
     return recs
 
 
-def _sin_acentos(s):
+def _norm(s):
+    if s is None:
+        return ""
     return (s.lower()
             .replace("á", "a").replace("é", "e").replace("í", "i")
-            .replace("ó", "o").replace("ú", "u").replace("ñ", "n"))
+            .replace("ó", "o").replace("ú", "u").replace("ñ", "n")
+            .replace(" ", " "))
 
 
-def _numero_linea(line):
-    m = re.search(r"([\d.]+)\s*$", line)
-    return m.group(1) if m else None
+def _flat(t):
+    return " ".join(_norm(c) for row in t for c in row if c)
 
 
-def extract_consumo_categoria(text):
-    grupos = [
-        ("muy alta tension", "consumo_categoria_muy_alta_tension"),
-        ("alta tension", "consumo_categoria_alta_tension"),
-        ("electrointensivas", "consumo_categoria_electrointensivas"),
-        ("alumbrado publico", "consumo_categoria_alumbrado_publico"),
-        ("gubernamental", "consumo_categoria_gubernamental"),
-        ("diferencial", "consumo_categoria_diferencial"),
-        ("industrial", "consumo_categoria_industrial"),
-        ("otros", "consumo_categoria_otros"),
-        ("residencial", "consumo_categoria_residencial"),
-    ]
-    recs = []
-    norm = _sin_acentos(text)
-    for linea, nlinea in zip(text.splitlines(), norm.splitlines()):
-        for nombre, ind in grupos:
-            if re.search(r"\b" + re.escape(nombre) + r"\b", nlinea):
-                num = _numero_linea(linea)
-                if num:
-                    recs.append({"indicador": ind, "valor_raw": num,
-                                 "unidad": "MWh", "periodo_text": "2025"})
-                break
-    return recs
-
-
-def extract_tarifas(text):
-    tramos = [
-        ("0-50", "tarifa_residencial_bt_0_50"),
-        ("51-150", "tarifa_residencial_bt_51_150"),
-        ("151-300", "tarifa_residencial_bt_151_300"),
-        ("301-500", "tarifa_residencial_bt_301_500"),
-        ("501-1000", "tarifa_residencial_bt_501_1000"),
-        (">1000", "tarifa_residencial_bt_mas_1000"),
-    ]
-    recs = []
-    norm = _sin_acentos(text)
-    for linea, nlinea in zip(text.splitlines(), norm.splitlines()):
-        for tramo, ind in tramos:
-            if tramo in nlinea and "kwh" in nlinea:
-                m = re.search(r"([\d.,]+)\s*$", linea)
-                if m:
-                    recs.append({"indicador": ind, "valor_raw": m.group(1),
-                                 "unidad": "G/kWh", "periodo_text": "2024"})
-                break
-    return recs
-
+# ---- PDF text (pérdidas) ----
 
 def extract_perdidas(text):
     patrones = [
@@ -93,7 +50,7 @@ def extract_perdidas(text):
         (r"perdidas en transmision[^%\n]*?([\d.,]+)\s*%", "perdidas_transmision"),
     ]
     recs = []
-    norm = _sin_acentos(text)
+    norm = _norm(text)
     for pat, ind in patrones:
         m = re.search(pat, norm, re.I)
         if m:
@@ -102,19 +59,153 @@ def extract_perdidas(text):
     return recs
 
 
-def extract_clientes(text):
+# ---- PDF tables ----
+
+CAT_MAP = {
+    "residencial": "residencial",
+    "industrial": "industrial",
+    "otros": "otros",
+    "gubernamental": "gubernamental",
+    "diferencial": "diferencial",
+    "alta tension": "alta_tension",
+    "muy alta tension": "muy_alta_tension",
+    "consumidores intensivo especial": "electrointensivas",
+    "alumbrado publico": "alumbrado_publico",
+}
+
+RANGE_MAP = {
+    "0 - 50 kwh": "0_50",
+    "51 - 150 kwh": "51_150",
+    "151 - 300 kwh": "151_300",
+    "301 - 500 kwh": "301_500",
+    "501 - 1000 kwh": "501_1000",
+    "mayor a 1000 kwh": "mas_1000",
+}
+
+
+def _find_table(tables, *needles):
+    needles = [_norm(n) for n in needles]
+    for t in tables:
+        f = _norm(_flat(t))
+        if all(n in f for n in needles):
+            return t
+    return None
+
+
+def extract_clientes(tables):
+    t = _find_table(tables, "cantidad de", "usuarios", "categoria")
+    if not t:
+        return []
+    for row in t:
+        if _norm(row[0]).strip() == "total" and len(row) >= 3 and row[2]:
+            return [{"indicador": "clientes_total", "valor_raw": row[2].strip(),
+                     "unidad": "clientes", "periodo_text": "2025"}]
+    return []
+
+
+def extract_consumo_categoria(tables):
+    t = _find_table(tables, "cantidad de", "usuarios", "categoria")
+    if not t:
+        return []
     recs = []
-    norm = _sin_acentos(text)
-    m = re.search(r"total de clientes[^0-9]*?([\d.]+)", norm, re.I)
-    if m:
-        recs.append({"indicador": "clientes_total", "valor_raw": m.group(1),
-                     "unidad": "clientes", "periodo_text": "2025"})
-    m2 = re.search(r"([\d.]+)\s*nuev(?:as|os)\s+(?:familias|clientes)", norm, re.I)
-    if not m2:
-        m2 = re.search(r"nuev(?:as|os) (?:familias|clientes)[^0-9]*?([\d.]+)", norm, re.I)
-    if m2:
-        recs.append({"indicador": "clientes_nuevos", "valor_raw": m2.group(1),
-                     "unidad": "clientes", "periodo_text": "2025"})
+    for row in t:
+        if not row or not row[0]:
+            continue
+        slug = CAT_MAP.get(_norm(row[0]).strip())
+        if slug and len(row) >= 2 and row[1]:
+            recs.append({"indicador": f"consumo_categoria_{slug}",
+                         "valor_raw": row[1].strip(), "unidad": "kWh",
+                         "periodo_text": "2025"})
+    return recs
+
+
+def extract_clientes_categoria(tables):
+    t = _find_table(tables, "cantidad de", "usuarios", "categoria")
+    if not t:
+        return []
+    recs = []
+    for row in t:
+        if not row or not row[0]:
+            continue
+        slug = CAT_MAP.get(_norm(row[0]).strip())
+        if slug and len(row) >= 3 and row[2] and row[2].strip() not in ("", "-"):
+            recs.append({"indicador": f"clientes_categoria_{slug}",
+                         "valor_raw": row[2].strip(), "unidad": "clientes",
+                         "periodo_text": "2025"})
+    return recs
+
+
+def extract_generacion_serie(tables):
+    t = _find_table(tables, "origen de la energia", "itaipu y yacyreta", "acaray")
+    if not t:
+        return []
+    data = None
+    for row in t:
+        if row and row[0] and "\n" in row[0] and re.match(r"\d{4}", row[0].strip()):
+            data = row
+            break
+    if not data:
+        return []
+    years = [y.strip() for y in data[0].split("\n") if re.match(r"\d{4}", y.strip())]
+
+    def col(idx):
+        if idx >= len(data) or not data[idx]:
+            return []
+        return [v.strip() for v in data[idx].split("\n") if v.strip()]
+
+    acaray = col(1)
+    binac = col(3)
+    recs = []
+    for i, year in enumerate(years):
+        if i < len(acaray) and acaray[i]:
+            recs.append({"indicador": "generacion_nacional_acaray_termicas",
+                         "valor_raw": acaray[i], "unidad": "MWh", "periodo_text": year})
+        if i < len(binac) and binac[i]:
+            recs.append({"indicador": "generacion_binacional_itaipu_yacyreta",
+                         "valor_raw": binac[i], "unidad": "MWh", "periodo_text": year})
+    return recs
+
+
+def extract_sin_indicators(tables):
+    t = _find_table(tables, "factor de carga", "año 2025")
+    if not t:
+        return []
+    periodo = "2025"
+    for row in t:
+        if row and any("año 2025" in _norm(c) for c in row if c):
+            periodo = row[2].strip() if len(row) > 2 and row[2] else "2025"
+    recs = []
+    for row in t:
+        if not row:
+            continue
+        n = _norm(row[0])
+        if "consumo de energia electrica" in n and len(row) >= 3 and row[2]:
+            recs.append({"indicador": "consumo_total", "valor_raw": row[2].strip(),
+                         "unidad": "MWh", "periodo_text": periodo})
+        elif "demanda maxima de potencia" in n and len(row) >= 3 and row[2]:
+            recs.append({"indicador": "demanda_maxima", "valor_raw": row[2].strip(),
+                         "unidad": "MW", "periodo_text": periodo})
+        elif "factor de carga anual" in n and len(row) >= 3 and row[2]:
+            recs.append({"indicador": "factor_carga", "valor_raw": row[2].strip(),
+                         "unidad": "%", "periodo_text": periodo})
+    return recs
+
+
+def extract_tarifas(tables):
+    t = _find_table(tables, "faja de consumo", "mayor a 1000 kwh")
+    if not t:
+        t = _find_table(tables, "faja de consumo", "g/kwh")
+    if not t:
+        return []
+    recs = []
+    for row in t:
+        if not row or not row[0]:
+            continue
+        slug = RANGE_MAP.get(_norm(row[0]).strip())
+        if slug and len(row) >= 3 and row[1]:
+            recs.append({"indicador": f"tarifa_residencial_bt_{slug}",
+                         "valor_raw": row[1].strip(), "unidad": "G/kWh",
+                         "periodo_text": "2021"})
     return recs
 
 
@@ -126,3 +217,16 @@ def pdf_text(path):
             "pdfplumber es requerido para extracción PDF (ver connectors/ande/requirements.txt)")
     with pdfplumber.open(path) as pdf:
         return "\n".join((page.extract_text() or "") for page in pdf.pages)
+
+
+def pdf_tables(path):
+    try:
+        import pdfplumber
+    except ImportError:
+        raise RuntimeError(
+            "pdfplumber es requerido para extracción PDF (ver connectors/ande/requirements.txt)")
+    with pdfplumber.open(path) as pdf:
+        tables = []
+        for page in pdf.pages:
+            tables.extend(page.extract_tables())
+    return tables
