@@ -52,6 +52,7 @@
           <tbody id="filas"></tbody>
         </table>
       </div>
+      <div class="paginacion" id="paginacion" hidden></div>
     </section>
 
     <section class="seccion">
@@ -107,7 +108,10 @@
     };
     const PRINCIPALES = ["consumo_total", "demanda_maxima", "factor_carga",
       "clientes_total", "perdidas_totales"];
-    const fmt = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 2 });
+      const fmt = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 2 });
+      const POR_PAGINA = 10;
+      let tabla = [];
+      let pagina = 1;
 
     async function cargar() {
       let datos;
@@ -137,21 +141,9 @@
         metricas.appendChild(m);
       }
 
-      const tabla = [
-        ...datos.filter(d => !PRINCIPALES.includes(d.indicador)),
-      ];
-      for (const d of tabla) {
-        const etiqueta = ETIQUETAS[d.indicador] || d.indicador;
-        const tr = document.createElement("tr");
-        tr.innerHTML =
-          `<td>${etiqueta}</td>` +
-          `<td>${d.fecha_inicio} → ${d.fecha_fin}</td>` +
-          `<td class="monto">${fmt.format(d.valor)} ${d.unidad}</td>` +
-          `<td><a href="${d.url}" target="_blank" rel="noopener">${d.fuente}</a></td>` +
-          `<td><span class="badge-exito">${d.estado_verificacion}</span></td>` +
-          `<td>${d.fecha_extraccion}</td>`;
-        filas.appendChild(tr);
-      }
+      tabla = datos.filter(d => !PRINCIPALES.includes(d.indicador));
+      pagina = 1;
+      renderTabla();
 
       const cat = datos.filter(d => d.indicador.startsWith("consumo_categoria_"));
       const totalCat = cat.reduce((s, d) => s + d.valor, 0);
@@ -182,6 +174,44 @@
         barrasT.appendChild(fila);
       }
     }
+
+    function renderTabla() {
+      const filas = document.getElementById("filas");
+      filas.innerHTML = "";
+      const ini = (pagina - 1) * POR_PAGINA;
+      for (const d of tabla.slice(ini, ini + POR_PAGINA)) {
+        const etiqueta = ETIQUETAS[d.indicador] || d.indicador;
+        const tr = document.createElement("tr");
+        tr.innerHTML =
+          `<td>${etiqueta}</td>` +
+          `<td>${d.fecha_inicio} → ${d.fecha_fin}</td>` +
+          `<td class="monto">${fmt.format(d.valor)} ${d.unidad}</td>` +
+          `<td><a href="${d.url}" target="_blank" rel="noopener">${d.fuente}</a></td>` +
+          `<td><span class="badge-exito">${d.estado_verificacion}</span></td>` +
+          `<td>${d.fecha_extraccion}</td>`;
+        filas.appendChild(tr);
+      }
+      renderPaginacion();
+    }
+
+    function renderPaginacion() {
+      const pg = document.getElementById("paginacion");
+      const total = Math.ceil(tabla.length / POR_PAGINA);
+      if (total <= 1) { pg.hidden = true; return; }
+      pg.hidden = false;
+      pg.innerHTML = "";
+      const ant = document.createElement("button");
+      ant.textContent = "← Anterior"; ant.disabled = pagina === 1;
+      ant.onclick = () => { if (pagina > 1) { pagina--; renderTabla(); } };
+      const info = document.createElement("span");
+      info.className = "pag-info";
+      info.textContent = `Página ${pagina} de ${total}`;
+      const sig = document.createElement("button");
+      sig.textContent = "Siguiente →"; sig.disabled = pagina === total;
+      sig.onclick = () => { if (pagina < total) { pagina++; renderTabla(); } };
+      pg.append(ant, info, sig);
+    }
+
     cargar();
   </script>
 </body>
