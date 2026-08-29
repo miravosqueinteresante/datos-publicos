@@ -12,4 +12,16 @@ indicadores, fuentes, formatos y brechas (investigado el 2026-08-29).
 - `validators` — cambios anormales, duplicados, períodos superpuestos
 - `metadata` — fuente, URL, fecha de extracción, método
 
-**Estado:** Fase 3 (Data Map) completa. Fase 4 (implementación del conector) pendiente.
+**Estado:** implementado (Fase 4) y con automatización (Fase 6).
+
+**Ejecutar manualmente:**
+```
+python -m connectors.ande.run
+```
+Genera `www/datos/ande-indicadores.json` desde la fuente ANDE.
+
+**Automatización:** `.github/workflows/actualizar-ande.yml` corre el conector mensualmente
+(workflow_dispatch + cron) y commitea el dataset si cambió; el deploy existente reconstruye el sitio.
+
+**Nota de robustez:** la fuente actual es la nota `interna.php?id=14877` (HTML). ANDE no expone
+API ni CSV; ampliar a PDF (consumo por categoría, tarifas, pérdidas) es la siguiente iteración.

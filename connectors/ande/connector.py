@@ -9,7 +9,13 @@ def fetch(url, opener=None):
     if opener is None:
         import urllib.request
         with urllib.request.urlopen(url) as r:
-            return r.read().decode("utf-8")
+            raw = r.read()
+        for enc in ("utf-8", "latin-1"):
+            try:
+                return raw.decode(enc)
+            except UnicodeDecodeError:
+                continue
+        return raw.decode("utf-8", errors="replace")
     return opener(url)
 
 
