@@ -24,4 +24,17 @@ Genera `www/datos/ande-indicadores.json` desde la fuente ANDE.
 (workflow_dispatch + cron) y commitea el dataset si cambió; el deploy existente reconstruye el sitio.
 
 **Nota de robustez:** la fuente actual es la nota `interna.php?id=14877` (HTML). ANDE no expone
-API ni CSV; ampliar a PDF (consumo por categoría, tarifas, pérdidas) es la siguiente iteración.
+API ni CSV; el conector también soporta PDF.
+
+**Formatos soportados**
+- HTML: `extractor.extract(html)` → consumo total, demanda máxima, generación por central.
+- PDF: `connector.run_pdf(path, url)` / `run_text(text, url)` con parsers para:
+  - `consumo por categoría` (MWh → GWh)
+  - `tarifas` residenciales BT por tramo (G/kWh)
+  - `pérdidas` total / distribución / transmisión (%)
+  - `clientes` total y nuevos
+
+La extracción PDF usa `pdfplumber` (ver `requirements.txt`); el texto se parsea con los mismos
+patrones que el HTML. Los tests usan *fixtures representativos* (`fixtures/pdf_*.txt`); la
+validación contra los PDF reales de ANDE es el siguiente paso manual (criterio del maestro:
+"manual primero, automatizar lo que ya funciona").

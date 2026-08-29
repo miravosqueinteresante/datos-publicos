@@ -10,8 +10,9 @@ def parse_number(text):
         s = s.replace(".", "").replace(",", ".")
     elif "," in s:
         s = s.replace(",", ".")
-    elif "." in s and re.search(r"\.\d{3}$", s) and s.count(".") == 1:
-        s = s.replace(".", "")
+    elif "." in s:
+        if s.count(".") > 1 or re.fullmatch(r"[0-9]+\.[0-9]{3}", s):
+            s = s.replace(".", "")
     return float(s)
 
 

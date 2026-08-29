@@ -1,0 +1,10 @@
+Energía Facturada por Grupo de Consumo (MWh)
+Residencial 9.500.000
+Otros 7.600.000
+Alta Tensión 1.000.000
+Industrial 600.000
+Gubernamental 600.000
+Alumbrado Público 400.000
+Diferencial 200.000
+Electrointensivas 200.000
+Muy Alta Tensión 200.000
