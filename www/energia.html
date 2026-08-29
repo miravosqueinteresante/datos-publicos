@@ -14,7 +14,7 @@
         <li><a href="index.html">Inicio</a></li>
         <li><a href="energia.html" class="activo">Energía</a></li>
       </ul>
-      <span class="vision">Capa de datos de MuchoTexto</span>
+      <span class="vision">Capa de datos de <a href="https://muchotexto.net">muchotexto.net</a></span>
     </div>
   </nav>
 
@@ -106,8 +106,9 @@
       tarifa_residencial_bt_501_1000: "Tarifa BT 501-1000 kWh",
       tarifa_residencial_bt_mas_1000: "Tarifa BT >1000 kWh",
     };
-    const PRINCIPALES = ["consumo_total", "demanda_maxima", "factor_carga",
-      "clientes_total", "perdidas_totales"];
+      const PRINCIPALES = ["consumo_total", "demanda_maxima", "factor_carga",
+        "clientes_total", "perdidas_totales",
+        "consumo_categoria_residencial", "consumo_categoria_electrointensivas"];
       const fmt = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 2 });
       const POR_PAGINA = 10;
       let tabla = [];
