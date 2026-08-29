@@ -1,46 +1,51 @@
-# Datos Públicos
+# MuchoTexto Data
 
-Analiza y hace visible la **contratación pública de Paraguay** (DNCP), entidad por entidad.
-Convierte los datos abiertos de contratación en información comprensible, verificable y útil:
-exploración por entidad y año, indicadores de competencia y concentración, y datasets descargables.
+Infraestructura de **datos verificables sobre Paraguay** que se ubica debajo del contenido
+editorial de MuchoTexto: selecciona información pública relevante, la extrae, normaliza,
+conserva su procedencia y la convierte en conocimiento reutilizable.
 
-**Primer caso publicado:** Municipalidad de Asunción (SICP 108), años 2024 y 2026.
+El primer conector es **ANDE** (energía) y sirve de laboratorio para la arquitectura de
+conectores. Toda fuente sigue el principio de no almacenar lo que no se necesita: se consumen
+API/CSV/HTML y, solo cuando la fuente es PDF, se extraen los datos necesarios conservando la
+referencia exacta. Lo que no se obtiene limpio en abierto se documenta como brecha de la
+institución.
 
-## Sitios
+## Sitio
 
 - **Plataforma pública:** https://datospublicos.muchotexto.net
-- **Laboratorio técnico:** https://datospublicos.muchotexto.net/lab
+- **Página de energía:** https://datospublicos.muchotexto.net/energia.html
 
 ## Qué hace
 
-- **Explorar** — contratos de una entidad+año, con búsqueda y filtros.
-- **Análisis** — indicadores de contratación: distribución por categoría, % por método de procedimiento, concentración por proveedor (patrones Open Contracting).
-- **Datos** — datasets descargables (por entidad+año).
-- **Metodología** — cómo se obtienen los datos, trazabilidad y limitaciones.
+- **Energía (ANDE)** — indicadores eléctricos estructurados y verificables: demanda, consumo,
+  pérdidas, clientes, tarifas, consumo por categoría y generación/abastecimiento (Itaipú,
+  Yacyretá, Acaray). Cada dato lleva fuente, URL, fecha de obtención y método de extracción.
 
-## Motor
+## Arquitectura
 
-`scripts/dncp_contrataciones.py` — descarga los CSV masivos OCDS de la DNCP por año, une tablas por OCID, filtra por entidad (SICP), valida y produce datasets. Parametrizable por año; la entidad se parametriza por SICP (primera entidad: Muni de Asunción).
+- `connectors/ande/` — conector (fetch → extract → normalize → validate → store): extractor,
+  normalizer, validators, metadata, connector y tests.
+- `data/` — solo derivados: indicadores, series, metadatos y proveniencia (no descargas masivas).
+- `docs/fuentes/` — fichas por fuente (`ande-data-map.md`).
+- `scripts/` — pipeline genérico de conectores y generadores (Python).
+- `www/` — sitio de la plataforma pública (GitHub Pages).
+- `lab/` — web del laboratorio (GitHub Pages).
+- `research_ande/` — investigación de fuentes y brechas del conector ANDE.
 
-```
-python scripts/dncp_contrataciones.py 2026   # dataset Muni 2026
-python scripts/dncp_contrataciones.py 2024   # dataset Muni 2024
-```
+Interfaz común por conector: `fetch()` / `extract()` / `normalize()` / `validate()` / `store()`.
 
 ## Fuente
 
-- **DNCP** — Portal de Datos Abiertos (`contrataciones.gov.py/datos/`), licencia CC BY 4.0.
+- **ANDE** — Balance Anual de Generación y Pérdidas (BAGP), Pliego tarifario, Compilación
+  Estadística de Generación 2000–2020, e informes de binacionales (Itaipú, Yacyretá).
 
 ## Automatización
 
-- `actualizar-datos` (GitHub Actions): mensual + manual; regenera datasets y JSON web.
-- `deploy-pages`: publica automáticamente en GitHub Pages.
-
-## Estado
-
-- FASE 0-6 del plan previo + automatización + publicación completadas (ver historial git/`docs/superpowers/`).
-- **Pivot a contratación (2026-08-27):** el proyecto queda focalizado en contratación DNCP multi-entidad (se eliminó la línea de presupuesto).
+- `actualizar-ande` (GitHub Actions): ejecuta el conector ANDE, valida y regenera
+  `www/datos/ande-indicadores.json`.
+- `deploy-pages`: publica `www/` en GitHub Pages.
 
 ## Regla importante
 
-El **documento maestro** del proyecto es interno y de distribución limitada: vive solo en local y NO se versiona ni se publica en este repositorio.
+El **documento maestro** del proyecto es interno y de distribución limitada: vive solo en local
+(`MUCHOTEXTO DATA - DOCUMENTO MAESTRO.md`) y NO se versiona ni se publica en este repositorio.
