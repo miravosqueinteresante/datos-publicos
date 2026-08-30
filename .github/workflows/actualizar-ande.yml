@@ -1,37 +1,43 @@
-name: actualizar-ande
+name: Actualizar ANDE
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
-  schedule:
-    - cron: "0 6 1 * *"   # mensual, día 1 a las 06:00 UTC
-
-permissions:
-  contents: write
 
 jobs:
-  pipeline:
+  actualizar:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
-      - name: Instalar dependencias del conector
-        run: pip install -r connectors/ande/requirements.txt
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install pdfplumber
+
       - name: Ejecutar conector ANDE
-        run: python -m connectors.ande.run
-      - name: Commitear y pushear si hay cambios
-        uses: actions/github-script@v7
+        run: python connectors/ande/run.py
+
+      - name: Verificar cambios en datos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet www/datos/ande-indicadores.json; then
+            echo "Sin cambios en datos."
+          else
+            echo "Datos actualizados. Haciendo commit..."
+            git add www/datos/ande-indicadores.json
+            git commit -m "datos ANDE actualizados $(date +%Y-%m-%d)"
+          fi
+
+      - name: Desplegar en GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          script: |
-            const { execSync } = require("child_process");
-            const changed = execSync("git status --porcelain").toString().trim();
-            if (!changed) {
-              console.log("Sin cambios en los datos de ANDE.");
-            } else {
-              execSync('git config user.name "github-actions[bot]"');
-              execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
-              execSync("git add www/datos/ande-indicadores.json");
-              execSync('git commit -m "data(ande): actualizar indicadores desde conector"');
-              execSync("git push");
-            }
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./www
