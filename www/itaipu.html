@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Itaipú · MuchoTexto Data</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <span class="marca">MuchoTexto Data</span>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="energia.html">Energía</a></li>
+        <li><a href="itaipu.html" class="activo">Itaipú</a></li>
+      </ul>
+      <span class="vision">Capa de datos de <a href="https://muchotexto.net">muchotexto.net</a></span>
+    </div>
+  </nav>
+
+  <header class="cabecera">
+    <h1>Itaipú Binacional</h1>
+    <p class="subtitulo">Generación hidroeléctrica de la usina compartida Paraguay-Brasil</p>
+    <p class="meta">Fuente: ONS Brasil (dados.ons.org.br) · Datos horarios 2000–2026</p>
+  </header>
+
+  <main>
+    <section class="seccion">
+      <h2>Indicadores principales (2025)</h2>
+      <div id="metricas" class="metricas"><p class="vacio">Cargando datos…</p></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Distribución por sector</h2>
+      <p class="nota">Generación separada por sector de frecuencia: 60 Hz (Brasil) y 50 Hz (Paraguay).</p>
+      <div id="barras-sector" class="barras"></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Suministro por país</h2>
+      <p class="nota">Energía efectivamente suministrada a cada país, incluyendo la conversión del sector de 50 Hz.</p>
+      <div id="barras-pais" class="barras"></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Serie histórica</h2>
+      <div class="tabla-envolvente">
+        <table>
+          <thead>
+            <tr><th>Año</th><th>Generación total</th><th>Sector 60 Hz</th><th>Sector 50 Hz</th><th>A Brasil</th><th>A Paraguay</th></tr>
+          </thead>
+          <tbody id="filas"></tbody>
+        </table>
+      </div>
+      <div class="paginacion" id="paginacion" hidden></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Metodología</h2>
+      <p class="nota">
+        Los datos provienen del <strong>ONS</strong> (Operador Nacional do Sistema Elétrico de Brasil),
+        que opera el sistema eléctrico interconectado y publica datos abiertos de generación de Itaipú
+        en base horaria. La fuente es verificada por el operador oficial de la red.
+      </p>
+
+      <h3>Fuente de datos</h3>
+      <div class="metodologia-grid">
+        <div class="metodologia-item">
+          <strong>ONS Dados Abertos</strong>
+          <p>Portal de datos abiertos del ONS de Brasil. API CKAN sin autenticación. Actualización diaria.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>CSV horario</strong>
+          <p>Archivo <code>GERACAO_ITAIPU.csv</code> con 26+ años de datos en base horaria (14.8 MB).</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Separación por sector</strong>
+          <p>Datos desagregados por sector de 60 Hz (Brasil) y 50 Hz (Paraguay), con conversión incluida.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Aggregate anual</strong>
+          <p>Los datos horarios se agregan a base anual para consistencia con otros indicadores del sitio.</p>
+        </div>
+      </div>
+
+      <h3>Indicadores</h3>
+      <div class="metodologia-grid">
+        <div class="metodologia-item">
+          <strong>Generación total</strong>
+          <p>Energía total producida por la usina de Itaipú en el año. Incluye ambos sectores.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Sector 60 Hz (Brasil)</strong>
+          <p>Generación del sector de frecuencia de 60 Hz, que abastece directamente al sistema brasileño.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Sector 50 Hz (Paraguay)</strong>
+          <p>Generación del sector de frecuencia de 50 Hz. Parte se usa en Paraguay, parte se convierte a 60 Hz para Brasil.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Suministro a Paraguay</strong>
+          <p>Energía efectivamente consumida por Paraguay = sector 50 Hz − conversión a Brasil.</p>
+        </div>
+      </div>
+
+      <h3>Limitaciones conocidas</h3>
+      <ul class="nota">
+        <li>Los datos son agregados anuales; la granularidad horaria está disponible en el CSV pero se resume para consistencia.</li>
+        <li>La separación exacta de conversión (50 Hz → 60 Hz) depende de los convenios operativos vigentes.</li>
+        <li>Los datos de 2026 están parciales (año en curso).</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    MuchoTexto Data · datospublicos.muchotexto.net — datos verificables sobre Paraguay.
+  </footer>
+
+  <script>
+    const fmt = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 1 });
+    const POR_PAGINA = 10;
+    let datos = [];
+    let pagina = 1;
+
+    async function cargar() {
+      try {
+        const r = await fetch("datos/itaipu-indicadores.json");
+        datos = await r.json();
+      } catch (e) {
+        document.getElementById("metricas").innerHTML =
+          '<p class="vacio">No se pudieron cargar los datos.</p>';
+        return;
+      }
+
+      const ultimoAno = Math.max(...datos.map(d => parseInt(d.fecha_inicio)));
+      const metricas = datos.filter(d => parseInt(d.fecha_inicio) === ultimoAno);
+      const porInd = Object.fromEntries(metricas.map(d => [d.indicador, d]));
+
+      const metricasEl = document.getElementById("metricas");
+      metricasEl.innerHTML = "";
+
+      const principales = [
+        { key: "generacion_total", label: "Generación total" },
+        { key: "generacion_sector_50hz", label: "Sector 50 Hz (Paraguay)" },
+        { key: "generacion_sector_60hz", label: "Sector 60 Hz (Brasil)" },
+        { key: "suministro_paraguay", label: "Suministro a Paraguay" },
+        { key: "suministro_brasil", label: "Suministro a Brasil" },
+      ];
+
+      for (const p of principales) {
+        const d = porInd[p.key];
+        if (!d) continue;
+        const m = document.createElement("div");
+        m.className = "metrica";
+        m.innerHTML = `<div class="valor">${fmt.format(d.valor)}</div>` +
+          `<div class="etiqueta">${p.label} · ${d.unidad}</div>`;
+        metricasEl.appendChild(m);
+      }
+
+      const sector50 = porInd["generacion_sector_50hz"];
+      const sector60 = porInd["generacion_sector_60hz"];
+      if (sector50 && sector60) {
+        const total = sector50.valor + sector60.valor;
+        const barrasSector = document.getElementById("barras-sector");
+        barrasSector.innerHTML = "";
+        const items = [
+          { nombre: "Sector 50 Hz (Paraguay)", valor: sector50.valor, pct: sector50.valor / total * 100 },
+          { nombre: "Sector 60 Hz (Brasil)", valor: sector60.valor, pct: sector60.valor / total * 100 },
+        ];
+        for (const item of items) {
+          const fila = document.createElement("div");
+          fila.className = "barra-fila";
+          fila.innerHTML =
+            `<div class="barra-nombre">${item.nombre}</div>` +
+            `<div class="barra-track"><div class="barra" style="width:${item.pct.toFixed(1)}%"></div></div>` +
+            `<div class="barra-valores"><strong>${fmt.format(item.valor)} GWh</strong>` +
+            `<span class="barra-pct">${item.pct.toFixed(1)}%</span></div>`;
+          barrasSector.appendChild(fila);
+        }
+      }
+
+      const paraguay = porInd["suministro_paraguay"];
+      const brasil = porInd["suministro_brasil"];
+      if (paraguay && brasil) {
+        const total = paraguay.valor + brasil.valor;
+        const barrasPais = document.getElementById("barras-pais");
+        barrasPais.innerHTML = "";
+        const items = [
+          { nombre: "Paraguay", valor: paraguay.valor, pct: paraguay.valor / total * 100 },
+          { nombre: "Brasil", valor: brasil.valor, pct: brasil.valor / total * 100 },
+        ];
+        for (const item of items) {
+          const fila = document.createElement("div");
+          fila.className = "barra-fila";
+          fila.innerHTML =
+            `<div class="barra-nombre">${item.nombre}</div>` +
+            `<div class="barra-track"><div class="barra" style="width:${item.pct.toFixed(1)}%"></div></div>` +
+            `<div class="barra-valores"><strong>${fmt.format(item.valor)} GWh</strong>` +
+            `<span class="barra-pct">${item.pct.toFixed(1)}%</span></div>`;
+          barrasPais.appendChild(fila);
+        }
+      }
+
+      const porAno = {};
+      for (const d of datos) {
+        const year = d.fecha_inicio.slice(0, 4);
+        if (!porAno[year]) porAno[year] = {};
+        porAno[year][d.indicador] = d.valor;
+      }
+
+      const series = Object.keys(porAno).sort().reverse().map(year => ({
+        year,
+        total: porAno[year]["generacion_total"] || 0,
+        s60: porAno[year]["generacion_sector_60hz"] || 0,
+        s50: porAno[year]["generacion_sector_50hz"] || 0,
+        br: porAno[year]["suministro_brasil"] || 0,
+        py: porAno[year]["suministro_paraguay"] || 0,
+      }));
+
+      renderTabla(series);
+    }
+
+    function renderTabla(series) {
+      const filas = document.getElementById("filas");
+      filas.innerHTML = "";
+      const ini = (pagina - 1) * POR_PAGINA;
+      for (const s of series.slice(ini, ini + POR_PAGINA)) {
+        const tr = document.createElement("tr");
+        tr.innerHTML =
+          `<td>${s.year}</td>` +
+          `<td class="monto">${fmt.format(s.total)} GWh</td>` +
+          `<td class="monto">${fmt.format(s.s60)} GWh</td>` +
+          `<td class="monto">${fmt.format(s.s50)} GWh</td>` +
+          `<td class="monto">${fmt.format(s.br)} GWh</td>` +
+          `<td class="monto">${fmt.format(s.py)} GWh</td>`;
+        filas.appendChild(tr);
+      }
+      renderPaginacion(series.length);
+    }
+
+    function renderPaginacion(total) {
+      const pg = document.getElementById("paginacion");
+      const paginas = Math.ceil(total / POR_PAGINA);
+      if (paginas <= 1) { pg.hidden = true; return; }
+      pg.hidden = false;
+      pg.innerHTML = "";
+      const ant = document.createElement("button");
+      ant.textContent = "← Anterior"; ant.disabled = pagina === 1;
+      ant.onclick = () => { if (pagina > 1) { pagina--; cargar(); } };
+      const info = document.createElement("span");
+      info.className = "pag-info";
+      info.textContent = `Página ${pagina} de ${paginas}`;
+      const sig = document.createElement("button");
+      sig.textContent = "Siguiente →"; sig.disabled = pagina === paginas;
+      sig.onclick = () => { if (pagina < paginas) { pagina++; cargar(); } };
+      pg.append(ant, info, sig);
+    }
+
+    cargar();
+  </script>
+</body>
+</html>
