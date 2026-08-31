@@ -1,0 +1,26 @@
+{
+  "ande": {
+    "id": "ande",
+    "nombre": "Administración Nacional de Electricidad",
+    "tipo": "estatal",
+    "sector": "energia",
+    "sigla": "ANDE",
+    "url": "https://www.ande.gov.py"
+  },
+  "itaipu": {
+    "id": "itaipu",
+    "nombre": "Itaipú Binacional",
+    "tipo": "binacional",
+    "sector": "energia",
+    "sigla": "ITAIPU",
+    "url": "https://www.itaipu.gov.py"
+  },
+  "yacyreta": {
+    "id": "yacyreta",
+    "nombre": "Entidad Binacional Yacyretá",
+    "tipo": "binacional",
+    "sector": "energia",
+    "sigla": "EBY",
+    "url": "https://www.yacyreta.gov.py"
+  }
+}
