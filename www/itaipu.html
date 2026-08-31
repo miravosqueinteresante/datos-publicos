@@ -27,7 +27,7 @@
 
   <main>
     <section class="seccion">
-      <h2>Indicadores principales (2025)</h2>
+      <h2 id="titulo-metricas">Indicadores principales</h2>
       <div id="metricas" class="metricas"><p class="vacio">Cargando datos…</p></div>
     </section>
 
@@ -133,7 +133,11 @@
         return;
       }
 
-      const ultimoAno = Math.max(...datos.map(d => parseInt(d.fecha_inicio)));
+      const anoActual = new Date().getFullYear();
+      const anos = [...new Set(datos.map(d => parseInt(d.fecha_inicio)))];
+      const anosCompletos = anos.filter(y => y < anoActual);
+      const ultimoAno = anosCompletos.length ? Math.max(...anosCompletos) : Math.max(...anos);
+      document.getElementById("titulo-metricas").textContent = `Indicadores principales (${ultimoAno})`;
       const metricas = datos.filter(d => parseInt(d.fecha_inicio) === ultimoAno);
       const porInd = Object.fromEntries(metricas.map(d => [d.indicador, d]));
 
