@@ -30,6 +30,10 @@ class TestEntidad(unittest.TestCase):
         eid = entidad.nombre_a_id("itaipú")
         self.assertEqual(eid, "itaipu")
 
+    def test_nombre_a_id_por_sigla(self):
+        eid = entidad.nombre_a_id("EBY")
+        self.assertEqual(eid, "yacyreta")
+
     def test_nombre_a_id_desconocido(self):
         eid = entidad.nombre_a_id("Entidad Desconocida")
         self.assertIsNone(eid)
