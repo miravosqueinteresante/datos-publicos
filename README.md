@@ -43,6 +43,3 @@ Registro `connectors/ande/entidades.json` con IDs canónicos: `ande`, `itaipu`, 
 - `actualizar-ande` (GitHub Actions, `permissions: contents: write`): `pdfplumber` + tests → `python connectors/ande/run.py` → commit/push `www/datos/*.json` si hay cambios
 - `deploy-pages`: publica `www/` vía `actions/deploy-pages@v4` (artifact `www`)
 
-## Regla importante
-
-El **documento maestro** es interno y local (`MUCHOTEXTO DATA - DOCUMENTO MAESTRO.md`), no se versiona ni se publica.
