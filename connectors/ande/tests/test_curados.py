@@ -16,6 +16,17 @@ class TestCurados(unittest.TestCase):
         for r in curados.CURADOS:
             self.assertTrue(r["url"].startswith("http"))
 
+    def test_entidad_ids_correctos(self):
+        d = {r["indicador"]: r for r in curados.CURADOS}
+        self.assertEqual(d["generacion_itaipu_paraguay"]["entidad_id"], "itaipu")
+        self.assertEqual(d["generacion_yacyreta_paraguay"]["entidad_id"], "yacyreta")
+        self.assertEqual(d["generacion_yacyreta_total"]["entidad_id"], "yacyreta")
+
+    def test_entidad_names_correctos(self):
+        d = {r["indicador"]: r for r in curados.CURADOS}
+        self.assertEqual(d["generacion_itaipu_paraguay"]["entidad"], "Itaipú Binacional")
+        self.assertEqual(d["generacion_yacyreta_paraguay"]["entidad"], "Entidad Binacional Yacyretá")
+
 
 if __name__ == "__main__":
     unittest.main()

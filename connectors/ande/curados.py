@@ -6,17 +6,17 @@ URL_YACYRETA = ("https://paraguayoindependiente.com/2026/01/21/"
                 "yacyreta-muestra-una-senal-preocupante-para-paraguay/")
 
 
-def _r(indicador, valor, unidad, periodo, fuente, url):
+def _r(indicador, valor, unidad, periodo, fuente, url, entidad="ANDE"):
     return metadata.build_record(
         indicador, valor, unidad, periodo, fuente=fuente, url=url,
-        metodo="extraccion_manual", estado="verificado")
+        metodo="extraccion_manual", estado="verificado", entidad=entidad)
 
 
 CURADOS = [
     _r("generacion_itaipu_paraguay", 25768.0, "GWh", "2025",
-       "Itaipú Binacional", URL_ITAIPU),
+       "Itaipú Binacional", URL_ITAIPU, entidad="Itaipú Binacional"),
     _r("generacion_yacyreta_paraguay", 3081.0, "GWh", "2025",
-       "Entidad Binacional Yacyretá", URL_YACYRETA),
+       "Entidad Binacional Yacyretá", URL_YACYRETA, entidad="Entidad Binacional Yacyretá"),
     _r("generacion_yacyreta_total", 16103.0, "GWh", "2025",
-       "Entidad Binacional Yacyretá", URL_YACYRETA),
+       "Entidad Binacional Yacyretá", URL_YACYRETA, entidad="Entidad Binacional Yacyretá"),
 ]
