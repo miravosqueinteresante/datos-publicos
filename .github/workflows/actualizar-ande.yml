@@ -5,9 +5,14 @@ on:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   actualizar:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -31,16 +36,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet www/datos/ande-indicadores.json; then
+          if git diff --quiet www/datos/ande-indicadores.json www/datos/itaipu-indicadores.json 2>/dev/null; then
             echo "Sin cambios en datos."
           else
-            echo "Datos actualizados. Haciendo commit..."
-            git add www/datos/ande-indicadores.json www/datos/ande-indicadores-mvp.json
-            git commit -m "datos ANDE actualizados $(date +%Y-%m-%d)"
+            echo "Datos actualizados. Haciendo commit y push..."
+            git add www/datos/ande-indicadores.json www/datos/ande-indicadores-mvp.json www/datos/itaipu-indicadores.json 2>/dev/null || git add www/datos/ande-indicadores.json www/datos/ande-indicadores-mvp.json
+            git commit -m "datos actualizados $(date +%Y-%m-%d) [skip ci]" || echo "nada para commitear"
+            git push origin main || echo "push sin cambios"
           fi
-
-      - name: Desplegar en GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./www
