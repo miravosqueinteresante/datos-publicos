@@ -7,6 +7,7 @@ def build_record(indicador, valor, unidad, periodo_text, fuente, url,
                  metodo="extraccion_html", estado="extraido", entidad="ANDE",
                  documento=None, fecha_publicacion=None):
     eid = entidad_mod.nombre_a_id(entidad) if isinstance(entidad, str) else entidad
+    # ponytail: ANDE-only connector; widen fallback when adding multi-entity sources
     if eid is None:
         eid = "ande"
     fi, ff = normalizer.parse_period(periodo_text)
