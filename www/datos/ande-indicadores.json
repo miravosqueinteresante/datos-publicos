@@ -1,7 +1,8 @@
 [
   {
-    "id": "ANDE-perdidas_totales-2025-12-01",
+    "id": "ande-perdidas_totales-2025-12-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "perdidas_totales",
     "valor": 24.4,
     "unidad": "%",
@@ -16,8 +17,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-perdidas_distribucion-2025-12-01",
+    "id": "ande-perdidas_distribucion-2025-12-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "perdidas_distribucion",
     "valor": 21.89,
     "unidad": "%",
@@ -32,8 +34,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-perdidas_transmision-2025-12-01",
+    "id": "ande-perdidas_transmision-2025-12-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "perdidas_transmision",
     "valor": 4.37,
     "unidad": "%",
@@ -48,8 +51,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-clientes_total-2025-01-01",
+    "id": "ande-clientes_total-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "clientes_total",
     "valor": 1680946.0,
     "unidad": "clientes",
@@ -64,8 +68,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-consumo_categoria_residencial-2025-01-01",
+    "id": "ande-consumo_categoria_residencial-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "consumo_categoria_residencial",
     "valor": 7425.632545,
     "unidad": "GWh",
@@ -80,8 +85,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-consumo_categoria_industrial-2025-01-01",
+    "id": "ande-consumo_categoria_industrial-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "consumo_categoria_industrial",
     "valor": 266.595986,
     "unidad": "GWh",
@@ -96,8 +102,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-consumo_categoria_otros-2025-01-01",
+    "id": "ande-consumo_categoria_otros-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "consumo_categoria_otros",
     "valor": 6842.117693,
     "unidad": "GWh",
@@ -112,8 +119,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-consumo_categoria_gubernamental-2025-01-01",
+    "id": "ande-consumo_categoria_gubernamental-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "consumo_categoria_gubernamental",
     "valor": 442.721865,
     "unidad": "GWh",
@@ -128,8 +136,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-consumo_categoria_diferencial-2025-01-01",
+    "id": "ande-consumo_categoria_diferencial-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "consumo_categoria_diferencial",
     "valor": 101.215024,
     "unidad": "GWh",
@@ -144,8 +153,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-consumo_categoria_alta_tension-2025-01-01",
+    "id": "ande-consumo_categoria_alta_tension-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "consumo_categoria_alta_tension",
     "valor": 886.324372,
     "unidad": "GWh",
@@ -160,8 +170,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-consumo_categoria_muy_alta_tension-2025-01-01",
+    "id": "ande-consumo_categoria_muy_alta_tension-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "consumo_categoria_muy_alta_tension",
     "valor": 253.382351,
     "unidad": "GWh",
@@ -176,8 +187,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-consumo_categoria_electrointensivas-2025-01-01",
+    "id": "ande-consumo_categoria_electrointensivas-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "consumo_categoria_electrointensivas",
     "valor": 5464.852192,
     "unidad": "GWh",
@@ -192,8 +204,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-consumo_categoria_alumbrado_publico-2025-01-01",
+    "id": "ande-consumo_categoria_alumbrado_publico-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "consumo_categoria_alumbrado_publico",
     "valor": 236.466394,
     "unidad": "GWh",
@@ -208,8 +221,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-clientes_categoria_residencial-2025-01-01",
+    "id": "ande-clientes_categoria_residencial-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "clientes_categoria_residencial",
     "valor": 1482966.0,
     "unidad": "clientes",
@@ -224,8 +238,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-clientes_categoria_industrial-2025-01-01",
+    "id": "ande-clientes_categoria_industrial-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "clientes_categoria_industrial",
     "valor": 121.0,
     "unidad": "clientes",
@@ -240,8 +255,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-clientes_categoria_otros-2025-01-01",
+    "id": "ande-clientes_categoria_otros-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "clientes_categoria_otros",
     "valor": 189767.0,
     "unidad": "clientes",
@@ -256,8 +272,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-clientes_categoria_gubernamental-2025-01-01",
+    "id": "ande-clientes_categoria_gubernamental-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "clientes_categoria_gubernamental",
     "valor": 7919.0,
     "unidad": "clientes",
@@ -272,8 +289,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-clientes_categoria_diferencial-2025-01-01",
+    "id": "ande-clientes_categoria_diferencial-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "clientes_categoria_diferencial",
     "valor": 107.0,
     "unidad": "clientes",
@@ -288,8 +306,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-clientes_categoria_alta_tension-2025-01-01",
+    "id": "ande-clientes_categoria_alta_tension-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "clientes_categoria_alta_tension",
     "valor": 14.0,
     "unidad": "clientes",
@@ -304,8 +323,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-clientes_categoria_muy_alta_tension-2025-01-01",
+    "id": "ande-clientes_categoria_muy_alta_tension-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "clientes_categoria_muy_alta_tension",
     "valor": 4.0,
     "unidad": "clientes",
@@ -320,8 +340,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-clientes_categoria_electrointensivas-2025-01-01",
+    "id": "ande-clientes_categoria_electrointensivas-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "clientes_categoria_electrointensivas",
     "valor": 47.0,
     "unidad": "clientes",
@@ -336,8 +357,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-consumo_total-2025-01-01",
+    "id": "ande-consumo_total-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "consumo_total",
     "valor": 29418.538,
     "unidad": "GWh",
@@ -352,8 +374,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-demanda_maxima-2025-01-01",
+    "id": "ande-demanda_maxima-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "demanda_maxima",
     "valor": 5280.0,
     "unidad": "MW",
@@ -368,8 +391,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-factor_carga-2025-01-01",
+    "id": "ande-factor_carga-2025-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "factor_carga",
     "valor": 63.6,
     "unidad": "%",
@@ -384,8 +408,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-tarifa_residencial_bt_0_50-2021-01-01",
+    "id": "ande-tarifa_residencial_bt_0_50-2021-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "tarifa_residencial_bt_0_50",
     "valor": 311.55,
     "unidad": "G/kWh",
@@ -400,8 +425,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-tarifa_residencial_bt_51_150-2021-01-01",
+    "id": "ande-tarifa_residencial_bt_51_150-2021-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "tarifa_residencial_bt_51_150",
     "valor": 349.89,
     "unidad": "G/kWh",
@@ -416,8 +442,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-tarifa_residencial_bt_151_300-2021-01-01",
+    "id": "ande-tarifa_residencial_bt_151_300-2021-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "tarifa_residencial_bt_151_300",
     "valor": 365.45,
     "unidad": "G/kWh",
@@ -432,8 +459,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-tarifa_residencial_bt_301_500-2021-01-01",
+    "id": "ande-tarifa_residencial_bt_301_500-2021-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "tarifa_residencial_bt_301_500",
     "valor": 403.82,
     "unidad": "G/kWh",
@@ -448,8 +476,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-tarifa_residencial_bt_501_1000-2021-01-01",
+    "id": "ande-tarifa_residencial_bt_501_1000-2021-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "tarifa_residencial_bt_501_1000",
     "valor": 420.27,
     "unidad": "G/kWh",
@@ -464,8 +493,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-tarifa_residencial_bt_mas_1000-2021-01-01",
+    "id": "ande-tarifa_residencial_bt_mas_1000-2021-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "tarifa_residencial_bt_mas_1000",
     "valor": 435.51,
     "unidad": "G/kWh",
@@ -480,8 +510,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2000-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2000-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 1045.478,
     "unidad": "GWh",
@@ -496,8 +527,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2000-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2000-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 5455.387,
     "unidad": "GWh",
@@ -512,8 +544,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2001-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2001-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 948.605,
     "unidad": "GWh",
@@ -528,8 +561,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2001-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2001-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 5649.592,
     "unidad": "GWh",
@@ -544,8 +578,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2002-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2002-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 1076.894,
     "unidad": "GWh",
@@ -560,8 +595,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2002-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2002-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 5796.169,
     "unidad": "GWh",
@@ -576,8 +612,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2003-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2003-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 1017.919,
     "unidad": "GWh",
@@ -592,8 +629,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2003-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2003-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 5802.607,
     "unidad": "GWh",
@@ -608,8 +646,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2004-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2004-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 932.161,
     "unidad": "GWh",
@@ -624,8 +663,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2004-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2004-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 6441.216,
     "unidad": "GWh",
@@ -640,8 +680,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2005-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2005-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 766.032,
     "unidad": "GWh",
@@ -656,8 +697,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2005-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2005-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 6762.12,
     "unidad": "GWh",
@@ -672,8 +714,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2006-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2006-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 801.972,
     "unidad": "GWh",
@@ -688,8 +731,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2006-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2006-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 7691.5,
     "unidad": "GWh",
@@ -704,8 +748,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2007-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2007-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 960.945,
     "unidad": "GWh",
@@ -720,8 +765,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2007-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2007-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 7901.354,
     "unidad": "GWh",
@@ -736,8 +782,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2008-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2008-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 460.5,
     "unidad": "GWh",
@@ -752,8 +799,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2008-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2008-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 8627.954,
     "unidad": "GWh",
@@ -768,8 +816,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2009-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2009-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 744.548,
     "unidad": "GWh",
@@ -784,8 +833,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2009-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2009-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 9298.357,
     "unidad": "GWh",
@@ -800,8 +850,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2010-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2010-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 1142.35,
     "unidad": "GWh",
@@ -816,8 +867,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2010-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2010-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 9457.234,
     "unidad": "GWh",
@@ -832,8 +884,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2011-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2011-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 950.816,
     "unidad": "GWh",
@@ -848,8 +901,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2011-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2011-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 10210.635,
     "unidad": "GWh",
@@ -864,8 +918,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2012-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2012-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 932.316,
     "unidad": "GWh",
@@ -880,8 +935,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2012-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2012-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 11301.433,
     "unidad": "GWh",
@@ -896,8 +952,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2013-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2013-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 897.287,
     "unidad": "GWh",
@@ -912,8 +969,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2013-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2013-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 11767.413,
     "unidad": "GWh",
@@ -928,8 +986,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2014-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2014-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 1114.662,
     "unidad": "GWh",
@@ -944,8 +1003,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2014-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2014-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 12456.559,
     "unidad": "GWh",
@@ -960,8 +1020,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2015-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2015-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 1061.609,
     "unidad": "GWh",
@@ -976,8 +1037,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2015-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2015-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 13243.802,
     "unidad": "GWh",
@@ -992,8 +1054,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2016-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2016-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 1291.399,
     "unidad": "GWh",
@@ -1008,8 +1071,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2016-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2016-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 13686.282,
     "unidad": "GWh",
@@ -1024,8 +1088,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2017-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2017-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 959.04,
     "unidad": "GWh",
@@ -1040,8 +1105,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2017-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2017-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 14690.779,
     "unidad": "GWh",
@@ -1056,8 +1122,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2018-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2018-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 1085.244,
     "unidad": "GWh",
@@ -1072,8 +1139,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2018-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2018-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 15520.791,
     "unidad": "GWh",
@@ -1088,8 +1156,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2019-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2019-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 981.763,
     "unidad": "GWh",
@@ -1104,8 +1173,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2019-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2019-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 16469.479,
     "unidad": "GWh",
@@ -1120,8 +1190,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_nacional_acaray_termicas-2020-01-01",
+    "id": "ande-generacion_nacional_acaray_termicas-2020-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_nacional_acaray_termicas",
     "valor": 580.951,
     "unidad": "GWh",
@@ -1136,8 +1207,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_binacional_itaipu_yacyreta-2020-01-01",
+    "id": "ande-generacion_binacional_itaipu_yacyreta-2020-01-01",
     "entidad": "ANDE",
+    "entidad_id": "ande",
     "indicador": "generacion_binacional_itaipu_yacyreta",
     "valor": 17525.615,
     "unidad": "GWh",
@@ -1152,8 +1224,9 @@
     "estado_verificacion": "extraido"
   },
   {
-    "id": "ANDE-generacion_itaipu_paraguay-2025-01-01",
-    "entidad": "ANDE",
+    "id": "itaipu-generacion_itaipu_paraguay-2025-01-01",
+    "entidad": "Itaipú Binacional",
+    "entidad_id": "itaipu",
     "indicador": "generacion_itaipu_paraguay",
     "valor": 25768.0,
     "unidad": "GWh",
@@ -1168,8 +1241,9 @@
     "estado_verificacion": "verificado"
   },
   {
-    "id": "ANDE-generacion_yacyreta_paraguay-2025-01-01",
-    "entidad": "ANDE",
+    "id": "yacyreta-generacion_yacyreta_paraguay-2025-01-01",
+    "entidad": "Entidad Binacional Yacyretá",
+    "entidad_id": "yacyreta",
     "indicador": "generacion_yacyreta_paraguay",
     "valor": 3081.0,
     "unidad": "GWh",
@@ -1184,8 +1258,9 @@
     "estado_verificacion": "verificado"
   },
   {
-    "id": "ANDE-generacion_yacyreta_total-2025-01-01",
-    "entidad": "ANDE",
+    "id": "yacyreta-generacion_yacyreta_total-2025-01-01",
+    "entidad": "Entidad Binacional Yacyretá",
+    "entidad_id": "yacyreta",
     "indicador": "generacion_yacyreta_total",
     "valor": 16103.0,
     "unidad": "GWh",
