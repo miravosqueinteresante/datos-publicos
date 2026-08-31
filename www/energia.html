@@ -64,11 +64,70 @@
         ningún número sin su fuente. El conector distingue dato oficial de cálculo derivado, y marca
         los casos que requieren revisión.
       </p>
+
+      <h3>Fuentes de datos</h3>
+      <div class="metodologia-grid">
+        <div class="metodologia-item">
+          <strong>BAGP 2025</strong>
+          <p>Balance Anual de Gestión Pública. Contiene consumo total, consumo por categoría, clientes por categoría, pérdidas de distribución y transmisión, y tarifas.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Pliego Tarifario 21</strong>
+          <p>Resolución oficial con las tarifas por faja de consumo en baja tensión. Vigencia anual.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Compilación Estadística 2000–2020</strong>
+          <p>Serie histórica de generación nacional y binacional. Datos consolidados por ANDE.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Fuentes primarias verificadas</strong>
+          <p>Generación de Itaipú y Yacyretá 2025: datos oficiales de cada entidad binacional, verificados contra publicaciones institucionales.</p>
+        </div>
+      </div>
+
+      <h3>Indicadores principales</h3>
+      <div class="metodologia-grid">
+        <div class="metodologia-item">
+          <strong>Consumo total (SIN)</strong>
+          <p>Energía eléctrica consumida en todo el Sistema Interconectado Nacional. Se extrae del BAGP y se normaliza a GWh.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Demanda máxima</strong>
+          <p>Pico de potencia simultánea alcanzado en el año. Se mide en MW y se reporta sin normalización energética.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Factor de carga</strong>
+          <p>Relación entre la energía efectivamente consumida y la demanda máxima potencial. Indica la eficiencia del uso de la infraestructura.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Pérdidas totales</strong>
+          <p>Energía que se pierde en el transporte (transmisión) y distribución. Se desglosa en pérdidas de distribución (21,89%) y transmisión (4,37%).</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Clientes totales</strong>
+          <p>Cantidad de usuarios conectados al sistema. Incluye todas las categorías tarifarias.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Generación binacional</strong>
+          <p>Energía producida por Itaipú y Yacyretá, que pertenecen a Paraguay y Brasil/Argentina respectivamente. Solo se reporta la porción que corresponde a Paraguay.</p>
+        </div>
+      </div>
+
+      <h3>Proceso de extracción</h3>
       <p class="nota">
-        ANDE publica sus indicadores en PDF y HTML (sin API ni CSV abierto). La frecuencia oficial es
-        anual; la granularidad mensual circula en notas de prensa y se documenta como brecha de
-        trazabilidad. Los valores mostrados son una extracción de referencia del año 2025.
+        El conector descarga los PDFs oficiales de ANDE, extrae las tablas usando <code>pdfplumber</code>,
+        normaliza las unidades (kWh → GWh) y genera registros con trazabilidad completa. Cada registro
+        incluye: entidad, indicador, valor, unidad, período, fuente, URL, fecha de extracción y método.
+        Los registros curados (Itaipú, Yacyretá) se validan manualmente contra fuentes primarias.
       </p>
+
+      <h3>Limitaciones conocidas</h3>
+      <ul class="nota">
+        <li>La serie mensual no está disponible en fuentes abiertas de ANDE.</li>
+        <li>La generación de Acaray 2025 está incluida en térmicas; no se aísla sin la Memoria Anual 2025.</li>
+        <li>Los datos de infraestructura (líneas, subestaciones) no se publican en formato estructurado.</li>
+        <li>La frecuencia de actualización depende de la publicación de ANDE (anual para BAGP).</li>
+      </ul>
     </section>
   </main>
 

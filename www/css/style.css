@@ -182,3 +182,15 @@ footer { max-width: 48rem; margin: 2rem auto 1rem; padding: 0 1rem; font-size: .
   font-size: .75rem; font-weight: 700; margin-right: .4rem;
 }
 .destacado { color: var(--acento); font-weight: 600; }
+
+/* ── Metodología ── */
+.metodologia-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1rem 0; }
+.metodologia-item {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radio); padding: 1rem;
+}
+.metodologia-item strong { color: var(--heading); display: block; margin-bottom: .4rem; font-size: .95rem; }
+.metodologia-item p { margin: 0; font-size: .85rem; color: var(--texto-suave); line-height: 1.5; }
+.seccion h3 { font-size: 1rem; color: var(--heading); margin: 1.5rem 0 .5rem; }
+.seccion ul.nota { padding-left: 1.2rem; }
+.seccion ul.nota li { margin-bottom: .4rem; }
