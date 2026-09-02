@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://datospublicos.muchotexto.net/sitemap.xml
