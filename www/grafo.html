@@ -77,7 +77,8 @@
           bg.setAttribute('x',mx-55);bg.setAttribute('y',my-14);bg.setAttribute('width','110');bg.setAttribute('height','14');bg.setAttribute('rx','7');bg.setAttribute('fill','rgba(255,255,255,0.06)');bg.setAttribute('stroke','rgba(255,255,255,0.08)');
           svg.appendChild(bg);
           const txt=document.createElementNS('http://www.w3.org/2000/svg','text');
-          txt.setAttribute('x',mx);txt.setAttribute('y',my-4);txt.setAttribute('text-anchor','middle');txt.setAttribute('font-size','9');txt.setAttribute('fill','#ced4da');txt.textContent=l.tipo.replace('_',' ');
+          txt.setAttribute('x',mx);txt.setAttribute('y',my-4);txt.setAttribute('text-anchor','middle');txt.setAttribute('font-size','9');txt.setAttribute('fill','#ced4da');txt.textContent=l.tipo;
+          svg.appendChild(txt);
         });
         nodes.forEach(n=>{
           const g2=document.createElementNS('http://www.w3.org/2000/svg','g');g2.setAttribute('transform',`translate(${n.x},${n.y})`);g2.style.cursor='grab';
