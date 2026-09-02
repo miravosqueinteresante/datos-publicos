@@ -62,8 +62,9 @@
       const nodes=g.entidades.map((e,i)=>({id:e.id,label:e.nombre,tipo:e.tipo,x:W/2+Math.cos(i*2*Math.PI/g.entidades.length)*120,y:H/2+Math.sin(i*2*Math.PI/g.entidades.length)*80}));
       const id2=n=>nodes.find(x=>x.id===n);
       const raw=g.relaciones.map(r=>({s:id2(r.origen),t:id2(r.destino),tipo:r.tipo})).filter(l=>l.s&&l.t);
-      const seen=new Set(); const links=[];
-      raw.forEach(l=>{const k=[l.s.id,l.t.id].sort().join('-'); if(!seen.has(k)){seen.add(k); links.push(l);} });
+      const map=new Map();
+      raw.forEach(l=>{const k=[l.s.id,l.t.id].sort().join('-'); if(!map.has(k)) map.set(k,{s:l.s,t:l.t,tipos:[l.tipo]}); else map.get(k).tipos.push(l.tipo);});
+      const links=[...map.values()].map(v=>({s:v.s,t:v.t,tipo:v.tipos.join(' · ').replaceAll('_',' ')}));
       function tick(){
         svg.innerHTML='';
         links.forEach(l=>{
@@ -73,7 +74,7 @@
           svg.appendChild(line);
           const mx=(l.s.x+l.t.x)/2,my=(l.s.y+l.t.y)/2;
           const bg=document.createElementNS('http://www.w3.org/2000/svg','rect');
-          bg.setAttribute('x',mx-32);bg.setAttribute('y',my-14);bg.setAttribute('width','64');bg.setAttribute('height','14');bg.setAttribute('rx','7');bg.setAttribute('fill','rgba(255,255,255,0.06)');bg.setAttribute('stroke','rgba(255,255,255,0.08)');
+          bg.setAttribute('x',mx-55);bg.setAttribute('y',my-14);bg.setAttribute('width','110');bg.setAttribute('height','14');bg.setAttribute('rx','7');bg.setAttribute('fill','rgba(255,255,255,0.06)');bg.setAttribute('stroke','rgba(255,255,255,0.08)');
           svg.appendChild(bg);
           const txt=document.createElementNS('http://www.w3.org/2000/svg','text');
           txt.setAttribute('x',mx);txt.setAttribute('y',my-4);txt.setAttribute('text-anchor','middle');txt.setAttribute('font-size','9');txt.setAttribute('fill','#ced4da');txt.textContent=l.tipo.replace('_',' ');
