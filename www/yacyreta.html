@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yacyretá · MuchoTexto Data</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <span class="marca">MuchoTexto Data</span>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="energia.html">Energía</a></li>
+        <li><a href="itaipu.html">Itaipú</a></li>
+        <li><a href="yacyreta.html" class="activo">Yacyretá</a></li>
+      </ul>
+      <span class="vision">Capa de datos de <a href="https://muchotexto.net">muchotexto.net</a></span>
+    </div>
+  </nav>
+
+  <header class="cabecera">
+    <h1>Yacyretá</h1>
+    <p class="subtitulo">Generación de la central binacional Paraguay-Argentina</p>
+    <p class="meta">Fuente: EBY (eby.gov.py) · Datos mensuales oficiales</p>
+  </header>
+
+  <main>
+    <section class="seccion">
+      <h2 id="titulo-metricas">Indicadores principales</h2>
+      <div id="metricas" class="metricas"><p class="vacio">Cargando datos…</p></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Suministro por país</h2>
+      <p class="nota">Energía suministrada a cada sistema (SADI Argentina y SINP Paraguay).</p>
+      <div id="barras-pais" class="barras"></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Serie histórica</h2>
+      <div class="tabla-envolvente">
+        <table>
+          <thead>
+            <tr><th>Año</th><th>Generación total</th><th>A Argentina (SADI)</th><th>A Paraguay (SINP)</th></tr>
+          </thead>
+          <tbody id="filas"></tbody>
+        </table>
+      </div>
+      <div class="paginacion" id="paginacion" hidden></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Metodología</h2>
+      <p class="nota">Los datos provienen de la <strong>EBY</strong> (Entidad Binacional Yacyretá), que publica cada mes la energía suministrada a cada país. Se agregan meses a base anual.</p>
+      <h3>Fuentes</h3>
+      <div class="metodologia-grid">
+        <div class="metodologia-item"><strong>EBY — generación mensual</strong><p>Notas mensuales `datos-oficiales-sobre-generacion-de-yacyreta-en-*` con total, SADI y SINP en MWh.</p></div>
+        <div class="metodologia-item"><strong>Curados 2025</strong><p>2 registros verificados (3.081 GWh PY, 16.103 GWh total) como fallback si el scraping no cubre el año.</p></div>
+        <div class="metodologia-item"><strong>Agregación anual</strong><p>Suma de meses → GWh; `total = SADI + SINP`.</p></div>
+        <div class="metodologia-item"><strong>Limitación</strong><p>Serie depende de HTML de prensa (frágil si cambia plantilla); año en curso parcial.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>MuchoTexto Data · datospublicos.muchotexto.net — datos verificables sobre Paraguay.</footer>
+
+  <script>
+    const fmt = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 1 });
+    const POR_PAGINA = 10;
+    let datos = [];
+    let pagina = 1;
+    async function cargar() {
+      try {
+        const r = await fetch("datos/yacyreta-indicadores.json");
+        datos = await r.json();
+      } catch (e) {
+        document.getElementById("metricas").innerHTML = '<p class="vacio">No se pudieron cargar los datos.</p>';
+        return;
+      }
+      const anos = [...new Set(datos.map(d => parseInt(d.fecha_inicio)))];
+      const anoActual = new Date().getFullYear();
+      const completos = anos.filter(y => y < anoActual);
+      const ultimoAno = completos.length ? Math.max(...completos) : Math.max(...anos);
+      document.getElementById("titulo-metricas").textContent = `Indicadores principales (${ultimoAno})`;
+      const metricas = datos.filter(d => parseInt(d.fecha_inicio) === ultimoAno);
+      const porInd = Object.fromEntries(metricas.map(d => [d.indicador, d]));
+      const el = document.getElementById("metricas");
+      el.innerHTML = "";
+      const principales = [
+        { key: "generacion_total", label: "Generación total" },
+        { key: "suministro_argentina", label: "A Argentina (SADI)" },
+        { key: "suministro_paraguay", label: "A Paraguay (SINP)" },
+      ];
+      for (const p of principales) {
+        const d = porInd[p.key];
+        if (!d) continue;
+        const m = document.createElement("div");
+        m.className = "metrica";
+        m.innerHTML = `<div class="valor">${fmt.format(d.valor)}</div><div class="etiqueta">${p.label} · ${d.unidad}</div>`;
+        el.appendChild(m);
+      }
+      const sadi = porInd["suministro_argentina"];
+      const sinp = porInd["suministro_paraguay"];
+      if (sadi && sinp) {
+        const total = sadi.valor + sinp.valor;
+        const cont = document.getElementById("barras-pais");
+        cont.innerHTML = "";
+        for (const it of [{ nombre: "Argentina (SADI)", valor: sadi.valor }, { nombre: "Paraguay (SINP)", valor: sinp.valor }]) {
+          const pct = total ? it.valor / total * 100 : 0;
+          const fila = document.createElement("div");
+          fila.className = "barra-fila";
+          fila.innerHTML = `<div class="barra-nombre">${it.nombre}</div><div class="barra-track"><div class="barra" style="width:${pct.toFixed(1)}%"></div></div><div class="barra-valores"><strong>${fmt.format(it.valor)} GWh</strong><span class="barra-pct">${pct.toFixed(1)}%</span></div>`;
+          cont.appendChild(fila);
+        }
+      }
+      const porAno = {};
+      for (const d of datos) {
+        const y = d.fecha_inicio.slice(0, 4);
+        if (!porAno[y]) porAno[y] = {};
+        porAno[y][d.indicador] = d.valor;
+      }
+      const series = Object.keys(porAno).sort().reverse().map(year => ({ year, total: porAno[year]["generacion_total"] || 0, sadi: porAno[year]["suministro_argentina"] || 0, sinp: porAno[year]["suministro_paraguay"] || 0 }));
+      renderTabla(series);
+    }
+    function renderTabla(series) {
+      const filas = document.getElementById("filas");
+      filas.innerHTML = "";
+      const ini = (pagina - 1) * POR_PAGINA;
+      for (const s of series.slice(ini, ini + POR_PAGINA)) {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `<td>${s.year}</td><td class="monto">${fmt.format(s.total)} GWh</td><td class="monto">${fmt.format(s.sadi)} GWh</td><td class="monto">${fmt.format(s.sinp)} GWh</td>`;
+        filas.appendChild(tr);
+      }
+      renderPaginacion(series.length);
+    }
+    function renderPaginacion(total) {
+      const pg = document.getElementById("paginacion");
+      const paginas = Math.ceil(total / POR_PAGINA);
+      if (paginas <= 1) { pg.hidden = true; return; }
+      pg.hidden = false;
+      pg.innerHTML = "";
+      const ant = document.createElement("button"); ant.textContent = "← Anterior"; ant.disabled = pagina === 1; ant.onclick = () => { if (pagina > 1) { pagina--; cargar(); } };
+      const info = document.createElement("span"); info.className = "pag-info"; info.textContent = `Página ${pagina} de ${paginas}`;
+      const sig = document.createElement("button"); sig.textContent = "Siguiente →"; sig.disabled = pagina === paginas; sig.onclick = () => { if (pagina < paginas) { pagina++; cargar(); } };
+      pg.append(ant, info, sig);
+    }
+    cargar();
+  </script>
+</body>
+</html>

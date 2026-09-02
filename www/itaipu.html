@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Itaipú · MuchoTexto Data</title>
+  <title>ItaipÃº Â· MuchoTexto Data</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,43 +12,44 @@
       <span class="marca">MuchoTexto Data</span>
       <ul>
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="energia.html">Energía</a></li>
-        <li><a href="itaipu.html" class="activo">Itaipú</a></li>
+        <li><a href="energia.html">EnergÃ­a</a></li>
+        <li><a href="itaipu.html">Itaipú</a></li>
+        <li><a href="yacyreta.html">Yacyretá</a></li>
       </ul>
       <span class="vision">Capa de datos de <a href="https://muchotexto.net">muchotexto.net</a></span>
     </div>
   </nav>
 
   <header class="cabecera">
-    <h1>Itaipú Binacional</h1>
-    <p class="subtitulo">Generación hidroeléctrica de la usina compartida Paraguay-Brasil</p>
-    <p class="meta">Fuente: ONS Brasil (dados.ons.org.br) · Datos horarios 2000–2026</p>
+    <h1>ItaipÃº Binacional</h1>
+    <p class="subtitulo">GeneraciÃ³n hidroelÃ©ctrica de la usina compartida Paraguay-Brasil</p>
+    <p class="meta">Fuente: ONS Brasil (dados.ons.org.br) Â· Datos horarios 2000â€“2026</p>
   </header>
 
   <main>
     <section class="seccion">
       <h2 id="titulo-metricas">Indicadores principales</h2>
-      <div id="metricas" class="metricas"><p class="vacio">Cargando datos…</p></div>
+      <div id="metricas" class="metricas"><p class="vacio">Cargando datosâ€¦</p></div>
     </section>
 
     <section class="seccion">
-      <h2>Distribución por sector</h2>
-      <p class="nota">Generación separada por sector de frecuencia: 60 Hz (Brasil) y 50 Hz (Paraguay).</p>
+      <h2>DistribuciÃ³n por sector</h2>
+      <p class="nota">GeneraciÃ³n separada por sector de frecuencia: 60 Hz (Brasil) y 50 Hz (Paraguay).</p>
       <div id="barras-sector" class="barras"></div>
     </section>
 
     <section class="seccion">
-      <h2>Suministro por país</h2>
-      <p class="nota">Energía efectivamente suministrada a cada país, incluyendo la conversión del sector de 50 Hz.</p>
+      <h2>Suministro por paÃ­s</h2>
+      <p class="nota">EnergÃ­a efectivamente suministrada a cada paÃ­s, incluyendo la conversiÃ³n del sector de 50 Hz.</p>
       <div id="barras-pais" class="barras"></div>
     </section>
 
     <section class="seccion">
-      <h2>Serie histórica</h2>
+      <h2>Serie histÃ³rica</h2>
       <div class="tabla-envolvente">
         <table>
           <thead>
-            <tr><th>Año</th><th>Generación total</th><th>Sector 60 Hz</th><th>Sector 50 Hz</th><th>A Brasil</th><th>A Paraguay</th></tr>
+            <tr><th>AÃ±o</th><th>GeneraciÃ³n total</th><th>Sector 60 Hz</th><th>Sector 50 Hz</th><th>A Brasil</th><th>A Paraguay</th></tr>
           </thead>
           <tbody id="filas"></tbody>
         </table>
@@ -57,10 +58,10 @@
     </section>
 
     <section class="seccion">
-      <h2>Metodología</h2>
+      <h2>MetodologÃ­a</h2>
       <p class="nota">
-        Los datos provienen del <strong>ONS</strong> (Operador Nacional do Sistema Elétrico de Brasil),
-        que opera el sistema eléctrico interconectado y publica datos abiertos de generación de Itaipú
+        Los datos provienen del <strong>ONS</strong> (Operador Nacional do Sistema ElÃ©trico de Brasil),
+        que opera el sistema elÃ©ctrico interconectado y publica datos abiertos de generaciÃ³n de ItaipÃº
         en base horaria. La fuente es verificada por el operador oficial de la red.
       </p>
 
@@ -68,15 +69,15 @@
       <div class="metodologia-grid">
         <div class="metodologia-item">
           <strong>ONS Dados Abertos</strong>
-          <p>Portal de datos abiertos del ONS de Brasil. API CKAN sin autenticación. Actualización diaria.</p>
+          <p>Portal de datos abiertos del ONS de Brasil. API CKAN sin autenticaciÃ³n. ActualizaciÃ³n diaria.</p>
         </div>
         <div class="metodologia-item">
           <strong>CSV horario</strong>
-          <p>Archivo <code>GERACAO_ITAIPU.csv</code> con 26+ años de datos en base horaria (14.8 MB).</p>
+          <p>Archivo <code>GERACAO_ITAIPU.csv</code> con 26+ aÃ±os de datos en base horaria (14.8 MB).</p>
         </div>
         <div class="metodologia-item">
-          <strong>Separación por sector</strong>
-          <p>Datos desagregados por sector de 60 Hz (Brasil) y 50 Hz (Paraguay), con conversión incluida.</p>
+          <strong>SeparaciÃ³n por sector</strong>
+          <p>Datos desagregados por sector de 60 Hz (Brasil) y 50 Hz (Paraguay), con conversiÃ³n incluida.</p>
         </div>
         <div class="metodologia-item">
           <strong>Aggregate anual</strong>
@@ -87,34 +88,34 @@
       <h3>Indicadores</h3>
       <div class="metodologia-grid">
         <div class="metodologia-item">
-          <strong>Generación total</strong>
-          <p>Energía total producida por la usina de Itaipú en el año. Incluye ambos sectores.</p>
+          <strong>GeneraciÃ³n total</strong>
+          <p>EnergÃ­a total producida por la usina de ItaipÃº en el aÃ±o. Incluye ambos sectores.</p>
         </div>
         <div class="metodologia-item">
           <strong>Sector 60 Hz (Brasil)</strong>
-          <p>Generación del sector de frecuencia de 60 Hz, que abastece directamente al sistema brasileño.</p>
+          <p>GeneraciÃ³n del sector de frecuencia de 60 Hz, que abastece directamente al sistema brasileÃ±o.</p>
         </div>
         <div class="metodologia-item">
           <strong>Sector 50 Hz (Paraguay)</strong>
-          <p>Generación del sector de frecuencia de 50 Hz. Parte se usa en Paraguay, parte se convierte a 60 Hz para Brasil.</p>
+          <p>GeneraciÃ³n del sector de frecuencia de 50 Hz. Parte se usa en Paraguay, parte se convierte a 60 Hz para Brasil.</p>
         </div>
         <div class="metodologia-item">
           <strong>Suministro a Paraguay</strong>
-          <p>Energía efectivamente consumida por Paraguay = sector 50 Hz − conversión a Brasil.</p>
+          <p>EnergÃ­a efectivamente consumida por Paraguay = sector 50 Hz âˆ’ conversiÃ³n a Brasil.</p>
         </div>
       </div>
 
       <h3>Limitaciones conocidas</h3>
       <ul class="nota">
-        <li>Los datos son agregados anuales; la granularidad horaria está disponible en el CSV pero se resume para consistencia.</li>
-        <li>La separación exacta de conversión (50 Hz → 60 Hz) depende de los convenios operativos vigentes.</li>
-        <li>Los datos de 2026 están parciales (año en curso).</li>
+        <li>Los datos son agregados anuales; la granularidad horaria estÃ¡ disponible en el CSV pero se resume para consistencia.</li>
+        <li>La separaciÃ³n exacta de conversiÃ³n (50 Hz â†’ 60 Hz) depende de los convenios operativos vigentes.</li>
+        <li>Los datos de 2026 estÃ¡n parciales (aÃ±o en curso).</li>
       </ul>
     </section>
   </main>
 
   <footer>
-    MuchoTexto Data · datospublicos.muchotexto.net — datos verificables sobre Paraguay.
+    MuchoTexto Data Â· datospublicos.muchotexto.net â€” datos verificables sobre Paraguay.
   </footer>
 
   <script>
@@ -145,7 +146,7 @@
       metricasEl.innerHTML = "";
 
       const principales = [
-        { key: "generacion_total", label: "Generación total" },
+        { key: "generacion_total", label: "GeneraciÃ³n total" },
         { key: "generacion_sector_50hz", label: "Sector 50 Hz (Paraguay)" },
         { key: "generacion_sector_60hz", label: "Sector 60 Hz (Brasil)" },
         { key: "suministro_paraguay", label: "Suministro a Paraguay" },
@@ -158,7 +159,7 @@
         const m = document.createElement("div");
         m.className = "metrica";
         m.innerHTML = `<div class="valor">${fmt.format(d.valor)}</div>` +
-          `<div class="etiqueta">${p.label} · ${d.unidad}</div>`;
+          `<div class="etiqueta">${p.label} Â· ${d.unidad}</div>`;
         metricasEl.appendChild(m);
       }
 
@@ -250,13 +251,13 @@
       pg.hidden = false;
       pg.innerHTML = "";
       const ant = document.createElement("button");
-      ant.textContent = "← Anterior"; ant.disabled = pagina === 1;
+      ant.textContent = "â† Anterior"; ant.disabled = pagina === 1;
       ant.onclick = () => { if (pagina > 1) { pagina--; cargar(); } };
       const info = document.createElement("span");
       info.className = "pag-info";
-      info.textContent = `Página ${pagina} de ${paginas}`;
+      info.textContent = `PÃ¡gina ${pagina} de ${paginas}`;
       const sig = document.createElement("button");
-      sig.textContent = "Siguiente →"; sig.disabled = pagina === paginas;
+      sig.textContent = "Siguiente â†’"; sig.disabled = pagina === paginas;
       sig.onclick = () => { if (pagina < paginas) { pagina++; cargar(); } };
       pg.append(ant, info, sig);
     }
@@ -265,3 +266,4 @@
   </script>
 </body>
 </html>
+

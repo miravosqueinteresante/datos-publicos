@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Energía · MuchoTexto Data</title>
+  <title>EnergÃ­a Â· MuchoTexto Data</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,34 +12,35 @@
       <span class="marca">MuchoTexto Data</span>
       <ul>
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="energia.html" class="activo">Energía</a></li>
+        <li><a href="energia.html" class="activo">EnergÃ­a</a></li>
         <li><a href="itaipu.html">Itaipú</a></li>
+        <li><a href="yacyreta.html">Yacyretá</a></li>
       </ul>
       <span class="vision">Capa de datos de <a href="https://muchotexto.net">muchotexto.net</a></span>
     </div>
   </nav>
 
   <header class="cabecera">
-    <h1>Energía en Paraguay</h1>
-    <p class="subtitulo">Indicadores eléctricos estructurados y verificables</p>
-    <p class="meta">Fuente primaria: ANDE · Extraído con el conector MuchoTexto Data</p>
+    <h1>EnergÃ­a en Paraguay</h1>
+    <p class="subtitulo">Indicadores elÃ©ctricos estructurados y verificables</p>
+    <p class="meta">Fuente primaria: ANDE Â· ExtraÃ­do con el conector MuchoTexto Data</p>
   </header>
 
   <main>
     <section class="seccion">
       <h2>Indicadores principales</h2>
-      <div id="metricas" class="metricas"><p class="vacio">Cargando datos…</p></div>
+      <div id="metricas" class="metricas"><p class="vacio">Cargando datosâ€¦</p></div>
     </section>
 
     <section class="seccion">
-      <h2>Consumo por categoría (2025)</h2>
-      <p class="nota">Distribución del consumo de energía según el grupo de clientes, según ANDE.</p>
+      <h2>Consumo por categorÃ­a (2025)</h2>
+      <p class="nota">DistribuciÃ³n del consumo de energÃ­a segÃºn el grupo de clientes, segÃºn ANDE.</p>
       <div id="barras" class="barras"></div>
     </section>
 
     <section class="seccion">
       <h2>Tarifas residenciales BT (Pliego 21)</h2>
-      <p class="nota">Precio por faja de consumo en baja tensión, en G/kWh.</p>
+      <p class="nota">Precio por faja de consumo en baja tensiÃ³n, en G/kWh.</p>
       <div id="barras-tarifas" class="barras"></div>
     </section>
 
@@ -48,7 +49,7 @@
       <div class="tabla-envolvente">
         <table>
           <thead>
-            <tr><th>Indicador</th><th>Período</th><th>Valor</th><th>Fuente</th><th>Estado</th><th>Extracción</th></tr>
+            <tr><th>Indicador</th><th>PerÃ­odo</th><th>Valor</th><th>Fuente</th><th>Estado</th><th>ExtracciÃ³n</th></tr>
           </thead>
           <tbody id="filas"></tbody>
         </table>
@@ -57,32 +58,32 @@
     </section>
 
     <section class="seccion">
-      <h2>Metodología</h2>
+      <h2>MetodologÃ­a</h2>
       <p class="nota">
         Los datos se obtienen del conector <strong>ANDE</strong> de MuchoTexto Data, que extrae la
-        información publicada por la institución, la normaliza (unidades, períodos) y conserva su
-        procedencia exacta (fuente, URL, fecha de obtención y método de extracción). No se presenta
-        ningún número sin su fuente. El conector distingue dato oficial de cálculo derivado, y marca
-        los casos que requieren revisión.
+        informaciÃ³n publicada por la instituciÃ³n, la normaliza (unidades, perÃ­odos) y conserva su
+        procedencia exacta (fuente, URL, fecha de obtenciÃ³n y mÃ©todo de extracciÃ³n). No se presenta
+        ningÃºn nÃºmero sin su fuente. El conector distingue dato oficial de cÃ¡lculo derivado, y marca
+        los casos que requieren revisiÃ³n.
       </p>
 
       <h3>Fuentes de datos</h3>
       <div class="metodologia-grid">
         <div class="metodologia-item">
           <strong>BAGP 2025</strong>
-          <p>Balance Anual de Gestión Pública. Contiene consumo total, consumo por categoría, clientes por categoría, pérdidas de distribución y transmisión, y tarifas.</p>
+          <p>Balance Anual de GestiÃ³n PÃºblica. Contiene consumo total, consumo por categorÃ­a, clientes por categorÃ­a, pÃ©rdidas de distribuciÃ³n y transmisiÃ³n, y tarifas.</p>
         </div>
         <div class="metodologia-item">
           <strong>Pliego Tarifario 21</strong>
-          <p>Resolución oficial con las tarifas por faja de consumo en baja tensión. Vigencia anual.</p>
+          <p>ResoluciÃ³n oficial con las tarifas por faja de consumo en baja tensiÃ³n. Vigencia anual.</p>
         </div>
         <div class="metodologia-item">
-          <strong>Compilación Estadística 2000–2020</strong>
-          <p>Serie histórica de generación nacional y binacional. Datos consolidados por ANDE.</p>
+          <strong>CompilaciÃ³n EstadÃ­stica 2000â€“2020</strong>
+          <p>Serie histÃ³rica de generaciÃ³n nacional y binacional. Datos consolidados por ANDE.</p>
         </div>
         <div class="metodologia-item">
           <strong>Fuentes primarias verificadas</strong>
-          <p>Generación de Itaipú y Yacyretá 2025: datos oficiales de cada entidad binacional, verificados contra publicaciones institucionales.</p>
+          <p>GeneraciÃ³n de ItaipÃº y YacyretÃ¡ 2025: datos oficiales de cada entidad binacional, verificados contra publicaciones institucionales.</p>
         </div>
       </div>
 
@@ -90,75 +91,75 @@
       <div class="metodologia-grid">
         <div class="metodologia-item">
           <strong>Consumo total (SIN)</strong>
-          <p>Energía eléctrica consumida en todo el Sistema Interconectado Nacional. Se extrae del BAGP y se normaliza a GWh.</p>
+          <p>EnergÃ­a elÃ©ctrica consumida en todo el Sistema Interconectado Nacional. Se extrae del BAGP y se normaliza a GWh.</p>
         </div>
         <div class="metodologia-item">
-          <strong>Demanda máxima</strong>
-          <p>Pico de potencia simultánea alcanzado en el año. Se mide en MW y se reporta sin normalización energética.</p>
+          <strong>Demanda mÃ¡xima</strong>
+          <p>Pico de potencia simultÃ¡nea alcanzado en el aÃ±o. Se mide en MW y se reporta sin normalizaciÃ³n energÃ©tica.</p>
         </div>
         <div class="metodologia-item">
           <strong>Factor de carga</strong>
-          <p>Relación entre la energía efectivamente consumida y la demanda máxima potencial. Indica la eficiencia del uso de la infraestructura.</p>
+          <p>RelaciÃ³n entre la energÃ­a efectivamente consumida y la demanda mÃ¡xima potencial. Indica la eficiencia del uso de la infraestructura.</p>
         </div>
         <div class="metodologia-item">
-          <strong>Pérdidas totales</strong>
-          <p>Energía que se pierde en el transporte (transmisión) y distribución. Se desglosa en pérdidas de distribución (21,89%) y transmisión (4,37%).</p>
+          <strong>PÃ©rdidas totales</strong>
+          <p>EnergÃ­a que se pierde en el transporte (transmisiÃ³n) y distribuciÃ³n. Se desglosa en pÃ©rdidas de distribuciÃ³n (21,89%) y transmisiÃ³n (4,37%).</p>
         </div>
         <div class="metodologia-item">
           <strong>Clientes totales</strong>
-          <p>Cantidad de usuarios conectados al sistema. Incluye todas las categorías tarifarias.</p>
+          <p>Cantidad de usuarios conectados al sistema. Incluye todas las categorÃ­as tarifarias.</p>
         </div>
         <div class="metodologia-item">
-          <strong>Generación binacional</strong>
-          <p>Energía producida por Itaipú y Yacyretá, que pertenecen a Paraguay y Brasil/Argentina respectivamente. Solo se reporta la porción que corresponde a Paraguay.</p>
+          <strong>GeneraciÃ³n binacional</strong>
+          <p>EnergÃ­a producida por ItaipÃº y YacyretÃ¡, que pertenecen a Paraguay y Brasil/Argentina respectivamente. Solo se reporta la porciÃ³n que corresponde a Paraguay.</p>
         </div>
       </div>
 
-      <h3>Proceso de extracción</h3>
+      <h3>Proceso de extracciÃ³n</h3>
       <p class="nota">
         El conector descarga los PDFs oficiales de ANDE, extrae las tablas usando <code>pdfplumber</code>,
-        normaliza las unidades (kWh → GWh) y genera registros con trazabilidad completa. Cada registro
-        incluye: entidad, indicador, valor, unidad, período, fuente, URL, fecha de extracción y método.
-        Los registros curados (Itaipú, Yacyretá) se validan manualmente contra fuentes primarias.
+        normaliza las unidades (kWh â†’ GWh) y genera registros con trazabilidad completa. Cada registro
+        incluye: entidad, indicador, valor, unidad, perÃ­odo, fuente, URL, fecha de extracciÃ³n y mÃ©todo.
+        Los registros curados (ItaipÃº, YacyretÃ¡) se validan manualmente contra fuentes primarias.
       </p>
 
       <h3>Limitaciones conocidas</h3>
       <ul class="nota">
-        <li>La serie mensual no está disponible en fuentes abiertas de ANDE.</li>
-        <li>La generación de Acaray 2025 está incluida en térmicas; no se aísla sin la Memoria Anual 2025.</li>
-        <li>Los datos de infraestructura (líneas, subestaciones) no se publican en formato estructurado.</li>
-        <li>La frecuencia de actualización depende de la publicación de ANDE (anual para BAGP).</li>
+        <li>La serie mensual no estÃ¡ disponible en fuentes abiertas de ANDE.</li>
+        <li>La generaciÃ³n de Acaray 2025 estÃ¡ incluida en tÃ©rmicas; no se aÃ­sla sin la Memoria Anual 2025.</li>
+        <li>Los datos de infraestructura (lÃ­neas, subestaciones) no se publican en formato estructurado.</li>
+        <li>La frecuencia de actualizaciÃ³n depende de la publicaciÃ³n de ANDE (anual para BAGP).</li>
       </ul>
     </section>
   </main>
 
   <footer>
-    MuchoTexto Data · datospublicos.muchotexto.net — datos verificables sobre Paraguay.
+    MuchoTexto Data Â· datospublicos.muchotexto.net â€” datos verificables sobre Paraguay.
   </footer>
 
   <script>
     const ETIQUETAS = {
       consumo_total: "Consumo total (SIN)",
-      demanda_maxima: "Demanda máxima (SIN)",
+      demanda_maxima: "Demanda mÃ¡xima (SIN)",
       factor_carga: "Factor de carga anual",
       clientes_total: "Clientes totales",
-      perdidas_totales: "Pérdidas totales",
-      perdidas_distribucion: "Pérdidas distribución",
-      perdidas_transmision: "Pérdidas transmisión",
+      perdidas_totales: "PÃ©rdidas totales",
+      perdidas_distribucion: "PÃ©rdidas distribuciÃ³n",
+      perdidas_transmision: "PÃ©rdidas transmisiÃ³n",
       consumo_categoria_residencial: "Consumo residencial",
       consumo_categoria_industrial: "Consumo industrial",
       consumo_categoria_otros: "Consumo otros",
       consumo_categoria_gubernamental: "Consumo gubernamental",
       consumo_categoria_diferencial: "Consumo diferencial",
-      consumo_categoria_alta_tension: "Consumo alta tensión",
-      consumo_categoria_muy_alta_tension: "Consumo muy alta tensión",
+      consumo_categoria_alta_tension: "Consumo alta tensiÃ³n",
+      consumo_categoria_muy_alta_tension: "Consumo muy alta tensiÃ³n",
       consumo_categoria_electrointensivas: "Consumo electrointensivas",
-      consumo_categoria_alumbrado_publico: "Alumbrado público",
-      generacion_nacional_acaray_termicas: "Generación nacional (Acaray + térmicas)",
-      generacion_binacional_itaipu_yacyreta: "Generación binacional (Itaipú + Yacyretá)",
-      generacion_itaipu_paraguay: "Generación Itaipú (a Paraguay)",
-      generacion_yacyreta_paraguay: "Generación Yacyretá (a Paraguay)",
-      generacion_yacyreta_total: "Generación Yacyretá (total)",
+      consumo_categoria_alumbrado_publico: "Alumbrado pÃºblico",
+      generacion_nacional_acaray_termicas: "GeneraciÃ³n nacional (Acaray + tÃ©rmicas)",
+      generacion_binacional_itaipu_yacyreta: "GeneraciÃ³n binacional (ItaipÃº + YacyretÃ¡)",
+      generacion_itaipu_paraguay: "GeneraciÃ³n ItaipÃº (a Paraguay)",
+      generacion_yacyreta_paraguay: "GeneraciÃ³n YacyretÃ¡ (a Paraguay)",
+      generacion_yacyreta_total: "GeneraciÃ³n YacyretÃ¡ (total)",
       tarifa_residencial_bt_0_50: "Tarifa BT 0-50 kWh",
       tarifa_residencial_bt_51_150: "Tarifa BT 51-150 kWh",
       tarifa_residencial_bt_151_300: "Tarifa BT 151-300 kWh",
@@ -171,11 +172,11 @@
       industrial: "Actividades industriales (clase tarifaria I)",
       otros: "Comercios y servicios (no residencial, industrial ni estatal)",
       gubernamental: "Entidades del Estado",
-      diferencial: "Clientes en media tensión, facturación punta / fuera de punta",
+      diferencial: "Clientes en media tensiÃ³n, facturaciÃ³n punta / fuera de punta",
       alta_tension: "Subestaciones a 66 kV",
       muy_alta_tension: "Subestaciones a 220 kV",
-      electrointensivas: "Industrias electrointensivas (régimen especial)",
-      alumbrado_publico: "Alumbrado de vía pública",
+      electrointensivas: "Industrias electrointensivas (rÃ©gimen especial)",
+      alumbrado_publico: "Alumbrado de vÃ­a pÃºblica",
     };
     const PRINCIPALES = ["consumo_total", "demanda_maxima", "factor_carga",
         "clientes_total", "perdidas_totales",
@@ -209,7 +210,7 @@
         const m = document.createElement("div");
         m.className = "metrica";
         m.innerHTML = `<div class="valor">${fmt.format(d.valor)}</div>` +
-          `<div class="etiqueta">${ETIQUETAS[d.indicador] || d.indicador} · ${d.unidad}</div>`;
+          `<div class="etiqueta">${ETIQUETAS[d.indicador] || d.indicador} Â· ${d.unidad}</div>`;
         metricas.appendChild(m);
       }
 
@@ -258,7 +259,7 @@
         const tr = document.createElement("tr");
         tr.innerHTML =
           `<td>${etiqueta}</td>` +
-          `<td>${d.fecha_inicio} → ${d.fecha_fin}</td>` +
+          `<td>${d.fecha_inicio} â†’ ${d.fecha_fin}</td>` +
           `<td class="monto">${fmt.format(d.valor)} ${d.unidad}</td>` +
           `<td><a href="${d.url}" target="_blank" rel="noopener">${d.fuente}</a></td>` +
           `<td><span class="badge-exito">${d.estado_verificacion}</span></td>` +
@@ -275,13 +276,13 @@
       pg.hidden = false;
       pg.innerHTML = "";
       const ant = document.createElement("button");
-      ant.textContent = "← Anterior"; ant.disabled = pagina === 1;
+      ant.textContent = "â† Anterior"; ant.disabled = pagina === 1;
       ant.onclick = () => { if (pagina > 1) { pagina--; renderTabla(); } };
       const info = document.createElement("span");
       info.className = "pag-info";
-      info.textContent = `Página ${pagina} de ${total}`;
+      info.textContent = `PÃ¡gina ${pagina} de ${total}`;
       const sig = document.createElement("button");
-      sig.textContent = "Siguiente →"; sig.disabled = pagina === total;
+      sig.textContent = "Siguiente â†’"; sig.disabled = pagina === total;
       sig.onclick = () => { if (pagina < total) { pagina++; renderTabla(); } };
       pg.append(ant, info, sig);
     }
@@ -290,3 +291,4 @@
   </script>
 </body>
 </html>
+
