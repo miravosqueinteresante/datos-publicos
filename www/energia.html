@@ -31,7 +31,7 @@
   <main>
     <section class="seccion">
       <h2>Indicadores principales</h2>
-      <div id="metricas" class="metricas"><p class="vacio">Cargando datosâ€¦</p></div>
+      <div id="metricas" class="metricas"><p class="vacio">Cargando datos…</p></div>
     </section>
 
     <section class="seccion">
@@ -220,7 +220,7 @@
 
       tabla = datos.filter(d => !PRINCIPALES.includes(d.indicador));
       pagina = 1;
-      renderTabla(); try{const s=Object.keys(porAno||{}).sort().map(y=>({year:y,total:porAno[y]['consumo_total']||porAno[y]['generacion_total']||0})).filter(x=>x.total); if(s.length) dibujarGrafico(s);}catch(e){}
+      renderTabla(); try{const g={}; datos.forEach(d=>{const y=d.fecha_inicio.slice(0,4); if(d.indicador==='consumo_total'||d.indicador==='generacion_total'){g[y]=(g[y]||0)+d.valor}}); const s=Object.keys(g).sort().map(y=>({year:y,total:g[y]})); if(s.length) dibujarGrafico(s);}catch(e){}
 
       const cat = datos.filter(d => d.indicador.startsWith("consumo_categoria_"));
       const totalCat = cat.reduce((s, d) => s + d.valor, 0);
@@ -280,7 +280,7 @@
       pg.hidden = false;
       pg.innerHTML = "";
       const ant = document.createElement("button");
-      ant.textContent = "â† Anterior"; ant.disabled = pagina === 1;
+      ant.textContent = "← Anterior"; ant.disabled = pagina === 1;
       ant.onclick = () => { if (pagina > 1) { pagina--; renderTabla(); } };
       const info = document.createElement("span");
       info.className = "pag-info";
