@@ -61,15 +61,17 @@
       const svg=document.getElementById('grafo-svg'); const W=760,H=360;
       const nodes=g.entidades.map((e,i)=>({id:e.id,label:e.nombre,tipo:e.tipo,x:W/2+Math.cos(i*2*Math.PI/g.entidades.length)*120,y:H/2+Math.sin(i*2*Math.PI/g.entidades.length)*80}));
       const id2=n=>nodes.find(x=>x.id===n);
-      const links=g.relaciones.map(r=>({s:id2(r.origen),t:id2(r.destino),tipo:r.tipo})).filter(l=>l.s&&l.t);
+      const raw=g.relaciones.map(r=>({s:id2(r.origen),t:id2(r.destino),tipo:r.tipo})).filter(l=>l.s&&l.t);
+      const seen=new Set(); const links=[];
+      raw.forEach(l=>{const k=[l.s.id,l.t.id].sort().join('-'); if(!seen.has(k)){seen.add(k); links.push(l);} });
       function tick(){
         svg.innerHTML='';
-        links.forEach((l,i)=>{
+        links.forEach(l=>{
           const line=document.createElementNS('http://www.w3.org/2000/svg','line');
           line.setAttribute('x1',l.s.x);line.setAttribute('y1',l.s.y);line.setAttribute('x2',l.t.x);line.setAttribute('y2',l.t.y);
           line.setAttribute('stroke','rgba(255,255,255,0.15)');line.setAttribute('stroke-width','1.5');
           svg.appendChild(line);
-          const mx=(l.s.x+l.t.x)/2,my=(l.s.y+l.t.y)/2 + (i%2?6:-6);
+          const mx=(l.s.x+l.t.x)/2,my=(l.s.y+l.t.y)/2;
           const bg=document.createElementNS('http://www.w3.org/2000/svg','rect');
           bg.setAttribute('x',mx-32);bg.setAttribute('y',my-14);bg.setAttribute('width','64');bg.setAttribute('height','14');bg.setAttribute('rx','7');bg.setAttribute('fill','rgba(255,255,255,0.06)');bg.setAttribute('stroke','rgba(255,255,255,0.08)');
           svg.appendChild(bg);
