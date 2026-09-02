@@ -35,6 +35,11 @@
   </header>
   <main>
     <section class="seccion">
+      <h2>Visual</h2>
+      <div style="overflow-x:auto"><svg id="grafo-svg" width="760" height="360" viewBox="0 0 760 360" style="width:100%;height:auto;background:var(--card);border:1px solid var(--border);border-radius:var(--radio);display:block"></svg></div>
+      <p class="nota">Arrastra los nodos. Hover muestra tipo.</p>
+    </section>
+    <section class="seccion">
       <h2>Entidades</h2>
       <div id="entidades" class="metodologia-grid"></div>
     </section>
@@ -52,14 +57,56 @@
   </main>
   <footer>MuchoTexto Data · datospublicos.muchotexto.net — datos verificables sobre Paraguay.</footer>
   <script>
+    async function dibujarGrafo(g){
+      const svg=document.getElementById('grafo-svg'); const W=760,H=360;
+      const nodes=g.entidades.map((e,i)=>({id:e.id,label:e.nombre,tipo:e.tipo,x:W/2+Math.cos(i*2*Math.PI/g.entidades.length)*120,y:H/2+Math.sin(i*2*Math.PI/g.entidades.length)*80}));
+      const id2=n=>nodes.find(x=>x.id===n);
+      const links=g.relaciones.map(r=>({s:id2(r.origen),t:id2(r.destino),tipo:r.tipo})).filter(l=>l.s&&l.t);
+      function tick(){
+        svg.innerHTML='';
+        links.forEach(l=>{
+          const line=document.createElementNS('http://www.w3.org/2000/svg','line');
+          line.setAttribute('x1',l.s.x);line.setAttribute('y1',l.s.y);line.setAttribute('x2',l.t.x);line.setAttribute('y2',l.t.y);
+          line.setAttribute('stroke','rgba(255,255,255,0.15)');line.setAttribute('stroke-width','1.5');
+          svg.appendChild(line);
+          const mx=(l.s.x+l.t.x)/2,my=(l.s.y+l.t.y)/2;
+          const txt=document.createElementNS('http://www.w3.org/2000/svg','text');
+          txt.setAttribute('x',mx);txt.setAttribute('y',my-4);txt.setAttribute('text-anchor','middle');txt.setAttribute('font-size','10');txt.setAttribute('fill','#868e96');txt.textContent=l.tipo;
+          svg.appendChild(txt);
+        });
+        nodes.forEach(n=>{
+          const g2=document.createElementNS('http://www.w3.org/2000/svg','g');g2.setAttribute('transform',`translate(${n.x},${n.y})`);g2.style.cursor='grab';
+          const c=document.createElementNS('http://www.w3.org/2000/svg','circle');c.setAttribute('r','36');c.setAttribute('fill',n.tipo==='binacional'?'rgba(59,201,219,0.15)':'rgba(255,255,255,0.06)');c.setAttribute('stroke','#3bc9db');c.setAttribute('stroke-width','1.5');
+          g2.appendChild(c);
+          const txt=document.createElementNS('http://www.w3.org/2000/svg','text');txt.setAttribute('text-anchor','middle');txt.setAttribute('dy','4');txt.setAttribute('font-size','11');txt.setAttribute('fill','#fff');txt.setAttribute('font-weight','600');txt.textContent=n.id;
+          g2.appendChild(txt);
+          const lab=document.createElementNS('http://www.w3.org/2000/svg','text');lab.setAttribute('text-anchor','middle');lab.setAttribute('dy','54');lab.setAttribute('font-size','10');lab.setAttribute('fill','#ced4da');lab.textContent=n.label.slice(0,22);
+          g2.appendChild(lab);
+          let drag=false;
+          g2.addEventListener('mousedown',()=>{drag=true;g2.style.cursor='grabbing';});
+          window.addEventListener('mouseup',()=>drag=false);
+          window.addEventListener('mousemove',e=>{
+            if(!drag) return;
+            const rect=svg.getBoundingClientRect();const sx=W/rect.width,sy=H/rect.height;
+            n.x=(e.clientX-rect.left)*sx;n.y=(e.clientY-rect.top)*sy;
+            n.x=Math.max(40,Math.min(W-40,n.x));n.y=Math.max(40,Math.min(H-40,n.y));
+            tick();
+          });
+          svg.appendChild(g2);
+        });
+      }
+      tick();
+    }
     async function cargar(){
       const g=await (await fetch("datos/grafo.json")).json();
+      dibujarGrafo(g);
+      const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
       const e=document.getElementById("entidades");
-      e.innerHTML=g.entidades.map(x=>`<div class="metodologia-item"><strong>${x.nombre}</strong><p>${x.tipo} · ${x.id}</p></div>`).join("");
+      e.innerHTML=g.entidades.map(x=>`<div class="metodologia-item"><strong>${esc(x.nombre)}</strong><p>${esc(x.tipo)} · ${esc(x.id)}</p></div>`).join("");
       const r=document.getElementById("relaciones");
-      r.innerHTML=g.relaciones.map(x=>`<div class="ficha"><summary>${x.origen} → ${x.destino} <span class="ficha-resumen">${x.tipo}</span></summary></div>`).join("");
+      r.innerHTML=g.relaciones.map(x=>`<div class="ficha"><summary>${esc(x.origen)} → ${esc(x.destino)} <span class="ficha-resumen">${esc(x.tipo)}</span></summary></div>`).join("");
       const a=document.getElementById("articulos");
-      a.innerHTML=g.articulos.map(x=>`<p><a href="${x.url}" target="_blank" rel="noopener">${x.titulo}</a> <span class="nota">— ${x.entidades.join(", ")}</span></p>`).join("");
+      a.innerHTML=g.articulos.map(x=>`<p><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.titulo)}</a> <span class="nota">— ${esc(x.entidades.join(", "))}</span></p>`).join("");
     }
     cargar();
   </script>
