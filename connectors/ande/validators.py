@@ -34,6 +34,46 @@ def periods_overlap(a, b):
     return sa <= eb and sb <= ea
 
 
+def _group(records):
+    from collections import defaultdict
+    g = defaultdict(list)
+    for r in records:
+        g[(r.get("fecha_inicio"), r.get("fecha_fin"))].append(r)
+    if len(g) == 1 and (None, None) in g:
+        return {("all", "all"): records}
+    return g
+
+
+def _rel_err(a, b):
+    return abs(a - b) / abs(b) if b else float("inf")
+
+
+def validate_itaipu(records, tol=0.005):
+    errs = []
+    for period, recs in _group(records).items():
+        m = {r["indicador"]: float(r["valor"]) for r in recs if r.get("indicador") and r.get("valor") is not None}
+        if all(k in m for k in ("generacion_sector_50hz", "generacion_sector_60hz", "generacion_total")):
+            s = m["generacion_sector_50hz"] + m["generacion_sector_60hz"]
+            if _rel_err(s, m["generacion_total"]) > tol:
+                errs.append(f"itaipu {period}: 50hz+60hz {s:.2f} != total {m['generacion_total']:.2f} (tol {tol:.1%})")
+        if all(k in m for k in ("suministro_paraguay", "suministro_brasil", "generacion_total")):
+            s = m["suministro_paraguay"] + m["suministro_brasil"]
+            if _rel_err(s, m["generacion_total"]) > tol:
+                errs.append(f"itaipu {period}: py+br {s:.2f} != total {m['generacion_total']:.2f} (tol {tol:.1%})")
+    return errs
+
+
+def validate_yacyreta(records, tol=0.005):
+    errs = []
+    for period, recs in _group(records).items():
+        m = {r["indicador"]: float(r["valor"]) for r in recs if r.get("indicador") and r.get("valor") is not None}
+        if all(k in m for k in ("suministro_argentina", "suministro_paraguay", "generacion_total")):
+            s = m["suministro_argentina"] + m["suministro_paraguay"]
+            if _rel_err(s, m["generacion_total"]) > tol:
+                errs.append(f"yacyreta {period}: ar+py {s:.2f} != total {m['generacion_total']:.2f} (tol {tol:.1%})")
+    return errs
+
+
 def validate_invariants(records):
     from collections import defaultdict
     groups = defaultdict(list)
