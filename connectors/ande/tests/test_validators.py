@@ -47,5 +47,50 @@ class TestPeriodsOverlap(unittest.TestCase):
         self.assertFalse(validators.periods_overlap(a, b))
 
 
+def _rec(indicador, valor, fi="2025-01-01", ff="2025-12-31"):
+    return {"indicador": indicador, "valor": valor, "fecha_inicio": fi, "fecha_fin": ff}
+
+
+class TestValidateInvariants(unittest.TestCase):
+    def test_ok(self):
+        recs = [
+            _rec("perdidas_distribucion", 20.03, "2025-12-01", "2025-12-31"),
+            _rec("perdidas_transmision", 1.86, "2025-12-01", "2025-12-31"),
+            _rec("perdidas_totales", 21.89, "2025-12-01", "2025-12-31"),
+            _rec("consumo_categoria_residencial", 600),
+            _rec("consumo_categoria_industrial", 400),
+            _rec("consumo_total", 1000),
+            _rec("clientes_categoria_residencial", 800),
+            _rec("clientes_categoria_industrial", 200),
+            _rec("clientes_total", 1000),
+        ]
+        self.assertEqual(validators.validate_invariants(recs), [])
+
+    def test_perdidas_fail_21_89(self):
+        recs = [
+            _rec("perdidas_distribucion", 21.89, "2025-12-01", "2025-12-31"),
+            _rec("perdidas_transmision", 1.86, "2025-12-01", "2025-12-31"),
+            _rec("perdidas_totales", 21.89, "2025-12-01", "2025-12-31"),
+        ]
+        errs = validators.validate_invariants(recs)
+        self.assertTrue(any("perdidas" in e.lower() for e in errs))
+
+    def test_consumo_fail(self):
+        recs = [
+            _rec("consumo_categoria_residencial", 600),
+            _rec("consumo_categoria_industrial", 400),
+            _rec("consumo_total", 1500),
+        ]
+        self.assertTrue(len(validators.validate_invariants(recs)) > 0)
+
+    def test_clientes_fail(self):
+        recs = [
+            _rec("clientes_categoria_residencial", 800),
+            _rec("clientes_categoria_industrial", 200),
+            _rec("clientes_total", 1010),
+        ]
+        self.assertTrue(len(validators.validate_invariants(recs)) > 0)
+
+
 if __name__ == "__main__":
     unittest.main()

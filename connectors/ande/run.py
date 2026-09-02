@@ -6,7 +6,7 @@ _root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__
 if _root not in sys.path:
     sys.path.insert(0, _root)
 
-from connectors.ande import connector, curados
+from connectors.ande import connector, curados, validators
 
 SOURCES = {
     "bagp": "https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf",
@@ -56,6 +56,12 @@ def main(mvp=False):
         else:
             recs += connector.run_pdf(path, url)
     recs += curados.CURADOS
+    errs = validators.validate_invariants(recs)
+    for e in errs:
+        print(f"WARN invariante: {e}")
+    if errs:
+        for r in recs:
+            r["estado_verificacion"] = "requiere_revision"
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     connector.store(recs, OUT)
     print(f"ANDE connector: {len(recs)} indicadores -> {OUT}")
