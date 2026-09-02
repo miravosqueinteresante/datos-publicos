@@ -1,0 +1,16 @@
+{
+  "entidades": [
+    {"id": "ande", "nombre": "Administración Nacional de Electricidad", "tipo": "estatal"},
+    {"id": "itaipu", "nombre": "Itaipú Binacional", "tipo": "binacional"},
+    {"id": "yacyreta", "nombre": "Entidad Binacional Yacyretá", "tipo": "binacional"}
+  ],
+  "relaciones": [
+    {"origen": "itaipu", "destino": "ande", "tipo": "suministra"},
+    {"origen": "yacyreta", "destino": "ande", "tipo": "suministra"},
+    {"origen": "ande", "destino": "itaipu", "tipo": "opera_con"},
+    {"origen": "ande", "destino": "yacyreta", "tipo": "opera_con"}
+  ],
+  "articulos": [
+    {"id": "muchotexto-energia", "titulo": "El desafío energético de Paraguay", "url": "https://muchotexto.net", "entidades": ["ande","itaipu","yacyreta"]}
+  ]
+}

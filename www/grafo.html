@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Grafo de conocimiento — entidades, indicadores y artículos de MuchoTexto Data.">
+  <title>Grafo · MuchoTexto Data</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <span class="marca">MuchoTexto Data</span>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="energia.html">Energía</a></li>
+        <li><a href="itaipu.html">Itaipú</a></li>
+        <li><a href="yacyreta.html">Yacyretá</a></li>
+        <li><a href="grafo.html" class="activo">Grafo</a></li>
+      </ul>
+      <span class="vision">Capa de datos de <a href="https://muchotexto.net">muchotexto.net</a></span>
+    </div>
+  </nav>
+  <header class="cabecera">
+    <h1>Grafo de conocimiento</h1>
+    <p class="subtitulo">Entidades → indicadores → artículos</p>
+    <p class="meta">Fase 11 — base para conectar datos con contenido editorial</p>
+  </header>
+  <main>
+    <section class="seccion">
+      <h2>Entidades</h2>
+      <div id="entidades" class="metodologia-grid"></div>
+    </section>
+    <section class="seccion">
+      <h2>Relaciones</h2>
+      <div id="relaciones" class="fichas-grid"></div>
+    </section>
+    <section class="seccion">
+      <h2>Artículos relacionados</h2>
+      <div id="articulos"></div>
+    </section>
+    <section class="seccion">
+      <p class="nota">Este grafo es la base. Cada indicador tiene <code>entidad_id</code> y cada nodo puede vincularse a artículos de <a href="https://muchotexto.net">muchotexto.net</a> cuando se etiqueten con entidades.</p>
+    </section>
+  </main>
+  <footer>MuchoTexto Data · datospublicos.muchotexto.net — datos verificables sobre Paraguay.</footer>
+  <script>
+    async function cargar(){
+      const g=await (await fetch("datos/grafo.json")).json();
+      const e=document.getElementById("entidades");
+      e.innerHTML=g.entidades.map(x=>`<div class="metodologia-item"><strong>${x.nombre}</strong><p>${x.tipo} · ${x.id}</p></div>`).join("");
+      const r=document.getElementById("relaciones");
+      r.innerHTML=g.relaciones.map(x=>`<div class="ficha"><summary>${x.origen} → ${x.destino} <span class="ficha-resumen">${x.tipo}</span></summary></div>`).join("");
+      const a=document.getElementById("articulos");
+      a.innerHTML=g.articulos.map(x=>`<p><a href="${x.url}" target="_blank" rel="noopener">${x.titulo}</a> <span class="nota">— ${x.entidades.join(", ")}</span></p>`).join("");
+    }
+    cargar();
+  </script>
+</body>
+</html>

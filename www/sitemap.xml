@@ -4,4 +4,5 @@
   <url><loc>https://datospublicos.muchotexto.net/energia.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://datospublicos.muchotexto.net/itaipu.html</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
   <url><loc>https://datospublicos.muchotexto.net/yacyreta.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://datospublicos.muchotexto.net/grafo.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
 </urlset>
