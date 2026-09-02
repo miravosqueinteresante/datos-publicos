@@ -70,8 +70,11 @@
           line.setAttribute('stroke','rgba(255,255,255,0.15)');line.setAttribute('stroke-width','1.5');
           svg.appendChild(line);
           const mx=(l.s.x+l.t.x)/2,my=(l.s.y+l.t.y)/2;
+          const bg=document.createElementNS('http://www.w3.org/2000/svg','rect');
+          bg.setAttribute('x',mx-32);bg.setAttribute('y',my-14);bg.setAttribute('width','64');bg.setAttribute('height','14');bg.setAttribute('rx','7');bg.setAttribute('fill','rgba(255,255,255,0.06)');bg.setAttribute('stroke','rgba(255,255,255,0.08)');
+          svg.appendChild(bg);
           const txt=document.createElementNS('http://www.w3.org/2000/svg','text');
-          txt.setAttribute('x',mx);txt.setAttribute('y',my-4);txt.setAttribute('text-anchor','middle');txt.setAttribute('font-size','10');txt.setAttribute('fill','#868e96');txt.textContent=l.tipo;
+          txt.setAttribute('x',mx);txt.setAttribute('y',my-4);txt.setAttribute('text-anchor','middle');txt.setAttribute('font-size','9');txt.setAttribute('fill','#ced4da');txt.textContent=l.tipo.replace('_',' ');
           svg.appendChild(txt);
         });
         nodes.forEach(n=>{
@@ -80,8 +83,9 @@
           g2.appendChild(c);
           const txt=document.createElementNS('http://www.w3.org/2000/svg','text');txt.setAttribute('text-anchor','middle');txt.setAttribute('dy','4');txt.setAttribute('font-size','11');txt.setAttribute('fill','#fff');txt.setAttribute('font-weight','600');txt.textContent=n.id;
           g2.appendChild(txt);
-          const lab=document.createElementNS('http://www.w3.org/2000/svg','text');lab.setAttribute('text-anchor','middle');lab.setAttribute('dy','54');lab.setAttribute('font-size','10');lab.setAttribute('fill','#ced4da');lab.textContent=n.label.slice(0,22);
-          g2.appendChild(lab);
+          const lab=document.createElementNS('http://www.w3.org/2000/svg','text');lab.setAttribute('text-anchor','middle');lab.setAttribute('dy','48');lab.setAttribute('font-size','9');lab.setAttribute('fill','#ced4da');lab.textContent=n.label;
+          const lab2=document.createElementNS('http://www.w3.org/2000/svg','text');lab2.setAttribute('text-anchor','middle');lab2.setAttribute('dy','60');lab2.setAttribute('font-size','9');lab2.setAttribute('fill','#868e96');lab2.textContent=n.tipo;
+          g2.appendChild(lab);g2.appendChild(lab2);
           let drag=false;
           g2.addEventListener('mousedown',()=>{drag=true;g2.style.cursor='grabbing';});
           window.addEventListener('mouseup',()=>drag=false);
