@@ -14,7 +14,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-perdidas_distribucion-2025-12-01",
@@ -31,7 +31,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-perdidas_transmision-2025-12-01",
@@ -48,7 +48,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-clientes_total-2025-01-01",
@@ -65,7 +65,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-consumo_categoria_residencial-2025-01-01",
@@ -82,7 +82,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-consumo_categoria_industrial-2025-01-01",
@@ -99,7 +99,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-consumo_categoria_otros-2025-01-01",
@@ -116,7 +116,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-consumo_categoria_gubernamental-2025-01-01",
@@ -133,7 +133,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-consumo_categoria_diferencial-2025-01-01",
@@ -150,7 +150,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-consumo_categoria_alta_tension-2025-01-01",
@@ -167,7 +167,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-consumo_categoria_muy_alta_tension-2025-01-01",
@@ -184,7 +184,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-consumo_categoria_electrointensivas-2025-01-01",
@@ -201,7 +201,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-consumo_categoria_alumbrado_publico-2025-01-01",
@@ -218,7 +218,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-clientes_categoria_residencial-2025-01-01",
@@ -235,7 +235,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-clientes_categoria_industrial-2025-01-01",
@@ -252,7 +252,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-clientes_categoria_otros-2025-01-01",
@@ -269,7 +269,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-clientes_categoria_gubernamental-2025-01-01",
@@ -286,7 +286,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-clientes_categoria_diferencial-2025-01-01",
@@ -303,7 +303,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-clientes_categoria_alta_tension-2025-01-01",
@@ -320,7 +320,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-clientes_categoria_muy_alta_tension-2025-01-01",
@@ -337,7 +337,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-clientes_categoria_electrointensivas-2025-01-01",
@@ -354,7 +354,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-consumo_total-2025-01-01",
@@ -371,7 +371,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-demanda_maxima-2025-01-01",
@@ -388,7 +388,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-factor_carga-2025-01-01",
@@ -405,7 +405,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-tarifa_residencial_bt_0_50-2021-01-01",
@@ -422,7 +422,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-tarifa_residencial_bt_51_150-2021-01-01",
@@ -439,7 +439,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-tarifa_residencial_bt_151_300-2021-01-01",
@@ -456,7 +456,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-tarifa_residencial_bt_301_500-2021-01-01",
@@ -473,7 +473,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-tarifa_residencial_bt_501_1000-2021-01-01",
@@ -490,7 +490,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-tarifa_residencial_bt_mas_1000-2021-01-01",
@@ -507,7 +507,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2000-01-01",
@@ -524,7 +524,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2000-01-01",
@@ -541,7 +541,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2001-01-01",
@@ -558,7 +558,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2001-01-01",
@@ -575,7 +575,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2002-01-01",
@@ -592,7 +592,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2002-01-01",
@@ -609,7 +609,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2003-01-01",
@@ -626,7 +626,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2003-01-01",
@@ -643,7 +643,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2004-01-01",
@@ -660,7 +660,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2004-01-01",
@@ -677,7 +677,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2005-01-01",
@@ -694,7 +694,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2005-01-01",
@@ -711,7 +711,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2006-01-01",
@@ -728,7 +728,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2006-01-01",
@@ -745,7 +745,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2007-01-01",
@@ -762,7 +762,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2007-01-01",
@@ -779,7 +779,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2008-01-01",
@@ -796,7 +796,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2008-01-01",
@@ -813,7 +813,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2009-01-01",
@@ -830,7 +830,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2009-01-01",
@@ -847,7 +847,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2010-01-01",
@@ -864,7 +864,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2010-01-01",
@@ -881,7 +881,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2011-01-01",
@@ -898,7 +898,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2011-01-01",
@@ -915,7 +915,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2012-01-01",
@@ -932,7 +932,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2012-01-01",
@@ -949,7 +949,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2013-01-01",
@@ -966,7 +966,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2013-01-01",
@@ -983,7 +983,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2014-01-01",
@@ -1000,7 +1000,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2014-01-01",
@@ -1017,7 +1017,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2015-01-01",
@@ -1034,7 +1034,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2015-01-01",
@@ -1051,7 +1051,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2016-01-01",
@@ -1068,7 +1068,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2016-01-01",
@@ -1085,7 +1085,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2017-01-01",
@@ -1102,7 +1102,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2017-01-01",
@@ -1119,7 +1119,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2018-01-01",
@@ -1136,7 +1136,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2018-01-01",
@@ -1153,7 +1153,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2019-01-01",
@@ -1170,7 +1170,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2019-01-01",
@@ -1187,7 +1187,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_nacional_acaray_termicas-2020-01-01",
@@ -1204,7 +1204,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "ande-generacion_binacional_itaipu_yacyreta-2020-01-01",
@@ -1221,7 +1221,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_pdf",
-    "estado_verificacion": "extraido"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "itaipu-generacion_itaipu_paraguay-2025-01-01",
@@ -1238,7 +1238,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_manual",
-    "estado_verificacion": "verificado"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "yacyreta-generacion_yacyreta_paraguay-2025-01-01",
@@ -1255,7 +1255,7 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_manual",
-    "estado_verificacion": "verificado"
+    "estado_verificacion": "requiere_revision"
   },
   {
     "id": "yacyreta-generacion_yacyreta_total-2025-01-01",
@@ -1272,6 +1272,6 @@
     "fecha_publicacion": null,
     "fecha_extraccion": "2026-09-02",
     "metodo_extraccion": "extraccion_manual",
-    "estado_verificacion": "verificado"
+    "estado_verificacion": "requiere_revision"
   }
 ]
