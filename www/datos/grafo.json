@@ -11,7 +11,7 @@
     {"origen": "ande", "destino": "yacyreta", "tipo": "opera_con"}
   ],
   "articulos": [
-    {"id": "2026-05-27-apertura-electrica", "titulo": "Luces y sombras de la apertura eléctrica: Paraguay y el sector privado", "url": "https://muchotexto.net/2026/05/27/apertura-sector-electrico-privado-paraguay", "entidades": ["ande","itaipu","yacyreta"]},
-    {"id": "2026-05-16-peter-thiel-energia", "titulo": "Peter Thiel y el experimento paraguayo: energía y centros de datos", "url": "https://muchotexto.net/2026/05/16/peter-thiel-paraguay-experimento", "entidades": ["itaipu","ande"]}
+    {"id": "2026-05-27-apertura-electrica", "titulo": "Luces y sombras de la apertura eléctrica: Paraguay y el sector privado", "url": "https://muchotexto.net/articulos/2026/05/27/apertura-sector-electrico-privado-paraguay/", "entidades": ["ande","itaipu","yacyreta"]},
+    {"id": "2026-05-16-peter-thiel-energia", "titulo": "Peter Thiel y el experimento paraguayo: energía y centros de datos", "url": "https://muchotexto.net/articulos/2026/05/16/peter-thiel-paraguay-experimento/", "entidades": ["itaipu","ande"]}
   ]
 }
