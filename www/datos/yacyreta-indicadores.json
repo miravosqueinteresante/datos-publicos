@@ -51,6 +51,23 @@
     "estado_verificacion": "extraido"
   },
   {
+    "id": "yacyreta-generacion_total-2016",
+    "entidad": "Entidad Binacional Yacyretá",
+    "entidad_id": "yacyreta",
+    "indicador": "generacion_total",
+    "valor": 21627.0,
+    "unidad": "GWh",
+    "fecha_inicio": "2016-01-01",
+    "fecha_fin": "2016-12-31",
+    "fuente": "EBY",
+    "documento": null,
+    "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2024/02/25/yacyreta-paraguay-uso-7-y-argentina-93/",
+    "fecha_publicacion": null,
+    "fecha_extraccion": "2026-09-02",
+    "metodo_extraccion": "extraccion_manual",
+    "estado_verificacion": "verificado"
+  },
+  {
     "id": "yacyreta-generacion_total-2019",
     "entidad": "Entidad Binacional Yacyretá",
     "entidad_id": "yacyreta",
