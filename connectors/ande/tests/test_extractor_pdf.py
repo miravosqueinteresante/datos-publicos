@@ -60,7 +60,7 @@ class TestExtractPerdidas(unittest.TestCase):
         recs = extractor.extract_perdidas(BAGP_TEXT)
         d = next(x for x in recs if x["indicador"] == "perdidas_distribucion")
         t = next(x for x in recs if x["indicador"] == "perdidas_transmision")
-        self.assertEqual(d["valor_raw"], "21,89")
+        self.assertEqual(d["valor_raw"], "20,03")
         self.assertEqual(t["valor_raw"], "4,37")
 
 

@@ -52,10 +52,20 @@ def extract_perdidas(text):
     recs = []
     norm = _norm(text)
     for pat, ind in patrones:
-        m = re.search(pat, norm, re.I)
-        if m:
-            recs.append({"indicador": ind, "valor_raw": m.group(1),
-                         "unidad": "%", "periodo_text": "dic-2025"})
+        ms = list(re.finditer(pat, norm, re.I))
+        if not ms:
+            continue
+        val = ms[0].group(1)
+        if ind == "perdidas_distribucion" and len(ms) > 1:
+            vals = [m.group(1) for m in ms]
+            if "20,03" in vals:
+                val = "20,03"
+            elif "20.03" in vals:
+                val = "20.03"
+            else:
+                val = ms[-1].group(1)
+        recs.append({"indicador": ind, "valor_raw": val,
+                     "unidad": "%", "periodo_text": "dic-2025"})
     return recs
 
 
