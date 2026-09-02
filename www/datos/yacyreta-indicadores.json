@@ -51,6 +51,23 @@
     "estado_verificacion": "extraido"
   },
   {
+    "id": "yacyreta-generacion_total-2019",
+    "entidad": "Entidad Binacional Yacyretá",
+    "entidad_id": "yacyreta",
+    "indicador": "generacion_total",
+    "valor": 17281.0,
+    "unidad": "GWh",
+    "fecha_inicio": "2019-01-01",
+    "fecha_fin": "2019-12-31",
+    "fuente": "EBY",
+    "documento": null,
+    "url": "https://www.eby.gov.py/informe-de-produccion-anual-de-la-central-hidroelectrica-yacyreta/",
+    "fecha_publicacion": null,
+    "fecha_extraccion": "2026-09-02",
+    "metodo_extraccion": "extraccion_manual",
+    "estado_verificacion": "verificado"
+  },
+  {
     "id": "yacyreta-generacion_total-2025",
     "entidad": "Entidad Binacional Yacyretá",
     "entidad_id": "yacyreta",
