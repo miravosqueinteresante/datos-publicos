@@ -1,0 +1,29 @@
+name: Actualizar Yacyretá
+on:
+  schedule:
+    - cron: "0 7 1 * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m unittest connectors.yacyreta.tests.test_extractor
+      - run: python connectors/yacyreta/run.py || echo "yacyreta fallo"
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet www/datos/yacyreta-indicadores.json; then
+            echo "Sin cambios."
+          else
+            git add www/datos/yacyreta-indicadores.json
+            git commit -m "datos yacyreta $(date +%Y-%m-%d) [skip ci]"
+            git push origin main
+          fi
