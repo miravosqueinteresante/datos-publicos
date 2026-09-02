@@ -182,6 +182,13 @@ footer { max-width: 48rem; margin: 2rem auto 1rem; padding: 0 1rem; font-size: .
   background: rgba(60, 201, 219, .15); color: var(--acento);
   font-size: .75rem; font-weight: 700; margin-right: .4rem;
 }
+
+.grafico-wrap{position:relative;}
+.grafico-tooltip{position:absolute;background:var(--bg);border:1px solid var(--border);color:var(--texto);padding:.4rem .6rem;border-radius:var(--radio);font-size:.8rem;pointer-events:none;transform:translate(-50%,-120%);white-space:nowrap;box-shadow:0 4px 12px rgba(0,0,0,0.3);}
+.grafico-leyenda{display:flex;gap:1rem;justify-content:center;margin-top:.5rem;font-size:.8rem;color:var(--texto-suave);}
+.grafico-leyenda span{display:inline-flex;align-items:center;gap:.4rem;}
+.grafico-leyenda i{width:12px;height:3px;background:var(--acento);display:inline-block;border-radius:2px;}
+
 .destacado { color: var(--acento); font-weight: 600; }
 
 /* ── Metodología ── */

@@ -57,7 +57,8 @@
         </table>
       </div>
       <div class="paginacion" id="paginacion" hidden></div>
-      <canvas id="grafico" width="800" height="320" style="width:100%;max-width:100%;height:auto;margin-top:1rem;background:var(--card);border:1px solid var(--border);border-radius:var(--radio)"></canvas>
+      <div class="grafico-wrap"><canvas id="grafico" width="800" height="320" style="width:100%;max-width:100%;height:auto;margin-top:1rem;background:var(--card);border:1px solid var(--border);border-radius:var(--radio)"></canvas><div id="grafico-tooltip" class="grafico-tooltip" hidden></div></div>
+      <div class="grafico-leyenda"><span><i></i> Generación total (GWh)</span></div>
     </section>
 
     <section class="seccion">
@@ -285,6 +286,13 @@
       ctx.fillStyle='#868e96'; ctx.font='11px system-ui'; ctx.textAlign='center';
       data.forEach((s,i)=>{ if(data.length>15 && i%2) return; ctx.fillText(s.year, xs(i), H-8); });
       ctx.textAlign='right'; for(let i=0;i<5;i++){ const v=max - i*(max-min)/4; ctx.fillText(Math.round(v).toLocaleString('es-PY'), pad.l-8, pad.t+i*(H-pad.t-pad.b)/4+4); }
+      const tt=document.getElementById('grafico-tooltip');
+      c.onmousemove=e=>{
+        const rect=c.getBoundingClientRect(); const x=e.clientX-rect.left; const scaleX=W/rect.width;
+        const idx=Math.round((x*scaleX - pad.l)/(W-pad.l-pad.r)*Math.max(1,data.length-1));
+        if(idx>=0&&idx<data.length){ const s=data[idx]; tt.hidden=false; tt.textContent=s.year+': '+Math.round(s.total).toLocaleString('es-PY')+' GWh'; tt.style.left=(xs(idx)/scaleX)+'px'; tt.style.top=(ys(s.total)/ (H/rect.height))+'px'; }
+      };
+      c.onmouseleave=()=>tt.hidden=true;
     }
 
     cargar();
