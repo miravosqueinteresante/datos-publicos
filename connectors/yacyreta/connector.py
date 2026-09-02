@@ -112,7 +112,8 @@ def extract_annuals(urls=None, htmls=None):
         for u in urls:
             try:
                 h = fetch(u)
-                y = _parse_year(h)
+                m_ann = re.search(r"durante el a[nñ]o\s*(20\d{2})", _norm(h))
+                y = int(m_ann.group(1)) if m_ann else _parse_year(h)
                 htmls.append((u, h, y))
             except Exception:
                 continue
