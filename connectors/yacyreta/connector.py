@@ -61,6 +61,8 @@ def normalize(months):
     yearly = normalizer.aggregate_yearly(months)
     out = []
     for y in yearly:
+        if y.get("meses", 12) < 9:
+            continue
         out.append(("generacion_total", normalizer.mwh_to_gwh(y["total_mwh"]), "GWh", y["year"]))
         out.append(("suministro_argentina", normalizer.mwh_to_gwh(y["sadi_mwh"]), "GWh", y["year"]))
         out.append(("suministro_paraguay", normalizer.mwh_to_gwh(y["sinp_mwh"]), "GWh", y["year"]))
