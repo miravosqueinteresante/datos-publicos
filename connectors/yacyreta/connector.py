@@ -71,6 +71,58 @@ def discover_month_urls(list_html=None):
         else:
             out.append(l)
     return list(dict.fromkeys(out))
+def discover_annual_urls():
+    links = []
+    try:
+        sm = fetch(f"{BASE}/wp-sitemap.xml")
+        locs = re.findall(r"<loc>([^<]+)</loc>", sm)
+        for loc in locs:
+            if "wp-sitemap-posts-post-" in loc:
+                try:
+                    txt = fetch(loc)
+                    links += re.findall(r"https://[^<\s\"]*informe-de-produccion-anual[^<\s\"]*", txt)
+                except Exception:
+                    continue
+        if not locs:
+            for i in range(1, 8):
+                try:
+                    txt = fetch(f"{BASE}/wp-sitemap-posts-post-{i}.xml")
+                    links += re.findall(r"https://[^<\s\"]*informe-de-produccion-anual[^<\s\"]*", txt)
+                except Exception:
+                    continue
+    except Exception:
+        pass
+    out = []
+    for l in links:
+        if l.startswith("http"):
+            out.append(l)
+        elif l.startswith("/"):
+            out.append(BASE + l)
+        else:
+            out.append(l)
+    return list(dict.fromkeys(out))
+
+
+def extract_annuals(urls=None, htmls=None):
+    annuals = []
+    if htmls is None:
+        if urls is None:
+            urls = discover_annual_urls()
+        htmls = []
+        for u in urls:
+            try:
+                h = fetch(u)
+                y = _parse_year(h)
+                htmls.append((u, h, y))
+            except Exception:
+                continue
+    for u, h, y in htmls:
+        r = extractor.extract_annual(h)
+        if r and y and 1990 < y < 2030:
+            annuals.append({"year": y, "total_mwh": r["total_mwh"], "sadi_mwh": r.get("sadi_mwh"), "sinp_mwh": r.get("sinp_mwh"), "url": u, "total_bruta": r.get("total_bruta"), "total_neta": r.get("total_neta")})
+    return annuals
+
+
 def fetch_month(url):
     return fetch(url)
 def extract_months(urls=None, htmls=None):
@@ -91,16 +143,28 @@ def extract_months(urls=None, htmls=None):
         if r and y and 1990 < y < 2030:
             months.append({"year":y,"total_mwh":r["total_mwh"],"sadi_mwh":r["sadi_mwh"],"sinp_mwh":r["sinp_mwh"],"url":u})
     return months
-def normalize(months):
-    yearly=normalizer.aggregate_yearly(months)
-    out=[]
+def normalize(months, annuals=None):
+    annuals = annuals or []
+    yearly = normalizer.aggregate_yearly(months) if months else []
+    by_ann = {a["year"]: a for a in annuals if a.get("year") and a.get("total_mwh") is not None}
+    out = []
+    for a in sorted(annuals, key=lambda x: x["year"]):
+        if a["year"] not in by_ann:
+            continue
+        out.append(("generacion_total", normalizer.mwh_to_gwh(a["total_mwh"]), "GWh", a["year"]))
+        if a.get("sadi_mwh") is not None:
+            out.append(("suministro_argentina", normalizer.mwh_to_gwh(a["sadi_mwh"]), "GWh", a["year"]))
+        if a.get("sinp_mwh") is not None:
+            out.append(("suministro_paraguay", normalizer.mwh_to_gwh(a["sinp_mwh"]), "GWh", a["year"]))
     for y in yearly:
-        if y.get("meses",12)<9:
+        if y["year"] in by_ann:
+            continue
+        if y.get("meses", 12) < 9:
             continue
         out.append(("generacion_total",normalizer.mwh_to_gwh(y["total_mwh"]),"GWh",y["year"]))
         out.append(("suministro_argentina",normalizer.mwh_to_gwh(y["sadi_mwh"]),"GWh",y["year"]))
         out.append(("suministro_paraguay",normalizer.mwh_to_gwh(y["sinp_mwh"]),"GWh",y["year"]))
-    return out
+    return sorted(out, key=lambda x: (x[3], x[0]))
 def build(normalized, url=LIST_URL):
     recs=[]
     for ind,val,uni,year in normalized:
