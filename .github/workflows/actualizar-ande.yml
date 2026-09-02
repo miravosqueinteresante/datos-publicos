@@ -27,20 +27,23 @@ jobs:
           pip install pdfplumber
 
       - name: Ejecutar tests
-        run: python -m unittest connectors.ande.tests.test_curados connectors.ande.tests.test_extractor connectors.ande.tests.test_connector connectors.ande.tests.test_extractor_pdf connectors.ande.tests.test_normalizer connectors.ande.tests.test_validators connectors.ande.tests.test_connector_pdf
+        run: python -m unittest connectors.ande.tests.test_curados connectors.ande.tests.test_extractor connectors.ande.tests.test_connector connectors.ande.tests.test_extractor_pdf connectors.ande.tests.test_normalizer connectors.ande.tests.test_validators connectors.ande.tests.test_connector_pdf connectors.itaipu.tests.test_extractor connectors.itaipu.tests.test_connector connectors.yacyreta.tests.test_extractor
 
-      - name: Ejecutar conector ANDE
-        run: python connectors/ande/run.py
+      - name: Ejecutar conectores
+        run: |
+          python connectors/ande/run.py
+          python connectors/itaipu/run.py
+          python connectors/yacyreta/run.py || echo "yacyreta fallo, continuo"
 
       - name: Verificar cambios en datos
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet www/datos/ande-indicadores.json www/datos/itaipu-indicadores.json 2>/dev/null; then
+          if git diff --quiet www/datos/ande-indicadores.json www/datos/itaipu-indicadores.json www/datos/yacyreta-indicadores.json 2>/dev/null; then
             echo "Sin cambios en datos."
           else
             echo "Datos actualizados. Haciendo commit y push..."
-            git add www/datos/ande-indicadores.json www/datos/ande-indicadores-mvp.json www/datos/itaipu-indicadores.json 2>/dev/null || git add www/datos/ande-indicadores.json www/datos/ande-indicadores-mvp.json
+            git add www/datos/ande-indicadores.json www/datos/ande-indicadores-mvp.json www/datos/itaipu-indicadores.json www/datos/yacyreta-indicadores.json 2>/dev/null || git add www/datos/ande-indicadores.json www/datos/ande-indicadores-mvp.json
             git commit -m "datos actualizados $(date +%Y-%m-%d) [skip ci]" || echo "nada para commitear"
             git push origin main || echo "push sin cambios"
           fi
