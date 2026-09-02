@@ -67,6 +67,7 @@
   <footer>MuchoTexto Data · datospublicos.muchotexto.net — datos verificables sobre Paraguay.</footer>
 
   <script>
+    const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
     const fmt = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 1 });
     const POR_PAGINA = 10;
     let datos = [];
@@ -98,7 +99,7 @@
         if (!d) continue;
         const m = document.createElement("div");
         m.className = "metrica";
-        m.innerHTML = `<div class="valor">${fmt.format(d.valor)}</div><div class="etiqueta">${p.label} · ${d.unidad}</div>`;
+        m.innerHTML = `<div class="valor">${fmt.format(d.valor)}</div><div class="etiqueta">${p.label} · ${esc(d.unidad)}</div>`;
         el.appendChild(m);
       }
       const sadi = porInd["suministro_argentina"];

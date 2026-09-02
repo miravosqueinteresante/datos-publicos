@@ -119,6 +119,7 @@
   </footer>
 
   <script>
+    const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
     const fmt = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 1 });
     const POR_PAGINA = 10;
     let datos = [];
@@ -159,7 +160,7 @@
         const m = document.createElement("div");
         m.className = "metrica";
         m.innerHTML = `<div class="valor">${fmt.format(d.valor)}</div>` +
-          `<div class="etiqueta">${p.label} · ${d.unidad}</div>`;
+          `<div class="etiqueta">${p.label} · ${esc(d.unidad)}</div>`;
         metricasEl.appendChild(m);
       }
 
@@ -177,7 +178,7 @@
           const fila = document.createElement("div");
           fila.className = "barra-fila";
           fila.innerHTML =
-            `<div class="barra-nombre">${item.nombre}</div>` +
+            `<div class="barra-nombre">${esc(item.nombre)}</div>` +
             `<div class="barra-track"><div class="barra" style="width:${item.pct.toFixed(1)}%"></div></div>` +
             `<div class="barra-valores"><strong>${fmt.format(item.valor)} GWh</strong>` +
             `<span class="barra-pct">${item.pct.toFixed(1)}%</span></div>`;
@@ -199,7 +200,7 @@
           const fila = document.createElement("div");
           fila.className = "barra-fila";
           fila.innerHTML =
-            `<div class="barra-nombre">${item.nombre}</div>` +
+            `<div class="barra-nombre">${esc(item.nombre)}</div>` +
             `<div class="barra-track"><div class="barra" style="width:${item.pct.toFixed(1)}%"></div></div>` +
             `<div class="barra-valores"><strong>${fmt.format(item.valor)} GWh</strong>` +
             `<span class="barra-pct">${item.pct.toFixed(1)}%</span></div>`;

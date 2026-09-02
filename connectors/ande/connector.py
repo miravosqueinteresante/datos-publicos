@@ -5,10 +5,10 @@ from . import extractor, metadata, normalizer, validators
 ENERGY_UNITS = {"GWh", "MWh", "kWh"}
 
 
-def fetch(url, opener=None):
+def fetch(url, opener=None, timeout=60):
     if opener is None:
         import urllib.request
-        with urllib.request.urlopen(url) as r:
+        with urllib.request.urlopen(url, timeout=timeout) as r:
             raw = r.read()
         for enc in ("utf-8", "latin-1"):
             try:
