@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Reclamos ciudadanos de la Municipalidad de Asunción 2023–2026. Datos agregados y anonimizados (pedido ID 106387, Ley 5282/2014).">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reclamos · MuchoTexto Data</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="canonical" href="https://datospublicos.muchotexto.net/reclamos.html">
+  <meta property="og:title" content="Reclamos ciudadanos · MuchoTexto Data">
+  <meta property="og:description" content="Reclamos de la Municipalidad de Asunción 2023–2026: volumen, categorías, dependencias y barrios.">
+  <meta property="og:url" content="https://datospublicos.muchotexto.net/reclamos.html">
+  <meta property="og:image" content="https://datospublicos.muchotexto.net/og-image.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <span class="marca">MuchoTexto Data</span>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="energia.html">Energía</a></li>
+        <li><a href="itaipu.html">Itaipú</a></li>
+        <li><a href="yacyreta.html">Yacyretá</a></li>
+        <li><a href="reclamos.html" class="activo">Reclamos</a></li>
+        <li><a href="grafo.html">Grafo</a></li>
+      </ul>
+      <span class="vision">Capa de datos de <a href="https://muchotexto.net">muchotexto.net</a></span>
+    </div>
+  </nav>
+
+  <header class="cabecera">
+    <h1>Reclamos ciudadanos — Municipalidad de Asunción</h1>
+    <p class="subtitulo">Qué reclama la ciudad, a quién y en qué barrios. Datos agregados y anonimizados.</p>
+    <p class="meta" id="meta">Fuente: Departamento de Atención al Ciudadano · Pedido ID 106387 (Ley 5282/2014)</p>
+  </header>
+
+  <main>
+    <section class="seccion">
+      <h2>Indicadores generales</h2>
+      <div id="metricas" class="metricas"><p class="vacio">Cargando datos…</p></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Reclamos por año</h2>
+      <p class="nota">Pendientes + finalizados por año de registro. 2026 llega hasta septiembre.</p>
+      <div id="barras-anio" class="barras"></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Tipos de reclamo (top 12)</h2>
+      <div id="barras-categoria" class="barras"></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Dependencia responsable (top 12)</h2>
+      <div id="barras-dependencia" class="barras"></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Barrios (top 12)</h2>
+      <p class="nota">Cobertura parcial: 2023 no registra barrio; 2024 lo mezcla con la dirección. El ranking se apoya sobre todo en 2025–2026.</p>
+      <div id="barras-barrio" class="barras"></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Evolución mensual</h2>
+      <div class="tabla-envolvente">
+        <table>
+          <thead>
+            <tr><th>Mes</th><th>Pendientes</th><th>Finalizados</th><th>Total</th></tr>
+          </thead>
+          <tbody id="filas"></tbody>
+        </table>
+      </div>
+      <div class="paginacion" id="paginacion" hidden></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Metodología</h2>
+      <p class="nota">
+        Los datos provienen del <strong>Departamento de Atención al Ciudadano</strong> de la Municipalidad de
+        Asunción, entregados como respuesta a un pedido de acceso a la información pública. Son datos
+        <strong>anonimizados</strong>: sin nombres, cédulas, teléfonos ni domicilios de los reclamantes.
+      </p>
+
+      <h3>Proceso</h3>
+      <div class="metodologia-grid">
+        <div class="metodologia-item">
+          <strong>Fuente primaria</strong>
+          <p>Cuatro archivos Excel (uno por año, 2023–2026), con dos hojas cada uno: pendientes y finalizados.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Consolidación</strong>
+          <p>Un script Python mapea las columnas de cada año (que cambiaron) a un esquema único y agrega los conteos.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Normalización</strong>
+          <p>Nombres de categorías y dependencias sin acentos y en mayúsculas para agrupar variantes de escritura.</p>
+        </div>
+        <div class="metodologia-item">
+          <strong>Agregación</strong>
+          <p>Se publican solo conteos agregados; no se exponen registros individuales.</p>
+        </div>
+      </div>
+
+      <h3>Limitaciones conocidas</h3>
+      <ul class="nota">
+        <li>No se registra fecha de resolución sistemática, por lo que no se mide de forma confiable el tiempo de cierre.</li>
+        <li>El barrio falta en 2023 y está mezclado con la dirección en 2024.</li>
+        <li>El canal de ingreso (web, WhatsApp, teléfono, presencial) no está desagregado en el registro entregado.</li>
+        <li>Las categorías municipales no están normalizadas en origen; se agruparon variantes de escritura.</li>
+      </ul>
+
+      <p class="nota" style="margin-top:1rem;">
+        Dataset: <a href="datos/reclamos.json" download>reclamos.json</a> ·
+        Sitio de análisis: <a href="https://municipalidad.muchotexto.net/">municipalidad.muchotexto.net</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    MuchoTexto Data · datospublicos.muchotexto.net — datos verificables sobre Paraguay.
+  </footer>
+
+  <script>
+    const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+    const fmt = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 1 });
+    const POR_PAGINA = 12;
+    let datos = null;
+    let pagina = 1;
+
+    async function cargar() {
+      try {
+        const r = await fetch("datos/reclamos.json");
+        datos = await r.json();
+      } catch (e) {
+        document.getElementById("metricas").innerHTML =
+          '<p class="vacio">No se pudieron cargar los datos.</p>';
+        return;
+      }
+
+      const k = datos.kpis || {};
+      const m = datos._meta || {};
+      document.getElementById("meta").textContent =
+        `Fuente: ${m.fuente} · ${m.periodo} · ${fmt.format(m.registros)} registros agregados`;
+
+      renderMetricas(k);
+      renderBarras("barras-anio",
+        (datos.por_anio || []).map(a => ({ nombre: String(a.anio), valor: a.total })));
+      renderBarras("barras-categoria",
+        (datos.por_categoria || []).slice(0, 12).map(c => ({ nombre: c.nombre, valor: c.total })));
+      renderBarras("barras-dependencia",
+        (datos.por_dependencia || []).slice(0, 12).map(d => ({ nombre: d.nombre, valor: d.total })));
+      renderBarras("barras-barrio",
+        (datos.por_barrio || []).slice(0, 12).map(b => ({ nombre: b.nombre, valor: b.total })));
+
+      renderTabla(datos.por_mes || []);
+    }
+
+    function renderMetricas(k) {
+      const el = document.getElementById("metricas");
+      el.innerHTML = "";
+      const items = [
+        { valor: k.total, etiqueta: "Reclamos totales", num: true },
+        { valor: k.pendientes, etiqueta: "Pendientes", num: true },
+        { valor: k.finalizados, etiqueta: "Finalizados", num: true },
+        { valor: (k.tasa_resolucion ?? 0) + "%", etiqueta: "Tasa de resolución", num: true },
+        { valor: k.categoria_top, etiqueta: "Reclamo más frecuente" },
+        { valor: k.dependencia_top, etiqueta: "Dependencia más solicitada" },
+      ];
+      for (const it of items) {
+        const div = document.createElement("div");
+        div.className = "metrica";
+        div.innerHTML = `<div class="valor${it.num ? " num" : ""}">${esc(String(it.valor ?? "—"))}</div>` +
+          `<div class="etiqueta">${esc(it.etiqueta)}</div>`;
+        el.appendChild(div);
+      }
+    }
+
+    function renderBarras(id, items) {
+      const el = document.getElementById(id);
+      el.innerHTML = "";
+      if (!items.length) { el.innerHTML = '<p class="vacio">Sin datos.</p>'; return; }
+      const max = Math.max(...items.map(i => i.valor || 0)) || 1;
+      for (const it of items) {
+        const pct = ((it.valor || 0) / max * 100).toFixed(1);
+        const fila = document.createElement("div");
+        fila.className = "barra-fila";
+        fila.innerHTML =
+          `<div class="barra-nombre"><span class="bn-txt">${esc(it.nombre)}</span></div>` +
+          `<div class="barra-track"><div class="barra" style="width:${pct}%"></div></div>` +
+          `<div class="barra-valores"><strong>${fmt.format(it.valor)}</strong>` +
+          `<span class="barra-pct">${pct}%</span></div>`;
+        el.appendChild(fila);
+      }
+    }
+
+    function renderTabla(rows) {
+      const filas = document.getElementById("filas");
+      filas.innerHTML = "";
+      const orden = [...rows].sort().reverse();
+      const ini = (pagina - 1) * POR_PAGINA;
+      for (const r of orden.slice(ini, ini + POR_PAGINA)) {
+        const tr = document.createElement("tr");
+        tr.innerHTML =
+          `<td>${esc(r.mes)}</td>` +
+          `<td class="monto">${fmt.format(r.pendientes)}</td>` +
+          `<td class="monto">${fmt.format(r.finalizados)}</td>` +
+          `<td class="monto">${fmt.format(r.total)}</td>`;
+        filas.appendChild(tr);
+      }
+      renderPaginacion(orden.length);
+    }
+
+    function renderPaginacion(total) {
+      const pg = document.getElementById("paginacion");
+      const paginas = Math.ceil(total / POR_PAGINA);
+      if (paginas <= 1) { pg.hidden = true; return; }
+      pg.hidden = false;
+      pg.innerHTML = "";
+      const ant = document.createElement("button");
+      ant.textContent = "← Anterior"; ant.disabled = pagina === 1;
+      ant.onclick = () => { if (pagina > 1) { pagina--; cargar(); } };
+      const info = document.createElement("span");
+      info.className = "pag-info";
+      info.textContent = `Página ${pagina} de ${paginas}`;
+      const sig = document.createElement("button");
+      sig.textContent = "Siguiente →"; sig.disabled = pagina === paginas;
+      sig.onclick = () => { if (pagina < paginas) { pagina++; cargar(); } };
+      pg.append(ant, info, sig);
+    }
+
+    cargar();
+  </script>
+</body>
+</html>
