@@ -1,0 +1,4822 @@
+{
+  "_meta": {
+    "titulo": "Reclamos ciudadanos — Municipalidad de Asunción",
+    "fuente": "Departamento de Atención al Ciudadano, Municipalidad de Asunción",
+    "pedido": "Pedido de acceso a la información pública ID 106387 (Ley 5282/2014)",
+    "periodo": "01/01/2023 – 11/09/2026",
+    "sincronizado": "2026-10-02",
+    "registros": 15560,
+    "nota": "Datos anonimizados y agregados. No se publican registros individuales ni datos personales. Barrios: cobertura parcial (sin barrio en 2023; campo mezclado con dirección en 2024)."
+  },
+  "kpis": {
+    "total": 15560,
+    "pendientes": 10506,
+    "finalizados": 4996,
+    "anulados": 55,
+    "tasa_resolucion": 32.1,
+    "categoria_top": "PODA DE ARBOLES EN LA VIA PUBLICA",
+    "categoria_top_total": 1306,
+    "dependencia_top": "DIRECCION GENERAL DE GESTION AMBIENTAL",
+    "dependencia_top_total": 3890
+  },
+  "por_anio": [
+    {
+      "anio": 2023,
+      "pendientes": 2800,
+      "finalizados": 2100,
+      "anulados": 0,
+      "otros": 0,
+      "total": 4900
+    },
+    {
+      "anio": 2024,
+      "pendientes": 2456,
+      "finalizados": 1499,
+      "anulados": 0,
+      "otros": 0,
+      "total": 3955
+    },
+    {
+      "anio": 2025,
+      "pendientes": 2616,
+      "finalizados": 1122,
+      "anulados": 27,
+      "otros": 3,
+      "total": 3768
+    },
+    {
+      "anio": 2026,
+      "pendientes": 2634,
+      "finalizados": 275,
+      "anulados": 28,
+      "otros": 0,
+      "total": 2937
+    }
+  ],
+  "por_mes": [
+    {
+      "mes": "2023-01",
+      "total": 545,
+      "pendientes": 231,
+      "finalizados": 314
+    },
+    {
+      "mes": "2023-02",
+      "total": 679,
+      "pendientes": 242,
+      "finalizados": 437
+    },
+    {
+      "mes": "2023-03",
+      "total": 538,
+      "pendientes": 277,
+      "finalizados": 261
+    },
+    {
+      "mes": "2023-04",
+      "total": 291,
+      "pendientes": 192,
+      "finalizados": 99
+    },
+    {
+      "mes": "2023-05",
+      "total": 368,
+      "pendientes": 252,
+      "finalizados": 116
+    },
+    {
+      "mes": "2023-06",
+      "total": 366,
+      "pendientes": 245,
+      "finalizados": 121
+    },
+    {
+      "mes": "2023-07",
+      "total": 367,
+      "pendientes": 273,
+      "finalizados": 94
+    },
+    {
+      "mes": "2023-08",
+      "total": 342,
+      "pendientes": 231,
+      "finalizados": 111
+    },
+    {
+      "mes": "2023-09",
+      "total": 304,
+      "pendientes": 222,
+      "finalizados": 82
+    },
+    {
+      "mes": "2023-10",
+      "total": 377,
+      "pendientes": 244,
+      "finalizados": 133
+    },
+    {
+      "mes": "2023-11",
+      "total": 402,
+      "pendientes": 232,
+      "finalizados": 170
+    },
+    {
+      "mes": "2023-12",
+      "total": 321,
+      "pendientes": 159,
+      "finalizados": 162
+    },
+    {
+      "mes": "2024-01",
+      "total": 512,
+      "pendientes": 251,
+      "finalizados": 261
+    },
+    {
+      "mes": "2024-02",
+      "total": 432,
+      "pendientes": 248,
+      "finalizados": 184
+    },
+    {
+      "mes": "2024-03",
+      "total": 322,
+      "pendientes": 217,
+      "finalizados": 105
+    },
+    {
+      "mes": "2024-04",
+      "total": 218,
+      "pendientes": 138,
+      "finalizados": 80
+    },
+    {
+      "mes": "2024-05",
+      "total": 331,
+      "pendientes": 209,
+      "finalizados": 122
+    },
+    {
+      "mes": "2024-06",
+      "total": 320,
+      "pendientes": 207,
+      "finalizados": 113
+    },
+    {
+      "mes": "2024-07",
+      "total": 298,
+      "pendientes": 191,
+      "finalizados": 107
+    },
+    {
+      "mes": "2024-08",
+      "total": 280,
+      "pendientes": 186,
+      "finalizados": 94
+    },
+    {
+      "mes": "2024-09",
+      "total": 309,
+      "pendientes": 222,
+      "finalizados": 87
+    },
+    {
+      "mes": "2024-10",
+      "total": 332,
+      "pendientes": 214,
+      "finalizados": 118
+    },
+    {
+      "mes": "2024-11",
+      "total": 313,
+      "pendientes": 198,
+      "finalizados": 115
+    },
+    {
+      "mes": "2024-12",
+      "total": 288,
+      "pendientes": 175,
+      "finalizados": 113
+    },
+    {
+      "mes": "2025-01",
+      "total": 343,
+      "pendientes": 124,
+      "finalizados": 217
+    },
+    {
+      "mes": "2025-02",
+      "total": 369,
+      "pendientes": 167,
+      "finalizados": 200
+    },
+    {
+      "mes": "2025-03",
+      "total": 314,
+      "pendientes": 163,
+      "finalizados": 149
+    },
+    {
+      "mes": "2025-04",
+      "total": 276,
+      "pendientes": 193,
+      "finalizados": 82
+    },
+    {
+      "mes": "2025-05",
+      "total": 299,
+      "pendientes": 212,
+      "finalizados": 87
+    },
+    {
+      "mes": "2025-06",
+      "total": 321,
+      "pendientes": 251,
+      "finalizados": 67
+    },
+    {
+      "mes": "2025-07",
+      "total": 336,
+      "pendientes": 217,
+      "finalizados": 111
+    },
+    {
+      "mes": "2025-08",
+      "total": 321,
+      "pendientes": 234,
+      "finalizados": 84
+    },
+    {
+      "mes": "2025-09",
+      "total": 291,
+      "pendientes": 202,
+      "finalizados": 89
+    },
+    {
+      "mes": "2025-10",
+      "total": 319,
+      "pendientes": 292,
+      "finalizados": 26
+    },
+    {
+      "mes": "2025-11",
+      "total": 314,
+      "pendientes": 303,
+      "finalizados": 9
+    },
+    {
+      "mes": "2025-12",
+      "total": 261,
+      "pendientes": 255,
+      "finalizados": 0
+    },
+    {
+      "mes": "2026-01",
+      "total": 296,
+      "pendientes": 190,
+      "finalizados": 99
+    },
+    {
+      "mes": "2026-02",
+      "total": 375,
+      "pendientes": 282,
+      "finalizados": 87
+    },
+    {
+      "mes": "2026-03",
+      "total": 457,
+      "pendientes": 381,
+      "finalizados": 71
+    },
+    {
+      "mes": "2026-04",
+      "total": 401,
+      "pendientes": 385,
+      "finalizados": 15
+    },
+    {
+      "mes": "2026-05",
+      "total": 369,
+      "pendientes": 366,
+      "finalizados": 1
+    },
+    {
+      "mes": "2026-06",
+      "total": 277,
+      "pendientes": 273,
+      "finalizados": 0
+    },
+    {
+      "mes": "2026-07",
+      "total": 375,
+      "pendientes": 372,
+      "finalizados": 0
+    },
+    {
+      "mes": "2026-08",
+      "total": 386,
+      "pendientes": 385,
+      "finalizados": 1
+    }
+  ],
+  "por_estado": [
+    {
+      "estado": "PENDIENTE",
+      "total": 10506
+    },
+    {
+      "estado": "FINALIZADO",
+      "total": 4996
+    },
+    {
+      "estado": "ANULADO",
+      "total": 55
+    },
+    {
+      "estado": "PRUEBA",
+      "total": 3
+    }
+  ],
+  "por_categoria": [
+    {
+      "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+      "total": 1306
+    },
+    {
+      "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+      "total": 1212
+    },
+    {
+      "nombre": "LIMPIEZA DE BALDIOS",
+      "total": 1014
+    },
+    {
+      "nombre": "RETIRO DE CHATARRAS",
+      "total": 696
+    },
+    {
+      "nombre": "DESTRONQUE DE ARBOLES",
+      "total": 676
+    },
+    {
+      "nombre": "VERTEDEROS CLANDESTINOS",
+      "total": 617
+    },
+    {
+      "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+      "total": 593
+    },
+    {
+      "nombre": "SOLICITUD DE INTERVENCION POLICIA DE TRANSITO",
+      "total": 572
+    },
+    {
+      "nombre": "AGUA SERVIDA",
+      "total": 551
+    },
+    {
+      "nombre": "VERIFICACION DE HABILITACION DEL NEGOCIO",
+      "total": 544
+    },
+    {
+      "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+      "total": 538
+    },
+    {
+      "nombre": "DENUNCIA DE FRENTISTAS",
+      "total": 495
+    },
+    {
+      "nombre": "PODA INTERIOR - NOTIFICAR",
+      "total": 491
+    },
+    {
+      "nombre": "RUIDOS MOLESTOS",
+      "total": 473
+    },
+    {
+      "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+      "total": 420
+    },
+    {
+      "nombre": "VERIFICACION DE PLANOS E INFRAESTRUCTURA",
+      "total": 411
+    },
+    {
+      "nombre": "PISCINAS CON ACUMULACION DE AGUA SIN TRATAR",
+      "total": 366
+    },
+    {
+      "nombre": "RETIRO DE VEHICULOS",
+      "total": 359
+    },
+    {
+      "nombre": "REPARACION DE PAVIMENTOS",
+      "total": 348
+    },
+    {
+      "nombre": "OBSTRUCCION DE VEREDA",
+      "total": 262
+    },
+    {
+      "nombre": "OTROS",
+      "total": 238
+    },
+    {
+      "nombre": "LIMPIEZA DE VEREDA",
+      "total": 223
+    },
+    {
+      "nombre": "QUEMA DE BASURA",
+      "total": 216
+    },
+    {
+      "nombre": "PODA Y/O DESTRONQUE ILEGAL",
+      "total": 211
+    },
+    {
+      "nombre": "FILTRACION POR MURO",
+      "total": 209
+    },
+    {
+      "nombre": "CONTAMINACION AMBIENTAL",
+      "total": 193
+    },
+    {
+      "nombre": "REPARACION DE BACHE POR CANOS ROTOS",
+      "total": 173
+    },
+    {
+      "nombre": "CONSERVACION DE VEREDA",
+      "total": 152
+    },
+    {
+      "nombre": "MURO LINDERO",
+      "total": 148
+    },
+    {
+      "nombre": "ZOONOSIS",
+      "total": 126
+    },
+    {
+      "nombre": "HUNDIMIENTO DE ASFALTO",
+      "total": 121
+    },
+    {
+      "nombre": "VENTA EN LA VIA PUBLICA (CARRITOS LOMITERIAS/CASILLAS)",
+      "total": 116
+    },
+    {
+      "nombre": "FALTA DE VEREDA",
+      "total": 111
+    },
+    {
+      "nombre": "MATERIALES DE CONSTRUCCION EN LA VIA PUBLICA",
+      "total": 95
+    },
+    {
+      "nombre": "LIMPIEZA DE CAUCE HIDRICO",
+      "total": 68
+    },
+    {
+      "nombre": "BALDIOS",
+      "total": 63
+    },
+    {
+      "nombre": "FALTA DE RECOLECCION DE BASURA",
+      "total": 63
+    },
+    {
+      "nombre": "REPARACION DE EMPEDRADO",
+      "total": 61
+    },
+    {
+      "nombre": "LIMPIEZA DE SUMIDERO",
+      "total": 59
+    },
+    {
+      "nombre": "OBSTRUYE EL PASO PEATONAL CON MESAS Y SILLAS EN LA VIA PUBLICA",
+      "total": 48
+    },
+    {
+      "nombre": "SOLICITUD DE CONTROL DE ESTACIONAMIENTO",
+      "total": 46
+    },
+    {
+      "nombre": "HUNDIMIENTO DE EMPEDRADO",
+      "total": 44
+    },
+    {
+      "nombre": "MINIVERTEDEROS",
+      "total": 43
+    },
+    {
+      "nombre": "VERIFICACION DE CONTENEDORES PARTICULARES",
+      "total": 40
+    },
+    {
+      "nombre": "OBSTRUCCION DEL PASO VEHICULAR",
+      "total": 37
+    },
+    {
+      "nombre": "BANDEJA Y MALLA PROTECTORA",
+      "total": 36
+    },
+    {
+      "nombre": "OCUPACION DE ESPACIOS DE DOMINIO PUBLICO",
+      "total": 35
+    },
+    {
+      "nombre": "CARTELERIA (LED)",
+      "total": 31
+    },
+    {
+      "nombre": "DESNIVEL DE VEREDA",
+      "total": 31
+    },
+    {
+      "nombre": "EVALUACION FITOSANITARIA",
+      "total": 31
+    },
+    {
+      "nombre": "LIMPIEZA DE CUNETA",
+      "total": 26
+    },
+    {
+      "nombre": "ARREGLO DE TAPA DE SUMIDERO",
+      "total": 25
+    },
+    {
+      "nombre": "SOLICITUD DE DESAGUE PLUVIAL",
+      "total": 25
+    },
+    {
+      "nombre": "VISTA LINDERA",
+      "total": 23
+    },
+    {
+      "nombre": "FILTRACION POR FALTA DE CANALETA",
+      "total": 22
+    },
+    {
+      "nombre": "MAL FUNCIONAMIENTO DE SEMAFOROS",
+      "total": 22
+    },
+    {
+      "nombre": "LIMPIEZA DE PLAZAS",
+      "total": 21
+    },
+    {
+      "nombre": "REPARACION DE REJILLA DE LA BOCA DE TORMENTA",
+      "total": 21
+    },
+    {
+      "nombre": "RETIRO DE RAMAS",
+      "total": 21
+    },
+    {
+      "nombre": "ARBOL CAIDO",
+      "total": 20
+    },
+    {
+      "nombre": "PEDIDO DE DESALOJO DE VENDEDORES AMBULANTES Y ESTACIONADOS.",
+      "total": 20
+    },
+    {
+      "nombre": "CONTROL SANITARIO DE ESTABLECIMIENTO",
+      "total": 19
+    },
+    {
+      "nombre": "PINTURA TOXICA",
+      "total": 19
+    },
+    {
+      "nombre": "CONTROL DE PREVENCION DE INCENDIO",
+      "total": 18
+    },
+    {
+      "nombre": "RETIRO DE ESCOMBROS POR RESTOS ASFALTICOS",
+      "total": 18
+    },
+    {
+      "nombre": "RETIRO DE ESCOMBROS QUE OBSTRUYE EL PASO - NOTIFICAR",
+      "total": 18
+    },
+    {
+      "nombre": "RETIRO DE BASURA DOMICILIARIA",
+      "total": 17
+    },
+    {
+      "nombre": "VERIFICACION DE CARTELERIA EN LA VIA PUBLICA",
+      "total": 17
+    },
+    {
+      "nombre": "FALTA DE HIGIENE EN LOCALES RELACIONADOS CON ALIMENTOS",
+      "total": 15
+    },
+    {
+      "nombre": "REPARACION DE CARTEL DE SENALIZACION",
+      "total": 14
+    },
+    {
+      "nombre": "PARO DE OBRA POR INCUMPLIMIENTO DE REQUISITOS",
+      "total": 13
+    },
+    {
+      "nombre": "PEDIDO CARTEL - PROHIBIDO TIRAR BASURAS",
+      "total": 12
+    },
+    {
+      "nombre": "DESTRANQUE DE REGISTRO",
+      "total": 11
+    },
+    {
+      "nombre": "FALTA DE PINTURA, SENALES VERTICALES Y HORIZONTALES",
+      "total": 11
+    },
+    {
+      "nombre": "PINTURA Y SENALIZACION DE LOMADAS",
+      "total": 11
+    },
+    {
+      "nombre": "REPOSICION DE CARTELES POR ACCIDENTE DE TRANSITO",
+      "total": 11
+    },
+    {
+      "nombre": "CIERRE DE CALLES",
+      "total": 10
+    },
+    {
+      "nombre": "RECLAMOS SOBRE TELEFONICAS",
+      "total": 10
+    },
+    {
+      "nombre": "PRODUCTOS ALIMENTICIOS EN MAL ESTADO Y/O VENCIDOS",
+      "total": 9
+    },
+    {
+      "nombre": "INTERVENCION ENTRE VECINOS/ PODA O DESTRONQUE",
+      "total": 7
+    },
+    {
+      "nombre": "HUMO NEGRO",
+      "total": 6
+    },
+    {
+      "nombre": "LIMPIEZA DE PASEO CENTRAL",
+      "total": 6
+    },
+    {
+      "nombre": "FERIAS LIBRES",
+      "total": 4
+    },
+    {
+      "nombre": "RETIRO DE CONTENEDOR MUNICIPAL",
+      "total": 4
+    },
+    {
+      "nombre": "BIODIVERSIDAD",
+      "total": 3
+    },
+    {
+      "nombre": "CERCA ELECTRICA",
+      "total": 3
+    },
+    {
+      "nombre": "PEDIDO DE CRUCES NUEVOS",
+      "total": 3
+    },
+    {
+      "nombre": "OBSTRUYE EL PASO PEATONAL CON MERCADERIA EN LA VIA PUBLICA",
+      "total": 2
+    },
+    {
+      "nombre": "OBSTRUYE SALIDAS DE EMERGENCIA CON MERCADERIA EN LA VIA PUBLICA",
+      "total": 2
+    },
+    {
+      "nombre": "OBSTRUYE SALIDAS DE VEHICULOS CON MERCADERIA EN LA VIA PUBLICA",
+      "total": 2
+    },
+    {
+      "nombre": "OBSTRUYE SALIDAS DE VEHICULOS CON MESAS Y SILLAS EN LA VIA PUBLICA",
+      "total": 2
+    },
+    {
+      "nombre": "VENTA DE BEBIDAS ALCOHOLICAS A MENORES DE EDAD",
+      "total": 2
+    },
+    {
+      "nombre": "DANOS ESTRUCTURALES POR TRABAJOS DE OBRAS MUNICIPALES",
+      "total": 1
+    },
+    {
+      "nombre": "DENUNCIA POR VENTA DE PRODUCTOS NO PERMITIDOS EN LA VIA PUBLICA",
+      "total": 1
+    },
+    {
+      "nombre": "FOBSTRUCCION DEL PASO PEATONAL",
+      "total": 1
+    }
+  ],
+  "por_dependencia": [
+    {
+      "nombre": "DIRECCION GENERAL DE GESTION AMBIENTAL",
+      "total": 3890
+    },
+    {
+      "nombre": "DIRECCION DE LA POLICIA MUNICIPAL DE VIGILANCIA",
+      "total": 3228
+    },
+    {
+      "nombre": "POLICIA MUNICIPAL DE TRANSITO",
+      "total": 1268
+    },
+    {
+      "nombre": "DIRECCION DE VIALIDAD",
+      "total": 954
+    },
+    {
+      "nombre": "DIRECCION GENERAL DE DESARROLLO URBANO",
+      "total": 602
+    },
+    {
+      "nombre": "DIRECCION DE OBRAS PARTICULARES - DEPARTAMENTO DE FISCALIZACION DE OBRAS PARTICULARES",
+      "total": 498
+    },
+    {
+      "nombre": "D. P. M. F. - DEPARTAMENTO FISCALIZADOR DE NEGOCIO",
+      "total": 322
+    },
+    {
+      "nombre": "DIRECCION DE OBRAS PARTICULARES - DEPARTAMENTO DE FISCALIZACION DE OBRAS",
+      "total": 178
+    },
+    {
+      "nombre": "UNIDAD DE DENUNCIAS Y RECLAMOS",
+      "total": 172
+    },
+    {
+      "nombre": "DIRECCION DE SERVICIOS URBANOS",
+      "total": 166
+    },
+    {
+      "nombre": "DIRECCION DE DEFENSA DEL CONSUMIDOR",
+      "total": 118
+    },
+    {
+      "nombre": "DIRECCION DE OBRAS PARTICULARES",
+      "total": 69
+    },
+    {
+      "nombre": "D. P. M. F. - DIRECCION DE POLICIA MUNICIPAL FISCALIZADORA",
+      "total": 66
+    },
+    {
+      "nombre": "DIRECCION GENERAL OBRAS MUNICIPAL",
+      "total": 26
+    },
+    {
+      "nombre": "DIRECCION DE DEFENSA DEL CONSUMIDOR - DEPARTAMENTO DE SALUBRIDAD",
+      "total": 15
+    },
+    {
+      "nombre": "UNIDAD DE SEMAFOROS - DIRECCION DE TRANSITO",
+      "total": 14
+    },
+    {
+      "nombre": "DIRECCION DE CATASTRO - DEPARTAMENTO DE PCI",
+      "total": 13
+    },
+    {
+      "nombre": "D. P. M. F. – DIRECCION DE POLICIA MUNICIPAL FISCALIZADORA",
+      "total": 5
+    },
+    {
+      "nombre": "D. P. M. F. - DIRECCION DE LA POLICIA MUNICIPAL FISCALIZADORA",
+      "total": 1
+    }
+  ],
+  "por_barrio": [
+    {
+      "nombre": "SAN PABLO",
+      "total": 411
+    },
+    {
+      "nombre": "RECOLETA",
+      "total": 325
+    },
+    {
+      "nombre": "SAN VICENTE",
+      "total": 281
+    },
+    {
+      "nombre": "VISTA ALEGRE",
+      "total": 247
+    },
+    {
+      "nombre": "VILLA MORRA",
+      "total": 244
+    },
+    {
+      "nombre": "MBURUCUYA",
+      "total": 242
+    },
+    {
+      "nombre": "OBRERO",
+      "total": 237
+    },
+    {
+      "nombre": "CIUDAD NUEVA",
+      "total": 235
+    },
+    {
+      "nombre": "JARA",
+      "total": 234
+    },
+    {
+      "nombre": "VILLA AURELIA",
+      "total": 223
+    },
+    {
+      "nombre": "LOMA PYTA",
+      "total": 211
+    },
+    {
+      "nombre": "LAS LOMAS",
+      "total": 206
+    },
+    {
+      "nombre": "LAS MERCEDES",
+      "total": 197
+    },
+    {
+      "nombre": "MBURICAO",
+      "total": 191
+    },
+    {
+      "nombre": "SAN ROQUE",
+      "total": 184
+    },
+    {
+      "nombre": "SAN CRISTOBAL",
+      "total": 182
+    },
+    {
+      "nombre": "TACUMBU",
+      "total": 181
+    },
+    {
+      "nombre": "YCUA SATI",
+      "total": 174
+    },
+    {
+      "nombre": "LA ENCARNACION",
+      "total": 172
+    },
+    {
+      "nombre": "SAN JORGE",
+      "total": 162
+    },
+    {
+      "nombre": "PINOZA",
+      "total": 155
+    },
+    {
+      "nombre": "SAN ANTONIO",
+      "total": 142
+    },
+    {
+      "nombre": "ITA ENRAMADA",
+      "total": 138
+    },
+    {
+      "nombre": "BERNARDINO CABALLERO",
+      "total": 127
+    },
+    {
+      "nombre": "HIPODROMO",
+      "total": 126
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI",
+      "total": 123
+    },
+    {
+      "nombre": "MADAME LYNCH",
+      "total": 121
+    },
+    {
+      "nombre": "ZEBALLOS CUE",
+      "total": 121
+    },
+    {
+      "nombre": "NAZARETH",
+      "total": 119
+    },
+    {
+      "nombre": "VIRGEN DE LA ASUNCION",
+      "total": 118
+    },
+    {
+      "nombre": "BELLA VISTA",
+      "total": 117
+    },
+    {
+      "nombre": "REPUBLICANO",
+      "total": 114
+    },
+    {
+      "nombre": "SAJONIA",
+      "total": 107
+    },
+    {
+      "nombre": "TERMINAL",
+      "total": 105
+    },
+    {
+      "nombre": "OBRERO INTENDENTE B. GUGGIARI",
+      "total": 102
+    },
+    {
+      "nombre": "YTAY",
+      "total": 100
+    },
+    {
+      "nombre": "HERRERA",
+      "total": 91
+    },
+    {
+      "nombre": "CARLOS A. LOPEZ",
+      "total": 89
+    },
+    {
+      "nombre": "PETTIROSSI",
+      "total": 89
+    },
+    {
+      "nombre": "TEMBETARY",
+      "total": 86
+    },
+    {
+      "nombre": "GRAL. DIAZ",
+      "total": 83
+    },
+    {
+      "nombre": "MCAL. ESTIGARRIBIA",
+      "total": 83
+    },
+    {
+      "nombre": "LUIS ALBERTO DE HERRERA",
+      "total": 82
+    },
+    {
+      "nombre": "LOS LAURELES",
+      "total": 80
+    },
+    {
+      "nombre": "GRAL. JOSE EDUVIGIS DIAZ",
+      "total": 79
+    },
+    {
+      "nombre": "MCAL. JOSE FELIX ESTIGARRIBIA",
+      "total": 78
+    },
+    {
+      "nombre": "MANORA",
+      "total": 72
+    },
+    {
+      "nombre": "DR. FRANCIA",
+      "total": 70
+    },
+    {
+      "nombre": "SANTA MARIA",
+      "total": 68
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO",
+      "total": 66
+    },
+    {
+      "nombre": "DR. GASPAR RODRIGUEZ DE FRANCIA",
+      "total": 65
+    },
+    {
+      "nombre": "LA CATEDRAL",
+      "total": 65
+    },
+    {
+      "nombre": "MBOCAYATY",
+      "total": 65
+    },
+    {
+      "nombre": "SALVADOR DEL MUNDO",
+      "total": 62
+    },
+    {
+      "nombre": "SANTA LIBRADA",
+      "total": 60
+    },
+    {
+      "nombre": "MADAME ELISA ALICIA LYNCH",
+      "total": 57
+    },
+    {
+      "nombre": "CATEDRAL",
+      "total": 56
+    },
+    {
+      "nombre": "MCAL. LOPEZ",
+      "total": 56
+    },
+    {
+      "nombre": "CANADA DEL YBYRAY",
+      "total": 52
+    },
+    {
+      "nombre": "VIRGEN DE FATIMA",
+      "total": 52
+    },
+    {
+      "nombre": "PRESIDENTE CARLOS ANTONIO LOPEZ",
+      "total": 51
+    },
+    {
+      "nombre": "MCAL. FRANCISCO SOLANO LOPEZ",
+      "total": 50
+    },
+    {
+      "nombre": "STA. MARIA",
+      "total": 46
+    },
+    {
+      "nombre": "ROBERTO L. PETIT",
+      "total": 44
+    },
+    {
+      "nombre": "BOTANICO",
+      "total": 43
+    },
+    {
+      "nombre": "SANTISIMA TRINIDAD",
+      "total": 42
+    },
+    {
+      "nombre": "STMA. TRINIDAD",
+      "total": 42
+    },
+    {
+      "nombre": "SAN BLAS",
+      "total": 40
+    },
+    {
+      "nombre": "RICARDO BRUGADA",
+      "total": 38
+    },
+    {
+      "nombre": "ITA PYTA PUNTA",
+      "total": 36
+    },
+    {
+      "nombre": "SANTO DOMINGO",
+      "total": 34
+    },
+    {
+      "nombre": "STA. LIBRADA",
+      "total": 34
+    },
+    {
+      "nombre": "GASPAR RODRIGUEZ DE FRANCIA",
+      "total": 29
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT.",
+      "total": 29
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT",
+      "total": 28
+    },
+    {
+      "nombre": "TABLADA NUEVA",
+      "total": 26
+    },
+    {
+      "nombre": "SANTA ROSA",
+      "total": 21
+    },
+    {
+      "nombre": "GRAL. BERNARDINO CABALLERO",
+      "total": 19
+    },
+    {
+      "nombre": "ANULADO",
+      "total": 18
+    },
+    {
+      "nombre": "MCAL JOSE FELIX ESTIGARRIBIA",
+      "total": 18
+    },
+    {
+      "nombre": "SAN CAYETANO",
+      "total": 13
+    },
+    {
+      "nombre": "STA. ROSA",
+      "total": 13
+    },
+    {
+      "nombre": "STMA.TRINIDAD",
+      "total": 12
+    },
+    {
+      "nombre": "BANADO CARA CARA",
+      "total": 11
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ",
+      "total": 11
+    },
+    {
+      "nombre": "JOSE FELIX ESTIGARRIBIA",
+      "total": 11
+    },
+    {
+      "nombre": "MCAL LOPEZ",
+      "total": 10
+    },
+    {
+      "nombre": "STO. DOMINGO",
+      "total": 10
+    },
+    {
+      "nombre": "ROBERTO L.PETTIT",
+      "total": 9
+    },
+    {
+      "nombre": "YKUA SATI",
+      "total": 9
+    },
+    {
+      "nombre": "MCAL.LOPEZ",
+      "total": 8
+    },
+    {
+      "nombre": "SILVIO PETIROSSI",
+      "total": 8
+    },
+    {
+      "nombre": "STA.LIBRADA",
+      "total": 8
+    },
+    {
+      "nombre": "GRAL. EDUVIGIS DIAZ",
+      "total": 7
+    },
+    {
+      "nombre": "RODRIGUEZ DE FRANCIA",
+      "total": 7
+    },
+    {
+      "nombre": "DE LA RESIDENTA",
+      "total": 6
+    },
+    {
+      "nombre": "MCAL FRANCISCO S. LOPEZ",
+      "total": 6
+    },
+    {
+      "nombre": "MCAL.ESTIGARRIBIA",
+      "total": 6
+    },
+    {
+      "nombre": "NO CORRESPONDE",
+      "total": 6
+    },
+    {
+      "nombre": "JUKYTY",
+      "total": 5
+    },
+    {
+      "nombre": "SANTA ANA",
+      "total": 5
+    },
+    {
+      "nombre": "CARLOS A.LOPEZ",
+      "total": 4
+    },
+    {
+      "nombre": "GRAL.DIAZ",
+      "total": 4
+    },
+    {
+      "nombre": "MCAL FRANCISCO SOLANO LOPEZ",
+      "total": 4
+    },
+    {
+      "nombre": "MCAL.JOSE FELIX ESTIGARRIBIA",
+      "total": 4
+    },
+    {
+      "nombre": "STA. ANA",
+      "total": 4
+    },
+    {
+      "nombre": "STA.ANA",
+      "total": 4
+    },
+    {
+      "nombre": "BERNARDINO CABALLERO AZARA C/GENERAL SANTOS",
+      "total": 3
+    },
+    {
+      "nombre": "CAMPO GRANDE",
+      "total": 3
+    },
+    {
+      "nombre": "CANADA DEL YVYRAY",
+      "total": 3
+    },
+    {
+      "nombre": "CARMELITAS",
+      "total": 3
+    },
+    {
+      "nombre": "FALTA DE DATOS",
+      "total": 3
+    },
+    {
+      "nombre": "FATIMA",
+      "total": 3
+    },
+    {
+      "nombre": "JOSE EDUVIGIS DIAZ",
+      "total": 3
+    },
+    {
+      "nombre": "LA CATEDRAL 25 DE MAYO Y CABALLERO",
+      "total": 3
+    },
+    {
+      "nombre": "MADAME LINCH",
+      "total": 3
+    },
+    {
+      "nombre": "PINOZA 14 DE JUNIO Y LUIS MORQUIO",
+      "total": 3
+    },
+    {
+      "nombre": "PRUEBA",
+      "total": 3
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT. ALFREDO RAMOS ENTRE 21 PROYECTADAS(YTA YBATE) Y 22 PROYECTADAS (DE LAS CORDILLERAS).",
+      "total": 3
+    },
+    {
+      "nombre": "SAN ANTONIO - ARELLANO ENTRE GUILLERMO ARIAS Y DOCTOR MONTERO (A MEDIA CUADRA DE FABRICA ITASA SOBRE ARELLANO)",
+      "total": 3
+    },
+    {
+      "nombre": "SAN PABLO TTE JOSE FELIX LOPEZ 813 C/ ENFERMERAS DEL CHACO.",
+      "total": 3
+    },
+    {
+      "nombre": "SAN RAFAEL",
+      "total": 3
+    },
+    {
+      "nombre": "SAN VICENTE - 1RO DE MAYO Y PAMPA GRANDE",
+      "total": 3
+    },
+    {
+      "nombre": "SILVIO PETTIROSI",
+      "total": 3
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI - NICARAGUA Y OTAZU (EN LA ESQUINA DE LA ESCUELA DR PEDRO P PENA)",
+      "total": 3
+    },
+    {
+      "nombre": "STA.MARIA",
+      "total": 3
+    },
+    {
+      "nombre": "STA.ROSA",
+      "total": 3
+    },
+    {
+      "nombre": "TRINIDAD",
+      "total": 3
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO - CAPITAN ILDEFONSO ACOSTA 378 ENTRE NIEDEBERGEN Y FRANCISCO ZURBARAN",
+      "total": 3
+    },
+    {
+      "nombre": "BANADO CARA CARA - CNEL. MONTIEL Y DOLORES VERA",
+      "total": 2
+    },
+    {
+      "nombre": "BARRIO OBRERO MEXICO 3304 Y 21 PROYECTADAS",
+      "total": 2
+    },
+    {
+      "nombre": "CANADA DEL YBYRAY AVDA. MOLAS LOPEZ NO 1434 CASI VETERANOS DEL 70.",
+      "total": 2
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ - AVENIDA CARLOS ANTONIO LOPEZ Y TESTANOVA",
+      "total": 2
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ - CARLOS ANTONIO LOPEZ ESQUINA RAMON DE LAS LLAMAS",
+      "total": 2
+    },
+    {
+      "nombre": "CATEDRAL - MEXICO Y LUIS ALBERTO DE HERRERA",
+      "total": 2
+    },
+    {
+      "nombre": "DE LAS RESIDENTAS",
+      "total": 2
+    },
+    {
+      "nombre": "DR. GASPAR RODRIGUEZ DE FRANCIA - DR MAZZEI C/ DR MONTERO",
+      "total": 2
+    },
+    {
+      "nombre": "GRAL JOSE EDUVIGID DIAZ - AVDA QUINTA Y NUESTRA SENORA DE LA ASUNCION (HELADERIA PARIS)",
+      "total": 2
+    },
+    {
+      "nombre": "HIPODROMO - LAPACHO E/ CONCEPCION Y PASO DE PATRIA (COLEGIO STELLA MARIS)",
+      "total": 2
+    },
+    {
+      "nombre": "JARA - FLORIDA 1097 ESQUINA ATILIO PENA",
+      "total": 2
+    },
+    {
+      "nombre": "JARA - PITIANTUTA ENTRE SAN COSME Y SAN ANTONIO",
+      "total": 2
+    },
+    {
+      "nombre": "JARA DR. PEDRO CIANCIO Y SAN TIAGO .",
+      "total": 2
+    },
+    {
+      "nombre": "JARA SAN FRANCISCO 1351 ENTRE SAN ANTONIO Y SAN COSME",
+      "total": 2
+    },
+    {
+      "nombre": "LA CATEDRAL MEXICO CASI TERCERA",
+      "total": 2
+    },
+    {
+      "nombre": "LAS LOMAS - PAPA JUAN XXIII 1815",
+      "total": 2
+    },
+    {
+      "nombre": "LAS MERCEDES - TTE BERNARDINO MORALES 587 Y JUAN DE ZALAZAR Y ESPINOZA",
+      "total": 2
+    },
+    {
+      "nombre": "LAS MOLAS",
+      "total": 2
+    },
+    {
+      "nombre": "LOMA PYTA - OKARA POTY CUE MI ENTRE JOSE ZARZA Y CNEL JUAN PORTA",
+      "total": 2
+    },
+    {
+      "nombre": "LOMA PYTA ALGODONAL Y ACAHAY",
+      "total": 2
+    },
+    {
+      "nombre": "LOS LAURELES - TERESA LAMAS CARISIMO ENTRE RI.1 2 DE MAYO Y RI.4 CURUPAYTY",
+      "total": 2
+    },
+    {
+      "nombre": "LOS LAURELES ERCILIA LOPEZ 5624 CASI PASTORA CESPEDES",
+      "total": 2
+    },
+    {
+      "nombre": "LOS LAURELES PASTOR BENITEZ CAS KOSTIA 1235NOVSKI",
+      "total": 2
+    },
+    {
+      "nombre": "MANORA - NUESTRA SENORA DEL CARMEN CASI PROF DELIA FRUTOS DE GONZALEZ",
+      "total": 2
+    },
+    {
+      "nombre": "MBOCAJATY",
+      "total": 2
+    },
+    {
+      "nombre": "MBURICAO TELMO AQUINO 4009 Y CHACO BOREAL.",
+      "total": 2
+    },
+    {
+      "nombre": "MBURUCUYA - CAPITAN ORTIZ CASI VETERANOS DE LA GUERRA DEL 70",
+      "total": 2
+    },
+    {
+      "nombre": "MCAL. JOSE FELIX ESDTIGARRIBIA",
+      "total": 2
+    },
+    {
+      "nombre": "MURUCUYA",
+      "total": 2
+    },
+    {
+      "nombre": "NAZARETH TOBATI Y TARUMA",
+      "total": 2
+    },
+    {
+      "nombre": "OBRERO - JUAN PEDRO ESCALADA (BATALLON 40) Y ALBERDI",
+      "total": 2
+    },
+    {
+      "nombre": "PANAMBIRETA",
+      "total": 2
+    },
+    {
+      "nombre": "RECOLETA CHOFERES DEL CHACO Y TTE SOLIS",
+      "total": 2
+    },
+    {
+      "nombre": "REPUBLICANO - AV. JOSE FELIX BOGADO 2556 Y 18 DE JULIO",
+      "total": 2
+    },
+    {
+      "nombre": "REPUBLICANO - DESIDERIO VILLALON Y JAPON",
+      "total": 2
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT 21 PROYECTADAS Y BRASIL 3335",
+      "total": 2
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT. 26 PROYECTADAS ( ISLA PO'I) E/ MAYOR EUSTACIO ROJAS Y GRAL. PATRICIO ESCOBAR.",
+      "total": 2
+    },
+    {
+      "nombre": "SAJONIA - MARIANO ROQUE ALONSO CASI NUFLO DE CHAVEZ",
+      "total": 2
+    },
+    {
+      "nombre": "SAJONIA ALFEREZ SILVA Y DIAZ DE GUZMAN",
+      "total": 2
+    },
+    {
+      "nombre": "SAJONIA(SAN ANOTNIO)",
+      "total": 2
+    },
+    {
+      "nombre": "SALVADOR DEL MUNDO - SALVADOR DEL MUNDO N° 543 ENTRE DR SOSA Y DR NOGUES.",
+      "total": 2
+    },
+    {
+      "nombre": "SAN CAYETANO - ING. GUSTAVO CROVATO Y CORONEL ALFREDO RAMOS",
+      "total": 2
+    },
+    {
+      "nombre": "SAN PABLO GUAVIYU ENTRE QUEBRANTO Y ARAUCANOS",
+      "total": 2
+    },
+    {
+      "nombre": "SAN VICENTE - 18 DE JULIO 2614",
+      "total": 2
+    },
+    {
+      "nombre": "SAN VICENTE - AVDA. GRAL SANTOS 1919 ENTRE MAGALLANES Y LA PAZ",
+      "total": 2
+    },
+    {
+      "nombre": "SAN VICENTE CAMPO VIA ESQUINA MAYOR AMARILLA",
+      "total": 2
+    },
+    {
+      "nombre": "SANTISIMA TRINIDAD - JUANA PABLA CARRILOS Y ARTIGA",
+      "total": 2
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI - CALLE. TTE. RAUL BUZARQUIS CASI TTE. RIGOBERTO CABALLERO",
+      "total": 2
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI - TTE ADOLFO ROJAS SILVA 1135 CASI RCA DE COLOMBIA",
+      "total": 2
+    },
+    {
+      "nombre": "STMA TRINIDAD",
+      "total": 2
+    },
+    {
+      "nombre": "STO.DOMINGO",
+      "total": 2
+    },
+    {
+      "nombre": "TABLADA",
+      "total": 2
+    },
+    {
+      "nombre": "TABLADA NUEVA CANDELARIA 279 C ARTIGAS",
+      "total": 2
+    },
+    {
+      "nombre": "TERMINAL - NEEMBUCU C/YVAPOVO",
+      "total": 2
+    },
+    {
+      "nombre": "TERMINAL YBAPURU ESQUINA YUASY'Y",
+      "total": 2
+    },
+    {
+      "nombre": "TERMINAL YBYRA PYTA CASI LUIS DE GASPERI",
+      "total": 2
+    },
+    {
+      "nombre": "TERMINAL.",
+      "total": 2
+    },
+    {
+      "nombre": "VELLA VISTA",
+      "total": 2
+    },
+    {
+      "nombre": "VILLA AURELIA - CORONEL ANGEL LOPEZ C/ CIRILO RIVAROLA Y FACUNDO MACHAIN",
+      "total": 2
+    },
+    {
+      "nombre": "VILLA MORRA EN LA ESQUINA DEL MAESTRO Y BULNES",
+      "total": 2
+    },
+    {
+      "nombre": "VILLA MORRA O'HIGGINS E/ TTE. HECTOR VERA Y AUSTRIA. (CLINICA ESTETICA RENUVA)",
+      "total": 2
+    },
+    {
+      "nombre": "VIRGEN DE ASUNCION",
+      "total": 2
+    },
+    {
+      "nombre": "VIRGEN DE LA ASUNCION TTE. ANTONIO CAMPERCHOLI N° 2078 CASI LOMBARDO.",
+      "total": 2
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO - PASAJE CERVANTES N° 707 ESQUINA/ SAN MIGUEL.",
+      "total": 2
+    },
+    {
+      "nombre": "VISTA ALEGRE AMANCIO GONZALEZ Y GUARANIES.",
+      "total": 2
+    },
+    {
+      "nombre": "ZEBALLOS CUE - TENIENTE CLAUDIO ACOSTA Y ESPERANZA LEIVA N° 6350 - P/S NOMBRE: VECINOS DEL LUGAR - TELEF.: 0994 701586 - RECEPCION: VIA WHATSAPP.",
+      "total": 2
+    },
+    {
+      "nombre": "- HERRERA - CAP BRIZUELA 831 CASI LILLO",
+      "total": 1
+    },
+    {
+      "nombre": "- MCAL ESTIGARRIBIA - BELGICA130 ENTRE MCAL LOPEZ Y QUESADA",
+      "total": 1
+    },
+    {
+      "nombre": "- TACUMBU - MILANO ENTRE OLEARY Y 15 DE AGOSTO",
+      "total": 1
+    },
+    {
+      "nombre": "ANTONIO LOPEZ E/ ALEJO GARCIA E ISABEL LA CATOLICA.",
+      "total": 1
+    },
+    {
+      "nombre": "ANTONIO RUIZ DE ARELLANO EN EL PASILLO",
+      "total": 1
+    },
+    {
+      "nombre": "ARQUIMEDES LACONICH Y TTE CNEL. ISAIAS JARA PASTORE",
+      "total": 1
+    },
+    {
+      "nombre": "AURELIA",
+      "total": 1
+    },
+    {
+      "nombre": "BANCO SAN MIGUEL",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO - NTRA SRA DE LA ASUNCION ENTRE 5TA Y 6TA PTDA",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO .BATALLON 40 ENTRE MORELOS Y FELIX BOGADO",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO 14 PROYECTADAS Y ALBERDI",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO 15 PDAS Y MEXICO EN LA ESQUINA MISMO",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO 25 DE AGOSTO ENTRE PA'I PEREZ Y CAPITAN FIGARI",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO AVENIDA CHIANG KAI SHEK",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO ESTADOS UNIDOS ESQUINA 2 PROYECTADA",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO JOSE MARIA MORELOS",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO NTRA DE LA ASUNCION ENTRE JUAN ANDRES GELLY Y JUAN P ESCALADA",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO SOBRE CABALLERO ENTRE 16 Y 17 PROYECTADAS",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO TTE. HERNAN VELILLA Y TUYUTI",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO YATAITY CORA Y ANTEQUERA",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO YEGROS 1969",
+      "total": 1
+    },
+    {
+      "nombre": "BARRIO OBRERO YEGROS Y 10 PROYECTADAS",
+      "total": 1
+    },
+    {
+      "nombre": "BELLA VISTA - CARMEN GARCETE Y PROFESOR CHAVEZ",
+      "total": 1
+    },
+    {
+      "nombre": "BELLA VISTA - PROFESOR DIAZ PEREZ 1280 CASI PRESBITERO LEON",
+      "total": 1
+    },
+    {
+      "nombre": "BELLA VISTA - PROFESOR MARIOTTI CON PROFESORA SILVIA ENCISO",
+      "total": 1
+    },
+    {
+      "nombre": "BELLA VISTA - PROFESOR SILVIA ENCISO & PROFESOR MARIO MARIOTTI",
+      "total": 1
+    },
+    {
+      "nombre": "BELLA VISTA - SANTA ROSA Y SGTO GAUTO",
+      "total": 1
+    },
+    {
+      "nombre": "BELLA VISTA CABO PRIMERO FRANCISCO ESTIGARRIBIA Y MIGUEL DE CERVANTES SAAVEDRA",
+      "total": 1
+    },
+    {
+      "nombre": "BELLA VISTA CNEL JUAN PATINO N° 1321 CASI LUIS DE LEON",
+      "total": 1
+    },
+    {
+      "nombre": "BELLA VISTA SANTA ROSA ESQUINA SARGENTO JOSE LEON GAUTO",
+      "total": 1
+    },
+    {
+      "nombre": "BELLA VISTA SGTO. TORIBIO VALINOTTI Y DR. ANDRES GUBETICH",
+      "total": 1
+    },
+    {
+      "nombre": "BELLA VISTA TENIENTE OCTAVIO BOSCH ENTRE FELIX LOPEZ DE VEGA Y VICTOR HUGO",
+      "total": 1
+    },
+    {
+      "nombre": "BERNARDINO CABALLERO - 25 DE MAYO 3070 ESQUINA BOMBEROS VOLUNTARIOS DEL PARAGUAY",
+      "total": 1
+    },
+    {
+      "nombre": "BERNARDINO CABALLERO - BOMBEROS VOLUNTARIOS 1055 CASI TEODORO MONGELOS",
+      "total": 1
+    },
+    {
+      "nombre": "BERNARDINO CABALLERO - GRAL CABALLERO Y JOSE A FLORES",
+      "total": 1
+    },
+    {
+      "nombre": "BERNARDINO CABALLERO - HERMINIO GIMENEZ ESQ BERNARDINO CABALLERO",
+      "total": 1
+    },
+    {
+      "nombre": "BERNARDINO CABALLERO - HERRERA 2943 CASI 33 ORIENTALES",
+      "total": 1
+    },
+    {
+      "nombre": "BERNARDINO CABALLERO - RODO 245 CASI MCAL LOPEZ (RODO 245 CASI MCAL LOPEZ)",
+      "total": 1
+    },
+    {
+      "nombre": "BERNARDINO CABALLERO CABALLERO",
+      "total": 1
+    },
+    {
+      "nombre": "BERNARDINO CABALLERO KUBISCHEK Y TEODORO S MONGELOS",
+      "total": 1
+    },
+    {
+      "nombre": "BOTANICO (PUERTO BOTANICO)",
+      "total": 1
+    },
+    {
+      "nombre": "BOTANICO (VINAS CUE)",
+      "total": 1
+    },
+    {
+      "nombre": "BOTANICO - DR. CARLOS FIEBRIG C/AVDA. PRIMER PRESIDENTE",
+      "total": 1
+    },
+    {
+      "nombre": "BOTANICO - GENERAL RODAS Y FACUNDA SPERATTI PASILLO 2",
+      "total": 1
+    },
+    {
+      "nombre": "BOTANICO - OLGA BLINDER Y BLANCA ROMERO DE VIOLA",
+      "total": 1
+    },
+    {
+      "nombre": "CANADA DE YBYRAY",
+      "total": 1
+    },
+    {
+      "nombre": "CANADA DEL YBYRAY PABLO NERUDA C/ RIO YPANE",
+      "total": 1
+    },
+    {
+      "nombre": "CANADA DEL YBYRAY SOBRE LA CALLE MARCELINO AYALA CASI HERIBERTO GOMEZ DE LA FUENTE( PORTON GRIS GRANDE )",
+      "total": 1
+    },
+    {
+      "nombre": "CANADA DEL YVYRAY - GENARO ROMERO 331 ESQ. RIO YPANE",
+      "total": 1
+    },
+    {
+      "nombre": "CAP. GWIN ENTRE DIAZ DE SOLIS Y ALEJO GARCIA - CAP. GWIN ENTRE DIAZ DE SOLIS Y ALEJO GARCIA",
+      "total": 1
+    },
+    {
+      "nombre": "CAPITAN RIVAS Y AUDITORES DEL CHACO 314",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS A. LOPEZ DIAZ DE GUZMAN 1136 ENTRE CAP ARANDA Y ORIHUELA",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS A. LOPEZ E/ JUAN DE GARAY Y GOBERNADOR IRALA.",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ - CAP. MANUEL ARANDA ENTRE TESTANOVA Y DE LA CONQUISTA",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ - CAPITAN ARANDA E/ TREJO Y SANABRIA",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ - CIUDAD DE LERIDA 1260 ENTRE TTE. COLMAN Y TTE. CABELLO",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ - CIUDAD DE LERIDA N°1260 ENTRE TTE. COLMAN Y TTE. CABELLO TELEF.: 0961-150.137. MOTIVO: DENUNCIA DE FRENTISTA /AGUA SERVIDA. RECEPCION: VIA WHASTAPP",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ - DE LAS LLANAS Y CAP. GWYNN",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ - MAYOR MARTINEZ 1636 Y DE LAS LLANAS",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ - NORUEGA Y NARCISO LOPEZ",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ - ORIHUELA ENTRE 26 Y 27 PROYECTADA N° 2267 BARRIO SAJONIA",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ ARELLANO Y ALEJO GARCIA",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ CALA A Y JUAN DE GARAY",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS ANTONIO LOPEZ TTE. 1RO. JOSE SAN COLMAN Y LERIDA",
+      "total": 1
+    },
+    {
+      "nombre": "CARLOS ANTONO LOPEZ - LISBOA 1149 ENTRE JUAN LEON MALLORQUIN Y MADRID.",
+      "total": 1
+    },
+    {
+      "nombre": "CARMALITAS",
+      "total": 1
+    },
+    {
+      "nombre": "CARMELITAS CIUDAD DE CORRIENTES ENTRE JOSE MORENO Y JULIAN ALARCON ( DETRAS DEL BANCO CENTRAL )",
+      "total": 1
+    },
+    {
+      "nombre": "CATEDRAL - INDEPENDENCIA NACIONAL / PARAGUAYO INDEPENDIENTE (LIDO BAR)E",
+      "total": 1
+    },
+    {
+      "nombre": "CATEDRAL - ITURBE ENTRE HUMAITA Y HERRERA",
+      "total": 1
+    },
+    {
+      "nombre": "CATEDRAL - PTE. FRANCO Y ALBERDI CASI PALMA",
+      "total": 1
+    },
+    {
+      "nombre": "CATEDRAL RIO MONDAY 235 ENTRE MCAL LOPEZ",
+      "total": 1
+    },
+    {
+      "nombre": "CEBALLOS CUE",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA - 25 DE MAYO 1936 ENTRE GRAL AQUINO Y GRAL BRUGUEZ",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA - 9 DE MARZO & GENERAL JOSE MARIA BRUGUEZ",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA - AVENIDA PERU 455 ENTRE 25 DE MAYO Y CERRO CORA",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA - CERRO CORA 1878 ESQ GENERAL AQUINO",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA - ELIGIO AYALA ESQUINA MAYOR BULLO",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA - ELIZARDO AQUINO ENTRE GUANELLA Y MONGELOS",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA - GRAL BRUGUEZ 774 Y HERRERA",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA - HERMINIO GIMENEZ 1.738 ENTRE REPUBLICA FRANCESA Y MAYOR FLEITAS.",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA - MAYOR FELITAS CASI ELIGIO AYALA",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA - MAYOR FLEITAS 833 ESQ PASAJE URUGUAY",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA - MCAL ESTIGARRIBIA 1856 C/ GRAL AQUINO",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA - REPUBLICA FRANCESA 666 ENTRE HERRERA Y AZARA (DONDE SE ENCUENTRA EL ARBOL)",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA 22 DE SEPTIEMBRE 825",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA 9 DE MARZO 2167 ( CASA DEL DENUNCIADO )",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA AZARA ESQUINA CAPITAN RIVAROLA. CASI GENERAL SANTOS",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA CERRO CORA 1527 C/ TTE. CNEL. IRRAZABA",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA GENERAL BRUGUEZ E/ AZARA Y CERRO CORA",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA JOSE ASUNCION FLORES E/ VICE PDTE SANCHEZ.",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA JOSE ASUNCION FLORES ESQUINA CAPITAN JUAN BAUTISTA RIVAROLA",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA LUIS GUANELLA CASI GENERAL AQUINO FRENTE A LA SECCIONAL 33",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA SOBRE 9 DE MARZO Y GRAL BRUGES",
+      "total": 1
+    },
+    {
+      "nombre": "CIUDAD NUEVA.",
+      "total": 1
+    },
+    {
+      "nombre": "CONCEPCION",
+      "total": 1
+    },
+    {
+      "nombre": "CRISTOBAL - SUCRE 1971 E/ JOSE OCAMPOS Y TTE. TRIFON BENITEZ VERA",
+      "total": 1
+    },
+    {
+      "nombre": "DE LA RESIDENTAS",
+      "total": 1
+    },
+    {
+      "nombre": "DR GASPAR RODRIGUEZ DE FRANCIA HERNANDARIAS 1236 ESQUINA YGATIMI",
+      "total": 1
+    },
+    {
+      "nombre": "DR GASPAS RODRIGUEZ DE FRANCIA CALLE HERNANDARIAS ESQ. JEJUI",
+      "total": 1
+    },
+    {
+      "nombre": "DR. GASPAR R. DE FRANCIA",
+      "total": 1
+    },
+    {
+      "nombre": "DR. GASPAR RODRIGUEZ DE FRANCIA - ALFEREZ SILVA Y DON BOSCO.",
+      "total": 1
+    },
+    {
+      "nombre": "DR. GASPAR RODRIGUEZ DE FRANCIA - MANDUVIRA Y HERNANDARIAS",
+      "total": 1
+    },
+    {
+      "nombre": "DR. GASPAR RODRIGUEZ DE FRANCIA CALLE DON BOSCO ENTRE OLIVA Y DR. GARCETE",
+      "total": 1
+    },
+    {
+      "nombre": "DR. GASPAR RODRIGUEZ DE FRANCIA DR MONTERO CASI BARTOLOME CORONEL",
+      "total": 1
+    },
+    {
+      "nombre": "DR. JOSE GASPAR RODRIGUEZ DE FRANCIA - PALMA ENTRE GARIBALDI Y HERNANDARIAS",
+      "total": 1
+    },
+    {
+      "nombre": "DR. RODRIGUEZ DE FRANCIA - PATRICIOS ESQ CNEL GRACIA",
+      "total": 1
+    },
+    {
+      "nombre": "EDUVIGIS DIAZ",
+      "total": 1
+    },
+    {
+      "nombre": "FRANCISCO",
+      "total": 1
+    },
+    {
+      "nombre": "FRANCISCO SOLANO LOPEZ",
+      "total": 1
+    },
+    {
+      "nombre": "GASPAR RODRIGUEZ DE FRANCIA - HUMAITA 1031 ENTRE COLON Y HERNANDARIAS",
+      "total": 1
+    },
+    {
+      "nombre": "GASPAR RODRIGUEZ DE FRANCIA -DON BOSCO ENTRE PIRIBEBUY Y MANDUVIRA",
+      "total": 1
+    },
+    {
+      "nombre": "GASPAR ROFRIGUEZ DE FRANCIA",
+      "total": 1
+    },
+    {
+      "nombre": "GRAL BERNARDINO CABALLERO AZARA ESQUINA BERNARDINO CABALLERO",
+      "total": 1
+    },
+    {
+      "nombre": "GRAL DIAZ PARAGUARI NO 1512 Y LOMAS VALENTINAS",
+      "total": 1
+    },
+    {
+      "nombre": "GRAL. EDUVIGIS DIAZ - YEGROS 1156 C/ REPUBLICA DE COLOMBIA",
+      "total": 1
+    },
+    {
+      "nombre": "GRAL. JOSE EDUVIGIS DIAS",
+      "total": 1
+    },
+    {
+      "nombre": "GRAL. JOSE EDUVIGIS DIAZ CASI AVDA. GASPAR RODRIGUEZ DE FRANCIA. (FISIO FIT)",
+      "total": 1
+    },
+    {
+      "nombre": "GRAL.BERNARDINO CABALLERO",
+      "total": 1
+    },
+    {
+      "nombre": "GRAL.JOSE EDUVIGIS DIAZ",
+      "total": 1
+    },
+    {
+      "nombre": "HERRERA - 4 DE ULIO 3045 ENTRE CONCEJAL VARGAS Y ROGELIO BENITEZ",
+      "total": 1
+    },
+    {
+      "nombre": "HERRERA - ANTOLIN ALCARAZ 3160 Y ESCURRA",
+      "total": 1
+    },
+    {
+      "nombre": "HERRERA - GENERAL DIAZ LEON ENTRE ESCURRA Y GRAL. ROGELIO BENITEZ",
+      "total": 1
+    },
+    {
+      "nombre": "HERRERA - SUCRE E/ ROGELIO BENITEZ Y CNEL ESCURRA",
+      "total": 1
+    },
+    {
+      "nombre": "HERRERA ANTOLIN IRALA N°3085 C/ ROGELIO BENITEZ",
+      "total": 1
+    },
+    {
+      "nombre": "HERRERA BERTONI ENTRE MOTTA Y JOSE OCAMPOS",
+      "total": 1
+    },
+    {
+      "nombre": "HERRERA CORONEL ESCURRA Y MAXIMILIANO PEREZ",
+      "total": 1
+    },
+    {
+      "nombre": "HERRERA M. LYNCH 379 C/BERTONI",
+      "total": 1
+    },
+    {
+      "nombre": "HERRERA MOISES BERTONI 3141 ENTRE CNEL JUAN ESCURRA Y GRAL ROGELIO BENITEZ 4 CUADRAS DE LA MUNICIPALIDAD",
+      "total": 1
+    },
+    {
+      "nombre": "HERRERA SARGENTO CANDIDO SILVA ESQUINA CARLOS DIAZ DE LEON",
+      "total": 1
+    },
+    {
+      "nombre": "HIPODROMO - AVDA. EUSEBIO AYALA 3650 C/ CEDRO",
+      "total": 1
+    },
+    {
+      "nombre": "HIPODROMO - CARIOS 296 ENTRE REPUBLICA ARGENTINA Y LAPACHO",
+      "total": 1
+    },
+    {
+      "nombre": "HIPODROMO - CEDRO ESQUINA CARIOS",
+      "total": 1
+    },
+    {
+      "nombre": "HIPODROMO - DOCTOR LUIS FRESCURA Y CALLEJON MAYAS",
+      "total": 1
+    },
+    {
+      "nombre": "HIPODROMO - GUARAYOS ENTRE PASO DE PATRIA Y CONCEPCION",
+      "total": 1
+    },
+    {
+      "nombre": "HIPODROMO - LAPACHO 438 CASI INDIO FRANCISCO",
+      "total": 1
+    },
+    {
+      "nombre": "HIPODROMO - LAPACHO ESQ. CARIOS",
+      "total": 1
+    },
+    {
+      "nombre": "HIPODROMO - YVAPURU 3065 ENTRE YBYRAYU Y TOBATI",
+      "total": 1
+    },
+    {
+      "nombre": "HIPODROMO - YVYRAYU Y PILAR",
+      "total": 1
+    },
+    {
+      "nombre": "HIPODROMO LAPACHO ENTRE CONCEPCION Y ENCARNACION",
+      "total": 1
+    },
+    {
+      "nombre": "HIPODROMO TTE ROSS ENTRE PILAR Y ENCARNACION",
+      "total": 1
+    },
+    {
+      "nombre": "INTERNO",
+      "total": 1
+    },
+    {
+      "nombre": "ITA ENRAMADA - AVDA PERON ESQUINA AGUSTIN",
+      "total": 1
+    },
+    {
+      "nombre": "ITA ENRAMADA - BOQUERON Y GENERAL RENE BARRIENTOS",
+      "total": 1
+    },
+    {
+      "nombre": "ITA ENRAMADA - CHIVATO Y GUARANI",
+      "total": 1
+    },
+    {
+      "nombre": "ITA ENRAMADA - ESTA SOBRE AVDA PERON ESQUINA KARANDAY.",
+      "total": 1
+    },
+    {
+      "nombre": "ITA ENRAMADA - PO Y ARATICU",
+      "total": 1
+    },
+    {
+      "nombre": "ITA ENRAMADA CALLE PINDO CASI JUANA DE LARA",
+      "total": 1
+    },
+    {
+      "nombre": "ITA ENRAMADA JUAN BAUTISTA GILL ENTRE BOQUERON Y CAMPO VIA",
+      "total": 1
+    },
+    {
+      "nombre": "ITA ENRAMADA PASEO DEL YACH Y JEJUI",
+      "total": 1
+    },
+    {
+      "nombre": "ITA ENRAMADA PO Y ARATICU",
+      "total": 1
+    },
+    {
+      "nombre": "ITA ENRAMADA PORA Y CLEMENTINO OCAMPOS",
+      "total": 1
+    },
+    {
+      "nombre": "ITA PYTA",
+      "total": 1
+    },
+    {
+      "nombre": "ITA PYTA PUNTA - DR. GARCETE 1796 CASI JUAN DE GARAY",
+      "total": 1
+    },
+    {
+      "nombre": "ITA PYTA PUNTA - JOSE PAPPALARDO Y TTE 2° CABALLERO",
+      "total": 1
+    },
+    {
+      "nombre": "ITAENRAMADA - PERON ENTRE CISCA YEGROS DE CARPINELLI Y MARIA VERA Y ARAGON DE BRUN",
+      "total": 1
+    },
+    {
+      "nombre": "JARA - ALTOS ENTRE BAHIA NEGRA Y 8 DE JUNIO",
+      "total": 1
+    },
+    {
+      "nombre": "JARA - ALTOS ESQ BAHIA NEGRA",
+      "total": 1
+    },
+    {
+      "nombre": "JARA - ALTOS ESQ BAHIA NEGRA - P/S NOMBRE: VECINOS DEL LUGAR. RECEPCION: VIA WHATSAPP TELEF.: 0971-186-750",
+      "total": 1
+    },
+    {
+      "nombre": "JARA - ALTOS ESQ BAHIA NEGRA 2012",
+      "total": 1
+    },
+    {
+      "nombre": "JARA - AMISTAD CASI PITIANTUTA",
+      "total": 1
+    },
+    {
+      "nombre": "JARA - CALLE DEL FUERTE Y VIA FERREA",
+      "total": 1
+    },
+    {
+      "nombre": "JARA - CONCORDIA 1025 ENTRE DR. PEDRO CLANCIO Y CMDTE ATILIO PENA MACHAIN",
+      "total": 1
+    },
+    {
+      "nombre": "JARA - LIBERTAD 410 CASI PITIANTUTA (AL LADO DEL CLUB TACUARY)",
+      "total": 1
+    },
+    {
+      "nombre": "JARA - MAYOR JULIO OTANO ESQUINA SANTIAGO",
+      "total": 1
+    },
+    {
+      "nombre": "JARA - SAN ANTONIO ENTRE PENA Y MOLAS",
+      "total": 1
+    },
+    {
+      "nombre": "JARA - SAN COSME Y JULIO MAYOR OTANO",
+      "total": 1
+    },
+    {
+      "nombre": "JARA ARTIGAS ESQ. EDUARDO SHEER",
+      "total": 1
+    },
+    {
+      "nombre": "JARA ENRIQUE SOLANO LOPEZ 855. ENTRE PATRIA Y LIBERTAD",
+      "total": 1
+    },
+    {
+      "nombre": "JARA PITIANTUTA 868",
+      "total": 1
+    },
+    {
+      "nombre": "JARA SAN AGUSTIN Y SANTIAGO EN UNA (CALLE CORTA )",
+      "total": 1
+    },
+    {
+      "nombre": "JARACALLE CENTRAL Y VIA FERREA",
+      "total": 1
+    },
+    {
+      "nombre": "JOSE EDUVIGIS DIAZ - TACUARY 1634 C/ 4TA PROYECTADA",
+      "total": 1
+    },
+    {
+      "nombre": "JOSE FELIZ ESTIGARRIBIA",
+      "total": 1
+    },
+    {
+      "nombre": "JOSE MCAL FELIX ESTIGARRIBIA",
+      "total": 1
+    },
+    {
+      "nombre": "LA CATEDRAL ITURBE 666 CASI AZARA",
+      "total": 1
+    },
+    {
+      "nombre": "LA CATEDRAL YEGROS CASI RODRIGUEZ DE FRANCIA",
+      "total": 1
+    },
+    {
+      "nombre": "LA ENCARNACION - 14 DE MAYO 861 (DENUNCIADO)",
+      "total": 1
+    },
+    {
+      "nombre": "LA ENCARNACION - 14 DE MAYO ENTRE HUMAITA Y PIRIBEBUY",
+      "total": 1
+    },
+    {
+      "nombre": "LA ENCARNACION - 14 DE MAYO Y PDTE FRANCO (GALERIA 14 DE MAYO)",
+      "total": 1
+    },
+    {
+      "nombre": "LA ENCARNACION - AYOLAS Y PTE FRANCO (AL COSTADO DE LA CONATEL)",
+      "total": 1
+    },
+    {
+      "nombre": "LA ENCARNACION - BENJAMIN CONSTANT 645 ENTRE O'LEARY Y 5 DE AGOSTO",
+      "total": 1
+    },
+    {
+      "nombre": "LA ENCARNACION - HUMAITA CASI COLON N.945",
+      "total": 1
+    },
+    {
+      "nombre": "LA ENCARNACION - PRESIDENTE FRANCO Y AYOLAS (EDIFICIO AYFRA)",
+      "total": 1
+    },
+    {
+      "nombre": "LA ENCARNACION - PRESIDENTE FRANCO Y O’LEARY",
+      "total": 1
+    },
+    {
+      "nombre": "LA ENCARNACION 15 DE AGOSTO ENTRE YGATIMI Y JEJUI",
+      "total": 1
+    },
+    {
+      "nombre": "LA ENCARNACION MANDUVIRA ESQUINA ALBERDI",
+      "total": 1
+    },
+    {
+      "nombre": "LA ENCARNACION RIO BLANCO C/ COLON AL COSTADO DE LA ADUANA",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS - COMANDANTE IGNACIO AGUIRRE C/ DR ANTONIO MENA PORTA",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS - FEDERACION RUSA 1105",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS - IGNACIO AGUIRRE ENTRE JULIAN ALARCON Y BLAS MONTIEL",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS - KOEJU ENTRE MOLAS LOPEZ Y CORONEL VILLASBOA",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS - MOLAS LOPEZ Y CAMPOS CERVERA",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS - PASTOR FILARTIGA 1407 Y CARLOS ABDALA",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS - PROFESOR MANUEL RIQUELME 1385 B ESQUINA ALFONZO CAPURRO",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS - SAN MARTIN N° 1556 C/ FEDERACION RUSA",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS - SANTA ANA 985 CASI FEDERACION RUSA.",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS - SANTA ANA Y CIUDAD DE CORRIENTES",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS AVDA SAN MARTIN Y AVDA MOLAS LOPEZ",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS BLAS MONTIEL Y CANTE AGUIRRE",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS CARLOS ABDALA 1036 ENTRE SANTA ANA Y FILARTIGA",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS CIUDAD DE CORRIENTES CASI SANTA ANA.",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS GOMEZ DE LA FUENTE ENTRE TTE GARCETE Y COMANDANTE URDAPILLETA",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS MOLAS LOPEZ ENTRE SAN MARTIN Y DR. CIRILO CACERES",
+      "total": 1
+    },
+    {
+      "nombre": "LAS LOMAS SANTA ANA 911 Y CORONEL MELGAREJO",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES - AV. PERU 305 ESQ JOSE BERGES",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES - JOSE BERGES 1384 C/ JUAN MANUEL FRUTOS. (DENUNCIADO))",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES - MCAL LOPEZ Y RIO DE JANEIRO (ES A MEDIA CUADRA DEL COLEGIO INTERNACIONAL. PADRE SAUBATTE (CONTINUACION DE RCA. FRANCESA) ENTRE MCAL LOPEZ Y RIO DE JANEIRO)",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES - TENIENTE JARA TROCHE NO 633 ENTRE JUAN DE ZALAZAR Y ESPINOZA Y SOCIEDAD",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES - VALOIS RIVAROLA ENTRE WASHINGTON Y PERU",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES - WASHINGON ESQ DE LAS RESIDENTAS",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES - WASHINGTON ENTRE ESPANA Y JUAN DE SALAZAR",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES DEFENSA NACIONAL ENTRE WASHINGTON Y TTE MORALES.",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES DR. CAYO ROMERO PEREIRA Y PRESIDENTE HAYES",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES RUTA TRANSCHACO 1125 KM 10 Y 1/2. REFERENCIA A MEDIA CUADRA DEL COLEGIO NACIONAL LAS MERCEDES.",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES TENIENTE NUNEZ CASI GRAL. SANTOS",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES TTE MORALES",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES TTE NUNEZ ESQ TTE MORALES.",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MERCEDES WASHINGTON 665",
+      "total": 1
+    },
+    {
+      "nombre": "LAS MOLAS.AVDA.MOLAS LOPEZ CASI AVDA.AVIADORES DEL CHACO (CAFE BIKE).",
+      "total": 1
+    },
+    {
+      "nombre": "LOMA",
+      "total": 1
+    },
+    {
+      "nombre": "LOMA PYTA (DE LAS RESIDENTAS) - FERNANDO OCA DEL VALLE Y NESTOR ROMERO VALDOVINO",
+      "total": 1
+    },
+    {
+      "nombre": "LOMA PYTA (EL PORTAL) - MAURICIO SCHWARTZMAN N°220 C/ MAXIMA LUGO",
+      "total": 1
+    },
+    {
+      "nombre": "LOMA PYTA (LAS GOLONDRINAS) TTE. ESCOBAR CASI PASCUAL CASCO N°980",
+      "total": 1
+    },
+    {
+      "nombre": "LOMA PYTA (SAN BLAS)",
+      "total": 1
+    },
+    {
+      "nombre": "LOMA PYTA - 27 DE NOVIEMBRE 355",
+      "total": 1
+    },
+    {
+      "nombre": "LOMA PYTA - ACAHAY 526 CASI LOMA VISTOSA",
+      "total": 1
+    },
+    {
+      "nombre": "LOMA PYTA - PETRONA RODRIGUEZ DE FRANCIA CASI OLGA BLINDER",
+      "total": 1
+    },
+    {
+      "nombre": "LOMA PYTA - RUTA TRANSCHACO C/DR. SEMIDEI",
+      "total": 1
+    },
+    {
+      "nombre": "LOMA PYTA CORONEL PORTA O'HIGGINS CASI OCARAPOTICUEMI",
+      "total": 1
+    },
+    {
+      "nombre": "LOMA PYTA OCARA POTYCUEMI ENTRE TTE GADEA Y DR SEMIDEI",
+      "total": 1
+    },
+    {
+      "nombre": "LOMA PYTA/ LAS MERCEDES",
+      "total": 1
+    },
+    {
+      "nombre": "LOMAS",
+      "total": 1
+    },
+    {
+      "nombre": "LOPEZ Y",
+      "total": 1
+    },
+    {
+      "nombre": "LOS LAURELES - AVENIDA REPUBLICA ARGENTINA NRO 1469 CASI ISAAC KOSTIANOVSKY",
+      "total": 1
+    },
+    {
+      "nombre": "LOS LAURELES - MANUEL BLINDER CASI TTE. ESPINOZ",
+      "total": 1
+    },
+    {
+      "nombre": "LOS LAURELES AVDA. EUSEBIO AYALA 3470 C/ RCA ARGENTINA",
+      "total": 1
+    },
+    {
+      "nombre": "LOS LAURELES FACUNDO MACHAIN NO. 6062 CASI RI 1 2 DE MAYO",
+      "total": 1
+    },
+    {
+      "nombre": "LOS LAURELES MANUEL BLINDER Y PASTOR BENITEZ",
+      "total": 1
+    },
+    {
+      "nombre": "LOS LAURELES PASTORA CESPEDES Y MANUEL BLINDER",
+      "total": 1
+    },
+    {
+      "nombre": "LOS LAURELES SERAFINA DAVALOS C/ R I 3 CORRALES 6035",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS A. DE HERRERA",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO DE HERRERA -",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO DE HERRERA - BERNADINO CABALLERO Y OLEGARIO ANDRADE",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO DE HERRERA - GUIDO SPANO 3096 Y ROGELIO BENITEZ",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO DE HERRERA - GUIDO SPANO ENTRE TERCEIRO TERRENNO Y MADAME LINCH",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO DE HERRERA - MANUEL TALAVERA 443 CASI BERTONI",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO DE HERRERA - MANUEL TALAVERA CASI JOSE L. DUARTE",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO DE HERRERA - SARGENTO SILVA 931 Y ANTOLIN IRALA",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO DE HERRERA ANDRADE 3030 CASI CONCEJAL VARGAS.",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO DE HERRERA MOISES BERTONI Y SORIANO GONZALEZ",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO DE HERRERA ROGELIO BENITEZ Y MAXIMILIANO PEREZ",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO DE HERRERO",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO DEL PARANA",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO HERRERA - GRAL CARLOS DIAZ DE LEON Y MADAME LYNCH",
+      "total": 1
+    },
+    {
+      "nombre": "LUIS ALBERTO HERRERA - VICTORIANO ABENTE Y LAGO ENTRE DIAZ DE LEON Y 4 DE JULIO",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LINCH - 34 CURUGUATENOS Y ELIAS AYALA",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LINCH - CALLE SGTO. MANUEL BENITEZ Y GERONIMO ZUBIZARRETA",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LINCH - MARVCELO ONIEVA 1082 C/TTE ENRIQUE VELAZQUEZ",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LINCH - MOLAS LOPEZ 480 Y CAMPOS CERVERA",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LINCH - TENIENTE RAMON GASPAR ZABALA",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LINCH - TTE CNEL CIRILO GILL 432 CASI JUAN MANUEL ITURBE",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LINCH - TTE ROJAS 1340 Y ALEXIS BOGGINO",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LINCH - TTE SEGUNDO MARTINEZ ENTRE VICENTE FLORES Y TTE. RIVAS.",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LINCH - TTE. CESAR DANIEL VELAZQUEZ 1155 E/FUERTE BORBON Y DR. GERONIMO ZUBIZARRETA",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LINCH - VICENTE FLORES 1556 CASI JULIO CORREA (CCPA)",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LINCH -34 CURUGUATENOS 255 Y RIGOBERTO FONTAO",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LYNCH - TTE SEGUNDO VICTORIANO ALVARENGA 1.356 C/PRIMER PRESIDENTE",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LYNCH TENIENTE ANASTACIO DELGADO Y CAP. JULIO CESAR RIVAS",
+      "total": 1
+    },
+    {
+      "nombre": "MADAME LYUNCH",
+      "total": 1
+    },
+    {
+      "nombre": "MAL FRANCISCO SOLANO LOPEZ",
+      "total": 1
+    },
+    {
+      "nombre": "MAL. JOSE FELIX ESTIGARRIBIA",
+      "total": 1
+    },
+    {
+      "nombre": "MANORA - AUGUSTO ROA BASTOS 699 ESQ JUSTO ROMAN",
+      "total": 1
+    },
+    {
+      "nombre": "MANORA - AVIADORES DEL CHACO Y PROF. CESAR VASCONCELLOS",
+      "total": 1
+    },
+    {
+      "nombre": "MANORA - MELVIN JONES Y AGUSTIN BARRIOS",
+      "total": 1
+    },
+    {
+      "nombre": "MANORA - ROQUE CENTURION MIRANDA E/ SAN RAFAEL Y MELVIN JONES",
+      "total": 1
+    },
+    {
+      "nombre": "MANORA PROFESOR FRANCISCO CHAVEZ CASI SACRAMENTO 1/2 CUADRA AL SEMAFORO",
+      "total": 1
+    },
+    {
+      "nombre": "MAURICIO",
+      "total": 1
+    },
+    {
+      "nombre": "MAYOR APONTE E/ AVIADORES DEL CHACO Y SALVADOR DEL MUNDO",
+      "total": 1
+    },
+    {
+      "nombre": "MAZARETH",
+      "total": 1
+    },
+    {
+      "nombre": "MBOCAYATY - AVDA PRIMER PRESIDENTE CASI ITAPUA",
+      "total": 1
+    },
+    {
+      "nombre": "MBOCAYATY - TTE .1 ° OLIMPO ESCOBAR E/ PERENCIOLO MERLO Y MONSENOR DE BALAGUER",
+      "total": 1
+    },
+    {
+      "nombre": "MBOCAYATY - TTE. LUIS MIRANDA",
+      "total": 1
+    },
+    {
+      "nombre": "MBOCAYATY MANUEL PINO GONZALEZ 411",
+      "total": 1
+    },
+    {
+      "nombre": "MBOCAYTY",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO - AV. EUSEBIO AYALA ESQUINA TTE. ALVARENGA",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO - CARMEN SOLER 3685 CASI GAUDIOSO NUNEZ",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO - JOSE ASUNCION FLORES 3407 ENTRE SOLAR GUARANI Y KUBITSCHEK",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO - LAFRANCONI 4174 C/ CHOFERES DEL CHACO.",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO - NORBERTO CANIZA ENTRE TEODORO S. MONGELOS Y HERMINIO GIMENEZ",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO - TTE SEGUNDO JUAN ARCE Y TEODORO S. MONGELOS",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO 25 DE MAYO Y GAUDIOSO NUNEZ.",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO ACA CARAYA CASI CORRALES",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO CALLEJON ROGELIO FIORE 3900",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO CAPITAN NORBERTO CANIZA ENTRE TEODORO S MONGELOS Y HERMINIO GIMENEZ",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO CARMEN SOLER Y RADIO OPERADORES DEL CHACO.",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO CELSA SPERATTI 3645 C/ TTE. ROGELIO SANTA CRUZ",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO ROBERTO CANIZA Y HERMINIO GIMENEZ",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO TEODORO S. MONGELOS Y TENIENTE 2º JUAN ARCE ROJAS",
+      "total": 1
+    },
+    {
+      "nombre": "MBURICAO TTE. JARA PASTORE Y CERRO CORA",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - AUDITORES DE LA GUERRA DEL CHACO ESQ. PRIMER PRESIDENTE",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - AV PRIMER PRESIDENTE 2126 CASI ITAUPUA",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - CAPITAN ALFREDO PLA ESQ AGRICULTOR PARAGUAYO",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - CAPITAN ORTIZ 1974 C/ RIO VERDE",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - CAPITAN VICENTE SUAREZ Y CONGRESO DE COLOMBIA",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - CARLOS TORRES 1705 Y CUARAHY",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - DARIO GOMEZ SERRATO Y TENIENTE CAMPOS",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - DARIO GOMEZ SERRATO Y TTE. RAUL CAMPOS",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - DR. CAMACHO DURE ESQ FUTSAL 88 (TTE. RIVAS)",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - FRANCISCO FERNANDEZ CASI DOMINGO PORTILLO",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - GOMEZ SERRATO E/TTE RIVAS Y CAP RIVAS.",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - ING. FERNANDO BERTONI ESQ. MAYOR FRANCISCO VARGAS",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - JULIO CORREA Y ELIAS AYALA",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - MAESTRO NICOLINO PELLEGRINI 140 ENTRE CAPITAN ORTIZ Y MOLAS LOPEZ",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - MAESTRO NICOLINO PELLEGRINI ESQUINA CAPITAN VICENTE SUAREZ",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - MAYOR ALBERTO ZAYAS 462 C/RIO PILCOMAYO",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - MOLAS LOPEZ Y ROQUE SLDIVAR",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - RIO MONTELINDO ENTRE CAPITAN CARLOS TORRES Y TTE. PORTILLO",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - TTE RIVAS (FUTSAL 88) ESQ ZAVALA KUE (ACTUAL MIGUEL CHASE SARDI)",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA - VICENTE SUAREZ ESQ MAESTRO PELLEGRINI.",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA CONGRESO DE COLOMBIA Y SANTISIMA TRINIDAD",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA DIRECCION TTE DELGADO NO. 1138 ENTRE TTE VELAZQUEZ Y CALLE IX BARRIO",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA MAYOR FRANCISCO VARGAS ESQUINA AVDA PRIMER PRESIDENTE",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA MOLAS LOPEZ C/YASY",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUCUYA VICENTE SUAREZ ESQUINA VETERANOS DEL 70",
+      "total": 1
+    },
+    {
+      "nombre": "MBURUKUYA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL ESTIGARRIBIA - BOGGIANI 6074 CASI RI2 DE MAYO",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL ESTIGARRIBIA - FACUNDO MACHAIN CASI RI6 BOQUERON. (PLAYA DE AUTOS AL LADO DE LA ESQUINA)",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL ESTIGARRIBIA CALLE ANTONIO TABOADA NUMERO 6377",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL ESTIGARRIBIA DR.BENIGNO FERRERIA Y RI2 YTORORO.",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL ESTIGARRIBIA R.I.5 GRAL DIAZ 419 CASI CAMPOS CERVERA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL FELIX ESTIGARRIBIA - ALAS PARAGUAYAS 688 CASI DR BENIGNO FERREIR",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL FRANCISCO S. LOPEZ TTE ALFREDO NUNEZ BELLOSO 330",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL FRANCISCO SOLANO LOPEZ - AMERICA 219 Y TTE. RICARDO COCO RIVEROS",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL FRANCISCO SOLANO LOPEZ - AV. ESPANA 1580 Y AYALA VELAZQUEZ (LOCAL COMERCIAL TADA)",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL FRANCISCO SOLANO LOPEZ - DOMINICANA CASI ESPANA (PREDIO DE LA ANDE)",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL FRANCISCO SOLANO LOPEZ - ESPANA CASI GRAL SANTOS.",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL FRANCISCO SOLANO LOPEZ - PATRIA ENTRE REPUBLICA DOMINICANA Y SAN FRANCISCO",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL FRANCISCO SOLANO LOPEZ - REPUBLICA DE CIRIA ENTRE AYALA VELAZQUEZ NUMERO 350 (DENUNCIANTE)",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL FRANCISCO SOLANO LOPEZ TTE ROSS 355CASI EL DORADO",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL JOSE FELIX ESTIGARRIBIA - CAMPO CERVERA CASI RY2 YTORO 6391( DIRECCION DE LA DENUNCIANTE)",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL JOSE FELIX ESTIGARRIBIA - CAMPOS CERVERA 5736 CASI CAMILO RECALDE",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL JOSE FELIX ESTIGARRIBIA - EMIGDIA REISOFER ESQ.PROGRESO",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL JOSE FELIX ESTIGARRIBIA - FACUNDO MACHAIN CASI ALAS PARAGUAYAS",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL JOSE FELIX ESTIGARRIBIA - FACUNDO MACHAIN Y CAMILO RECALDE",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL JOSE FELIX ESTIGARRIBIA - JOSE DE LA CRUZ AYALA 6363 CASI RI 18 PITIANTUTA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL JOSE FELIX ESTIGARRIBIA - R.I5 GRAL DIAZ CASI WALDINO LOVERA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL JOSE FELIX ESTIGARRIBIA - RAMON DIAZ 771 ENTRE BENIGNO FERREIRA Y HERNANDO DE RIVERA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL JOSE FELIX ESTIGARRIBIA - RI 3 CORRALES ENTRE BOGGIANI Y DR HASSLER 8SIN NUMERACION)",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL LOPEZ AMERICA 219 ENTRE MACL LOPEZ Y ESPANA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL LOPEZ GENERAL SANTOS 423 CASI ESPANA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL LOPEZ LUIS MORALES ENTRE FRAY LUIS DE LEON Y FRAY LUIS DE GRANADA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL LOPEZ PITIANTUTA ENTRE MCAL LOPEZ Y TTE FRANCISCO JARA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL LOPEZ REPUBLICA DOMINICANA CASI REPUBLICA SIRIA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL. ESTIGARRIBIA - AVENIDA RUIZ DIAZ DE MELGAREJO 664",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL. FELIX ESTIGARRIBIA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL. FELIX ESTIGARRIBIA ANDRES CAMPOS CERVERA 6499 CASI BOGIANNI",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL. FRANCISCO SOLANO LOPEZ - CAPITAN VICTOR MANUEL BRIZUELA 330 Y TENIENTE TROCHE.",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL. JOSE FELIX ESTIGARRIBIA - MCAL LOPEZ 4912 C/ R.I 5 GRAL DIAZ",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL. JOSE FELIX ESTIGARRIBIA - RI5 GRAL DIAZ CASI PACHECO",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL. JOSE FELIX ESTIGARRIBIA CARLOS ARGUELLO Y CAMPOS CERVERA EN FRENTE A LA URGENCIA DEL SANATORIO BAUTISTA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL. JOSE FELIX ESTIGARRIBIA KOSTIANOSKY 5882 CASI ANTONIO TABOADA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL. JOSE FELIX ESTIGARRIBIA RUIZ DIAZ DE MELGAREJO N: 425 C/ CAMPO CERVERA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL. LOPEZ REPUBLICA DOMINICANA 654 ENTRE JUAN DE SALAZAR Y RCA. DE SIRIA",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL.FRANCISCO SOLANO LOPEZ",
+      "total": 1
+    },
+    {
+      "nombre": "MCAL.JOSE FELEIX ESTIGARRIBIA",
+      "total": 1
+    },
+    {
+      "nombre": "MORA",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARET - GUAYAQUIES 850 ENTRE DR. ARZA Y DR. MALLORQUIN. (FRENTE A LA PLAZA BATALLON MCAL. LOPEZ)",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH - ALTO PARANA C/ TARUMA NRO. 1845",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH - ALTO PARANA ENTRE TARUMA Y APARIPY",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH - APARIPY 850 Y DR. MALLORQUIEN",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH - APARIPY N°850 Y DR. MALLORQUIEN",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH - NAZARETH ENTRE INCAS Y DR. CANCIO AYALA",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH - NAZARETH ESQ. DR. AGUSTIN GOIBURU",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH - NAZARETH Y ENCARNACION",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH - PARIPY ENTRE CAAGUAZU Y TOBATI.",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH AVENIDA RCA. ARGENTINA 2462 CASI GOIBURU",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH CALLES GOIBURU Y TARUMA",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH DR ZACARIAS ARZA 2113 ESQ JOSE RIVERA",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH DR.ANGEL FLORENTIN PENA CASI MEDICO DEL CHACO(A LADO DEL AUTOSERVICIO NICO )",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH GOIGURU Y APARIPY",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH SARGENTO CLEMENTE ROJAS CASI GUARANIES",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH SOBRE LA CALLE DR. ANGEL FLORENTIN PENA (EX INCAS) CASI TARUMA",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH TARUMA 662 CASI GOIBURU",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH TARUMA 721 CASI DR AGUSTIN GOIBURU",
+      "total": 1
+    },
+    {
+      "nombre": "NAZARETH. CACIQUE TAVAPY C/ TTE. ALCIDES GONZALES.",
+      "total": 1
+    },
+    {
+      "nombre": "NAZATETH",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - 25 DE AGOSTO (19 PROYECTADAS) & JOSE MARIA MORELOS",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - 5TA PROYECTADA Y JOSE MARIA MORELOS",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - ACA YUASA (18 PDS) ESQUINA TACUARI",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - ALEJANDRO GUANES 225 Y NUESTRA SENORA DE LA ASUNCION",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - AVDA CHIANG KAI SHEK CASI NUESTRA SENORA DE LA ASUNCION",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - CADETE CARLOS SISA Y PARAPITI",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - CHIANG KAI SHEK CASI NUESTRA SENORA DE LA ASUNCION",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - FELIX BOGADO 1474 C/ SAUCE",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - FELIX BOGADO C/ SAUCE",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - HAITI CASI AVENIDA FELIX BOGADO",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - HERNAN VELILLA 2174 CASI SAMUDIO CORRALES",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - JUAN ANDRES GELLY ENTRE CHILE Y ALBERDI",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - PIKYSYRY (20 PROYECTADAS) 1520 Y PATRICIO ESCOBAR",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - PIKYSYRY ENTRE MAYOR ROJAS Y PATRICIO ESCOBAR",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - TATAJYBA 929 E/ EEUU Y PARAPITI",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - TATAJYVA CASI CABALLERO",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - TUYUTI (12 PDAS.) 1208 ESQ. TENIENTE ROJAS S",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - TUYUTI (12 PROYECTADA) Y PARAGUARI",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO - TUYUTI ESQUINA TACUARY NUMERO 798 (CASA DEL DENUNCIADO)",
+      "total": 1
+    },
+    {
+      "nombre": "OBRERO. CEMENTERIO DEL SUR",
+      "total": 1
+    },
+    {
+      "nombre": "PABLO TENIENTE OSCAR BOTTANA NUM. 658.",
+      "total": 1
+    },
+    {
+      "nombre": "PEETTIROSSI",
+      "total": 1
+    },
+    {
+      "nombre": "PETTIROSI",
+      "total": 1
+    },
+    {
+      "nombre": "PETTIROSSI - CALLE CACIQUE TABARE C/BONIFACIO CABALLERO.",
+      "total": 1
+    },
+    {
+      "nombre": "PETTIROSSI - LOMAS VALENTINAS Y PA’I PEREZ 1403",
+      "total": 1
+    },
+    {
+      "nombre": "PETTIROSSI - NICARAGUA 1674 CASI OTAZU",
+      "total": 1
+    },
+    {
+      "nombre": "PETTIROSSI - PAI PEREZ ENTRE TTE FARINA Y PETTIROSI",
+      "total": 1
+    },
+    {
+      "nombre": "PETTIROSSI - PARAJE PORVENIR 1087 C/ TTE FARINA",
+      "total": 1
+    },
+    {
+      "nombre": "PETTIROSSI - ROJAS SILVA Y LOMAS VALENTINAS",
+      "total": 1
+    },
+    {
+      "nombre": "PETTIROSSI - TTE FARINA CASI ROJAS SILVA (EDIFICIO A CARGO DE SALUM Y WENZ) - P/S NOMBRE: GUILLERMO BAUMANN TELEF.: 0981-520-546 RECEPCION: VIA WHATSAPP",
+      "total": 1
+    },
+    {
+      "nombre": "PETTIROSSI AV POZO FAVORITO Y ANA DIAZ",
+      "total": 1
+    },
+    {
+      "nombre": "PETTIROSSI RCA. DE COLOMBIA Y CAPITAN FIGARI",
+      "total": 1
+    },
+    {
+      "nombre": "PETTIROSSI TTE BUZARQUIZ Y OTAZU",
+      "total": 1
+    },
+    {
+      "nombre": "PINAMBIRETA",
+      "total": 1
+    },
+    {
+      "nombre": "PINOZA - 1 DE NOVIEMBRE E/ 14 DE JUNIO Y 29 DE SETIEMBRE",
+      "total": 1
+    },
+    {
+      "nombre": "PINOZA - 11 DE DICIEMBRE 579 CASI DR LUIS MORQUIO",
+      "total": 1
+    },
+    {
+      "nombre": "PINOZA - 12 DE OCTUBRE ESQUINA CARANDAYTY",
+      "total": 1
+    },
+    {
+      "nombre": "PINOZA - IGUALDAD 549 C/ MORQUIO",
+      "total": 1
+    },
+    {
+      "nombre": "PINOZA - MENCIA DE SANABRIA 265 E/ 12 DE OCTUBRE",
+      "total": 1
+    },
+    {
+      "nombre": "PINOZA - MORQUIO E IGUALDAD",
+      "total": 1
+    },
+    {
+      "nombre": "PINOZA - YATAYTY CORA CASI EUSEBIO AYALA",
+      "total": 1
+    },
+    {
+      "nombre": "PINOZA 12 DE OCTUBRE 238",
+      "total": 1
+    },
+    {
+      "nombre": "PINOZA 12 DE OCTUBRE Y ECUADOR A LA VUELTA DEL CENTRO 3 JOPOI",
+      "total": 1
+    },
+    {
+      "nombre": "PINOZA 14 DE JUNIO ​​Y LUIS MORQUIO",
+      "total": 1
+    },
+    {
+      "nombre": "PINOZA EUROPA 2138 CASI ITALIA",
+      "total": 1
+    },
+    {
+      "nombre": "PINOZA LUIS MORQUIO Y CNEL. IGOR ORANGEREIEFF",
+      "total": 1
+    },
+    {
+      "nombre": "PINOZA YATAITY CORA 477 C 14 DE JUNIO",
+      "total": 1
+    },
+    {
+      "nombre": "PUERTO BOTANICO",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA - ADOLFO RIQUELME 4672 CASI TORREANI VIERA",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA - CAPITAN CARPINELLI CASI SARAVI",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA - CEMENTERIO DE LA RECOLETA",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA - CHARLES DE GAULLE 219 ENTRE QUESADA Y CRUZ DEL CHACO",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA - CRUZ DEL CHACO CASI MIGUEL TORRES",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA - CRUZ DEL DEFENSOR 1180 CASI DE LAS PALMERAS",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA - CUARTEL DE LA RIVERA Y MONSENOR BOGARIN",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA - DOCTOR HASSLER ESQUINA TORREANI VIERA (EDIFICIO URBAN DOMUS HASSLER)",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA - HASSLER 5286 ESQ/CRUZ DEL DEFENSOR",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA - MONSENOR BOGARIN 971 CASI LAS PERLAS",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA - SAN ALFONSO 4230",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA - TTE ZOTTI ENTRE LAS PERLAS Y LOPEZ MOREIRA",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA ADOLFO RIQUELME 4550 ENTRE TORREANI VIERA Y MAURICIO CARDOZO",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA ADOLFO RIQUELME CASI TORREANI VIERA",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA AV. CHOFERES DEL CHACO",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA CHARLES DE GAULLE. TENIENTE ZOTTI.",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA CRUZ DEL CHACO Y DR. EDUARDO LOPEZ MOREIRA",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA LAS PERLAS 4.354 CASI AV CHOFERES DEL CHACO",
+      "total": 1
+    },
+    {
+      "nombre": "RECOLETA SARAVI ENTRE ANTOLIANO CANTERO Y LAS PERLAS",
+      "total": 1
+    },
+    {
+      "nombre": "REPUBLICANO - 35 PROYECTADAS Y CIUDAD DE CHIVAS",
+      "total": 1
+    },
+    {
+      "nombre": "REPUBLICANO - AVENIDA FELIZ BOGADO Y JAPON (SUPER 6)",
+      "total": 1
+    },
+    {
+      "nombre": "REPUBLICANO - E. GOMEZ 1657 ENTRE TTE 1RO LESME Y 34 PROYECTADAS",
+      "total": 1
+    },
+    {
+      "nombre": "REPUBLICANO - JAPON Y GUSTAVO CROVATO",
+      "total": 1
+    },
+    {
+      "nombre": "REPUBLICANO - JOSE GASPAR ESTIGARRIBIA ENTRE PIZARRO Y PRACTICANTE DIONISO JARA",
+      "total": 1
+    },
+    {
+      "nombre": "REPUBLICANO - MANRIQUE 4020 ENTRE JAPON Y AO POI",
+      "total": 1
+    },
+    {
+      "nombre": "REPUBLICANO - NATHALIE BRUEL 1727 C/ ING GUSTAVO CROVATO",
+      "total": 1
+    },
+    {
+      "nombre": "REPUBLICANO TTE. LEONIDAS ESCOBAR Y CAPITAN BADO",
+      "total": 1
+    },
+    {
+      "nombre": "REPUBLICANO TTE. VILLALON CASI AVENIDA JAPON",
+      "total": 1
+    },
+    {
+      "nombre": "RICARDO BRUGADA 5TA.",
+      "total": 1
+    },
+    {
+      "nombre": "RICARDO BRUGADA ANTEQUERA Y COMUNEROS CHACARITA ALTA. PASILLO FRENTE A LA EX COMISARIA QUINTA.",
+      "total": 1
+    },
+    {
+      "nombre": "RICARDO BRUGADA CALLE PARAGUARI C/S FLORENCIO VILLAMAYOR PASILLO JUANA AQUINO CERCA DEL CLUB ORIENTAL",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L PETTIT - ISLA PO’I (26 PROYECTADAS) 849 ENTRE TACUARY Y PARAPITI",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L PETTIT - ITAYVATE (21 PROYECTADAS) Y TACUARI",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L PETTIT - TE FUNES (29 PROYECTADAS)NUMERO 1429 CASI 25 DE JUNIO",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L PETTIT - TTE ROJAS SILVA ESQUINA PICADA DIARTE (23 PROYECTADAS)",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT - ACOSTA NU (24 PROYECTADAS) EEUU",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT - AVDA. ITA YBATE NRO 734 C/ANTEQUERA",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT - ESTAMOS EN TACUARY ENTRE 28 Y 29 PROYECTADAS",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT - IDEOENDENCIA NACIONAL 3380 ENTRE ITA YVATE Y TTE. GREGORIO BENITEZ.",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT 22 PROYECTADAS CASI PERU",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT ANTEQUERA ENTRE 22 Y 23 PROYECTADAS",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT ANTEQUERA ENTRE PICAD DIARTE Y ACOSTA N",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT CALLE BRAULIO LEZCANO Y PATRICIO ESCOBAR 28 PYDAS",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT PICADA DIARTE Y AV. ESTADOS UNIDOS",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT SOBRE LA CALLE TACUARI Y B LEZCANO",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT TTE FUNES EX 29 PDAS NUMERO CASA...1783",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT. FULGENCIO YEGROS ENTRE 22 PROYECTADAS (DE LAS CORDILLERAS) Y 23 PROYECTADA (PICADA DIARTE)",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L. PETTIT. FULGENCIO YEGROS NRO. 3429 ENTRE 22 PROYECTADAS (DE LAS CORDILLERAS) Y 23 PROYECTADA (PICADA DIARTE)",
+      "total": 1
+    },
+    {
+      "nombre": "ROBERTO L.PETTIT.29 PYTADAS. ESQ. MAYOR FLEITAS",
+      "total": 1
+    },
+    {
+      "nombre": "ROQUE GONZALEZ",
+      "total": 1
+    },
+    {
+      "nombre": "RUFINO PAMPLIEGA CASI SANCHEZ LEITON",
+      "total": 1
+    },
+    {
+      "nombre": "SAJONIA AVENIDA CARLOS ANTONIO LOPEZ 1447",
+      "total": 1
+    },
+    {
+      "nombre": "SAJONIA BOZANO Y CNEL HERMOSA NRO 778 SAJONIA",
+      "total": 1
+    },
+    {
+      "nombre": "SAJONIA JUAN DE GARAY 1165 CASI CAPITAN ARANDA",
+      "total": 1
+    },
+    {
+      "nombre": "SAJONIA MARIANO ROQUE ALONSO 1234 ENTRE ISABEL LA CATOLICA Y DIAZ DE SOLIS",
+      "total": 1
+    },
+    {
+      "nombre": "SALVADOR DEL MUNDO DR JUEZ PINO 294 ESQUINA TTE PIROVANO",
+      "total": 1
+    },
+    {
+      "nombre": "SALVADOR DEL MUNDO, PUNTA BRAVA NRO.578 C/ DR. NOGUEZ. ( TALLER DE PINTURA EL DORADO) T/V NOMBRE: PABLO PAREDES. TELEF.:0983-332.843. MOTIVO: PINTURA TOXICA. / REINGRESO DEL RECLAMO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO - ALFEREZ SILVA Y ALEJO GARCIA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO - ALFEREZ SILVA Y JUAN DIAZ DE SOLIS",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO - AV. CARLOS ANTONIO LOPEZ 1.218 / 1.222 (AMBOS NUMEROS MISMA CASA) CASI ISABEL LA CATOLICA Y DIAZ DE SOLIS",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO - AVDA. CARLOS A. LOPEZ 1542 ENTRE ANTONIO ARELLANO Y RAMON DE LAS LLANAS",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO - COMANDANTE GAMARRA ENTRE ALEJO GARCIA Y DIAZ DE SOLIS",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO - DIAZ DE SOLIS 1760 ESQ. ANGEL MORENO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO - DR. PAIVA 2679 CASI TTE KANONNIKOFF",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO - DR. PAIVA 2679 CASI TTE KANONNIKOFF (DIRECCIOAN DEL DENUNCIANTE)",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO - ISABEL LA CATOLICA 2250 ENTRE CORONEL GRACIA Y GUILLERMO ARIAS.",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO - RAMON DE LAS LLANAS CASI MARIANO ROQUE ALONSO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO - RAMON DE LAS LLANAS ENTRE CORONEL PANCHITO LOPEZ (SANATORIO ESPANOL)",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO CAP GWYNN ENTRE PAIVA Y LA COPE JUDICIAL",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO DR GARCETE Y DR PAIVA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO DR. GARCETE C/ GOB. IRALA 1678",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ANTONIO TTE KANONNIKOFF E ISABEL LA CATOLICA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN BENIGNO ESQ NUESTRA SRA. DEL CARMEN.",
+      "total": 1
+    },
+    {
+      "nombre": "SAN BLAS - AMBA'Y 153 CASI SANTA TERESITA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN BLAS - RUTA TRANSCHACO 2438 E ISIDORO JARA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN BLAS - SAN BLAS Y CALLE 10 (CANCHA CLUB GENERAL ARTIGAS)",
+      "total": 1
+    },
+    {
+      "nombre": "SAN BLAS - TATARE CASI TOMAS RUFINELLI",
+      "total": 1
+    },
+    {
+      "nombre": "SAN BLAS - TATARE Y HOVENIA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN BLAS PALO SANTO ENTRE DOCTOR TELEMACO SILVERA E/ INGA ( DETRAS DEL SUPERMERCADO LUISITO )",
+      "total": 1
+    },
+    {
+      "nombre": "SAN BLAS PASCUAL RAMON CASCO C/ HERMES RAFAEL SAGUIER",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CAYETANO - 31 PROYECTADAS (A RIVEROS) Y CNEL. ALFREDO RAMOS",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CAYETANO - A. RAMOS 1119 Y ALFREDO RIVEROS (31 PROYECTADAS)",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL - CALLE JUAN DIMAS MOTTA 727 E/ LILLO Y SUCRE",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL - DENIS ROA ESQUINA DIAZ DE LEON",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL - DIAZ DE LEON 2871 CASI DR CABALLERO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL - GUIDO SPANO 1085 ESQ. CAPITAN JUAN DIMAS MOTTA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL - GUIDO SPANO ENTRE JUAN MOTTA Y SAN MARTIN.",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL - GUIDO SPANO ESQUINA DR CABALLERO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL - GUMERCINDO SOSA 440 ENTRE DEL MAESTRO Y BERTONI",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL - JOSE OCAMPOS LANZONI CASI LILLO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL - JUAN MANUEL FRUTOS 2570 C/ EMETERIO MIRANDA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL - LILLO 2158 ESQ RAUL CARMONA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL - LILLO 2194 ESQ RAUL CARMONA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL BELGICA Y EUSEBIO LILLO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL GUIDO SPANO ENTRE DENIS ROA Y CORONEL CABRERA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL SAN MARTIN ENTRE BERTONI SUCRE",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL SUCRE N 1.931 CASI CAPITAN JOSE OCAMPOS LANZONI",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL- DENIS ROA ESQUINA DIAZ DE LEON",
+      "total": 1
+    },
+    {
+      "nombre": "SAN CRISTOBAL. LILLO ESQUINA GUMERCINDO SOSA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN JORGE - ALEJO SILVA CASI MADAME LYNCH",
+      "total": 1
+    },
+    {
+      "nombre": "SAN JORGE - CAPITAN EMETERIO MIRANDA Y ALEJANDRO VILLA MAYOR",
+      "total": 1
+    },
+    {
+      "nombre": "SAN JORGE - OBISPO BASILIO LOPEZ ENTRE CORONEL FELIPE TOLEDO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN JORGE BERNARDINO CABALLERO Y SAN FERNANDO DE MALDONADO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN JORGE CALLE TTE ESCOBAR ENTRE CAP MARTINEZ Y JUEZ PINO..BARRIO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN JORGE FERNANDO DE MALDONADO.",
+      "total": 1
+    },
+    {
+      "nombre": "SAN JORGE MADAME LYNCH Y SINFORIANO BUZO GOMEZ",
+      "total": 1
+    },
+    {
+      "nombre": "SAN JORGE SOBRE DR BESTARD",
+      "total": 1
+    },
+    {
+      "nombre": "SAN JORGE TENIENTE ANGEL VELAZCO ENTRE ALEJO SILVA Y TENIENTE HUERTA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - AVDA. DE LA VICTORIA CASI CARIOS",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - AVENIDA DE LA VICTORIA 3069 CASI TOBATI",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - AVENIDA DE LA VICTORIA C/ INCIENSO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - AZTECAS CASI CACIQUE LAMBARE",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - CHAMACOCO C/ MASKOI",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - CHAMACOCO ENTRE MASKOI Y TAVYTERA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - EPIFANIO MENDEZ FLEITAS & OSCAR BOTTANA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - GUARANIES 4658 C/TTE RAMIREZ FRANCO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - HIPOLITO SANCHEZ ENTRE PADRE RIGUAL Y EPIFANIO MENDEZ FLEITAS",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - NIVACLE 3963 CASI MBYA -P/S NOMBRE: VECINOS DEL LUGAR. TELEF.: 0981-478-354 - RECEPCION:VIA WHATSAPP",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - NIVACLE ESQUINA YBYRAJU",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - SUB. COMISARIO LORENZO CACERES NRO 1532/3 ESQUINA YBYRAYU",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - TOBATY 3795 Y PACURI",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - TTE JOSE FELIX LOPEZ ENTRE DOMINGO MONTANARO Y AZTECAS",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO - YPORA Y YBYA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO COROCHIRE CASI TTE LOPEZ.",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO GUATAMBU 4129 CASI NARANJALES",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO MASKOI CASI TOBATI",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO NANDUTI Y TTE. 2DO. OSCAR BOTTANA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO TOBATI CASI NIVACLE",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO TTE ADALBERTO RAMIREZ FRANCO NUM 256",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO TTE. JOSE FELIX LOPEZ Y CACIQUE CARACARA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO TTE. JOSE FELIX LOPEZ Y MAESTRO FERMIN LOPEZ",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABLO YBAPURU ESQUINA NEEMBUCU",
+      "total": 1
+    },
+    {
+      "nombre": "SAN PABO - DE LA VICTORIA C/ FRESCURA (FRENTE AL HOSPITAL SAN PABLO)",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ROQUE - ELIGIO AYALA CASI PAI PEREZ",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ROQUE - PASAJE RECALDE Y PARAPITI",
+      "total": 1
+    },
+    {
+      "nombre": "SAN ROQUE - RCA DE COLOMBIA Y TACUARY",
+      "total": 1
+    },
+    {
+      "nombre": "SAN TA LIBRADA - PASAJE EDUARDITO 231 Y ENFERMERA CLARITA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN TA MARIA - PERCIO BECKER 822 CASI EMILIANO R FERNANDEZ",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE - 12 DE OCTUBRE 1297 C. PIRIZAL",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE - CALLE GONDRA CASI FERNANDO DE MAGALLANES",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE - DEL CARMEN 2052 E/ MAYOR GARDEL Y OBISPO MAIZ",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE - MADRINA DE GUERRA DEL CHACO NUMERO 2754",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE - MAYOR RODRIGUEZ 2491 C/ MAYOR CARMELO PERALTA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE - PADRE CASANELLO 1737 CASI POZO FAVORITO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE - PAMPA GRANDE CASI ESCAURIZA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE - PICUIBA ENTRE KRISKOVICH Y TTE GARA",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE - SANTO DOMINGO 1796 ESQUINA RIGOBERTO CABALLERO",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE - SEBASTIAN ELCANO 1821 CASI MAGALLANES",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE - TENIENTE ROJAS 1715 Y MAGALLANES ROJAS",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE 14 DE JUNIO 145 Y GENERAL SANTOS",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE INGAVI 1783 C/MAGALLANES.",
+      "total": 1
+    },
+    {
+      "nombre": "SAN VICENTE MAGALLANES ESQUINA ZORRILLA DE SAN MARTIN",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA ANA - JUAN LESME (34 PROYECTADAS) ENTRE TACUARY Y PARAPITI",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA ANA 18 Y PARAPITI",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA LIBRADA - AVDA PERON ENTRE CONCEPCION YEGROS DE PRIETO Y STA ROSA DE LIMA",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA LIBRADA - HELIO VERA Y SANTA VERONICA",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA LIBRADA - INES ENCISO VELLOSO ESQUINA SAN VICENTE DE PAUL",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA LIBRADA - PASAJE EDUARDO 787",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA LIBRADA - PIZARRO C/ MONSENOR RODRIGUEZ BARRIO SANTA LIBRADA - P/S NOMBRE: FABRIZIO DI PARDO - TELEF.: 0983-887-022 - RECEPCION: VIA WHATSAPP.",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA LIBRADA - PIZARRO CASI SAN FERNANDO",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA LIBRADA - PIZARRO ENTRE SAN FERNANDO Y MOLEON ANDREU",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA LIBRADA - SANTA ROSA DE LIMA CASI TTE PRAT GILL (CAMINO A ITA ENRAMADA SE VIENE POR AVENIDA PERON)",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA LIBRADA SANTA VERONICA Y LA ESPERANZA NUMERO 110",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA MARIA - FORTIN GALPON ENTRE SANTA CRUZ Y ATANASION GONZALEZ.",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA MARIA - JOEL ESTIGARRIBIA 468 CASI PAZ DEL CHACO",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA MARIA - JOEL ESTIGARRIBIA Y DR SERGIO SISPANOV",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA MARIA - JUANA DE LARA ENTRE EMILIANO R FERNANDEZ Y SAN JORGE",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA MARIA - PROFESOR CARLOS DOS SANTOS CASI MAYOR JOEL ESTIGARRIBIA",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA MARIA - RAMON INDALECIO CARDOZO Y FORTIN GALPON",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA MARIA AV. STA TERESA C/ JOEL ESTIGARRIBIA",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA MARIA AV. STA. TERESA CASI CNEL. PANCHITO LOPEZ (LA CASA ESTA PEGADA A PUNTO FARMA )",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA MARIA CORONEL FRANCISCO MARTIN Y EMILIANO R. FERNANDEZ EZ",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA MARIA CORONEL FRANCISCO MARTINEZ CASI 8 DE SETIEMBRE",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA ROSA - JOSE CORONEL MONTIEL Y ESQUINA RAMONA MARTINEZ",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA ROSA CORONEL JOSE MONTIEL Y MELCHORA MELGAREJO",
+      "total": 1
+    },
+    {
+      "nombre": "SANTA ROSA TTE BERNAL NO. 3691 CASI TTE MORENO",
+      "total": 1
+    },
+    {
+      "nombre": "SANTISIMA TRINIDAD - AV. PRIMER PRESIDENTE 999 C/ SACRAMENTO",
+      "total": 1
+    },
+    {
+      "nombre": "SANTISIMA TRINIDAD - DE LOS ANGELES ESQUINA TTE. FERNANDO DELVALLE",
+      "total": 1
+    },
+    {
+      "nombre": "SANTISIMA TRINIDAD - SANTISIMA TRINIDAD ENTRE ITAPUA Y VIA FERREA (LOCAL PIZZA GROSSA)",
+      "total": 1
+    },
+    {
+      "nombre": "SANTISIMA TRINIDAD - VIA FERREA 1519 CASI CARLOS ALBERTO GOMEZ Y AMBROSIO",
+      "total": 1
+    },
+    {
+      "nombre": "SANTISIMA TRINIDAD 1 DE AGOSTO CASI AVDA SACRAMENTO",
+      "total": 1
+    },
+    {
+      "nombre": "SANTISIMA TRINIDAD CORONEL FELIPE TOLEDO Y PRIMER PRESIDENTE.",
+      "total": 1
+    },
+    {
+      "nombre": "SANTISIMA TRINIDAD YTAPUA Y MOLA LOPEZ PEGADO A LA PELUQUERIA ROSITA",
+      "total": 1
+    },
+    {
+      "nombre": "SANTO DOMINGO - ALEXANDER FLEMYNG Y CAP. ALFONSO TUNON",
+      "total": 1
+    },
+    {
+      "nombre": "SANTO DOMINGO - DR DAVID LOFRUCIO 191 CASI CAP. ALFONSOTUNON",
+      "total": 1
+    },
+    {
+      "nombre": "SANTO DOMINGO - DR ODRIOSOLA 448 CASI ROQUE CENTURION MIRANDA",
+      "total": 1
+    },
+    {
+      "nombre": "SANTO DOMINGO - ESTANISLAO BARSZEZ Y CASI PROFESOR FRANCISCO CHAVEZ",
+      "total": 1
+    },
+    {
+      "nombre": "SANTO DOMINGO - LUIS MARIA ARGANA ENTRE ROQUE CENTURION MIRANDA Y TTE BALLOTA ZARATE",
+      "total": 1
+    },
+    {
+      "nombre": "SANTO DOMINGO - NTRA SRA. DEL CARMEN",
+      "total": 1
+    },
+    {
+      "nombre": "SANTO DOMINGO - SANTISIMO SACRAMENTO ESQUINA DOCTOR BOETTNER",
+      "total": 1
+    },
+    {
+      "nombre": "SANTO DOMINGO DR. LUIS MIGONE NO.385",
+      "total": 1
+    },
+    {
+      "nombre": "SANTO DOMINGO PATRICIO MACIEL Y ROQUE CENTURION MIRANDA",
+      "total": 1
+    },
+    {
+      "nombre": "SEMINARIO",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTBO. SILVIO PETTIROSI",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSI LOMAS VALENTINA ESQUINA POZO FAVORITO",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSI RCA DE COLOMBIA Y ROJAS SILVA",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI - ANA DIAZ 1283 Y RODRIGUEZ DE FRANCIA",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI - ANA DIAZ 1958 (FRENTE A MILANO (MARY)",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI - CLNUB CERRO PORTENO Y FERNANDO DE LA MORRA",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI - HONDURAS ESQ. PERU",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI - PAI PEREZ 1338 ENTRE ANA DIAZ Y LOMAS VALENTINAS (DENUNCIADO) - PAI PEREZ 1330 ENTRE ANA DIAZ Y LOMAS VALENTINAS (DENUNCIANTE)",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI - PAI PEREZ CASI RODRIGUEZ DE FRANCIA",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI - PETTIROSSI ENTRE CONSTITUCION Y CAPITAN FIGARI.",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI ANA DIAZ 1442 CASI PERU",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI ANA DIAZ 1565 C/ BATTILANA",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI ANA DIAZ Y PERU",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI BONIFACIO CABALLERO ES TTE ROJAS",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI CAPITAN ARTURO BATTILANA ESQUINA SANTO DOMINGO",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI PETTIROSSI Y VELAZCO",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI RIGOBERTO CABALLERO ENTRE ALCORTA Y ARECUTACUA",
+      "total": 1
+    },
+    {
+      "nombre": "SILVIO PETTIROSSI TTE BUZARQUIZ Y OTAZU",
+      "total": 1
+    },
+    {
+      "nombre": "STA.LIBRADA.AV PERON C/ STA. ROSA (A PASOS DE RADIO 1RO DE MARZO).",
+      "total": 1
+    },
+    {
+      "nombre": "STA.TRINIDAD",
+      "total": 1
+    },
+    {
+      "nombre": "STMA. TRINIDAD (EL MANGAL)",
+      "total": 1
+    },
+    {
+      "nombre": "TAACUMBU - DOCTOR ADRIANO IRALA ENTRE COLON Y MONTEVIDEO",
+      "total": 1
+    },
+    {
+      "nombre": "TABLADA NUEVA - SUIZA 141 C/ARTIGAS",
+      "total": 1
+    },
+    {
+      "nombre": "TABLADA NUEVA SUIZA C / AVDA. ARTIGAS",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU - 14 DE MAYO ENTRE PRIMERA Y SEGUNDA",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU - ADRIAN IRALA (18 PROYECTADAS) ENTRE COLON Y MONTEVIDEO",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU - ATENAS (NOVENA PROYECTADA) ENTRE MONTEVIDEO Y AYOLAS",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU - AVENIDA FRANCISCO DUPUYS ESQ. AYOLAS",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU - AYOLAS 2202 CASI ATENAS",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU - CALLE 1 CASI ENFERMERA CLARITA 240",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU - DR ADRIANO IRALA N 852 ENTRE AYOLAS Y MONTEVIDEO",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU - JOSE FALCON 591 Y 14 DE MAYO",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU - JUAN PEDRO ESCALADA 961 ENTRE COLON Y MONTEVIDEO",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU - MONTEVIDEO 2102 Y ATENAS",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU AVDA. CHIANG KAI SHEK Y 14 DE MAYO",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU COLON C/ ROMA 1629",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU COLON Y JOSE DECOUD 2709",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU DELFIN CHAMORRO 984 C/COLON",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU JUAN ANDRES GELLY Y MONTEVIDEO",
+      "total": 1
+    },
+    {
+      "nombre": "TACUMBU MONTEVIDEO 1857",
+      "total": 1
+    },
+    {
+      "nombre": "TCUMBU",
+      "total": 1
+    },
+    {
+      "nombre": "TEMBETARY - CELSA SPERATTI CASI SANTA CRUZ DE LA SIERRA",
+      "total": 1
+    },
+    {
+      "nombre": "TEMBETARY - CRUZ DEL DEFENSOR 2819 (NUMERO VISIBLE) C/ JOSE MARTI.",
+      "total": 1
+    },
+    {
+      "nombre": "TEMBETARY - TTE SOLIS 4329 CASI SANTA CRUZ DE LA SIERRA",
+      "total": 1
+    },
+    {
+      "nombre": "TEMBETARY JOSE MARTI CASI ROQUE GONZALEZ",
+      "total": 1
+    },
+    {
+      "nombre": "TEMBETARY TORREANI VIERA Y TTE SOLIS",
+      "total": 1
+    },
+    {
+      "nombre": "TERMINAL - LUIS DE GASPERI E/ YBAPOBO",
+      "total": 1
+    },
+    {
+      "nombre": "TERMINAL - MENCIA DE SANABRIA CASI UNIVERSITARIOS DEL CHACO",
+      "total": 1
+    },
+    {
+      "nombre": "TERMINAL - TOBATI AL LADO DEL COLEGIO YSATY",
+      "total": 1
+    },
+    {
+      "nombre": "TERMINAL - UNIVERSITARIOS DEL CHACO Y CENTRAL",
+      "total": 1
+    },
+    {
+      "nombre": "TERMINAL - YBAPURU ENTRE ALTO PARAGUAY Y NEEMBUCU",
+      "total": 1
+    },
+    {
+      "nombre": "TERMINAL - YVAPURU ENTRE ALTO PARAGUAY Y DR DEGASPERI - P/S NOMBRE: VECINOS DEL LUGAR CEL: 0981-318-831 - RECIBIDO: VIA WHATSAPP",
+      "total": 1
+    },
+    {
+      "nombre": "TERMINAL DR. RAMIRO RODRIGUEZ ALCALA",
+      "total": 1
+    },
+    {
+      "nombre": "TERMINAL UNIVERSITARIOS DEL CHACO Y CENTRAL",
+      "total": 1
+    },
+    {
+      "nombre": "VICTORIANO ABENTE Y LAGO NRO152 ENTRE GUIDO SPAGNO Y ANDRADE.",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - AGILEO AYALA ESQ HIPOLITO CESAR MEDINA",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - ANGEL LOPEZ 665 ESQUINA VICTOR HEYN Y PEDRO PENA",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - CALLE PEDRO P PENA CASI MAYOR LAMAS CARISIMO.",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - CALLE PEDRO P PENA CASI MAYOR LAMAS CARISIMO. RECEPCION: VIA WHATSAPP",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - CAPITAN PEDRO VILLAMAYOR 4732 Y FELIX PAIVA.",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - CIRILO RIVAROLA Y PEDRO VILLAYOR",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - DON VALENTIN ROJAS 595 Y NICOLAS GOLDSCHMIT",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - DR. JUSTO PRIETO CASI NICOLAS BLILOFF",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - EDUARDO VERA Y MAYOR AYALA",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - NICOLAS GOLDSCHMIDT ENTRE DR. N. BENITEZ Y TTE ENTIQUE RUIZ.",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - PEDRO PENA Y LAMAS CARISSIMO",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - PEDRO VILLAMAYOR ENTRE LAMAS CARISSIMO Y MUSICOS DEL CHACO.",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - TTE. VICTOR RODRIGUEZ 7312 Y M INSFRAN",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA - UNIVERSIDAD DE ASUNCION 7255 CASI MECANICOS DE AVIACION (DIRECCION DE LA DENUNCIANTE)",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA EUSEBIO AYALA KM.5 DESDE LA VICTORIA",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA LAMAS CARISIMO ENTRE FACUNDO MACHAIN Y MAYOR ARANDA",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA MECANICOS DE AVIACION 1391 ESQUINA RAFAEL BARRET",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA TTE. JOSE DOMINGO LOPEZ NRO. 200 C/ DR. CODAS",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA AURELIA VICTOR HEYN",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORA",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA - DEL MAESTRO ENTRE RIVAROLA Y GARAY",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA - GRAL GARAY ENTRE LILLO Y BERTONI",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA - GRAL. GARAY NRO. 361 ESQ DEL MAESTRO",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA - GUIDO SPANO 1625 ENTRE AVDA. SAN MARTIN Y CAPITAN JUAN DIMAS MOTTA",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA - GUIDO SPANO ENTRE AVDA. SAN MARTIN Y CAPITAN JUAN DIMAS MOTTA",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA - LILLO ENTRE BULNES Y MALUTIN",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA - O'HIGGINS 267 ENTRE ANDRADE Y GUIDO SPANO",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA - O'HIGGINS ENTRE AUSTRIA Y ESPANA (FRENTE A LA UNIVERSIDAD DEL PACIFICO)",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA - O’HIGGINS 580 ENTRE BERTONI Y SUCRE (DIRECCION DEL DENUNCIADO)",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA - SUCRE Y ALCALA 1008",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA CRUZ DEL DEFENSOR Y EULOGIO ESTIGARRIBIA",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA DR FRANCISCO MORRA CASI DEL MAESTRO",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA DR. TORIBIO PACHECO Y RODOLFO ZOTTI.",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA EN AV. SAN MARTIN ESQ. AGUSTIN BARRIOS",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA INFANTE RIVAROLA 205 CASI OLEGARIO VICTOR ANDRADE",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA MOISES BERTONI 435 CASI GOMEZ DE CASTRO",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA ROQUE GONZALEZ CASI EULOGIO ESTIGARRIBIA",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA MORRA TORREANI VIERA 782 CASI PACHECO.",
+      "total": 1
+    },
+    {
+      "nombre": "VILLA VISTA",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DE ASUNCION - AVENIDA VENEZUELA 2007 CASI SAN SALVADOR (COMPLEJO DUX)",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DE FATIMA - LORENZA VDA. DE LAS LLANAS 3.443",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DE FATIMA - TTE ARMANDO ESPINOLA 522 ENTRE TTE ALFREDO BERNAL Y SOLDADO ROMAN",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DE FATIMA VDAS DE LAS LLANAS 3749 ENTRE TTE MORENO Y CANADON CHAQUENO",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DE LA ASUNCION - PASTOR IBANEZ 2125 CASI VIA FERREA.",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DE LA ASUNCION - PASTOR IBANEZ CASI ARTIGAS",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DE LA ASUNCION - TENIENTE ANAZCO 1026 CASI VICTOR HUGO",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DE LA ASUNCION ARTIGAS CASI 28 DE SEPTIEMBRE",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DE LA ASUNCION PASTOR IBANEZ Y AVDA. ARTIGAS",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DE LA ASUNCION TTE. CAMPERCHIOLI C /SAN JUAN.",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DEL ASUNCION",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DEL FATIMA",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO - CARMEN DE LARA CASTRO Y DIEGO DE SILVA Y VELAZQUEZ",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO - DIEGO DE SILVA VELAZQUEZ 937 CASI SARGENTO GAUTO.",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO - FRANSISCO ESCURRA ESQ SOLDADO PARAGUAYO",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO - MAURICIO ESCOBAR Y AVENIDA BRASILIA",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO - SAN MIGUEL Y TTE. BENITEZ",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO - SOLDADO PARAGUAYO 785 Y CARMEN CASCO DE LARA CASTROO",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO - TTE. 1 FRANCISCO NIEDERBERGEN 1605 CASI TTE. 1 VICTOR BAREIRO",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO - TTTE PRIMERO ELADIO BENITEZ Y SAN MIGUEL",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO - ZURBARAN 1120 C/ TTE VILLAMAYOR",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO SOLDADO PARAGUAYO ESQUINA TENIENTE VILLAMAYOR",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DEL HUERTO- TENIENTE ESCURRA 447 ENTRE JOSE RIBERA Y ZURBARAN",
+      "total": 1
+    },
+    {
+      "nombre": "VIRGEN DELA ASUNCION - CAPTAN. LOMBARDO CASI SANTISIMO SACRAMENTO (INSTITUTO NACIONAL DE ABLACION Y TRASPLANTE - INAT)",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE - AMANCIO GONZALEZ ESQUINA AZTECAS",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE - CAP CRISTALDO 546 ENTRE AZTECA Y DR CARLOS ANDRADA",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE - CAPITAN CRISTALDO 597 C/ AZTECAS (DENUNCIADO)",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE - DR CENTURION CASI DR ANDRADA",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE - DR.JUAN BOGGINO CASI TTE JORGE ALCORTA",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE - FERNANDO DE LA MORA 937 Y AMANECIO GONZALEZ",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE - MAYAS Y TTE. ALCORTA (CALLE SIN SALIDA)",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE - MAYOR LOPEZ DECOUD 1061 E/ TOBATI Y GUARAMBARE",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE - PARIRI Y CARIOS",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE - SAJONIA Y AGUDSTIN ROA BASTOS",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE - TTE. 2DO. EZEQUIEL SOLIS Y DR. ALFONSO BELISARIO CAMPOS",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE - TTE. ALCORTA 374 Y ANTONIO PLANAS",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE AMANACIO GONZALEZ CASI INCAS",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE ARAUCA NRO.692 ESQ.FRAY LUIS DE BOLANOS.",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE AVDA. AUGUSTO ROA BASTOS NO. 253 E/ SAJONIA Y LA PAZ",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE BATTILANA Y SANTO DOMINGO",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE DR. CARLOS CENTURION N 816 C/ATYRA",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE DR. CARLOS CENTURION NR.246 ENTRE TTE KALSSEN Y ECUADOR",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE JUAN DEL CASTILLO 630 ENTRE AZTECAS Y ARAUCANOS.",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE MAYOR RAMON AVALOS SANCHEZ ESQUINA AZTECAS",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE TTE CARRERA SAGUIER 470 ENTRE MEDICOS DEM CHACO Y AZTECAS",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGRE WILLIAN RICHARSON Y INDIO FRANCISCO",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ALEGREAMANCIO GONZALEZ Y GUARANIES.",
+      "total": 1
+    },
+    {
+      "nombre": "VISTA ELEGRE",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI - AUSTRIA CASI CONSEJAL VARGAS",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI - AUSTRIA ENTRE CNEL. CABRERA Y DR. CABALLERO",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI - AUSTRIA ESQUINA CORONEL CABRERA",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI - AVIADORES DEL CHACO Y SAN MARTIN",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI - BELGICA 940 (DENUNCIADO)",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI - BELGICA CASI AUSTRIA",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI - BRUSELAS 1904 C/ VASCONCELLOS",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI - CORONEL CABRERA 1166 ENTRE LILLO Y TTE. VERA (DENUNCIADO)",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI - ENCISO VELLOSO 2590 ESQUINA EMETERIO MIRANDA (DIRECCION DE LA DENUNCIANTE)",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI - GUMERSINDO SOSA 1443 CASI ENCISO BELLOSO",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI - GUMERSINDO SOSA Y TTE VERA",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI - GURMENSINDO SOSA 1223 ENTRE AUSTRIA Y BRUSELAS",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI - HERMINIO MALDONADO 970 ENTRE LILLO Y TTE VERA",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI GUMERSINDO SOSA 1050. ENTRE LILLO Y TTE. VERA",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI HERMINIO MALDONADO ENTRE TTE VERA Y LILLO",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI TRIFON BENITEZ VERA 1231 CASI PABLO ALBORNO",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATI TTE. VERA N.2916",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATY",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATY - AUSTRIA 2156 CASI BELGICA",
+      "total": 1
+    },
+    {
+      "nombre": "YCUA SATY - HECTOR VERA ESQUINA GUMERSINDO SOSA",
+      "total": 1
+    },
+    {
+      "nombre": "YTA",
+      "total": 1
+    },
+    {
+      "nombre": "YTA PYTA PUNTA",
+      "total": 1
+    },
+    {
+      "nombre": "YTAY - ALEJO SILVA ENTRE SALVADOR BOGADO Y CAZENABE",
+      "total": 1
+    },
+    {
+      "nombre": "YTAY - ARTURO PEREIRA CASI MAYOR JOEL ESTIGARRIBIA",
+      "total": 1
+    },
+    {
+      "nombre": "YTAY - JOSE PAPPALARDO Y TTE 2DO. MAXIMO CABALLERO",
+      "total": 1
+    },
+    {
+      "nombre": "YTAY - SANTA TERESA Y JOEL ESTIGARRIBIA",
+      "total": 1
+    },
+    {
+      "nombre": "YTAY - TTE CABALLERO Y CAPITAN HUMBERTO CABALLERO",
+      "total": 1
+    },
+    {
+      "nombre": "YTAY - YACYRETA CASI CIUDAD DE SALTA",
+      "total": 1
+    },
+    {
+      "nombre": "YTAY - YTORORO 188 CASI NATALICIO TALAVERA - GRUPO HABITACIONAL AEROPUERTO",
+      "total": 1
+    },
+    {
+      "nombre": "ZEBALLOS CUE (LAS COLINAS)",
+      "total": 1
+    },
+    {
+      "nombre": "ZEBALLOS CUE (SAN MIGUEL) - CALLE 27",
+      "total": 1
+    },
+    {
+      "nombre": "ZEBALLOS CUE - ALBERTO MINO Y MATIAS FERREIRA DIAZ",
+      "total": 1
+    },
+    {
+      "nombre": "ZEBALLOS CUE - ALBERTO MINO Y MATIAS FERREIRA DIAZ (LAS COLINAS)",
+      "total": 1
+    },
+    {
+      "nombre": "ZEBALLOS CUE - ANA ARIS DE FERREIRO CASI POETA PARAGUAYO (BARRIO COLINAS)",
+      "total": 1
+    },
+    {
+      "nombre": "ZEBALLOS CUE - EUSEBIO AVEIRO LUGO CASI LIMA (AL TERMINO DE LA CALLE CORTA SOBRE AVEIRO LUGO)",
+      "total": 1
+    },
+    {
+      "nombre": "ZEBALLOS CUE - TENIENTE CLAUDIO ACOSTA Y ESPERANZA LEIVA N° 6350",
+      "total": 1
+    },
+    {
+      "nombre": "ZEBALLOS CUE - TTE AGUIRRE 7474 ENTRE CNEL BOVEDA Y SAN JUSTO (AL COSTADO DE LA ESSAP)",
+      "total": 1
+    },
+    {
+      "nombre": "ZEBALLOS CUE - TTE FIGUEREDO Y LEANDRO CACAVELLOS",
+      "total": 1
+    },
+    {
+      "nombre": "ZEBALLOS CUE RAMON RIQUELME TTE 2DO CLAUDIO ACOSTA",
+      "total": 1
+    },
+    {
+      "nombre": "ZEVALLOS CUE",
+      "total": 1
+    }
+  ]
+}
