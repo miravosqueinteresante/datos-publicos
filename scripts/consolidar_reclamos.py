@@ -167,6 +167,7 @@ def aggregate(records):
     por_categoria = Counter()
     por_dependencia = Counter()
     por_barrio = Counter()
+    barrio_cat = defaultdict(Counter)  # barrio -> Counter(tipo)
 
     for r in records:
         a = r["anio"]
@@ -180,6 +181,8 @@ def aggregate(records):
             por_dependencia[r["dep"]] += 1
         if r["barrio"]:
             por_barrio[r["barrio"]] += 1
+            if r["tipo"]:
+                barrio_cat[r["barrio"]][r["tipo"]] += 1
 
     def build_anio():
         out = []
@@ -220,6 +223,18 @@ def aggregate(records):
         return [{"nombre": k, "total": v} for k, v in
                 sorted(counter.items(), key=lambda x: (-x[1], x[0]))]
 
+    def build_barrio_categoria():
+        out = []
+        for barrio, cats in barrio_cat.items():
+            total = sum(cats.values())
+            if total < 5:
+                continue  # k-anonymity: omitir barrios con pocos casos
+            top = [{"nombre": k, "total": v} for k, v in
+                   sorted(cats.items(), key=lambda x: (-x[1], x[0]))][:5]
+            out.append({"barrio": barrio, "total": total, "top": top})
+        out.sort(key=lambda x: (-x["total"], x["barrio"]))
+        return out
+
     return {
         "por_anio": build_anio(),
         "por_mes": build_mes(),
@@ -228,6 +243,7 @@ def aggregate(records):
         "por_categoria": build_top(por_categoria, "categoria"),
         "por_dependencia": build_top(por_dependencia, "dependencia"),
         "por_barrio": [x for x in build_top(por_barrio, "barrio") if x["total"] >= 5],
+        "por_barrio_categoria": build_barrio_categoria(),
     }
 
 

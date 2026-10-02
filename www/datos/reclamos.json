@@ -1206,5 +1206,2625 @@
       "nombre": "SANTA ANA",
       "total": 5
     }
+  ],
+  "por_barrio_categoria": [
+    {
+      "barrio": "SAN PABLO",
+      "total": 411,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 31
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 27
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 26
+        },
+        {
+          "nombre": "VERIFICACION DE HABILITACION DEL NEGOCIO",
+          "total": 26
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 25
+        }
+      ]
+    },
+    {
+      "barrio": "RECOLETA",
+      "total": 325,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 27
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 24
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 22
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 17
+        },
+        {
+          "nombre": "VERIFICACION DE PLANOS E INFRAESTRUCTURA",
+          "total": 17
+        }
+      ]
+    },
+    {
+      "barrio": "SAN VICENTE",
+      "total": 281,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 25
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 23
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 21
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 18
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 17
+        }
+      ]
+    },
+    {
+      "barrio": "VISTA ALEGRE",
+      "total": 247,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 31
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 25
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 20
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 16
+        },
+        {
+          "nombre": "SOLICITUD DE INTERVENCION POLICIA DE TRANSITO",
+          "total": 13
+        }
+      ]
+    },
+    {
+      "barrio": "VILLA MORRA",
+      "total": 244,
+      "top": [
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 29
+        },
+        {
+          "nombre": "SOLICITUD DE INTERVENCION POLICIA DE TRANSITO",
+          "total": 18
+        },
+        {
+          "nombre": "RUIDOS MOLESTOS",
+          "total": 17
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 15
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 14
+        }
+      ]
+    },
+    {
+      "barrio": "MBURUCUYA",
+      "total": 242,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 24
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 16
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 12
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 11
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 11
+        }
+      ]
+    },
+    {
+      "barrio": "OBRERO",
+      "total": 237,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 21
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 21
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 16
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 15
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 14
+        }
+      ]
+    },
+    {
+      "barrio": "CIUDAD NUEVA",
+      "total": 235,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 28
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 20
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 19
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 15
+        },
+        {
+          "nombre": "HUNDIMIENTO DE ASFALTO",
+          "total": 14
+        }
+      ]
+    },
+    {
+      "barrio": "JARA",
+      "total": 234,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 26
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 18
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 17
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 16
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 12
+        }
+      ]
+    },
+    {
+      "barrio": "VILLA AURELIA",
+      "total": 223,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 23
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 15
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 12
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 12
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 11
+        }
+      ]
+    },
+    {
+      "barrio": "LOMA PYTA",
+      "total": 211,
+      "top": [
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 25
+        },
+        {
+          "nombre": "VERIFICACION DE HABILITACION DEL NEGOCIO",
+          "total": 15
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 14
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 11
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 11
+        }
+      ]
+    },
+    {
+      "barrio": "LAS LOMAS",
+      "total": 206,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 27
+        },
+        {
+          "nombre": "SOLICITUD DE INTERVENCION POLICIA DE TRANSITO",
+          "total": 14
+        },
+        {
+          "nombre": "VERIFICACION DE PLANOS E INFRAESTRUCTURA",
+          "total": 11
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 9
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 8
+        }
+      ]
+    },
+    {
+      "barrio": "LAS MERCEDES",
+      "total": 197,
+      "top": [
+        {
+          "nombre": "VERIFICACION DE PLANOS E INFRAESTRUCTURA",
+          "total": 14
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 13
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 11
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 11
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 10
+        }
+      ]
+    },
+    {
+      "barrio": "MBURICAO",
+      "total": 191,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 32
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 13
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 12
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 12
+        },
+        {
+          "nombre": "RETIRO DE VEHICULOS",
+          "total": 12
+        }
+      ]
+    },
+    {
+      "barrio": "SAN ROQUE",
+      "total": 184,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 15
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 14
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 13
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 12
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 11
+        }
+      ]
+    },
+    {
+      "barrio": "SAN CRISTOBAL",
+      "total": 182,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 25
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 13
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 10
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 9
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 8
+        }
+      ]
+    },
+    {
+      "barrio": "TACUMBU",
+      "total": 181,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 26
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 13
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 10
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 9
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 9
+        }
+      ]
+    },
+    {
+      "barrio": "YCUA SATI",
+      "total": 174,
+      "top": [
+        {
+          "nombre": "PISCINAS CON ACUMULACION DE AGUA SIN TRATAR",
+          "total": 16
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 10
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 10
+        },
+        {
+          "nombre": "VERIFICACION DE PLANOS E INFRAESTRUCTURA",
+          "total": 10
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 9
+        }
+      ]
+    },
+    {
+      "barrio": "LA ENCARNACION",
+      "total": 172,
+      "top": [
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 18
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 13
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 12
+        },
+        {
+          "nombre": "RUIDOS MOLESTOS",
+          "total": 12
+        },
+        {
+          "nombre": "VERIFICACION DE HABILITACION DEL NEGOCIO",
+          "total": 10
+        }
+      ]
+    },
+    {
+      "barrio": "SAN JORGE",
+      "total": 162,
+      "top": [
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 17
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 15
+        },
+        {
+          "nombre": "VERIFICACION DE HABILITACION DEL NEGOCIO",
+          "total": 11
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 10
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 10
+        }
+      ]
+    },
+    {
+      "barrio": "PINOZA",
+      "total": 155,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 12
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 12
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 11
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 10
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 8
+        }
+      ]
+    },
+    {
+      "barrio": "SAN ANTONIO",
+      "total": 142,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 13
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 9
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 7
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 7
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 6
+        }
+      ]
+    },
+    {
+      "barrio": "ITA ENRAMADA",
+      "total": 138,
+      "top": [
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 22
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 18
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 10
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 9
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 9
+        }
+      ]
+    },
+    {
+      "barrio": "BERNARDINO CABALLERO",
+      "total": 127,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 14
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 12
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 9
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 9
+        },
+        {
+          "nombre": "REPARACION DE BACHE POR CANOS ROTOS",
+          "total": 7
+        }
+      ]
+    },
+    {
+      "barrio": "HIPODROMO",
+      "total": 126,
+      "top": [
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 21
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 13
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 9
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 8
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 7
+        }
+      ]
+    },
+    {
+      "barrio": "SILVIO PETTIROSSI",
+      "total": 123,
+      "top": [
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 12
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 9
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 8
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 7
+        },
+        {
+          "nombre": "SOLICITUD DE INTERVENCION POLICIA DE TRANSITO",
+          "total": 7
+        }
+      ]
+    },
+    {
+      "barrio": "MADAME LYNCH",
+      "total": 121,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 16
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 13
+        },
+        {
+          "nombre": "SOLICITUD DE INTERVENCION POLICIA DE TRANSITO",
+          "total": 8
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 7
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 7
+        }
+      ]
+    },
+    {
+      "barrio": "ZEBALLOS CUE",
+      "total": 121,
+      "top": [
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 13
+        },
+        {
+          "nombre": "FILTRACION POR MURO",
+          "total": 11
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 7
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 7
+        },
+        {
+          "nombre": "QUEMA DE BASURA",
+          "total": 7
+        }
+      ]
+    },
+    {
+      "barrio": "NAZARETH",
+      "total": 119,
+      "top": [
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 15
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 13
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 12
+        },
+        {
+          "nombre": "VERIFICACION DE HABILITACION DEL NEGOCIO",
+          "total": 6
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "barrio": "VIRGEN DE LA ASUNCION",
+      "total": 118,
+      "top": [
+        {
+          "nombre": "VERIFICACION DE HABILITACION DEL NEGOCIO",
+          "total": 12
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 11
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 6
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 6
+        },
+        {
+          "nombre": "SOLICITUD DE INTERVENCION POLICIA DE TRANSITO",
+          "total": 6
+        }
+      ]
+    },
+    {
+      "barrio": "BELLA VISTA",
+      "total": 117,
+      "top": [
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 10
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 9
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 9
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 8
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 8
+        }
+      ]
+    },
+    {
+      "barrio": "REPUBLICANO",
+      "total": 114,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 16
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 15
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 6
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 5
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "barrio": "SAJONIA",
+      "total": 107,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 10
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 10
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 9
+        },
+        {
+          "nombre": "REPARACION DE BACHE POR CANOS ROTOS",
+          "total": 6
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "barrio": "TERMINAL",
+      "total": 105,
+      "top": [
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 12
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 11
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 10
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 8
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 6
+        }
+      ]
+    },
+    {
+      "barrio": "OBRERO INTENDENTE B. GUGGIARI",
+      "total": 102,
+      "top": [
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 10
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 10
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 8
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 8
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 6
+        }
+      ]
+    },
+    {
+      "barrio": "YTAY",
+      "total": 100,
+      "top": [
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 15
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 11
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 10
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 4
+        },
+        {
+          "nombre": "OTROS",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "barrio": "HERRERA",
+      "total": 91,
+      "top": [
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 9
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 9
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 8
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 7
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 7
+        }
+      ]
+    },
+    {
+      "barrio": "CARLOS A. LOPEZ",
+      "total": 89,
+      "top": [
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 9
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 9
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 7
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 7
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "barrio": "PETTIROSSI",
+      "total": 89,
+      "top": [
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 11
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 9
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 5
+        },
+        {
+          "nombre": "OBSTRUCCION DE VEREDA",
+          "total": 5
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "barrio": "TEMBETARY",
+      "total": 86,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 6
+        },
+        {
+          "nombre": "SOLICITUD DE INTERVENCION POLICIA DE TRANSITO",
+          "total": 6
+        },
+        {
+          "nombre": "VERIFICACION DE HABILITACION DEL NEGOCIO",
+          "total": 6
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 6
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "barrio": "GRAL. DIAZ",
+      "total": 83,
+      "top": [
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 12
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 8
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 7
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 6
+        },
+        {
+          "nombre": "REPARACION DE BACHE POR CANOS ROTOS",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "barrio": "MCAL. ESTIGARRIBIA",
+      "total": 83,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 12
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 6
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 6
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 5
+        },
+        {
+          "nombre": "RUIDOS MOLESTOS",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "barrio": "LUIS ALBERTO DE HERRERA",
+      "total": 82,
+      "top": [
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 9
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 8
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 7
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 5
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "barrio": "LOS LAURELES",
+      "total": 80,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 8
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 8
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 6
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 5
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "barrio": "GRAL. JOSE EDUVIGIS DIAZ",
+      "total": 79,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 14
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 10
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 8
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 7
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 6
+        }
+      ]
+    },
+    {
+      "barrio": "MCAL. JOSE FELIX ESTIGARRIBIA",
+      "total": 78,
+      "top": [
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 12
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 10
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 6
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 5
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "barrio": "MANORA",
+      "total": 72,
+      "top": [
+        {
+          "nombre": "PISCINAS CON ACUMULACION DE AGUA SIN TRATAR",
+          "total": 7
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 5
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 5
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 5
+        },
+        {
+          "nombre": "VERIFICACION DE PLANOS E INFRAESTRUCTURA",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "barrio": "DR. FRANCIA",
+      "total": 70,
+      "top": [
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 9
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 7
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 7
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 6
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "barrio": "SANTA MARIA",
+      "total": 68,
+      "top": [
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 8
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 6
+        },
+        {
+          "nombre": "SOLICITUD DE INTERVENCION POLICIA DE TRANSITO",
+          "total": 6
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 4
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "barrio": "VIRGEN DEL HUERTO",
+      "total": 66,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 9
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 6
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 5
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 4
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "barrio": "DR. GASPAR RODRIGUEZ DE FRANCIA",
+      "total": 65,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 9
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 8
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 7
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 6
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "barrio": "LA CATEDRAL",
+      "total": 65,
+      "top": [
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 8
+        },
+        {
+          "nombre": "RETIRO DE VEHICULOS",
+          "total": 6
+        },
+        {
+          "nombre": "VERIFICACION DE PLANOS E INFRAESTRUCTURA",
+          "total": 5
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 4
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "barrio": "MBOCAYATY",
+      "total": 65,
+      "top": [
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 5
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 5
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 5
+        },
+        {
+          "nombre": "RUIDOS MOLESTOS",
+          "total": 5
+        },
+        {
+          "nombre": "VERIFICACION DE PLANOS E INFRAESTRUCTURA",
+          "total": 5
+        }
+      ]
+    },
+    {
+      "barrio": "SALVADOR DEL MUNDO",
+      "total": 62,
+      "top": [
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 9
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 8
+        },
+        {
+          "nombre": "VERIFICACION DE HABILITACION DEL NEGOCIO",
+          "total": 7
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 5
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "barrio": "SANTA LIBRADA",
+      "total": 60,
+      "top": [
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 9
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 7
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 6
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 4
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 3
+        }
+      ]
+    },
+    {
+      "barrio": "MADAME ELISA ALICIA LYNCH",
+      "total": 57,
+      "top": [
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 6
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 5
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 5
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 5
+        },
+        {
+          "nombre": "RETIRO DE VEHICULOS",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "barrio": "CATEDRAL",
+      "total": 56,
+      "top": [
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 14
+        },
+        {
+          "nombre": "CONSERVACION DE VEREDA",
+          "total": 7
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 5
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 4
+        },
+        {
+          "nombre": "LIMPIEZA DE VEREDA",
+          "total": 3
+        }
+      ]
+    },
+    {
+      "barrio": "MCAL. LOPEZ",
+      "total": 56,
+      "top": [
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 7
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 5
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 5
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 4
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "barrio": "CANADA DEL YBYRAY",
+      "total": 52,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 7
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 6
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 4
+        },
+        {
+          "nombre": "PISCINAS CON ACUMULACION DE AGUA SIN TRATAR",
+          "total": 4
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "barrio": "VIRGEN DE FATIMA",
+      "total": 52,
+      "top": [
+        {
+          "nombre": "CONTAMINACION AMBIENTAL",
+          "total": 6
+        },
+        {
+          "nombre": "VERIFICACION DE HABILITACION DEL NEGOCIO",
+          "total": 5
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 4
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 3
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "barrio": "PRESIDENTE CARLOS ANTONIO LOPEZ",
+      "total": 51,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 11
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 5
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 4
+        },
+        {
+          "nombre": "REPARACION DE BACHE POR CANOS ROTOS",
+          "total": 4
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "barrio": "MCAL. FRANCISCO SOLANO LOPEZ",
+      "total": 50,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 8
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 5
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 4
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 3
+        },
+        {
+          "nombre": "VERIFICACION DE PLANOS E INFRAESTRUCTURA",
+          "total": 3
+        }
+      ]
+    },
+    {
+      "barrio": "STA. MARIA",
+      "total": 46,
+      "top": [
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 4
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 4
+        },
+        {
+          "nombre": "FALTA DE RECOLECCION DE BASURA",
+          "total": 4
+        },
+        {
+          "nombre": "LIMPIEZA DE SUMIDERO",
+          "total": 4
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "barrio": "ROBERTO L. PETIT",
+      "total": 44,
+      "top": [
+        {
+          "nombre": "CONSERVACION DE VEREDA",
+          "total": 3
+        },
+        {
+          "nombre": "OBSTRUCCION DE VEREDA",
+          "total": 3
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 3
+        },
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 3
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "barrio": "BOTANICO",
+      "total": 43,
+      "top": [
+        {
+          "nombre": "FILTRACION POR MURO",
+          "total": 5
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 5
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 4
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 3
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 3
+        }
+      ]
+    },
+    {
+      "barrio": "SANTISIMA TRINIDAD",
+      "total": 42,
+      "top": [
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 4
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 4
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 4
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 3
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "barrio": "STMA. TRINIDAD",
+      "total": 42,
+      "top": [
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 5
+        },
+        {
+          "nombre": "RETIRO DE VEHICULOS",
+          "total": 4
+        },
+        {
+          "nombre": "FILTRACION POR MURO",
+          "total": 3
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 3
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 3
+        }
+      ]
+    },
+    {
+      "barrio": "SAN BLAS",
+      "total": 40,
+      "top": [
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 11
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 3
+        },
+        {
+          "nombre": "RUIDOS MOLESTOS",
+          "total": 3
+        },
+        {
+          "nombre": "SOLICITUD DE INTERVENCION POLICIA DE TRANSITO",
+          "total": 3
+        },
+        {
+          "nombre": "CONTAMINACION AMBIENTAL",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "barrio": "RICARDO BRUGADA",
+      "total": 38,
+      "top": [
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 4
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 4
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 3
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 3
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 3
+        }
+      ]
+    },
+    {
+      "barrio": "ITA PYTA PUNTA",
+      "total": 36,
+      "top": [
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 5
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 3
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 3
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 3
+        },
+        {
+          "nombre": "OBSTRUCCION DE VEREDA",
+          "total": 3
+        }
+      ]
+    },
+    {
+      "barrio": "SANTO DOMINGO",
+      "total": 34,
+      "top": [
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 6
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 3
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 3
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 3
+        },
+        {
+          "nombre": "CONSERVACION DE VEREDA",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "barrio": "STA. LIBRADA",
+      "total": 34,
+      "top": [
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 4
+        },
+        {
+          "nombre": "FALTA DE VEREDA",
+          "total": 3
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 3
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 2
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "barrio": "GASPAR RODRIGUEZ DE FRANCIA",
+      "total": 29,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 5
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 5
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 3
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 2
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "barrio": "ROBERTO L. PETTIT.",
+      "total": 29,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 5
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 4
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 3
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 3
+        },
+        {
+          "nombre": "OBSTRUCCION DE VEREDA",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "barrio": "ROBERTO L. PETTIT",
+      "total": 28,
+      "top": [
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 4
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 3
+        },
+        {
+          "nombre": "OBSTRUCCION DE VEREDA",
+          "total": 3
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 3
+        },
+        {
+          "nombre": "VERIFICACION DE HABILITACION DEL NEGOCIO",
+          "total": 3
+        }
+      ]
+    },
+    {
+      "barrio": "TABLADA NUEVA",
+      "total": 26,
+      "top": [
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 6
+        },
+        {
+          "nombre": "CONTAMINACION AMBIENTAL",
+          "total": 5
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 2
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 2
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "barrio": "SANTA ROSA",
+      "total": 21,
+      "top": [
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 3
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 2
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 2
+        },
+        {
+          "nombre": "LIMPIEZA DE CAUCE HIDRICO",
+          "total": 2
+        },
+        {
+          "nombre": "VERIFICACION DE PLANOS E INFRAESTRUCTURA",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "barrio": "GRAL. BERNARDINO CABALLERO",
+      "total": 19,
+      "top": [
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 2
+        },
+        {
+          "nombre": "VERIFICACION DE HABILITACION DEL NEGOCIO",
+          "total": 2
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 2
+        },
+        {
+          "nombre": "CONTAMINACION AMBIENTAL",
+          "total": 1
+        },
+        {
+          "nombre": "CONTROL DE PREVENCION DE INCENDIO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "ANULADO",
+      "total": 18,
+      "top": [
+        {
+          "nombre": "OBSTRUYE EL PASO PEATONAL CON MESAS Y SILLAS EN LA VIA PUBLICA",
+          "total": 4
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 3
+        },
+        {
+          "nombre": "LIMPIEZA DE CAUCE HIDRICO",
+          "total": 2
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 1
+        },
+        {
+          "nombre": "CIERRE DE CALLES",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "MCAL JOSE FELIX ESTIGARRIBIA",
+      "total": 18,
+      "top": [
+        {
+          "nombre": "SOLICITUD DE INTERVENCION POLICIA DE TRANSITO",
+          "total": 3
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 2
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 2
+        },
+        {
+          "nombre": "LIMPIEZA DE VEREDA",
+          "total": 2
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "barrio": "SAN CAYETANO",
+      "total": 13,
+      "top": [
+        {
+          "nombre": "CONTAMINACION AMBIENTAL",
+          "total": 3
+        },
+        {
+          "nombre": "LIMPIEZA DE CUNETA",
+          "total": 2
+        },
+        {
+          "nombre": "VERIFICACION DE PLANOS E INFRAESTRUCTURA",
+          "total": 2
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 1
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "STA. ROSA",
+      "total": 13,
+      "top": [
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 2
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 1
+        },
+        {
+          "nombre": "CONTAMINACION AMBIENTAL",
+          "total": 1
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 1
+        },
+        {
+          "nombre": "FILTRACION POR MURO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "STMA.TRINIDAD",
+      "total": 12,
+      "top": [
+        {
+          "nombre": "VERIFICACION DE PLANOS E INFRAESTRUCTURA",
+          "total": 3
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 2
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 2
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 1
+        },
+        {
+          "nombre": "CONTAMINACION AMBIENTAL",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "BANADO CARA CARA",
+      "total": 11,
+      "top": [
+        {
+          "nombre": "CONTAMINACION AMBIENTAL",
+          "total": 2
+        },
+        {
+          "nombre": "LIMPIEZA DE CAUCE HIDRICO",
+          "total": 2
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 1
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 1
+        },
+        {
+          "nombre": "MURO LINDERO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "CARLOS ANTONIO LOPEZ",
+      "total": 11,
+      "top": [
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 4
+        },
+        {
+          "nombre": "VENTA EN LA VIA PUBLICA (CARRITOS LOMITERIAS/CASILLAS)",
+          "total": 2
+        },
+        {
+          "nombre": "CONTAMINACION AMBIENTAL",
+          "total": 1
+        },
+        {
+          "nombre": "OBSTRUCCION DE VEREDA",
+          "total": 1
+        },
+        {
+          "nombre": "SOLICITUD DE INTERVENCION POLICIA DE TRANSITO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "JOSE FELIX ESTIGARRIBIA",
+      "total": 11,
+      "top": [
+        {
+          "nombre": "PODA Y/O DESTRONQUE ILEGAL",
+          "total": 3
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 1
+        },
+        {
+          "nombre": "CONTAMINACION AMBIENTAL",
+          "total": 1
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 1
+        },
+        {
+          "nombre": "LIMPIEZA DE VEREDA",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "MCAL LOPEZ",
+      "total": 10,
+      "top": [
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 2
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 1
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 1
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 1
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "STO. DOMINGO",
+      "total": 10,
+      "top": [
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 3
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 2
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 1
+        },
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 1
+        },
+        {
+          "nombre": "PISCINAS CON ACUMULACION DE AGUA SIN TRATAR",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "ROBERTO L.PETTIT",
+      "total": 9,
+      "top": [
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 2
+        },
+        {
+          "nombre": "ARBOL CAIDO",
+          "total": 1
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 1
+        },
+        {
+          "nombre": "LIMPIEZA DE CAUCE HIDRICO",
+          "total": 1
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "YKUA SATI",
+      "total": 9,
+      "top": [
+        {
+          "nombre": "PISCINAS CON ACUMULACION DE AGUA SIN TRATAR",
+          "total": 2
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 2
+        },
+        {
+          "nombre": "CONTROL SANITARIO DE ESTABLECIMIENTO",
+          "total": 1
+        },
+        {
+          "nombre": "LIMPIEZA DE VEREDA",
+          "total": 1
+        },
+        {
+          "nombre": "OBSTRUCCION DE VEREDA",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "MCAL.LOPEZ",
+      "total": 8,
+      "top": [
+        {
+          "nombre": "RETIRO DE CHATARRAS",
+          "total": 2
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 1
+        },
+        {
+          "nombre": "PISCINAS CON ACUMULACION DE AGUA SIN TRATAR",
+          "total": 1
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 1
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "SILVIO PETIROSSI",
+      "total": 8,
+      "top": [
+        {
+          "nombre": "DESTRONQUE DE ARBOLES",
+          "total": 2
+        },
+        {
+          "nombre": "RETIRO DE VEHICULOS",
+          "total": 2
+        },
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 1
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 1
+        },
+        {
+          "nombre": "FILTRACION POR FALTA DE CANALETA",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "STA.LIBRADA",
+      "total": 8,
+      "top": [
+        {
+          "nombre": "PISCINAS CON ACUMULACION DE AGUA SIN TRATAR",
+          "total": 2
+        },
+        {
+          "nombre": "VERTEDEROS CLANDESTINOS",
+          "total": 2
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 1
+        },
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 1
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "GRAL. EDUVIGIS DIAZ",
+      "total": 7,
+      "top": [
+        {
+          "nombre": "MURO LINDERO",
+          "total": 2
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 1
+        },
+        {
+          "nombre": "LIMPIEZA DE BALDIOS",
+          "total": 1
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 1
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "RODRIGUEZ DE FRANCIA",
+      "total": 7,
+      "top": [
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 1
+        },
+        {
+          "nombre": "DENUNCIA DE FRENTISTAS",
+          "total": 1
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 1
+        },
+        {
+          "nombre": "PODA DE ARBOLES EN LA VIA PUBLICA",
+          "total": 1
+        },
+        {
+          "nombre": "RUIDOS MOLESTOS",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "DE LA RESIDENTA",
+      "total": 6,
+      "top": [
+        {
+          "nombre": "AGUA SERVIDA",
+          "total": 1
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 1
+        },
+        {
+          "nombre": "CONTAMINACION AMBIENTAL",
+          "total": 1
+        },
+        {
+          "nombre": "MURO LINDERO",
+          "total": 1
+        },
+        {
+          "nombre": "PODA INTERIOR - NOTIFICAR",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "MCAL FRANCISCO S. LOPEZ",
+      "total": 6,
+      "top": [
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 1
+        },
+        {
+          "nombre": "AUTORIZACION PARA PODA (POR CUENTA PROPIA)",
+          "total": 1
+        },
+        {
+          "nombre": "OBSTRUCCION DE VEREDA",
+          "total": 1
+        },
+        {
+          "nombre": "PISCINAS CON ACUMULACION DE AGUA SIN TRATAR",
+          "total": 1
+        },
+        {
+          "nombre": "RETIRO DE VEHICULOS",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "MCAL.ESTIGARRIBIA",
+      "total": 6,
+      "top": [
+        {
+          "nombre": "OTROS",
+          "total": 2
+        },
+        {
+          "nombre": "VERIFICACION DE HABILITACION DEL NEGOCIO",
+          "total": 2
+        },
+        {
+          "nombre": "SOLICITUD DE INTERVENCION POLICIA DE TRANSITO",
+          "total": 1
+        },
+        {
+          "nombre": "ZOONOSIS",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "NO CORRESPONDE",
+      "total": 6,
+      "top": [
+        {
+          "nombre": "MINIVERTEDEROS",
+          "total": 2
+        },
+        {
+          "nombre": "CERCA ELECTRICA",
+          "total": 1
+        },
+        {
+          "nombre": "PEDIDO CARTEL - PROHIBIDO TIRAR BASURAS",
+          "total": 1
+        },
+        {
+          "nombre": "PEDIDO DE DESALOJO DE VENDEDORES AMBULANTES Y ESTACIONADOS.",
+          "total": 1
+        },
+        {
+          "nombre": "REPARACION DE EMPEDRADO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "JUKYTY",
+      "total": 5,
+      "top": [
+        {
+          "nombre": "CONTAMINACION AMBIENTAL",
+          "total": 2
+        },
+        {
+          "nombre": "AUTORIZACION DE DESTRONQUE POR CUENTA PROPIA",
+          "total": 1
+        },
+        {
+          "nombre": "REPARACION DE BACHE POR CANOS ROTOS",
+          "total": 1
+        },
+        {
+          "nombre": "REPARACION DE PAVIMENTOS",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "barrio": "SANTA ANA",
+      "total": 5,
+      "top": [
+        {
+          "nombre": "CASAS ABANDONADAS CON O SIN HABITANTES",
+          "total": 1
+        },
+        {
+          "nombre": "CONTAMINACION AMBIENTAL",
+          "total": 1
+        },
+        {
+          "nombre": "LIMPIEZA DE CAUCE HIDRICO",
+          "total": 1
+        },
+        {
+          "nombre": "OBSTRUCCION DEL PASO PEATONAL",
+          "total": 1
+        },
+        {
+          "nombre": "REPARACION DE BACHE POR CANOS ROTOS",
+          "total": 1
+        }
+      ]
+    }
   ]
 }
