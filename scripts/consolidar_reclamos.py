@@ -227,7 +227,7 @@ def aggregate(records):
                        sorted(por_estado.items(), key=lambda x: -x[1])],
         "por_categoria": build_top(por_categoria, "categoria"),
         "por_dependencia": build_top(por_dependencia, "dependencia"),
-        "por_barrio": build_top(por_barrio, "barrio"),
+        "por_barrio": [x for x in build_top(por_barrio, "barrio") if x["total"] >= 5],
     }
 
 
@@ -265,12 +265,17 @@ def main():
             "titulo": "Reclamos ciudadanos — Municipalidad de Asunción",
             "fuente": "Departamento de Atención al Ciudadano, Municipalidad de Asunción",
             "pedido": "Pedido de acceso a la información pública ID 106387 (Ley 5282/2014)",
+            "memo": "Memo D.A.C. N.º 34/2026 (11/09/2026)",
             "periodo": "01/01/2023 – 11/09/2026",
+            "fecha_corte": "11/09/2026",
+            "licencia": "CC BY 4.0 (aplica al procesamiento derivado, no a la titularidad de los datos originales)",
+            "independencia": "Proyecto independiente, no oficial. No está afiliado a la Municipalidad de Asunción.",
             "sincronizado": datetime.utcnow().strftime("%Y-%m-%d"),
             "registros": total,
             "nota": ("Datos anonimizados y agregados. No se publican registros "
                      "individuales ni datos personales. Barrios: cobertura parcial "
-                     "(sin barrio en 2023; campo mezclado con dirección en 2024)."),
+                     "(sin barrio en 2023; campo mezclado con dirección en 2024). "
+                     "Conteos de barrio menores a 5 se omiten (protección de reidentificación)."),
         },
         "kpis": {
             "total": total,

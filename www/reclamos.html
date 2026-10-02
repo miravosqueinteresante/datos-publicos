@@ -81,8 +81,16 @@
       <h2>Metodología</h2>
       <p class="nota">
         Los datos provienen del <strong>Departamento de Atención al Ciudadano</strong> de la Municipalidad de
-        Asunción, entregados como respuesta a un pedido de acceso a la información pública. Son datos
+        Asunción, entregados como respuesta a un pedido de acceso a la información pública
+        (<strong>ID 106387</strong>, Ley 5282/2014, <strong>Memo D.A.C. N.º 34/2026</strong>). Son datos
         <strong>anonimizados</strong>: sin nombres, cédulas, teléfonos ni domicilios de los reclamantes.
+      </p>
+      <p class="nota">
+        El Departamento recibe y <strong>deriva</strong> los reclamos a las dependencias según el canal
+        (WEB: PMT, Policía Fiscalizadora de Negocios, Vigilancia, Vialidad; LIBRO: PCI, Defensa del Consumidor,
+        Desarrollo Urbano, Gestión Ambiental, Obras Particulares). No gestiona expedientes ni resuelve reclamos;
+        la ejecución y el cierre corresponden a cada dependencia, y algunos casos pueden pasar al
+        <strong>Juzgado de Faltas</strong> sin que quede reflejado en este registro.
       </p>
 
       <h3>Proceso</h3>
@@ -117,6 +125,31 @@
         Dataset: <a href="datos/reclamos.json" download>reclamos.json</a> ·
         Sitio de análisis: <a href="https://municipalidad.muchotexto.net/">municipalidad.muchotexto.net</a>
       </p>
+    </section>
+
+    <section class="seccion">
+      <h2>Transparencia y uso</h2>
+
+      <h3>Independencia</h3>
+      <p class="nota">Proyecto independiente, no oficial. No está afiliado a la Municipalidad de Asunción.</p>
+
+      <h3>Licencia</h3>
+      <p class="nota">
+        El procesamiento derivado se publica bajo <strong>Creative Commons BY 4.0</strong>.
+        La licencia se aplica al trabajo propio de agregación y normalización, no a la titularidad
+        de los datos originales, que corresponden a su fuente.
+      </p>
+
+      <h3>Diccionario de datos</h3>
+      <div class="metodologia-grid">
+        <div class="metodologia-item"><strong>reclamos.json</strong><p>Objeto con <code>_meta</code> (fuente, período, fecha de corte, licencia), <code>kpis</code> (totales y tasa de resolución) y las listas de agregados.</p></div>
+        <div class="metodologia-item"><strong>por_anio / por_mes</strong><p>Conteos por año y por mes, desagregados en pendientes, finalizados, anulados y total.</p></div>
+        <div class="metodologia-item"><strong>por_categoria / por_dependencia</strong><p>Listas ordenadas de <code>{nombre, total}</code> por tipo de reclamo y dependencia responsable.</p></div>
+        <div class="metodologia-item"><strong>por_barrio</strong><p>Lista de <code>{nombre, total}</code>. Se omiten conteos menores a 5 para evitar reidentificación.</p></div>
+      </div>
+
+      <h3>Privacidad</h3>
+      <p class="nota">El sitio no recoge datos personales de visitantes, no usa formularios ni comentarios. Detalle en <a href="https://municipalidad.muchotexto.net/privacidad/">la política de privacidad</a>.</p>
     </section>
   </main>
 
